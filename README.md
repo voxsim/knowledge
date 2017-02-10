@@ -1,0 +1,2 @@
+# knowledge
+:bulb: document everything
