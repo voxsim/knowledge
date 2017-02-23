@@ -113,4 +113,75 @@ const sentence = highlight`hi ${name}`;
 The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
 
 ### Destructuring
-It allows us to extract data from an object or array. TBD
+It allows us to extract data from an object or array.
+
+```javascript
+const person = {
+  first: 'Simon',
+  last: 'Vocella',
+  country: 'Italy',
+  city: 'Milan',
+  twitter: '@simonvocella'
+};
+const { first, last, twitter } = person;
+```
+
+We can:
+
+- rename one property using `const { twitter: tweet} = person;` and in this case we have a variable named `tweet`
+- add default values using `const { facebook = 'unknown' } = person;`
+
+We can destructuring array with:
+
+```javascript
+const details = ['Wes Bos', 123, 'wesbos.com'];
+const [name, id, website] = details;
+```
+
+### Looping
+We can loop with:
+
+```javascript
+
+const cuts = ['Chuck', 'Brisket', 'Shank', 'Short Rib'];
+
+// 1. normal way
+for (let i = 0; i < cuts.length; i++) {
+  console.log(cuts[i]);
+}
+
+// 2. for each and anonymous function
+cuts.forEach((cut) => {
+  console.log(cut);
+  if(cut === 'Brisket') {
+    continue;
+  }
+});
+
+// 3. for in loop
+for (const index in cuts) {
+  console.log(cuts[index]);
+}
+
+// 4. for of loop
+for (const cut of cuts) {
+  console.log(cut);
+}
+```
+
+For the second case you can't use `break` or `continue`.
+For the third case you it iterates *absolutely* through the array including properties or what we add to the prototype of Array. It is useful if you want to iterate through object properties.
+The fourth case works as normal `foreach`. If you want to iterate through object properties you should use `Object.keys` or `entries`.
+
+### Array
+
+*Array.from*
+*Array.of*
+*Array.find*
+*Array.findIndex*
+*Array.some*
+*Array.every*
+
+### Spread operator
+TBD
+
