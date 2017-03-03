@@ -7,7 +7,7 @@
 * Programming Languages
   * [Javascript](./programming-languages/javascript.md)
   * [PHP](./programming-languages/php.md)
-  * Ruby (TBD)
+  * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
 
 .. and so on :)
