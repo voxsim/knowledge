@@ -138,6 +138,21 @@ const details = ['Wes Bos', 123, 'wesbos.com'];
 const [name, id, website] = details;
 ```
 
+We can use destructuring in function:
+
+```javascript
+function tipCalc({ total = 100, tip = 0.15, tax = 0.13 }) {
+  return total + (tip * total) + (tax * total);
+}
+const bill = tipCalc({ tip: 0.20, total: 200 });
+```
+
+In this case `bill` has tax `0.13` and we can specify parameters in any order.
+If we want `const bill = tipCalc();`
+```
+
+In this case `bill` 
+
 ### Looping
 We can loop with:
 
