@@ -32,29 +32,36 @@ ES6 includes the following new features:
 ## ECMAScript 6 Features
 
 ### Arrows
-Arrows are a function shorthand using the `=>` syntax.  They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript.  They support both statement block bodies as well as expression bodies which return the value of the expression.  Unlike functions, arrows share the same lexical `this` as their surrounding code.
+Benefits:
+- They are more concise
+- They have implicit return
+- It does not rebind the value of `this` and inherits it from the parent
+- They are anonymous function
+- When you need to use `var self = this` now instead you can use an arrow function
 
-```JavaScript
-// Expression bodies
-var odds = evens.map(v => v + 1);
-var nums = evens.map((v, i) => v + i);
-var pairs = evens.map(v => ({even: v, odd: v + 1}));
+Do not use:
+- in `addEventListener` because arrow function does not rebind this and it will be `window`
+- when you need to bind to an object
+- when you need to add a prototype method
+- when you need `arguments` object
 
-// Statement bodies
-nums.forEach(v => {
-  if (v % 5 === 0)
-    fives.push(v);
+Before:
+```javascript
+const names = ['a', 'b', 'c'];
+const hinames = names.map(function(name) {
+  return `hi ${name}`;
 });
+```
 
-// Lexical this
-var bob = {
-  _name: "Bob",
-  _friends: [],
-  printFriends() {
-    this._friends.forEach(f =>
-      console.log(this._name + " knows " + f));
-  }
-}
+After:
+```javascript
+const names = ['a', 'b', 'c'];
+const hinames = names.map(name => `hi ${name}`);
+```
+
+In case you don't have parameters:
+```javascript
+const hinames = names.map(() => `hi simon`);
 ```
 
 ### Classes
@@ -106,27 +113,35 @@ var obj = {
 ```
 
 ### Template Strings
-Template strings provide syntactic sugar for constructing strings.  This is similar to string interpolation features in Perl, Python and more.  Optionally, a tag can be added to allow the string construction to be customized, avoiding injection attacks or constructing higher level data structures from string contents.
+You can use backtick to:
 
-```JavaScript
-// Basic literal string creation
-`In JavaScript '\n' is a line-feed.`
+- stick variables inside a string. E.g.:
 
-// Multiline strings
-`In JavaScript this is
- not legal.`
-
-// String interpolation
-var name = "Bob", time = "today";
-`Hello ${name}, how are you ${time}?`
-
-// Construct an HTTP request prefix is used to interpret the replacements and construction
-POST`http://foo.org/bar?a=${a}&b=${b}
-     Content-Type: application/json
-     X-Credentials: ${credentials}
-     { "foo": ${foo},
-       "bar": ${bar}}`(myOnReadyStateChangeHandler);
+```javascript
+const name = 'simon';
+const sentence = `hi ${name}`;
 ```
+
+- to create string multiline like html fragment
+- you can tag it with a function. E.g.:
+
+```javascript
+# In this case we have:
+# strings = ['hi', '']
+# values = ['simon']
+function highlight(strings, ...values) {
+  let str = ''
+  strings.forEach((string, i) => {
+   str += `${string} <span>${values[i] || ''}</span>`;
+  });
+  return str;
+}
+
+const name = 'simon';
+const sentence = highlight`hi ${name}`;
+```
+
+The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
 
 ## Destructuring
 
@@ -250,60 +265,27 @@ console.log(demo(1,2,3,4,5,6))
 ```
 
 ## Let
-`Let` is the new `var`. As it has "sane" bindings.
+- it is block scoped
+- you can't redeclare a variable with the same name in the same scope
+- you can update it
+- if you use the variable before its definition you will get a not defined error. this is called temporal dead zone.
 
+If you write something like this:
 ```javascript
-{
-   var globalVar = "from demo1"
+for(var i=0; i<10; i++) {
+  setTimeout(function() {
+    console.log('The number is +'i);
+  }, 1000);
 }
-
-{
-   let globalLet = "from demo2";
-}
-
-console.log(globalVar)
-console.log(globalLet)
-
 ```
-However, it does not assign anything to `window`:
-
-```javascript
-let me = "go";  // globally scoped
-var i = "able"; // globally scoped
-
-console.log(window.me);
-console.log(window.i);
-```
-It is not possible to redeclare a variable using `let`:
-
-```javascript
-
-let me = "foo";
-let me = "bar";
-console.log(me);
-```
-
-```javascript
-
-var me = "foo";
-var me = "bar";
-console.log(me)
-```
+You will display ten times `The number is 10` and because `var` is function scoped, instead if you use `let` you will display correctly the sequence because they are block scoped.
 
 ## Const
-`Const` is for read-only variables.
-
-```javascript
-const a = "b"
-a = "a"
-```
-It should be noted that `const` objects can still be mutated.
-
-```javascript
-const a = { a: "a" }
-a.a = "b"
-console.log(a)
-```
+- it is read only variable. I. e. you can't update it.
+- it is block scoped
+- you can't redeclare a variable with the same name in the same scope
+- if you define an object you can still update its attribute. In case you want something immutable you can use`Object.freeze`
+- If you use the variable before its definition you will get a not defined error. This is called temporal dead zone.
 
 ## For..of
 New type of iterator, an alternative to `for..in`. It returns the values instead of the `keys`.

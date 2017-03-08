@@ -1,10 +1,9 @@
 # Javascript
 
-## ES6
+## Statements
+- A block statement is something between { }
 
-A block statement is something between { }
-
-### Variables
+## Variables
 
 We have three way of declaring variables:
 
@@ -22,18 +21,11 @@ The `var` keyword is the oldest one and:
 - One way to not leaked out the variables is something called Immediately-Invoked Function Expression.
 - If you use the variable before its definition you will get `undefined`
 
-The `let` keyword:
+the `let` keyword:
 - it is block scoped
 - you can't redeclare a variable with the same name in the same scope
 - you can update it
-- If you use the variable before its definition you will get a not defined error. This is called temporal dead zone.
-
-The `const` keyword:
-- it is block scoped
-- you can't redeclare a variable with the same name in the same scope
-- you can't update it
-- if you define an object you can still update its attribute. In case you want something immutable you can use`Object.freeze`
-- If you use the variable before its definition you will get a not defined error. This is called temporal dead zone.
+- if you use the variable before its definition you will get a not defined error. this is called temporal dead zone.
 
 If you write something like this:
 ```javascript
@@ -44,6 +36,15 @@ for(var i=0; i<10; i++) {
 }
 ```
 You will display ten times `The number is 10` and because `var` is function scoped, instead if you use `let` you will display correctly the sequence because they are block scoped.
+
+The `const` keyword:
+- it is read only variable. I. e. you can't update it.
+- it is block scoped
+- you can't redeclare a variable with the same name in the same scope
+- if you define an object you can still update its attribute. In case you want something immutable you can use`Object.freeze`
+- If you use the variable before its definition you will get a not defined error. This is called temporal dead zone.
+
+## Functions
 
 ### Arrow functions
 Benefits:
@@ -78,8 +79,10 @@ In case you don't have parameters:
 const hinames = names.map(() => `hi simon`);
 ```
 
-### Functions
+### Default Arguments
 You can define default arguments: if you want to trigger one default argument pass `undefined`.
+
+## String
 
 ### Template strings
 You can use backtick to:
@@ -149,11 +152,8 @@ const bill = tipCalc({ tip: 0.20, total: 200 });
 
 In this case `bill` has tax `0.13` and we can specify parameters in any order.
 If we want `const bill = tipCalc();`
-```
 
-In this case `bill` 
-
-### Looping
+## Looping
 We can loop with:
 
 ```javascript
@@ -188,7 +188,7 @@ For the second case you can't use `break` or `continue`.
 For the third case you it iterates *absolutely* through the array including properties or what we add to the prototype of Array. It is useful if you want to iterate through object properties.
 The fourth case works as normal `foreach`. If you want to iterate through object properties you should use `Object.keys` or `entries`.
 
-### Array
+## Array
 
 *Array.from*
 *Array.of*
@@ -197,6 +197,8 @@ The fourth case works as normal `foreach`. If you want to iterate through object
 *Array.some*
 *Array.every*
 
-### Spread operator
+## Operators
+
+### Spread
 TBD
 
