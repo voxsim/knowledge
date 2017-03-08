@@ -14,6 +14,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Russian](./languages/russian.md)
 * Programming Languages
   * [Javascript](./programming-languages/javascript.md)
+    * [ES6](./programming-languages/es6.md)
   * [PHP](./programming-languages/php.md)
   * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
