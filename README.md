@@ -17,6 +17,11 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [PHP](./programming-languages/php.md)
   * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
+* Computer science
+  * [Data structures](./computer-science/data-structures.md)
+  * [Search basics](./computer-science/search-basics.md)
+  * [Sorting basics](./computer-science/sorting-basics.md)
+  * [Type of algorithms](./computer-science/types-of-algorithms.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 
