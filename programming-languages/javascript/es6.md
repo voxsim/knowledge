@@ -258,6 +258,7 @@ Sadly it is not supported yet:
 We can allow unlimited params to function by using the rest operator.
 ```javascript
 function demo(part1, ...part2) {
+  // part2 is an array
   return {part1, part2}
 }
 

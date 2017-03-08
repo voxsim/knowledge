@@ -151,7 +151,15 @@ const bill = tipCalc({ tip: 0.20, total: 200 });
 ```
 
 In this case `bill` has tax `0.13` and we can specify parameters in any order.
-If we want `const bill = tipCalc();`
+If we want `const bill = tipCalc();` we need to declare in this way.
+
+```javascript
+function tipCalc({ total = 100, tip = 0.15, tax = 0.13 } = {}) {
+  return total + (tip * total) + (tax * total);
+}
+```
+
+In this case `bill` will be `128`.
 
 ## Looping
 We can loop with:
@@ -200,5 +208,106 @@ The fourth case works as normal `foreach`. If you want to iterate through object
 ## Operators
 
 ### Spread
-TBD
+In functions:
 
+```javascript
+function f(x, y, z) {
+  return x + y + z;
+}
+// Pass each elem of array as argument
+console.log(f(...[1,2,3]))
+```
+
+In arrays:
+
+```javascript
+var parts = ["shoulders", "knees"];
+var lyrics = ["head", ...parts, "and", "toes"];
+
+console.log(lyrics)
+```
+
+### Rest
+We can allow unlimited params to function by using the rest operator.
+```javascript
+function demo(part1, ...part2) {
+  return {part1, part2}
+}
+
+console.log(demo(1,2,3,4,5,6))
+```
+
+## Enhanced Object Literals
+Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
+
+```JavaScript
+var obj = {
+    // __proto__
+    __proto__: theProtoObj,
+    // Shorthand for ‘handler: handler’
+    handler,
+    // Methods
+    toString() {
+     // Super calls
+     return "d " + super.toString();
+    },
+    // Computed (dynamic) property names
+    [ 'prop_' + (() => 42)() ]: 42
+};
+```
+
+## Promises
+Promises are a library for asynchronous programming. Promises are a first class representation of a value that may be made available in the future. Promises are used in many existing JavaScript libraries.
+
+```JavaScript
+function timeout(duration = 0) {
+    return new Promise((resolve, reject) => {
+        setTimeout(resolve, duration);
+    })
+}
+
+var p = timeout(1000).then(() => {
+    return timeout(2000);
+}).then(() => {
+    throw new Error("hmm");
+}).catch(err => {
+    return Promise.all([timeout(100), timeout(200)]);
+})
+```
+
+### Quick Promise
+Need a quick always resolved promise?
+
+```javascript
+
+var p1 = Promise.resolve("1")
+var p2 = Promise.reject("2")
+
+Promise.race([p1, p2]).then((res) => {
+   console.log(res)
+})
+```
+
+### Fail fast
+If a promise fails, `all` and `race` will reject as well.
+
+```javascript
+var p1 = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("1"), 1001)
+})
+var p2 = new Promise((resolve, reject) => {
+  setTimeout(() => reject("2"), 1)
+})
+
+Promise.race([p1, p2]).then((res) => {
+   console.log("success" + res)
+}, res => {
+   console.log("error " + res)
+})
+
+Promise.all([p1, p2]).then((res) => {
+   console.log("success" + res)
+}, res => {
+   console.log("error " + res)
+})
+```
