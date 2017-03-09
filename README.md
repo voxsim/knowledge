@@ -12,7 +12,11 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * French (TBD)
   * German (TBD)
   * [Russian](./languages/russian.md)
+* [Regular Expression](/.regular-expression.md)
+* [Scripting](/.scripting.md)
 * Programming Languages
+  * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
+  * [Functional basics](./programming-langagues/functional-basics.md)
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
   * [PHP](./programming-languages/php.md)
