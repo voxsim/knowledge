@@ -27,7 +27,7 @@ ES6 includes the following new features:
 - [symbols](#symbols)
 - [subclassable built-ins](#subclassable-built-ins)
 - [promises](#promises)
-- [new libraries(math + number + string + array + object APIs)](##new-libraries-math--number--string--array--object-apis)
+- [new libraries(math + number + string + array + object APIs)](#new-libraries-math--number--string--array--object-apis)
 - [binary and octal literals](#binary-and-octal-literals)
 - [promises](#promises)
 - [reflect api](#reflect-api)
