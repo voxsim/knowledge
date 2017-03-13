@@ -23,6 +23,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
 * Computer science
+  * [Big O Notation](./computer-science/big-o-notation.md)
   * [Data structures](./computer-science/data-structures/readme.md)
     * [List](./computer-science/data-structures/list.md)
   * [Search basics](./computer-science/search-basics.md)
