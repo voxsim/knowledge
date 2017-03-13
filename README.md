@@ -23,7 +23,8 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
 * Computer science
-  * [Data structures](./computer-science/data-structures.md)
+  * [Data structures](./computer-science/data-structures/readme.md)
+    * [List](./computer-science/data-structures/list.md)
   * [Search basics](./computer-science/search-basics.md)
   * [Sorting basics](./computer-science/sorting-basics.md)
   * [Type of algorithms](./computer-science/types-of-algorithms.md)
