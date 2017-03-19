@@ -74,3 +74,26 @@ There is no perfect data structure, and you choose one over another based on
 the data that you are working with and the things you are going to do with
 it. This is why it is important to know a number of different common data
 structures so that you can choose from them.
+
+In detail:
+
+Time Complexity Average
+
+Data Structure|Access|Search|Insertion|Deletion|
+--------------|------|------|---------|--------|
+Array         |Θ(1)  |Θ(n)  |Θ(n)     |Θ(n)    |
+Stack         |Θ(n)  |Θ(n)  |Θ(1)     |Θ(1)    |
+
+Time Complexity Worst
+
+Data Structure|Access|Search|Insertion|Deletion|
+--------------|------|------|---------|--------|
+Array         |O(1)  |O(n)  |O(n)     |O(n)    |
+Stack         |Θ(n)  |Θ(n)  |Θ(1)     |Θ(1)    |
+
+Space Complexity Worst
+
+Data Structure|Space|
+--------------|-----|
+Array         |O(n) |
+Stack         |O(n) |

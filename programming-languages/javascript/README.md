@@ -311,3 +311,6 @@ Promise.all([p1, p2]).then((res) => {
    console.log("error " + res)
 })
 ```
+
+### Primitive types
+There are seven primitive types: Number, String, Object, Boolean, null, undefined, Symbol
