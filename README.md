@@ -29,8 +29,13 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Search basics](./computer-science/search-basics.md)
   * [Sorting basics](./computer-science/sorting-basics.md)
   * [Type of algorithms](./computer-science/types-of-algorithms.md)
+* Software Design
+  * [Nil](./software-design/nil.md)
+  * [Coupling](./software-design/coupling.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
+* Tools
+  * [Git](./tools/git.md)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
