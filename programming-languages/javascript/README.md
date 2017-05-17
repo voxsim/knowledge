@@ -314,3 +314,347 @@ Promise.all([p1, p2]).then((res) => {
 
 ### Primitive types
 There are seven primitive types: Number, String, Object, Boolean, null, undefined, Symbol
+
+Numbers, String, Boolean are immutable object
+
+### Number
+- 64 bit floating point
+- IEEE-754 (aka "Double")
+- Associative law does not hold: (a + b) + c === a + (b + c).
+Produce false for some values of a, b, c, e.g. decimal fractions, big integers
+- They are first class objects:
+  - A number can be stored in a variable
+  - A number can be passed as a parameter
+  - A number can be returned from a function
+  - A number can be stored in a object
+
+### NaN
+- Special number: Not a Number
+- It is result of undefined or erronous operations
+- Toxic: any operations with NaN as an input will have NaN as output
+- NaN is not equal to anything, including NaN itself
+
+### Boolean
+- true, false
+
+### String
+- A sequence of 0 or more 16-bit Unicode characters
+- No separate type for character type (they are just string with length 1)
+- Strings are immutable
+- Similar string are equal (===)
+- String literals can use single/double quotes with \ for escapment
+
+### Array
+- Array inherits from Object
+- Indexes are converted to strings and used as names for retrieving values
+- Very efficient for sparse array
+- Not very efficient in most of other cases
+- One advantage: No need to provide a length or type when creating an array
+- [] literal version of Array
+- It can contain any number of expressions separated by commas
+- New items can be appendend
+- The dot notation should be not used by arrays
+
+sort myArray:
+-> it sorts alphabetically (everything number too, but we can pass a function in sort)
+
+delete myArray[1];
+-> it puts undefined in number 1 index;
+-> we need to use splice to delete the element and resize the array
+
+### Get, set and delete
+- get
+  object.name
+  object[expression]
+
+- set
+  object.name = value
+  object[expression] = value
+
+- delete
+  delete object.name
+  delete object[expression]
+
+### Properties
+A property is a named collection of attribute
+- value -> any Javascript value
+- writeble -> boolean
+- enumerable -> boolean
+- configurable -> boolean
+- get -> function() { ... return value }
+- set -> function(value) { ... }
+
+### Object literal
+An expressive notation to define object
+
+### Working with prototypes
+- Make an object that you like
+- Create new instances that inherit from that object
+- Customize new objects
+- Taxonomy and classification are not necessary
+- Object can have prototype attribute (object or null)
+
+### New operator
+```javascript
+function new(func, arguments) {
+  var that = Object.creatre(func.prototype),
+      result = func.apply(that, arguments);
+  return (typeof result === 'object' && result) || that;
+}
+```
+
+Keys must be string
+
+null and undefined are not ojects.
+
+### undefined
+a value that isn't even that
+the default value for variables and parameters
+the value of missing members in objects
+
+### typeof
+object -> 'object'
+function -> 'function'
+array -> 'object' ???
+number -> 'number'
+string -> 'string'
+boolean -> 'boolean'
+null -> 'object' ???
+undefined -> 'undefined'
+
+### Falsy values
+- false
+- null
+- undefined
+- ""
+- 0
+- NaN
+-> all other values (including objects) are thruthy, e.g. "0", "false"
+
+Thruthy means that if you put in if statemnt it will go in the then branch, otherwise falsy means that it will go in the else branch
+
+### Reference
+Objects can be passed as arguments to functions, and can be returned by functions
+- Objects are passed by references
+- Objects are not passed by value
+The === operator compares object references, not values (true if only it is the same object)
+Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
+
+### Identifiers
+- Starts with a letter or _ or $
+- Followed by zero or more letters, digits, _ or $
+- By convention all variables starts with lowercase letter
+- Constructor functions start with uppercase letter
+- Initial _ should be reserved for implementation
+- $ should be reserved for machines
+
+### With statement
+```javascript
+with(o) {
+  foo = koda;
+}
+```
+
+it can do any of them
+- o.foo = koda;
+- o.foo = o.koda;
+- foo = koda;
+- foo = o.koda;
+
+- Ambiguous and error-prone: Don't use it
+
+### Functions
+- word function
+- optional name
+- parameters
+  - wrapped in parens
+  - Zero or more parameters
+  - Separeted by comma
+- body
+  - wrapped in curly braces
+  - Zero or more statements
+
+### function expression
+- Produce an instance of a function object
+- Function object are first class
+  - May be passed as an argument to a function
+  - May be returned from a function
+  - May assigned to a variable
+  - May be stored in an object or array
+- Function objects inherit from Function.prototype
+
+### var statement
+- declare and initializes variables within a function
+- types are not specified
+- a variable declared anywhere within a function is visible everywhere within the function
+- the statement gets split into two parts:
+  - the declaration part gets hoisted to the top of the function, initializing with undefined
+  - the initialization part turns into an ordinary assignment
+
+```javascript
+var myvar = 0;
+```
+
+became
+
+```javascript
+var myvar = undefined;
+
+myvar = 0;
+```
+
+### function statement
+- the function statement is just a short-hand for a var statement with a function value
+
+```javascript
+function foo() {}
+```
+
+expands to
+
+```javascript
+var foo = function foo() {}
+```
+
+expands to
+
+```javascript
+var foo = undefined;
+foo = function foo() {}
+```
+
+function statement is when function word is defined otherwise is a function expression (e.g. inside another function)
+Only function has scope until es5.
+For return statement if there is no expression, then the return value is undefined.
+Excpet for constructors, whose default return value is this.
+It has a special parameter called arguments, it is array-like object. Treat as read-only structure.
+
+#### this
+The this parameter contains a reference to the object of invocation.
+this allows a method to know what object it is concerned with.
+this allows a single function object to service many functions.
+this is key to prototypal inheritance.
+
+if a function is called with too many arguments, the extra args are ignored
+if a function is called with few parameters, the remains will be setted to undefined
+no type checking on parameters
+
+### Invocation
+four ways to call a function:
+- Function form
+  - functionObject(arguments)
+- Method form
+  - thisObject.methodName(arguments)
+  - thisObject[methodName](arguments)
+- Constructor form
+  - new FunctionObject(arguments)
+  - when a function is called with the new operator, a new object is created and assigned to this
+  - if there is not an explicit return then this will be returned
+- Apply form
+  - function.apply(thisObject, [arguments])
+
+They all attach this into function (or object) and the difference is in the function invocation (see below).
+
+call attaches this into function and executes the function immediately:
+```javascript
+var person = {
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+person.hello.call(person, "world"); // output: "James Smith says hello world"
+```
+
+bind attaches this into function and it needs to be invoked separately like this:
+```javascript
+var person = {  
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+var helloFunc = person.hello.bind(person);
+helloFunc("world");  // output: "James Smith says hello world"
+```
+
+apply is similar to call except that it takes an array-like object instead of a list the arguments.
+
+### CSS
+- Unhealthy separation of structure and presentation
+- long fagile list of self-contradictory fules
+- eah rule has two parts: selector and declaration
+- difficult to understand. Difficult to use.
+
+Five problems:
+- Lack of modularity
+- Selector management is complicated
+- Declaration are too weak for modern web app
+- Not intenden for dynamic content
+- It is unimplementable. It's all about the quirks.
+
+Document Object Model
+- The "DOM"
+- the browser's API
+- document is the page
+- document.body, document.head, document.documentElement is <html>
+- each node has firstChild, lastChild, children
+- each node has parent node
+- each node has sibilings (nextSibiling, prevSibiling)
+- each node has className, style
+
+```javascript
+function walkTheDOM(node, func) {
+  func(node);
+  node = node.firstChild;
+  while(node) {
+    walkTheDOM(node, func);
+    node = node.nextSibiling;
+  }
+}
+```
+
+Pre-order
+1. Check if the current node is empty / null.
+2. Display the data part of the root (or current node).
+3. Traverse the left subtree by recursively calling the pre-order function.
+4. Traverse the right subtree by recursively calling the pre-order function.
+
+In-order
+1. Check if the current node is empty / null.
+2. Traverse the left subtree by recursively calling the in-order function.
+3. Display the data part of the root (or current node).
+4. Traverse the right subtree by recursively calling the in-order function.
+
+Post-order
+1. Check if the current node is empty / null.
+2. Traverse the left subtree by recursively calling the post-order function.
+3. Traverse the right subtree by recursively calling the post-order function.
+4. Display the data part of the root (or current node).
+
+flatten of array
+flatten([[1], 2, 3, 4]) = [1, 2, 3, 4];
+flatten([1, 2, 3, 4]) = [1, 2, 3, 4];
+flatten([]) = [];
+flatten(1) = 1;
+flatten(null) = ?
+flatten(undefined) = ?
+
+```javascript
+function flatten(array) {
+  let newArray = [];
+  for(const element of array) {
+    if(Object.prototype.toString.call( element ) === '[object Array]') {
+      const subElements = flatten(element);
+      for(const subElement of subElements) {
+        newArray.push(subElement);
+      }
+    } else {
+      newArray.push(element);
+    }
+  }
+  return newArray;
+}
+```
