@@ -78,8 +78,8 @@ structures so that you can choose from them.
 In detail:
 
 Data structure|TC Av Access|Tc Av Search|TC Av In|TC AV De|TC W Access|Tc W Search|TC W In|TC W De|SC W|
---------------|------------|------------|--------|--------|-----------|-----------|.------|-------|----|
-Array|Θ(1)|Θ(n)|Θ(n)|Θ(n)|O(1)|O(n)|O(n)|O(n)|O(n)|
+--------------|------------|------------|--------|--------|-----------|-----------|-------|-------|----|
+Array         |Θ(1)        |Θ(n)        |Θ(n)    |Θ(n)    |O(1)       |O(n)       |O(n)   |O(n)   |O(n)|
 Stack|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
 Queue|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
 Singly-Linked List|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
