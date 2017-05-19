@@ -15,8 +15,6 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
 * [Regular Expression](/.regular-expression.md)
 * [Scripting](/.scripting.md)
 * Programming Languages
-  * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
-  * [Functional basics](./programming-langagues/functional-basics.md)
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
   * [PHP](./programming-languages/php.md)
@@ -24,11 +22,13 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * Java (TBD)
 * Computer science
   * [Big O Notation](./computer-science/big-o-notation.md)
-  * [Data structures](./computer-science/data-structures/readme.md)
+  * [Data structures](./computer-science/data-structures/README.md)
     * [List](./computer-science/data-structures/list.md)
   * [Search basics](./computer-science/search-basics.md)
   * [Sorting basics](./computer-science/sorting-basics.md)
   * [Type of algorithms](./computer-science/types-of-algorithms.md)
+  * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
+  * [Functional basics](./programming-langagues/functional-basics.md)
 * Software Design
   * [Nil](./software-design/nil.md)
   * [Coupling](./software-design/coupling.md)
