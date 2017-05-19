@@ -79,8 +79,8 @@ In detail:
 
 Time Complexity Average
 
-Action                    |Linked list|Array|Dynamic array|Balanced tree|Random access list|hashed array tree|
---------------------------|-----------|-----|-------------|-------------|------------------|-----------------!
+Action                   |Linked list|Array|Dynamic array|Balanced tree|Random access list|hashed array tree|
+-------------------------|-----------|-----|-------------|-------------|------------------|-----------------|
 Indexing                  |Θ(n)|Θ(1)|Θ(1)|Θ(log n)|Θ(log n)[10]|Θ(1)|
 Insert/delete at beginning|Θ(1)|N/A|Θ(n)|Θ(log n)|Θ(1)|Θ(n)|
 Insert/delete at end      |Θ(1) when last element is known; Θ(n) when last element is unknown|N/A|Θ(1) amortized|Θ(log n)|Θ(log n) updating|Θ(1) amortized|
