@@ -79,21 +79,10 @@ In detail:
 
 Time Complexity Average
 
-Data Structure|Access|Search|Insertion|Deletion|
---------------|------|------|---------|--------|
-Array         |Θ(1)  |Θ(n)  |Θ(n)     |Θ(n)    |
-Stack         |Θ(n)  |Θ(n)  |Θ(1)     |Θ(1)    |
-
-Time Complexity Worst
-
-Data Structure|Access|Search|Insertion|Deletion|
---------------|------|------|---------|--------|
-Array         |O(1)  |O(n)  |O(n)     |O(n)    |
-Stack         |Θ(n)  |Θ(n)  |Θ(1)     |Θ(1)    |
-
-Space Complexity Worst
-
-Data Structure|Space|
---------------|-----|
-Array         |O(n) |
-Stack         |O(n) |
+Action  |Linked list|Array|Dynamic array|Balanced tree|Random access list|hashed array tree
+Indexing|Θ(n)|Θ(1)|Θ(1)|Θ(log n)|Θ(log n)[10]|Θ(1)
+Insert/delete at beginning|Θ(1)|N/A|Θ(n)|Θ(log n)|Θ(1)|Θ(n)
+Insert/delete at end|Θ(1) when last element is known;
+Θ(n) when last element is unknown|N/A|Θ(1) amortized|Θ(log n)|Θ(log n) updating|Θ(1) amortized
+Insert/delete in middle|search time + Θ(1)[11][12][13]|N/A|Θ(n)|Θ(log n)|Θ(log n) updating|Θ(n)
+Wasted space (average)|Θ(n)|0|Θ(n)[14]|Θ(n)|Θ(n)|Θ(√n)
