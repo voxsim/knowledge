@@ -77,12 +77,19 @@ structures so that you can choose from them.
 
 In detail:
 
-Time Complexity Average
-
-Action                   |Linked list|Array|Dynamic array|Balanced tree|Random access list|hashed array tree|
--------------------------|-----------|-----|-------------|-------------|------------------|-----------------|
-Indexing                  |Θ(n)|Θ(1)|Θ(1)|Θ(log n)|Θ(log n)[10]|Θ(1)|
-Insert/delete at beginning|Θ(1)|N/A|Θ(n)|Θ(log n)|Θ(1)|Θ(n)|
-Insert/delete at end      |Θ(1) when last element is known; Θ(n) when last element is unknown|N/A|Θ(1) amortized|Θ(log n)|Θ(log n) updating|Θ(1) amortized|
-Insert/delete in middle   |search time + Θ(1)[11][12][13]|N/A|Θ(n)|Θ(log n)|Θ(log n) updating|Θ(n)|
-Wasted space (average)    |Θ(n)|0|Θ(n)[14]|Θ(n)|Θ(n)|Θ(√n)|
+Data structure|TC Av Access|Tc Av Search|TC Av In|TC AV De|TC W Access|Tc W Search|TC W In|TC W De|SC W|
+--------------|------------|------------|--------|--------|-----------|-----------|.------|-------|----|
+Array|Θ(1)|Θ(n)|Θ(n)|Θ(n)|O(1)|O(n)|O(n)|O(n)|O(n)|
+Stack|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+Queue|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+Singly-Linked List|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+Doubly-Linked List|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+Skip List|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(n)|O(n)|O(n)|O(n)|O(n log(n))|
+Hash Table|N/A|Θ(1)|Θ(1)|Θ(1)|N/A|O(n)|O(n)|O(n)|O(n)|
+Binary Search Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(n)|O(n)|O(n)|O(n)|O(n)|
+Cartesian Tree|N/A|Θ(log(n))|Θ(log(n))|Θ(log(n))|N/A|O(n)|O(n)|O(n)|O(n)|
+B-Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
+Red-Black Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
+Splay Tree|N/A|Θ(log(n))|Θ(log(n))|Θ(log(n))|N/A|O(log(n))|O(log(n))|O(log(n))|O(n)|
+AVL Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
+KD Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(n)|O(n)|O(n)|O(n)|O(n)|
