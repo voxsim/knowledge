@@ -46,6 +46,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
   * [Functional basics](./programming-langagues/functional-basics.md)
 * Software Design
+  * [Edge cases](./software-design/edge-cases.md)
   * [Nil](./software-design/nil.md)
   * [Coupling](./software-design/coupling.md)
 * Exercises
