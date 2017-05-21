@@ -23,25 +23,6 @@
 - Optimized Search: Linked Lists: O(n)
 - Insertion:        Linked Lists: O(1)
 
-###**Hash Table or Hash Map**
-####Definition: 
-- Stores data with key value pairs.
-- **Hash functions** accept a key and return an output unique only to that specific key.
-  - This is known as **hashing**, which is the concept that an input and an output have a one-to-one correspondence to map information.
-  - Hash functions return a unique address in memory for that data.
-
-####What you need to know:
-- Designed to optimize searching, insertion, and deletion.
-- **Hash collisions** are when a hash function returns the same output for two distinct inputs.
-  - All hash functions have this problem.
-  - This is often accommodated for by having the hash tables be very large.
-- Hashes are important for associative arrays and database indexing.
-
-####Big O efficiency:
-- Indexing:         Hash Tables: O(1)
-- Search:           Hash Tables: O(1)
-- Insertion:        Hash Tables: O(1)
-
 ###**Binary Tree**
 ####Definition:
 - Is a tree like data structure where every node has at most two children.
