@@ -121,3 +121,4 @@ class Queue {
 Questions:
 1. What are some options for implementing a priority queue? (http://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
 2. Implement a queue using two stacks
+3. http://www.geeksforgeeks.org/deque-set-1-introduction-applications/
