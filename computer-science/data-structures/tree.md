@@ -346,3 +346,10 @@ Post-order:
 2. Traverse the left subtree by recursively calling the post-order function.
 3. Traverse the right subtree by recursively calling the post-order function.
 4. Display the data part of the root (or current node) or do an operation.
+
+Questions:
+1. Implement a function to check if a binary tree is balanced. The tree is balanced if the heights of the two subtrees of any node never differ by more than one.
+2. Given a sorted array with unique integers, write an algorithm to create a binary search tree with miniaml height.
+3. Implement a function to check if a binary tree is a binary search tree
+4. Design an algorithm and write code to find the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarily a binary search tree.
+5. You are given a binary tree in which each node contains a value. Design an algorithm to print all paths which sum to a given value. The path does not need to start or end at the root or a leaf, but it must go in a straight line down.
