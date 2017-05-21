@@ -20,33 +20,33 @@ Merge Sort Vs. Quicksort
 
 Implementation:
 ```
-int[] mergeSort (int[] data) {
-   if (data.Length == 1)
-      return data;
-   int middle = data.Length / 2;
-   int[] left = mergeSort(subArray(data, 0, middle - 1));
-   int[] right = mergeSort(subArray(data, middle, data.Length - 1));
-   int[] result = new int[data.Length];
-   int dPtr = 0;
-   int lPtr = 0;
-   int rPtr = 0;
-   while (dPtr < data.Length) {
-      if (lPtr == left.Length) {
-         result[dPtr] = right[rPtr];
-         rPtr++;
-      } else if (rPtr == right.Length) {
-         result[dPtr] = left[lPtr];
-         lPtr++;
-      } else if (left[lPtr] < right[rPtr]) {
-         result[dPtr] = left[lPtr];
-         lPtr++;
-      } else {
-         result[dPtr] = right[rPtr];
-         rPtr++;
-      }
-      dPtr++;
-   }
-   return result;
+function mergesort(array) {
+  if(array.length <= 1) {
+    return array;
+  }
+  const middle = Math.ceil(array.length / 2);
+  const left = mergesort(array.slice(0, middle));
+  const right = mergesort(array.slice(middle));
+  const result = [];
+  console.log(left, right);
+  let l = 0;
+  let r = 0;
+  for(let d = 0; d < array.length; d++) {
+    if(l === left.length) {
+      result[d] = right[r];
+      r++;
+    } else if(r === right.length) {
+      result[d] = left[l];
+      l++;
+    } else if(left[l] < right[r]) {
+      result[d] = left[l];
+      l++;
+    } else {
+      result[d] = right[r];
+      r++;
+    }
+  }
+  return result;
 }
 ```
 
