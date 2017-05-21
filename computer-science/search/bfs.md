@@ -39,3 +39,5 @@ function bfs(root, callback) {
   }
 }
 ```
+
+Problems that use BFS usually ask to find the fewest number of steps (or the shortest path) needed to reach a certain end point (state) from the starting one. Besides this, certain ways of passing from one point to another are offered, all of them having the same cost of 1 (sometimes it may be equal to another number). Often there is given a N x M table (formed of N lines and M columns) where certain cells are passable and others are impassable, and the target of the problem is to find the shortest time/path needed to reach the end point from the start one. Such tables may represent mazes, maps, cities, and other similar things. These may be considered as classical BFS problems. Because BFS complexity is in most cases linear (sometimes quadratic, or N logN), constraints of N (or M) could be high – even up to 1 million.
