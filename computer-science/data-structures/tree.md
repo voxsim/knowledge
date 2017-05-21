@@ -316,3 +316,33 @@ class BinarySearchTree {
   }
 }
 ```
+
+A tree is a DAG (Directed Acyclic Graph). 
+
+*Binary Tree vs Binary Search Tree*
+Binary search tree imposes the condition that, for all nodes, the left children are less than or equal to the current node, which is less then all the right nodes.
+
+*Balanced vs Unbalanced*
+Balancing a tree implies only that the depth of subtrees will not vary by more than a certain amount. It does not mean that the left and right subtrees are exactly the same size.
+
+*Full and Complete*
+Full and complete trees are trees in which all leaves are at the bottom of the tree, and all non-leaf nodes have exactly two children. Note that full and complete trees are extremely rare, as a tree must have exactly 2^n - 1 nodes to meet this condition.
+
+*Types of traversal*
+Pre-order:
+1. Check if the current node is empty / null.
+2. Display the data part of the root (or current node) or do an operation.
+3. Traverse the left subtree by recursively calling the pre-order function.
+4. Traverse the right subtree by recursively calling the pre-order function.
+
+In-order:
+1. Check if the current node is empty / null.
+2. Traverse the left subtree by recursively calling the in-order function.
+3. Display the data part of the root (or current node) or do an operation.
+4. Traverse the right subtree by recursively calling the in-order function.
+
+Post-order:
+1. Check if the current node is empty / null.
+2. Traverse the left subtree by recursively calling the post-order function.
+3. Traverse the right subtree by recursively calling the post-order function.
+4. Display the data part of the root (or current node) or do an operation.
