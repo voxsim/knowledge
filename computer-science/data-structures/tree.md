@@ -347,6 +347,21 @@ Post-order:
 3. Traverse the right subtree by recursively calling the post-order function.
 4. Display the data part of the root (or current node) or do an operation.
 
+From TopCoder:
+Trees are a data structure consisting of one or more data nodes. The first node is called the "root", and each node has zero or more "child nodes". The maximum number of children of a single node, and the maximum depth of children are limited in some cases by the exact type of data represented by the tree. 
+
+One of the most common examples of a tree is an XML document. The top-level document element is the root node, and each tag found within that is a child. Each of those tags may have children, and so on. At each node, the type of tag, and any attributes, constitutes the data for that node. In such a tree, the hierarchy and order of the nodes is well defined, and an important part of the data itself. Another good example of a tree is a written outline. The entire outline itself is a root node containing each of the top-level bullet points, each of which may contain one or more sub-bullets, and so on. The file storage system on most disks is also a tree structure. 
+
+Corporate structures also lend themselves well to trees. In a classical management hierarchy, a President may have one or more vice presidents, each of whom is in charge of several managers, each of whom presides over several employees. 
+
+A special type of tree is a binary tree. A binary tree also happens to be one of the most efficient ways to store and read a set of records that can be indexed by a key value in some way. The idea behind a binary tree is that each node has, at most, two children. 
+
+In the most typical implementations, the key value of the left node is less than that of its parent, and the key value of the right node is greater than that of its parent. Thus, the data stored in a binary tree is always indexed by a key value. When traversing a binary tree, it is simple to determine which child node to traverse when looking for a given key value. 
+
+One might ask why a binary tree is preferable to an array of values that has been sorted. In either case, finding a given key value (by traversing a binary tree, or by performing a binary search on a sorted array) carries a time complexity of O(log n). However, adding a new item to a binary tree is an equally simple operation. In contrast, adding an arbitrary item to a sorted array requires some time-consuming reorganization of the existing data in order to maintain the desired ordering. 
+
+If you have ever used a field guide to attempt to identify a leaf that you find in the wild, then this is a good way to understand how data is found in a binary tree. To use a field guide, you start at the beginning, and answer a series of questions like "is the leaf jagged, or smooth?" that have only two possible answers. Based upon your answer, you are directed to another page, which asks another question, and so on. After several questions have sufficiently narrowed down the details, you are presented with the name, and perhaps some further information about your leaf. If one were the editor of such a field guide, newly cataloged species could be added to field guide in much the same manner, by traversing through the questions, and finally at the end, inserting a new question that differentiates the new leaf from any other similar leaves. In the case of a computer, the question asked at each node is simply "are you less than or greater than X?" 
+
 Questions:
 1. Implement a function to check if a binary tree is balanced. The tree is balanced if the heights of the two subtrees of any node never differ by more than one.
 2. Given a sorted array with unique integers, write an algorithm to create a binary search tree with miniaml height.
