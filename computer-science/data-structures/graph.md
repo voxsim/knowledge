@@ -1,123 +1,112 @@
-A list is a representation of an ordered sequence of values where the same value may appear many times.
-They are great for fast access and dealing with items at the end.
-
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
 ```javascript
 
-class List {
+/**
+ * Contrary to the ascii art above, a graph is not a visual chart of some sort.
+ *
+ * Instead imagine it like this:
+ *
+ *     A –→ B ←–––– C → D ↔ E
+ *     ↑    ↕     ↙ ↑     ↘
+ *     F –→ G → H ← I ––––→ J
+ *          ↓     ↘ ↑
+ *          K       L
+ *
+ * We have a bunch of "nodes" (A, B, C, D, ...) that are connected with lines.
+ *
+ * These nodes are going to look like this:
+ *
+ *     Node {
+ *       value: ...,
+ *       lines: [(Node), (Node), ...]
+ *     }
+ *
+ * The entire graph will look like this:
+ *
+ *     Graph {
+ *       nodes: [
+ *         Node {...},
+ *         Node {...},
+ *         ...
+ *       ]
+ *     }
+ */
+
+class Graph {
+
+  /**
+   * We'll hold onto all of our nodes in a regular JavaScript array. Not
+   * because there is any particular order to the nodes but because we need a
+   * way to store references to everything.
+   */
+
   constructor() {
-    this.memory = [];
-    this.length = 0;
+    this.nodes = [];
   }
 
   /**
-   * First we need a way to retrieve data from our list.
-   *
-   * With a plain list, you have very fast memory access because you keep track
-   * of the address directly.
-   *
-   * List access is constant O(1) - "AWESOME!!"
+   * We can start to add values to our graph by creating nodes without any
+   * lines.
    */
 
-  get(address) {
-    return this.memory[address];
+  addNode(value) {
+    return this.nodes.push({ value, lines: [] });
   }
 
   /**
-   * Because lists have an order you can insert stuff at the start, middle,
-   * or end of them.
+   * Next we need to be able to lookup nodes in the graph. Most of the time
+   * you'd have another data structure on top of a graph in order to make
+   * searching faster.
    *
-   * For our implementation we're going to focus on adding and removing values
-   * at the start or end of our list with these four methods:
-   *
-   *   - Push    - Add value to the end
-   *   - Pop     - Remove value from the end
-   *   - Unshift - Add value to the start
-   *   - Shift   - Remove value from the start
+   * But for our case we're simply going to search through all of nodes to find
+   * the one with the matching value. This is a slower option, but it works for
+   * now.
    */
 
-  /*
-   * Starting with "push" we need a way to add items to the end of the list.
-   *
-   * It is as simple as adding a value in the address after the end of our
-   * list. Because we store the length this is easy to calculate. We just add
-   * the value and increment our length.
-   *
-   * Pushing an item to the end of a list is constant O(1) - "AWESOME!!"
-   */
-
-  push(value) {
-    this.memory[this.length] = value;
-    this.length++;
+  find(value) {
+    return this.nodes.find(node => {
+      return node.value === value;
+    });
   }
 
   /**
-   * Next we need a way to "pop" items off of the end of our list.
-   *
-   * Similar to push all we need to do is remove the value at the address at
-   * the end of our list. Then just decrement length.
-   *
-   * Popping an item from the end of a list is constant O(1) - "AWESOME!!"
+   * Next we can connect two nodes by making a "line" from one to the other.
    */
 
-  pop() {
-    if(this.length === 0) return;
+  addLine(startValue, endValue) {
+    // Find the nodes for each value.
+    let startNode = this.find(startValue);
+    let endNode = this.find(endValue);
 
-    this.length--;
-    let value = this.memory[this.length];
-    delete this.memory[this.length];
+    // Freak out if we didn't find one or the other.
+    if (!startNode || !endNode) {
+      throw new Error('Both nodes need to exist');
+    }
 
-    return value;
-  }
-
-  /**
-   * In order to add a new item at the beginning of our list, we need to make
-   * room for our value at the start by sliding all of the values over by one.
-   *
-   *     [a, b, c, d, e]
-   *      0  1  2  3  4
-   *       ⬊  ⬊  ⬊  ⬊  ⬊
-   *         1  2  3  4  5
-   *     [x, a, b, c, d, e]
-   *
-   * In order to slide all of the items over we need to iterate over each one
-   * moving the prev value over.
-   *
-   * Because we have to iterate over every single item in the list:
-   *
-   * Unshifting an item to the start of a list is linear O(N) - "OKAY."
-   */
-
-  unshift(value) {
-    this.memory = [value, ...this.memory];
-    this.length++;
-  }
-
-  /**
-   * Finally, we need to write a shift function to move in the opposite
-   * direction.
-   *
-   * We delete the first value and then slide through every single item in the
-   * list to move it down one address.
-   *
-   *     [x, a, b, c, d, e]
-   *         1  2  3  4  5
-   *       ⬋  ⬋  ⬋  ⬋  ⬋
-   *      0  1  2  3  4
-   *     [a, b, c, d, e]
-   *
-   * Shifting an item from the start of a list is linear O(N) - "OKAY."
-   */
-
-  shift() {
-    if(this.length === 0) return;
-
-    let value = this.memory[0];
-    [_, ...this.memory] = this.memory;
-    this.length--;
-
-    return value;
+    // And add a reference to the endNode from the startNode.
+    startNode.lines.push(endNode);
   }
 }
+
+/**
+ * Finally you can use a graph like this:
+ *
+ *     var graph = new Graph();
+ *     graph.addNode(1);
+ *     graph.addNode(2);
+ *     graph.addLine(1, 2);
+ *     var two = graph.find(1).lines[0];
+ *
+ * This might seem like a lot of work to do very little, but it's actually a
+ * quite powerful pattern, especially for finding sanity in complex programs.
+ *
+ * They do this by optimizing for the connections between data rather than
+ * operating on the data itself. Once you have one node in the graph, it's
+ * extremely simple to find all the related items in the graph.
+ *
+ * Tons of things can be represented this way, users with friends, the 800
+ * transitive dependencies in a node_modules folder, the internet itself is a
+ * graph of webpages connected together by links.
+ */
 ```
