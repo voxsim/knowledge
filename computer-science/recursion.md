@@ -2,7 +2,7 @@ An algorithm that calls itself in its definition.
 - *Recursive case* a conditional statement that is used to trigger the recursion.
 - *Base case* a conditional statement that is used to break the recursion.
 
-####What you need to know:
+What you need to know:
 - *Stack level too deep* and *stack overflow*.
   - If you've seen either of these from a recursive algorithm, you messed up.
   - It means that your base case was never triggered because it was faulty or the problem was so massive you ran out of RAM before reaching it.
