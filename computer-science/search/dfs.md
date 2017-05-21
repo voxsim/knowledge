@@ -26,7 +26,7 @@ function dfs(root, callback) {
   
   if(!root.adjacents) return;
   for(const n of root.adjacents) {
-    if(n.visited = false) {
+    if(!n.visited) {
       dfs(n, callback);
     }
   }
