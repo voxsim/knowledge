@@ -77,7 +77,7 @@ structures so that you can choose from them.
 
 In detail:
 
-Data structure|TC Av Access|Tc Av Search|TC Av In|TC AV De|TC W Access|Tc W Search|TC W In|TC W De|SC W|
+Data structure|Time Complexity Average Access|Time Complexity Average Search|Time Complexity Average Insert|Time Complexity Average Delete|Time Complexity Worst Access|Time Complexity Worst Search|Time Complexity Worst Insert|Time Complexity Worst Delete|Space Complexity (Worst)|
 --------------|------------|------------|--------|--------|-----------|-----------|-------|-------|----|
 Array         |Θ(1)        |Θ(n)        |Θ(n)    |Θ(n)    |O(1)       |O(n)       |O(n)   |O(n)   |O(n)|
 Stack|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
