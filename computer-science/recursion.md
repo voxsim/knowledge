@@ -9,8 +9,6 @@ What you need to know:
   - Knowing whether or not you will reach a base case is integral to correctly using recursion.
   - Often used in Depth First Search
 
-Pseudo Code of Moving Through an array (this is why iteration is used for this)
-
 ```                         
 recursive method (array, n)
   if array[n] is not nil
@@ -19,6 +17,13 @@ recursive method (array, n)
   else                     
     exit loop
 ```
+
+Recursion Vs. Iteration
+- The differences between recursion and iteration can be confusing to distinguish since both can be used to implement the other. But know that,
+  - Recursion is, usually, more expressive and easier to implement.
+  - Iteration uses less memory.
+- **Functional languages** tend to use recursion. (i.e. Haskell)
+- **Imperative languages** tend to use iteration. (i.e. Ruby)
 
 Questions:
 1. A child is running up a staircase with n steps, and can hop either 1 step, 2 steps or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs.
