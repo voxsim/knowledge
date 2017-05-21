@@ -115,3 +115,4 @@ Questions:
 1. Implement and explain how an hash function
 2. Why the worst case for insert/delete is O(n) for an hash table?
 3. What are and why the worst operations for an hash table
+4. Can you implement a Map with a tree? What about with a list?
