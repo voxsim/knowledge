@@ -85,6 +85,7 @@ class Queue {
 
   constructor() {
     this.head = null;
+    this.last = null;
     this.length = 0;
   }
 
@@ -94,8 +95,10 @@ class Queue {
     
     if(this.head === null) {
       this.head = t;
+      this.last = this.head;
     } else {
-      this.head.next = t;
+      this.last.next = t;
+      this.last = t;
     }
   }
 
@@ -105,6 +108,7 @@ class Queue {
     this.length--;
     const t = this.head;
     this.head = this.head.next;
+    if(length === 0) this.last = null;
     return t;
   }
 
@@ -116,3 +120,4 @@ class Queue {
 
 Questions:
 1. What are some options for implementing a priority queue?
+2. Implement a queue using two stacks
