@@ -37,9 +37,11 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [BFS vs DFS](./computer-science/search/bfs-vs-dfs.md)
     * [Dijkstra](./computer-science/search/dijkstra.md)
     * [Floyd-Warshall](./computer-science/search/floyd-warshall.md)
-  * [Sorting basics](./computer-science/sort/README.md)
+  * Sorting
     * [Quick Sort](./computer-science/sort/quick-sort.md)
     * [Merge Sort](./computer-science/sort/merge-sort.md)
+    * [Bubble Sort](./computer-science/sort/bubble-sort.md)
+    * [Radix Sort](./computer-science/sort/radix-sort.md)
   * Types of Algorithms
     * [Recursion](./computer-science/recursion.md)
     * [Iterative](./computer-science/iterative.md)
