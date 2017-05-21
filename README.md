@@ -31,6 +31,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Tree](./computer-science/data-structures/tree.md)
     * [Graph](./computer-science/data-structures/graph.md)
   * Search basics
+    * [Binary Search](./computer-science/search/binary-search.md)
     * [BFS](./computer-science/search/bfs.md)
     * [DFS](./computer-science/search/dfs.md)
     * [BFS vs DFS](./computer-science/search/bfs-vs-dfs.md)
