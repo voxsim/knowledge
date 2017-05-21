@@ -38,9 +38,11 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Sorting basics](./computer-science/sort/README.md)
     * [Quick Sort](./computer-science/sort/quick-sort.md)
     * [Merge Sort](./computer-science/sort/merge-sort.md)
-  * [Recursion](./computer-science/recursion.md)
-  * [Iterative](./computer-science/iterative.md)
-  * [Greedy](./computer-science/greedy.md)
+  * Types of Algorithms
+    * [Recursion](./computer-science/recursion.md)
+    * [Iterative](./computer-science/iterative.md)
+    * [Greedy](./computer-science/greedy.md)
+    * [Dynamic Programming](./computer-science/dynamic-programming.md)
   * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
   * [Functional basics](./programming-langagues/functional-basics.md)
 * Software Design
