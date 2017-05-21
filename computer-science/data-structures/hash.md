@@ -100,3 +100,6 @@ class HashTable {
 Instead of making an extremely large array for storing objects at index `hash(key)`, we can make the array much smaller and store objects in a linked list at index `hash(key) % array_length`. To get the object with a particular key, we must search the linked list for the key.
 
 Alternatively, we can implement the hash table with a binary search tree. We can then guarantee an O(log n) lookup time, since we keep the tree balanced. Aditionally we may use less space, since a large array no longer needs to be allocated in the very beginning.
+
+Questions:
+1. Implement and explain how an hash function
