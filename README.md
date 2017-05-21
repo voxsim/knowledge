@@ -35,6 +35,8 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [BFS](./computer-science/search/bfs.md)
     * [DFS](./computer-science/search/dfs.md)
     * [BFS vs DFS](./computer-science/search/bfs-vs-dfs.md)
+    * [Dijkstra](./computer-science/search/dijkstra.md)
+    * [Floyd-Warshall](./computer-science/search/floyd-warshall.md)
   * [Sorting basics](./computer-science/sort/README.md)
     * [Quick Sort](./computer-science/sort/quick-sort.md)
     * [Merge Sort](./computer-science/sort/merge-sort.md)
