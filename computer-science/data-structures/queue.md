@@ -122,6 +122,62 @@ class Queue {
 }
 ```
 
+From TopCoder:
+A queue is a data structure that is best described as "first in, first out". A real world example of a queue is people waiting in line at the bank. As each person enters the bank, he or she is "enqueued" at the back of the line. When a teller becomes available, they are "dequeued" at the front of the line. 
+
+Perhaps the most common use of a queue within a topcoder problem is to implement a Breadth First Search (BFS). BFS means to first explore all states that can be reached in one step, then all states that can be reached in two steps, etc. A queue assists in implementing this solution because it stores a list of all state spaces that have been visited. 
+
+A common type of problem might be the shortest path through a maze. Starting with the point of origin, determine all possible locations that can be reached in a single step, and add them to the queue. Then, dequeue a position, and find all locations that can be reached in one more step, and enqueue those new positions. Continue this process until either a path is found, or the queue is empty (in which case there is no path). Whenever a "shortest path" or "least number of moves" is requested, there is a good chance that a BFS, using a queue, will lead to a successful solution. 
+
+Most standard libraries, such the Java API, and the .NET framework, provide a Queue class that provides these two basic interfaces for adding and removing items from a queue. 
+
+BFS type problems appear frequently on challenges; on some problems, successful identification of BFS is simple and immediately, other times it is not so obvious. 
+
+A queue implementation may be as simple as an array, and a pointer to the current position within the array. For instance, if you know that you are trying to get from point A to point B on a 50×50 grid, and have determined that the direction you are facing (or any other details) are not relevant, then you know that there are no more than 2,500 "states" to visit. Thus, your queue is programmed like so:
+
+class StateNode {
+   int xPos;
+   int yPos;
+   int moveCount;
+}
+
+class MyQueue {
+   StateNode[] queueData = new StateNode[2500];
+   int queueFront = 0;
+   int queueBack = 0;
+
+   void Enqueue(StateNode node) {
+      queueData[queueBack] = node;
+      queueBack++;
+   }
+
+   StateNode Dequeue() {
+      StateNode returnValue = null;
+      if (queueBack > queueFront) {
+      returnValue = queueData[queueFront];
+      QueueFront++;
+   }
+   return returnValue;
+   }
+
+   boolean isNotEmpty() {
+      return (queueBack > queueFront);
+   }
+}
+Then, the main code of your solution looks something like this. (Note that if our queue runs out of possible states, and we still haven’t reached our destination, then it must be impossible to get there, hence we return the typical "-1" value.)
+
+MyQueue queue = new MyQueue();
+queue.Enqueue(initialState);
+while (queue.isNotEmpty()) {
+   StateNode curState = queue.Dequeue();
+   if (curState == destState)
+return curState.moveCount;
+   for (int dir = 0; dir < 3; dir++) {
+      if (CanMove(curState, dir))
+         queue.Enqueue(MoveState(curState, dir));
+   }
+}
+
 Questions:
 1. What are some options for implementing a priority queue? (http://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
 2. Implement a queue using two stacks
