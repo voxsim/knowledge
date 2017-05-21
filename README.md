@@ -30,7 +30,10 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Hash Table or Map](./computer-science/data-structures/hash.md)
     * [Tree](./computer-science/data-structures/tree.md)
     * [Graph](./computer-science/data-structures/graph.md)
-  * [Search basics](./computer-science/search-basics.md)
+  * Search basics
+    * [Binary Search](./computer-science/search/binary-search.md)
+    * [BFS](./computer-science/search/bfs.md)
+    * [DFS](./computer-science/search/dfs.md)
   * [Sorting basics](./computer-science/sorting-basics.md)
   * [Type of algorithms](./computer-science/types-of-algorithms.md)
   * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
