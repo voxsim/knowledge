@@ -1,123 +1,102 @@
-A list is a representation of an ordered sequence of values where the same value may appear many times.
-They are great for fast access and dealing with items at the end.
+A hash table is a data structure that maps keys to values for highly efficient lookup. In a very simple implementation of a hash table, the hash table has an underlying array and a hash function. When you want to insert an object and its key, the hash function maps the key to an integer, which indicates the index in the array. The object is then stored at that index.
 
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
 ```javascript
 
-class List {
+class HashTable {
+
   constructor() {
     this.memory = [];
-    this.length = 0;
   }
 
   /**
-   * First we need a way to retrieve data from our list.
+   * In order to store key-value pairs in memory from our hash table we need a
+   * way to take the key and turn it into an address. We do this through an
+   * operation known as "hashing".
    *
-   * With a plain list, you have very fast memory access because you keep track
-   * of the address directly.
+   * Basically it takes a key and serializes it into a unique number for that
+   * key.
    *
-   * List access is constant O(1) - "AWESOME!!"
+   *    hashKey("abc") =>  96354
+   *    hashKey("xyz") => 119193
+   *
+   * You have to be careful though, if you had a really big key you don't want
+   * to match it to a memory address that does not exist.
+   *
+   * So the hashing algorithm needs to limit the size, which means that there
+   * are a limited number of addresses for an unlimited number of values.
+   *
+   * The result is that you can end up with collisions. Places where two keys
+   * get turned into the same address.
+   *
+   * Any real world hash table implementation would have to deal with this,
+   * however we are just going to glaze over it and pretend that doesn't happen.
    */
 
-  get(address) {
+  /**
+   * Let's setup our "hashKey" function.
+   *
+   * Don't worry about understanding the logic of this function, just know that
+   * it accepts a string and outputs a (mostly) unique address that we will use
+   * in all of our other functions.
+   */
+
+  hashKey(key) {
+    let hash = 0;
+    for (let index = 0; index < key.length; index++) {
+      // Oh look– magic.
+      let code = key.charCodeAt(index);
+      hash = ((hash << 5) - hash) + code | 0;
+    }
+    return hash;
+  }
+
+  /**
+   * Next, let's define our "get" function so we have a way of accessing values
+   * by their key.
+   *
+   * HashTable access is constant O(1) - "AWESOME!!"
+   */
+
+  get(key) {
+    // We start by turning our key into an address.
+    let address = this.hashKey(key);
+    // Then we simply return whatever is at that address.
     return this.memory[address];
   }
 
   /**
-   * Because lists have an order you can insert stuff at the start, middle,
-   * or end of them.
+   * We also need a way of adding data before we access it, so we will create
+   * a "set" function that inserts values.
    *
-   * For our implementation we're going to focus on adding and removing values
-   * at the start or end of our list with these four methods:
-   *
-   *   - Push    - Add value to the end
-   *   - Pop     - Remove value from the end
-   *   - Unshift - Add value to the start
-   *   - Shift   - Remove value from the start
+   * HashTable setting is constant O(1) - "AWESOME!!"
    */
 
-  /*
-   * Starting with "push" we need a way to add items to the end of the list.
-   *
-   * It is as simple as adding a value in the address after the end of our
-   * list. Because we store the length this is easy to calculate. We just add
-   * the value and increment our length.
-   *
-   * Pushing an item to the end of a list is constant O(1) - "AWESOME!!"
-   */
-
-  push(value) {
-    this.memory[this.length] = value;
-    this.length++;
+  set(key, value) {
+    // Again we start by turning the key into an address.
+    let address = this.hashKey(key);
+    // Then just set the value at that address.
+    this.memory[address] = value;
   }
 
   /**
-   * Next we need a way to "pop" items off of the end of our list.
+   * Finally we just need a way to remove items from our hash table.
    *
-   * Similar to push all we need to do is remove the value at the address at
-   * the end of our list. Then just decrement length.
-   *
-   * Popping an item from the end of a list is constant O(1) - "AWESOME!!"
+   * HashTable deletion is constant O(1) - "AWESOME!!"
    */
 
-  pop() {
-    if(this.length === 0) return;
-
-    this.length--;
-    let value = this.memory[this.length];
-    delete this.memory[this.length];
-
-    return value;
-  }
-
-  /**
-   * In order to add a new item at the beginning of our list, we need to make
-   * room for our value at the start by sliding all of the values over by one.
-   *
-   *     [a, b, c, d, e]
-   *      0  1  2  3  4
-   *       ⬊  ⬊  ⬊  ⬊  ⬊
-   *         1  2  3  4  5
-   *     [x, a, b, c, d, e]
-   *
-   * In order to slide all of the items over we need to iterate over each one
-   * moving the prev value over.
-   *
-   * Because we have to iterate over every single item in the list:
-   *
-   * Unshifting an item to the start of a list is linear O(N) - "OKAY."
-   */
-
-  unshift(value) {
-    this.memory = [value, ...this.memory];
-    this.length++;
-  }
-
-  /**
-   * Finally, we need to write a shift function to move in the opposite
-   * direction.
-   *
-   * We delete the first value and then slide through every single item in the
-   * list to move it down one address.
-   *
-   *     [x, a, b, c, d, e]
-   *         1  2  3  4  5
-   *       ⬋  ⬋  ⬋  ⬋  ⬋
-   *      0  1  2  3  4
-   *     [a, b, c, d, e]
-   *
-   * Shifting an item from the start of a list is linear O(N) - "OKAY."
-   */
-
-  shift() {
-    if(this.length === 0) return;
-
-    let value = this.memory[0];
-    [_, ...this.memory] = this.memory;
-    this.length--;
-
-    return value;
+  remove(key) {
+    // As always, we hash the key to get an address.
+    let address = this.hashKey(key);
+    // Then, if it exists, we `delete` it.
+    if (this.memory[address]) {
+      delete this.memory[address];
+    }
   }
 }
 ```
+
+Instead of making an extremely large array for storing objects at index `hash(key)`, we can make the array much smaller and store objects in a linked list at index `hash(key) % array_length`. To get the object with a particular key, we must search the linked list for the key.
+
+Alternatively, we can implement the hash table with a binary search tree. We can then guarantee an O(log n) lookup time, since we keep the tree balanced. Aditionally we may use less space, since a large array no longer needs to be allocated in the very beginning.
