@@ -1,8 +1,11 @@
 Big O efficiency:
-- Access: n/a
-- Search: O(1)
-- Insert: O(1)
-- Delete: O(1)
+
+Operation | Average | Worst 
+-------|---------|-------
+Access | n/a     | n/a    
+Search | O(1)    | O(1)  
+Insert | O(1)    | O(n)  
+Delete | O(1)    | O(n)  
 
 A hash table is a data structure that maps keys to values for highly efficient lookup. In a very simple implementation of a hash table, the hash table has an underlying array and a hash function. When you want to insert an object and its key, the hash function maps the key to an integer, which indicates the index in the array. The object is then stored at that index.
 A *hash collision* are when a hash function returns the same output for two distinct inputs: All hash functions have this problem and this is often accommodated for by having the hash tables be very large.
@@ -110,3 +113,5 @@ Alternatively, we can implement the hash table with a binary search tree. We can
 
 Questions:
 1. Implement and explain how an hash function
+2. Why the worst case for insert/delete is O(n) for an hash table?
+3. What are and why the worst operations for an hash table
