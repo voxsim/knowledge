@@ -72,3 +72,34 @@ class Stack {
   }
 }
 ```
+
+This is a version with linked list.
+
+
+```javascript
+class Stack {
+
+  constructor() {
+    this.head = null;
+    this.length = 0;
+  }
+
+  push(value) {
+    const t = { value, next: this.head };
+    this.head = t;
+  }
+
+  pop() {
+    if(this.head !== null) {
+      const t = this.head;
+      this.head = this.head.next;
+      return t.value;
+    }
+    return null;
+  }
+
+  peek() {
+    return this.head.value;
+  }
+}
+```
