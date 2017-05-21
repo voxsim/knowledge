@@ -149,6 +149,33 @@ Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list.
 
+From Topcoder:
+A linked list is a data structure that can hold an arbitrary number of data items, and can easily change size to add or remove items. A linked list, at its simplest, is a pointer to a data node. Each data node is then composed of data (possibly a record with several data values), and a pointer to the next node. At the end of the list, the pointer is set to null. 
+
+By nature of its design, a linked list is great for storing data when the number of items is either unknown, or subject to change. However, it provides no way to access an arbitrary item from the list, short of starting at the beginning and traversing through every node until you reach the one you want. The same is true if you want to insert a new node at a specific location. It is not difficult to see the problem of inefficiency. 
+
+A typical linked list implementation would have code that defines a node, and looks something like this:
+
+class ListNode {
+   String data;
+   ListNode nextNode;
+}
+ListNode firstNode;
+You could then write a method to add new nodes by inserting them at the beginning of the list:
+
+ListNode newNode = new ListNode();
+NewNode.nextNode = firstNode;
+firstNode = newNode;
+
+Iterating through all of the items in the list is a simple task:
+
+ListNode curNode = firstNode;
+while (curNode != null) {
+   ProcessData(curNode);
+   curNode = curNode.nextNode;
+}
+A related data structure, the doubly linked list, helps this problem somewhat. The difference from a typical linked list is that the root data structure stores a pointer to both the first and last nodes. Each individual node then has a link to both the previous and next node in the list. This creates a more flexible structure that allows travel in both directions. Even still, however, this is rather limited. 
+
 Questions:
 1. Write code to remove duplicates from an unsorted linked list
 2. How you would solve (1) if a temporary buffer is not allowed?
