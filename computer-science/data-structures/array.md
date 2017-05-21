@@ -1,5 +1,13 @@
-A list is a representation of an ordered sequence of values where the same value may appear many times.
-They are great for fast access and dealing with items at the end.
+Big O efficiency:
+- Access:           array: O(1),      list: O(1)
+- Search:           array: O(n),      list: O(n)
+- Optimized Search: array: O(log n),  list: O(log n)
+- Insertion:        array: n/a        list: O(n)
+- Delete:           array: n/a        list: O(n)
+
+A list/array is a representation of an ordered sequence of values where the same value may appear many times.
+They are great for fast access and dealing with items at the end (i.e. they are bad at searching, inserting and deleting at beginning and middle).
+Usually an array is a contiguous area of memory consisting of equal-size elements indexed by contiguous integers. They have fixed size. A list (or arraylist) is called also dynamic array and when is full, it copies its content to a larger array (the new array has usually double size of the original one).
 
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
