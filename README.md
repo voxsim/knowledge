@@ -45,12 +45,16 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Iterative](./computer-science/iterative.md)
     * [Greedy](./computer-science/greedy.md)
     * [Dynamic Programming](./computer-science/dynamic-programming.md)
-  * [Object oriented basics](./programming-langagues/object-oriented-basics.md)
-  * [Functional basics](./programming-langagues/functional-basics.md)
 * Software Design
+  * [Object oriented basics](./software-design/object-oriented-basics.md)
+  * [Functional basics](./software-design/functional-basics.md)
   * [Edge cases](./software-design/edge-cases.md)
   * [Nil](./software-design/nil.md)
   * [Coupling](./software-design/coupling.md)
+  * [Cohesion](./software-design/cohesion.md)
+  * [Law of Demeter](./software-design/law-of-demeter.md)
+  * [SOLID](./software-design/solid.md)
+  * [Tell don't ask](./software-design/tell-dont-ask.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
