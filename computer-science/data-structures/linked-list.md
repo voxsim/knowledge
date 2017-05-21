@@ -150,3 +150,10 @@ Questions:
 6. You have two numbers represented by a linked list, where each node is a single digit. THe digits are stored in reverse order, such that 7 -> 1 -> 6 is 617. Write a function that adds two numbers and return the sum as linked list.
 7. Do the same of (6), but the digits are stored in forward order, e.g. 6 -> 1 -> 7 is 617.
 8. Implement a function to check if a linked list is palindrome.
+9. Write push_front(value) - adds an item to the front of the list
+10. Write pop_front() - remove front item and return its value
+11. Write push_back(value) - adds an item at the end
+12. Write pop_back() - removes end item and returns its value
+13. Write front() - get value of front item
+14. Write back() - get value of end item
+15. Write reverse() - reverses the list
