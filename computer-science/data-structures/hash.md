@@ -1,4 +1,11 @@
+Big O efficiency:
+- Access: n/a
+- Search: O(1)
+- Insert: O(1)
+- Delete: O(1)
+
 A hash table is a data structure that maps keys to values for highly efficient lookup. In a very simple implementation of a hash table, the hash table has an underlying array and a hash function. When you want to insert an object and its key, the hash function maps the key to an integer, which indicates the index in the array. The object is then stored at that index.
+A *hash collision* are when a hash function returns the same output for two distinct inputs: All hash functions have this problem and this is often accommodated for by having the hash tables be very large.
 
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
