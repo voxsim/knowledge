@@ -141,6 +141,14 @@ Designed to optimize insertion and deletion, slow at indexing and searching. Rem
 - *Doubly linked list* has nodes that reference the previous node.
 - *Circularly linked list* is simple linked list whose *tail*, the last node, references the *head*, the first node.
 
+Advantages over arrays
+1) Dynamic size
+2) Ease of insertion/deletion
+
+Drawbacks:
+1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
+2) Extra memory space for a pointer is required with each element of the list.
+
 Questions:
 1. Write code to remove duplicates from an unsorted linked list
 2. How you would solve (1) if a temporary buffer is not allowed?
@@ -157,3 +165,8 @@ Questions:
 13. Write front() - get value of front item
 14. Write back() - get value of end item
 15. Write reverse() - reverses the list
+16. http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
+17. http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/
+18. http://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/
+19. http://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
+20. http://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/
