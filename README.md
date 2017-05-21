@@ -41,6 +41,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Quick Sort](./computer-science/sort/quick-sort.md)
     * [Merge Sort](./computer-science/sort/merge-sort.md)
     * [Bubble Sort](./computer-science/sort/bubble-sort.md)
+    * [Insertion Sort](./computer-science/sort/insertion-sort.md)
     * [Radix Sort](./computer-science/sort/radix-sort.md)
   * Types of Algorithms
     * [Recursion](./computer-science/recursion.md)

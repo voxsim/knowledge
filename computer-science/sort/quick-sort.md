@@ -19,34 +19,30 @@ Merge Sort Vs. Quicksort
 - Merge Sort divides the set into the smallest possible groups immediately then reconstructs the incrementally as it sorts the groupings.
 - Quicksort continually divides the set by the average, until the set is recursively sorted.
 
-Implementation WRONG:
+Implementation:
 ```javascript
-function quicksort(array, left = 0, right = array.length) {
-  const index = partition(array, left, right);
-  if(left < index - 1) {
-    quicksort(array, left, index - 1);
+function quicksort(array) {
+  if(array.length <= 1) {
+    return array;
   }
-  if(index < right) {
-    quicksort(array, index, right);
-  }
-}
 
-function partition(array, left, right) {
-  const pivot = array[Math.ceil((left+right)/2)];
-  console.log(pivot);
-  while(left <= right) {
-    console.log('prima', left, right);
-    while(array[left] < pivot) left++;
-    while(array[right] > pivot) right++;
-    console.log('dopo', left, right);
-    if(left <= right) {
-      let swap = array[left];
-      array[left] = array[right];
-      array[right] = swap;
-      left++;
-      right--;
+  const middle = Math.ceil(array.length/2);
+  const left = [];
+  const right = [];
+  for(let i = 0; i < array.length; i++) {
+    if(i === middle) {
+      continue;
+    }
+
+    if(array[i] <= array[middle]) {
+      left.push(array[i]);
+    }
+
+    if(array[i] > array[middle]) {
+      right.push(array[i]);
     }
   }
-  return left;
+
+  return [...quicksort(left), array[middle], ...quicksort(right)];
 }
 ```
