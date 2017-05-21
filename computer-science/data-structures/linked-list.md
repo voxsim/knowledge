@@ -1,123 +1,155 @@
-A list is a representation of an ordered sequence of values where the same value may appear many times.
-They are great for fast access and dealing with items at the end.
+###**Linked List**
+####Definition: 
+- Stores data with **nodes** that point to other nodes.
+  - Nodes, at its most basic it has one datum and one reference (another node).
+  - A linked list _chains_ nodes together by pointing one node's reference towards another node.
+
+####What you need to know:
+- Designed to optimize insertion and deletion, slow at indexing and searching.
+- **Doubly linked list** has nodes that reference the previous node.
+- **Circularly linked list** is simple linked list whose **tail**, the last node, references the **head**, the first node.
+- **Stack**, commonly implemented with linked lists but can be made from arrays too.
+  - Stacks are **last in, first out** (LIFO) data structures.
+  - Made with a linked list by having the head be the only place for insertion and removal.
+- **Queues**, too can be implemented with a linked list or an array.
+  - Queues are a **first in, first out** (FIFO) data structure.
+  - Made with a doubly linked list that only removes from head and adds to tail.
+
+Big O efficiency:
+- Access: O(n)
+- Search: O(n)
+- Insert: O(1)
+- Delete: O(1)
 
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
 ```javascript
 
-class List {
+/**
+ * Next we're going to see how a graph-like structure can help optimize ordered
+ * lists of data.
+ *
+ * Linked lists are a very common data structure that is often used to
+ * implement other data structures because of its ability to efficiently add
+ * items to the start, middle, and end.
+ *
+ * The basic idea of a linked list is similar to a graph. You have nodes that
+ * point to other nodes. They look sorta like this:
+ *
+ *     1 -> 2 -> 3 -> 4 -> 5
+ *
+ * Visualizing them as a JSON-like structure looks like this:
+ *
+ *     {
+ *       value: 1,
+ *       next: {
+ *         value: 2,
+ *         next: {
+ *           value: 3,
+ *           next: {...}
+ *         }
+ *       }
+ *     }
+ */
+
+class LinkedList {
+
+  /**
+   * Unlike a graph, a linked list has a single node that starts off the entire
+   * chain. This is known as the "head" of the linked list.
+   *
+   * We're also going to track the length.
+   */
+
   constructor() {
-    this.memory = [];
+    this.head = null;
     this.length = 0;
   }
 
   /**
-   * First we need a way to retrieve data from our list.
+   * First we need a way to retrieve a value in a given position.
    *
-   * With a plain list, you have very fast memory access because you keep track
-   * of the address directly.
-   *
-   * List access is constant O(1) - "AWESOME!!"
+   * This works differently than normal lists as we can't just jump to the
+   * correct position. Instead we need to move through the individual nodes.
    */
 
-  get(address) {
-    return this.memory[address];
+  get(position) {
+    // Throw an error if position is greater than the length of the LinkedList
+    if (position >= this.length) {
+      throw new Error('Position outside of list range');
+    }
+
+    // Start with the head of the list.
+    let current = this.head;
+
+    // Slide through all of the items using node.next until we reach the
+    // specified position.
+    for (let index = 0; index < position; index++) {
+      current = current.next;
+    }
+
+    // Return the node we found.
+    return current;
   }
 
   /**
-   * Because lists have an order you can insert stuff at the start, middle,
-   * or end of them.
+   * Next we need a way to add nodes to the specified position.
    *
-   * For our implementation we're going to focus on adding and removing values
-   * at the start or end of our list with these four methods:
-   *
-   *   - Push    - Add value to the end
-   *   - Pop     - Remove value from the end
-   *   - Unshift - Add value to the start
-   *   - Shift   - Remove value from the start
+   * We're going for a generic add method that accepts a value and a position.
    */
 
-  /*
-   * Starting with "push" we need a way to add items to the end of the list.
-   *
-   * It is as simple as adding a value in the address after the end of our
-   * list. Because we store the length this is easy to calculate. We just add
-   * the value and increment our length.
-   *
-   * Pushing an item to the end of a list is constant O(1) - "AWESOME!!"
-   */
+  add(value, position) {
+    // First create a node to hold our value.
+    let node = { value, next: null };
 
-  push(value) {
-    this.memory[this.length] = value;
+    // We need to have a special case for nodes being inserted at the head.
+    // We'll set the "next" field to the current head and then replace it with
+    // our new node.
+    if (position === 0) {
+      node.next = this.head;
+      this.head = node;
+
+    // If we're adding a node in any other position we need to splice it in
+    // between the current node and the previous node.
+    } else {
+      // First, find the previous node and the current node.
+      let prev = this.get(position - 1);
+      let current = prev.next;
+      // Then insert the new node in between them by setting its "next" field
+      // to the current node and updating the previous node's "next" field to
+      // the new one.
+      node.next = current;
+      prev.next = node;
+    }
+
+    // Finally just increment the length.
     this.length++;
   }
 
   /**
-   * Next we need a way to "pop" items off of the end of our list.
-   *
-   * Similar to push all we need to do is remove the value at the address at
-   * the end of our list. Then just decrement length.
-   *
-   * Popping an item from the end of a list is constant O(1) - "AWESOME!!"
+   * The last method we need is a remove method. We're just going to look up a
+   * node by its position and splice it out of the chain.
    */
 
-  pop() {
-    if(this.length === 0) return;
+  remove(position) {
+    // We should not be able to remove from an empty list
+    if (!this.head) {
+      throw new Error('Removing from empty list')
+    }
+    // If we're removing the first node we simply need to set the head to the
+    // next node in the chain
+    if (position === 0) {
+      this.head = this.head.next;
 
+    // For any other position we need to look up the previous node and set it
+    // to the node after the current position.
+    } else {
+      let prev = this.get(position - 1);
+      prev.next = prev.next.next;
+    }
+
+    // Then we just decrement the length.
     this.length--;
-    let value = this.memory[this.length];
-    delete this.memory[this.length];
-
-    return value;
-  }
-
-  /**
-   * In order to add a new item at the beginning of our list, we need to make
-   * room for our value at the start by sliding all of the values over by one.
-   *
-   *     [a, b, c, d, e]
-   *      0  1  2  3  4
-   *       ⬊  ⬊  ⬊  ⬊  ⬊
-   *         1  2  3  4  5
-   *     [x, a, b, c, d, e]
-   *
-   * In order to slide all of the items over we need to iterate over each one
-   * moving the prev value over.
-   *
-   * Because we have to iterate over every single item in the list:
-   *
-   * Unshifting an item to the start of a list is linear O(N) - "OKAY."
-   */
-
-  unshift(value) {
-    this.memory = [value, ...this.memory];
-    this.length++;
-  }
-
-  /**
-   * Finally, we need to write a shift function to move in the opposite
-   * direction.
-   *
-   * We delete the first value and then slide through every single item in the
-   * list to move it down one address.
-   *
-   *     [x, a, b, c, d, e]
-   *         1  2  3  4  5
-   *       ⬋  ⬋  ⬋  ⬋  ⬋
-   *      0  1  2  3  4
-   *     [a, b, c, d, e]
-   *
-   * Shifting an item from the start of a list is linear O(N) - "OKAY."
-   */
-
-  shift() {
-    if(this.length === 0) return;
-
-    let value = this.memory[0];
-    [_, ...this.memory] = this.memory;
-    this.length--;
-
-    return value;
   }
 }
 ```
