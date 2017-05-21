@@ -67,20 +67,52 @@ class Queue {
 }
 ```
 
+This is an implementation with linked list.
+
+```javascript
+
+/**
+ * Next, we're going to build a queue which is complementary to stacks. The
+ * difference is that this time you remove items from the start of the queue
+ * rather than the end. Removing the oldest items rather than the most recent.
+ *
+ * Again, because this limits the amount of functionality, there are many
+ * different ways of implementing it. A good way might be to use a linked list
+ * which we will see later.
+ */
+
+class Queue {
+
+  constructor() {
+    this.head = null;
+    this.length = 0;
+  }
+
+  enqueue(value) {
+    this.length++;
+    const t = { value, next: null }
+    
+    if(this.head === null) {
+      this.head = t;
+    } else {
+      this.head.next = t;
+    }
+  }
+
+  dequeue() {
+    if (this.length === 0) return;
+
+    this.length--;
+    const t = this.head;
+    this.head = this.head.next;
+    return t;
+  }
+
+  peek() {
+    return this.head;
+  }
+}
+```
+
 Questions:
 1. What are some options for implementing a priority queue?
-- [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
