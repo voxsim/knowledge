@@ -119,5 +119,5 @@ class Queue {
 ```
 
 Questions:
-1. What are some options for implementing a priority queue?
+1. What are some options for implementing a priority queue? (http://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
 2. Implement a queue using two stacks
