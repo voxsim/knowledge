@@ -10,3 +10,14 @@ Big O efficiency:
 - Best Case Sort: Merge Sort: O(n)
 - Average Case Sort: Merge Sort: O(n^2)
 - Worst Case Sort: Merge Sort: O(n^2)
+
+```
+for (int i = 0; i < data.Length; i++)
+   for (int j = 0; j < data.Length - 1; j++)
+      if (data[j] > data[j + 1])
+      {
+         tmp = data[j];
+         data[j] = data[j + 1];
+         data[j + 1] = tmp;
+      }
+```
