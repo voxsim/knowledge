@@ -103,3 +103,9 @@ class Stack {
   }
 }
 ```
+
+Questions:
+1. Describe how you could use a single array to implement three stacks
+2. How you would design a stack which returns the minimum element? Push, pop and min should all operate in O(1) time.
+3. Towers of Hanoi with 3 stacks and move N disks
+4. Sort a stack in ascending order, using at most one other stack. The stack supports the following operations: push, pop, peek, isEmpty.
