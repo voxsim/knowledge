@@ -1,123 +1,74 @@
-A list is a representation of an ordered sequence of values where the same value may appear many times.
-They are great for fast access and dealing with items at the end.
+Big O efficiency:
+- Access: O(n)
+- Search: O(n)
+- Insert: O(1) at end
+- Delete: O(1) at end
+
 
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
 ```javascript
 
-class List {
+/**
+ * Stacks are similar to lists in that they have an order, but they limit you
+ * to only pushing and popping values at the end of the list, which as we saw
+ * before are very fast operations when mapping directly to memory.
+ *
+ * However, Stacks can also be implemented with other data structures in order
+ * to add functionality to them.
+ *
+ * The most common usage of stacks is places where you have one process adding
+ * items to the stack and another process removing them from the end–
+ * prioritizing items added most recently.
+ */
+
+class Stack {
+
+  /**
+   * We're going to again be backed by a JavaScript array, but this time it
+   * represents a list like we implemented before rather than memory.
+   */
+
   constructor() {
-    this.memory = [];
+    this.list = [];
     this.length = 0;
   }
 
   /**
-   * First we need a way to retrieve data from our list.
-   *
-   * With a plain list, you have very fast memory access because you keep track
-   * of the address directly.
-   *
-   * List access is constant O(1) - "AWESOME!!"
+   * We're going to implement two of the functions from list's "push" and "pop"
+   * which are going to be identical in terms of functionality.
    */
-
-  get(address) {
-    return this.memory[address];
-  }
 
   /**
-   * Because lists have an order you can insert stuff at the start, middle,
-   * or end of them.
-   *
-   * For our implementation we're going to focus on adding and removing values
-   * at the start or end of our list with these four methods:
-   *
-   *   - Push    - Add value to the end
-   *   - Pop     - Remove value from the end
-   *   - Unshift - Add value to the start
-   *   - Shift   - Remove value from the start
-   */
-
-  /*
-   * Starting with "push" we need a way to add items to the end of the list.
-   *
-   * It is as simple as adding a value in the address after the end of our
-   * list. Because we store the length this is easy to calculate. We just add
-   * the value and increment our length.
-   *
-   * Pushing an item to the end of a list is constant O(1) - "AWESOME!!"
+   * Push to add items to the top of the stack.
    */
 
   push(value) {
-    this.memory[this.length] = value;
     this.length++;
+    this.list.push(value);
   }
 
   /**
-   * Next we need a way to "pop" items off of the end of our list.
-   *
-   * Similar to push all we need to do is remove the value at the address at
-   * the end of our list. Then just decrement length.
-   *
-   * Popping an item from the end of a list is constant O(1) - "AWESOME!!"
+   * And pop to remove items from the top of the stack.
    */
 
   pop() {
-    if(this.length === 0) return;
+    // Don't do anything if we don't have any items.
+    if (this.length === 0) return;
 
+    // Pop the last item off the end of the list and return the value.
     this.length--;
-    let value = this.memory[this.length];
-    delete this.memory[this.length];
-
-    return value;
+    return this.list.pop();
   }
 
   /**
-   * In order to add a new item at the beginning of our list, we need to make
-   * room for our value at the start by sliding all of the values over by one.
-   *
-   *     [a, b, c, d, e]
-   *      0  1  2  3  4
-   *       ⬊  ⬊  ⬊  ⬊  ⬊
-   *         1  2  3  4  5
-   *     [x, a, b, c, d, e]
-   *
-   * In order to slide all of the items over we need to iterate over each one
-   * moving the prev value over.
-   *
-   * Because we have to iterate over every single item in the list:
-   *
-   * Unshifting an item to the start of a list is linear O(N) - "OKAY."
+   * We're also going to add a function in order to view the item at the top of
+   * the stack without removing it from the stack.
    */
 
-  unshift(value) {
-    this.memory = [value, ...this.memory];
-    this.length++;
-  }
-
-  /**
-   * Finally, we need to write a shift function to move in the opposite
-   * direction.
-   *
-   * We delete the first value and then slide through every single item in the
-   * list to move it down one address.
-   *
-   *     [x, a, b, c, d, e]
-   *         1  2  3  4  5
-   *       ⬋  ⬋  ⬋  ⬋  ⬋
-   *      0  1  2  3  4
-   *     [a, b, c, d, e]
-   *
-   * Shifting an item from the start of a list is linear O(N) - "OKAY."
-   */
-
-  shift() {
-    if(this.length === 0) return;
-
-    let value = this.memory[0];
-    [_, ...this.memory] = this.memory;
-    this.length--;
-
-    return value;
+  peek() {
+    // Return the last item in "items" without removing it.
+    return this.list[this.length - 1];
   }
 }
 ```
