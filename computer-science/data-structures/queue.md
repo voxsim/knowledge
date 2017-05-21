@@ -64,6 +64,10 @@ class Queue {
   peek() {
     return this.list[0];
   }
+  
+  isEmpty() {
+    return this.length === 0;
+  }
 }
 ```
 
