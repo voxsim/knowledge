@@ -1,20 +1,3 @@
-###**Linked List**
-####Definition: 
-- Stores data with **nodes** that point to other nodes.
-  - Nodes, at its most basic it has one datum and one reference (another node).
-  - A linked list _chains_ nodes together by pointing one node's reference towards another node.
-
-####What you need to know:
-- Designed to optimize insertion and deletion, slow at indexing and searching.
-- **Doubly linked list** has nodes that reference the previous node.
-- **Circularly linked list** is simple linked list whose **tail**, the last node, references the **head**, the first node.
-- **Stack**, commonly implemented with linked lists but can be made from arrays too.
-  - Stacks are **last in, first out** (LIFO) data structures.
-  - Made with a linked list by having the head be the only place for insertion and removal.
-- **Queues**, too can be implemented with a linked list or an array.
-  - Queues are a **first in, first out** (FIFO) data structure.
-  - Made with a doubly linked list that only removes from head and adds to tail.
-
 Big O efficiency:
 - Access: O(n)
 - Search: O(n)
@@ -153,3 +136,17 @@ class LinkedList {
   }
 }
 ```
+
+Designed to optimize insertion and deletion, slow at indexing and searching. Remember:
+- *Doubly linked list* has nodes that reference the previous node.
+- *Circularly linked list* is simple linked list whose *tail*, the last node, references the *head*, the first node.
+
+Questions:
+1. Write code to remove duplicates from an unsorted linked list
+2. How you would solve (1) if a temporary buffer is not allowed?
+3. Implement an algorithm to find kth to last element of a single linked list
+4. Implement an algorithm to delete a node in the middle of a singly linked list, given only access to that node.
+5. Write a code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x
+6. You have two numbers represented by a linked list, where each node is a single digit. THe digits are stored in reverse order, such that 7 -> 1 -> 6 is 617. Write a function that adds two numbers and return the sum as linked list.
+7. Do the same of (6), but the digits are stored in forward order, e.g. 6 -> 1 -> 7 is 617.
+8. Implement a function to check if a linked list is palindrome.
