@@ -46,3 +46,6 @@ function quicksort(array) {
   return [...quicksort(left), array[middle], ...quicksort(right)];
 }
 ```
+
+1) https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py
+2) https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c
