@@ -37,3 +37,17 @@ Operations:
 - Clear a bit i from num x => num & ~(1 << i)
 - Update a bit i from num x => (num & ~(1 << i)) | (v << i)
   Clar the bit i and after or with a number that has 0 or 1 at i-th bit
+- Counting bits set, Brian Kernighan's way
+
+```
+unsigned int v; // count the number of bits set in v
+unsigned int c; // c accumulates the total bits set in v
+for (c = 0; v; c++)
+{
+  v &= v - 1; // clear the least significant bit set
+}
+```
+- swap by XOR a and b
+  a ^= b
+  b ^= a
+  a ^= b
