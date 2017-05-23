@@ -22,7 +22,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * Java (TBD)
 * Computer science
   * [Big O Notation](./computer-science/big-o-notation.md)
-  * [Data structures](./computer-science/data-structures/README.md)
+  * Data structures
     * [Array](./computer-science/data-structures/array.md)
     * [Linked List](./computer-science/data-structures/linked-list.md)
     * [Stack](./computer-science/data-structures/stack.md)
