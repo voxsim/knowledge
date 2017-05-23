@@ -69,6 +69,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [GCD](./math/gcd.md)
   * [Base](./math/base.md)
   * [Fraction](./math/fraction.md)
+* [Probability](./probability.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
