@@ -110,3 +110,9 @@ class Graph {
  * graph of webpages connected together by links.
  */
 ```
+
+There are 4 basic ways to represent a graph in memory:
+- objects and pointers
+- adjacency matrix
+- adjacency list
+- adjacency map
