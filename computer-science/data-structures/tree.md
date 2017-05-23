@@ -369,3 +369,15 @@ Questions:
 4. Design an algorithm and write code to find the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarily a binary search tree.
 5. You are given a binary tree in which each node contains a value. Design an algorithm to print all paths which sum to a given value. The path does not need to start or end at the root or a leaf, but it must go in a straight line down.
 6. https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
+Implement:
+- [ ] insert    // insert value into tree
+- [ ] get_node_count // get count of values stored
+- [ ] print_values // prints the values in the tree, from min to max
+- [ ] delete_tree
+- [ ] is_in_tree // returns true if given value exists in the tree
+- [ ] get_height // returns the height in nodes (single node's height is 1)
+- [ ] get_min   // returns the minimum value stored in the tree
+- [ ] get_max   // returns the maximum value stored in the tree
+- [ ] is_binary_search_tree
+- [ ] delete_value
+- [ ] get_successor // returns next-highest value in tree after given value, -1 if none
