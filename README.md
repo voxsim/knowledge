@@ -64,6 +64,11 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * [Software](./testing/software.md)
   * [Function](./testing/function.md)
   * [Function - Edge cases](./testing/edge-cases.md)
+* Mathematics
+  * [Prime](./math/prime.md)
+  * [GCD](./math/gcd.md)
+  * [Base](./math/base.md)
+  * [Fraction](./math/fraction.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
