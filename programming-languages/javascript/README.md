@@ -2,9 +2,9 @@
 
 ## Statements
 - A block statement is something between { }
+- A function statement is something inside a function
 
 ## Variables
-
 We have three way of declaring variables:
 
 ```javascript
@@ -82,40 +82,7 @@ const hinames = names.map(() => `hi simon`);
 ### Default Arguments
 You can define default arguments: if you want to trigger one default argument pass `undefined`.
 
-## String
-
-### Template strings
-You can use backtick to:
-
-- stick variables inside a string. E.g.:
-
-```javascript
-const name = 'simon';
-const sentence = `hi ${name}`;
-```
-
-- to create string multiline like html fragment
-- you can tag it with a function. E.g.:
-
-```javascript
-# In this case we have:
-# strings = ['hi', '']
-# values = ['simon']
-function highlight(strings, ...values) {
-  let str = ''
-  strings.forEach((string, i) => {
-   str += `${string} <span>${values[i] || ''}</span>`;
-  });
-  return str;
-}
-
-const name = 'simon';
-const sentence = highlight`hi ${name}`;
-```
-
-The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
-
-### Destructuring
+## Destructuring
 It allows us to extract data from an object or array.
 
 ```javascript
@@ -193,17 +160,8 @@ for (const cut of cuts) {
 ```
 
 For the second case you can't use `break` or `continue`.
-For the third case you it iterates *absolutely* through the array including properties or what we add to the prototype of Array. It is useful if you want to iterate through object properties.
+For the third case it iterates *absolutely* through the array including properties or what we add to the prototype of Array. It is useful if you want to iterate through object properties.
 The fourth case works as normal `foreach`. If you want to iterate through object properties you should use `Object.keys` or `entries`.
-
-## Array
-
-*Array.from*
-*Array.of*
-*Array.find*
-*Array.findIndex*
-*Array.some*
-*Array.every*
 
 ## Operators
 
@@ -276,7 +234,6 @@ var p = timeout(1000).then(() => {
 ```
 
 ### Quick Promise
-Need a quick always resolved promise?
 
 ```javascript
 
@@ -312,37 +269,69 @@ Promise.all([p1, p2]).then((res) => {
 })
 ```
 
-### Primitive types
-There are seven primitive types: Number, String, Object, Boolean, null, undefined, Symbol
+## Primitive types
+There are seven primitive types: null, undefined, Number, String, Object, Boolean, Symbol.
 
-Numbers, String, Boolean are immutable object
+### undefined
+- a value that isn't even that
+- the default value for variables and parameters
+- the value of missing members in objects
 
 ### Number
+- Immutable
 - 64 bit floating point
 - IEEE-754 (aka "Double")
 - Associative law does not hold: (a + b) + c === a + (b + c).
 Produce false for some values of a, b, c, e.g. decimal fractions, big integers
-- They are first class objects:
-  - A number can be stored in a variable
-  - A number can be passed as a parameter
-  - A number can be returned from a function
-  - A number can be stored in a object
 
-### NaN
+#### NaN
 - Special number: Not a Number
 - It is result of undefined or erronous operations
 - Toxic: any operations with NaN as an input will have NaN as output
 - NaN is not equal to anything, including NaN itself
-
-### Boolean
-- true, false
-
+  
 ### String
+- Immutable
 - A sequence of 0 or more 16-bit Unicode characters
 - No separate type for character type (they are just string with length 1)
 - Strings are immutable
 - Similar string are equal (===)
 - String literals can use single/double quotes with \ for escapment
+
+Template strings
+You can use backtick to:
+
+- stick variables inside a string. E.g.:
+
+```javascript
+const name = 'simon';
+const sentence = `hi ${name}`;
+```
+
+- to create string multiline like html fragment
+- you can tag it with a function. E.g.:
+
+```javascript
+# In this case we have:
+# strings = ['hi', '']
+# values = ['simon']
+function highlight(strings, ...values) {
+  let str = ''
+  strings.forEach((string, i) => {
+   str += `${string} <span>${values[i] || ''}</span>`;
+  });
+  return str;
+}
+
+const name = 'simon';
+const sentence = highlight`hi ${name}`;
+```
+
+The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
+
+### Boolean
+- Immutable
+- true, false
 
 ### Array
 - Array inherits from Object
@@ -402,15 +391,6 @@ function new(func, arguments) {
   return (typeof result === 'object' && result) || that;
 }
 ```
-
-Keys must be string
-
-null and undefined are not ojects.
-
-### undefined
-a value that isn't even that
-the default value for variables and parameters
-the value of missing members in objects
 
 ### typeof
 object -> 'object'
