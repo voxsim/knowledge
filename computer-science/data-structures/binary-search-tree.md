@@ -1,3 +1,9 @@
+Big O efficiency:
+- Access: O(log(n))
+- Search: O(log(n))
+- Insertion: O(log(n))
+- Delete: O(log(n))
+
 Binary search tree imposes the condition that, for all nodes, the left children are less than or equal to the current node, which is less then all the right nodes.
 Binary search trees are a fairly common form of tree for their ability to
 efficiently access, search, insert, and delete values all while keeping them
