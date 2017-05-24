@@ -157,3 +157,6 @@ class BinarySearchTree {
   }
 }
 ```
+
+1. If we want to balance a tree? I.e. each subtree of each node don't differ more than a certain amount.
+2. Skiena: Stop and Think: Exploiting Balanced Search Trees
