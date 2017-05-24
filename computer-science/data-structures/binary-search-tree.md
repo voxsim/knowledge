@@ -54,8 +54,6 @@ Implementation in javascript inspired by [itsy-bitsy-data-structures](https://gi
 
 ```javascript
 
-/**
-
 class BinarySearchTree {
 
   constructor() {
