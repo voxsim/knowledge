@@ -1,8 +1,194 @@
 # Javascript
 
+## Identifiers
+- Starts with a letter or _ or $
+- Followed by zero or more letters, digits, _ or $
+- By convention all variables starts with lowercase letter
+- Constructor functions start with uppercase letter
+- Initial _ should be reserved for implementation
+- $ should be reserved for machines
+
 ## Statements
 - A block statement is something between { }
 - A function statement is something inside a function
+
+## this
+The this parameter contains a reference to the object of invocation.
+this allows a method to know what object it is concerned with.
+this allows a single function object to service many functions.
+this is key to prototypal inheritance.
+
+## Primitive types
+There are seven primitive types: null, undefined, Number, String, Object, Boolean, Symbol.
+
+### undefined
+- a value that isn't even that
+- the default value for variables and parameters
+- the value of missing members in objects
+
+### Number
+- Immutable
+- 64 bit floating point
+- IEEE-754 (aka "Double")
+- Associative law does not hold: (a + b) + c === a + (b + c).
+Produce false for some values of a, b, c, e.g. decimal fractions, big integers
+
+#### NaN
+- Special number: Not a Number
+- It is result of undefined or erronous operations
+- Toxic: any operations with NaN as an input will have NaN as output
+- NaN is not equal to anything, including NaN itself
+
+### String
+- Immutable
+- A sequence of 0 or more 16-bit Unicode characters
+- No separate type for character type (they are just string with length 1)
+- Strings are immutable
+- Similar string are equal (===)
+- String literals can use single/double quotes with \ for escapment
+
+Template strings
+You can use backtick to:
+
+- stick variables inside a string. E.g.:
+
+```javascript
+const name = 'simon';
+const sentence = `hi ${name}`;
+```
+
+- to create string multiline like html fragment
+- you can tag it with a function. E.g.:
+
+```javascript
+# In this case we have:
+# strings = ['hi', '']
+# values = ['simon']
+function highlight(strings, ...values) {
+  let str = ''
+  strings.forEach((string, i) => {
+   str += `${string} <span>${values[i] || ''}</span>`;
+  });
+  return str;
+}
+
+const name = 'simon';
+const sentence = highlight`hi ${name}`;
+```
+
+The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
+
+### Boolean
+- Immutable
+- true, false
+
+### Array
+- Array inherits from Object
+- Indexes are converted to strings and used as names for retrieving values
+- Very efficient for sparse array
+- Not very efficient in most of other cases
+- One advantage: No need to provide a length or type when creating an array
+- [] literal version of Array
+- It can contain any number of expressions separated by commas
+- New items can be appendend
+- The dot notation should be not used by arrays
+
+sort myArray:
+-> it sorts alphabetically (everything number too, but we can pass a function in sort)
+
+delete myArray[1];
+-> it puts undefined in number 1 index;
+-> we need to use splice to delete the element and resize the array
+
+## Object
+
+### Object literal
+An expressive notation to define object
+
+### Get, set and delete
+- get
+  object.name
+  object[expression]
+
+- set
+  object.name = value
+  object[expression] = value
+
+- delete
+  delete object.name
+  delete object[expression]
+
+### Properties
+A property is a named collection of attribute
+- value -> any Javascript value
+- writeble -> boolean
+- enumerable -> boolean
+- configurable -> boolean
+- get -> function() { ... return value }
+- set -> function(value) { ... }
+
+### Working with prototypes
+- Make an object that you like
+- Create new instances that inherit from that object
+- Customize new objects
+- Taxonomy and classification are not necessary
+- Object can have prototype attribute (object or null)
+
+### New operator
+```javascript
+function new(func, arguments) {
+  var that = Object.creatre(func.prototype),
+      result = func.apply(that, arguments);
+  return (typeof result === 'object' && result) || that;
+}
+```
+
+### Reference
+Objects can be passed as arguments to functions, and can be returned by functions
+- Objects are passed by references
+- Objects are not passed by value
+The === operator compares object references, not values (true if only it is the same object)
+Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
+
+### Enhanced Object Literals
+Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
+
+```JavaScript
+var obj = {
+    // __proto__
+    __proto__: theProtoObj,
+    // Shorthand for ‘handler: handler’
+    handler,
+    // Methods
+    toString() {
+     // Super calls
+     return "d " + super.toString();
+    },
+    // Computed (dynamic) property names
+    [ 'prop_' + (() => 42)() ]: 42
+};
+```
+
+## typeof
+object -> 'object'
+function -> 'function'
+array -> 'object' ???
+number -> 'number'
+string -> 'string'
+boolean -> 'boolean'
+null -> 'object' ???
+undefined -> 'undefined'
+
+## Falsy values
+- false
+- null
+- undefined
+- ""
+- 0
+- NaN
+-> all other values (including objects) are thruthy, e.g. "0", "false"
+
+Thruthy means that if you put in if statemnt it will go in the then branch, otherwise falsy means that it will go in the else branch
 
 ## Variables
 We have three way of declaring variables:
@@ -20,6 +206,21 @@ The `var` keyword is the oldest one and:
 - if you define a var inside an if statement thinking it will work as temporary variable, it will not, because is function scope and if you define the if in global scope, the variable it will leaked outside
 - One way to not leaked out the variables is something called Immediately-Invoked Function Expression.
 - If you use the variable before its definition you will get `undefined`
+- the statement gets split into two parts:
+  - the declaration part gets hoisted to the top of the function, initializing with undefined
+  - the initialization part turns into an ordinary assignment
+
+```javascript
+var myvar = 0;
+```
+
+became
+
+```javascript
+var myvar = undefined;
+
+myvar = 0;
+```
 
 the `let` keyword:
 - it is block scoped
@@ -45,6 +246,82 @@ The `const` keyword:
 - If you use the variable before its definition you will get a not defined error. This is called temporal dead zone.
 
 ## Functions
+- if a function is called with too many arguments, the extra args are ignored
+- if a function is called with few parameters, the remains will be setted to undefined
+- no type checking on parameters
+
+### Invocation
+Four ways to call a function:
+- Function form
+  - functionObject(arguments)
+- Method form
+  - thisObject.methodName(arguments)
+  - thisObject[methodName](arguments)
+- Constructor form
+  - new FunctionObject(arguments)
+  - when a function is called with the new operator, a new object is created and assigned to this
+  - if there is not an explicit return then this will be returned
+- Apply form
+  - function.apply(thisObject, [arguments])
+
+They all attach this into function (or object) and the difference is in the function invocation (see below).
+
+call attaches this into function and executes the function immediately:
+```javascript
+var person = {
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+person.hello.call(person, "world"); // output: "James Smith says hello world"
+```
+
+bind attaches this into function and it needs to be invoked separately like this:
+```javascript
+var person = {
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+var helloFunc = person.hello.bind(person);
+helloFunc("world");  // output: "James Smith says hello world"
+```
+
+apply is similar to call except that it takes an array-like object instead of a list the arguments.
+
+### Function expression
+- Produce an instance of a function object
+- Function object are first class object
+- Function objects inherit from Function.prototype
+
+### Function statement
+- the function statement is just a short-hand for a var statement with a function value
+
+```javascript
+function foo() {}
+```
+
+expands to
+
+```javascript
+var foo = function foo() {}
+```
+
+expands to
+
+```javascript
+var foo = undefined;
+foo = function foo() {}
+```
+
+function statement is when function word is defined otherwise is a function expression (e.g. inside another function)
+For return statement if there is no expression, then the return value is undefined.
+Excpet for constructors, whose default return value is this.
+It has a special parameter called arguments, it is array-like object. Treat as read-only structure.
 
 ### Arrow functions
 Benefits:
@@ -195,24 +472,6 @@ function demo(part1, ...part2) {
 console.log(demo(1,2,3,4,5,6))
 ```
 
-## Enhanced Object Literals
-Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
-
-```JavaScript
-var obj = {
-    // __proto__
-    __proto__: theProtoObj,
-    // Shorthand for ‘handler: handler’
-    handler,
-    // Methods
-    toString() {
-     // Super calls
-     return "d " + super.toString();
-    },
-    // Computed (dynamic) property names
-    [ 'prop_' + (() => 42)() ]: 42
-};
-```
 
 ## Promises
 Promises are a library for asynchronous programming. Promises are a first class representation of a value that may be made available in the future. Promises are used in many existing JavaScript libraries.
@@ -267,339 +526,4 @@ Promise.all([p1, p2]).then((res) => {
 }, res => {
    console.log("error " + res)
 })
-```
-
-## Primitive types
-There are seven primitive types: null, undefined, Number, String, Object, Boolean, Symbol.
-
-### undefined
-- a value that isn't even that
-- the default value for variables and parameters
-- the value of missing members in objects
-
-### Number
-- Immutable
-- 64 bit floating point
-- IEEE-754 (aka "Double")
-- Associative law does not hold: (a + b) + c === a + (b + c).
-Produce false for some values of a, b, c, e.g. decimal fractions, big integers
-
-#### NaN
-- Special number: Not a Number
-- It is result of undefined or erronous operations
-- Toxic: any operations with NaN as an input will have NaN as output
-- NaN is not equal to anything, including NaN itself
-  
-### String
-- Immutable
-- A sequence of 0 or more 16-bit Unicode characters
-- No separate type for character type (they are just string with length 1)
-- Strings are immutable
-- Similar string are equal (===)
-- String literals can use single/double quotes with \ for escapment
-
-Template strings
-You can use backtick to:
-
-- stick variables inside a string. E.g.:
-
-```javascript
-const name = 'simon';
-const sentence = `hi ${name}`;
-```
-
-- to create string multiline like html fragment
-- you can tag it with a function. E.g.:
-
-```javascript
-# In this case we have:
-# strings = ['hi', '']
-# values = ['simon']
-function highlight(strings, ...values) {
-  let str = ''
-  strings.forEach((string, i) => {
-   str += `${string} <span>${values[i] || ''}</span>`;
-  });
-  return str;
-}
-
-const name = 'simon';
-const sentence = highlight`hi ${name}`;
-```
-
-The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
-
-### Boolean
-- Immutable
-- true, false
-
-### Array
-- Array inherits from Object
-- Indexes are converted to strings and used as names for retrieving values
-- Very efficient for sparse array
-- Not very efficient in most of other cases
-- One advantage: No need to provide a length or type when creating an array
-- [] literal version of Array
-- It can contain any number of expressions separated by commas
-- New items can be appendend
-- The dot notation should be not used by arrays
-
-sort myArray:
--> it sorts alphabetically (everything number too, but we can pass a function in sort)
-
-delete myArray[1];
--> it puts undefined in number 1 index;
--> we need to use splice to delete the element and resize the array
-
-### Get, set and delete
-- get
-  object.name
-  object[expression]
-
-- set
-  object.name = value
-  object[expression] = value
-
-- delete
-  delete object.name
-  delete object[expression]
-
-### Properties
-A property is a named collection of attribute
-- value -> any Javascript value
-- writeble -> boolean
-- enumerable -> boolean
-- configurable -> boolean
-- get -> function() { ... return value }
-- set -> function(value) { ... }
-
-### Object literal
-An expressive notation to define object
-
-### Working with prototypes
-- Make an object that you like
-- Create new instances that inherit from that object
-- Customize new objects
-- Taxonomy and classification are not necessary
-- Object can have prototype attribute (object or null)
-
-### New operator
-```javascript
-function new(func, arguments) {
-  var that = Object.creatre(func.prototype),
-      result = func.apply(that, arguments);
-  return (typeof result === 'object' && result) || that;
-}
-```
-
-### typeof
-object -> 'object'
-function -> 'function'
-array -> 'object' ???
-number -> 'number'
-string -> 'string'
-boolean -> 'boolean'
-null -> 'object' ???
-undefined -> 'undefined'
-
-### Falsy values
-- false
-- null
-- undefined
-- ""
-- 0
-- NaN
--> all other values (including objects) are thruthy, e.g. "0", "false"
-
-Thruthy means that if you put in if statemnt it will go in the then branch, otherwise falsy means that it will go in the else branch
-
-### Reference
-Objects can be passed as arguments to functions, and can be returned by functions
-- Objects are passed by references
-- Objects are not passed by value
-The === operator compares object references, not values (true if only it is the same object)
-Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
-
-### Identifiers
-- Starts with a letter or _ or $
-- Followed by zero or more letters, digits, _ or $
-- By convention all variables starts with lowercase letter
-- Constructor functions start with uppercase letter
-- Initial _ should be reserved for implementation
-- $ should be reserved for machines
-
-### With statement
-```javascript
-with(o) {
-  foo = koda;
-}
-```
-
-it can do any of them
-- o.foo = koda;
-- o.foo = o.koda;
-- foo = koda;
-- foo = o.koda;
-
-- Ambiguous and error-prone: Don't use it
-
-### Functions
-- word function
-- optional name
-- parameters
-  - wrapped in parens
-  - Zero or more parameters
-  - Separeted by comma
-- body
-  - wrapped in curly braces
-  - Zero or more statements
-
-### function expression
-- Produce an instance of a function object
-- Function object are first class
-  - May be passed as an argument to a function
-  - May be returned from a function
-  - May assigned to a variable
-  - May be stored in an object or array
-- Function objects inherit from Function.prototype
-
-### var statement
-- declare and initializes variables within a function
-- types are not specified
-- a variable declared anywhere within a function is visible everywhere within the function
-- the statement gets split into two parts:
-  - the declaration part gets hoisted to the top of the function, initializing with undefined
-  - the initialization part turns into an ordinary assignment
-
-```javascript
-var myvar = 0;
-```
-
-became
-
-```javascript
-var myvar = undefined;
-
-myvar = 0;
-```
-
-### function statement
-- the function statement is just a short-hand for a var statement with a function value
-
-```javascript
-function foo() {}
-```
-
-expands to
-
-```javascript
-var foo = function foo() {}
-```
-
-expands to
-
-```javascript
-var foo = undefined;
-foo = function foo() {}
-```
-
-function statement is when function word is defined otherwise is a function expression (e.g. inside another function)
-Only function has scope until es5.
-For return statement if there is no expression, then the return value is undefined.
-Excpet for constructors, whose default return value is this.
-It has a special parameter called arguments, it is array-like object. Treat as read-only structure.
-
-#### this
-The this parameter contains a reference to the object of invocation.
-this allows a method to know what object it is concerned with.
-this allows a single function object to service many functions.
-this is key to prototypal inheritance.
-
-if a function is called with too many arguments, the extra args are ignored
-if a function is called with few parameters, the remains will be setted to undefined
-no type checking on parameters
-
-### Invocation
-four ways to call a function:
-- Function form
-  - functionObject(arguments)
-- Method form
-  - thisObject.methodName(arguments)
-  - thisObject[methodName](arguments)
-- Constructor form
-  - new FunctionObject(arguments)
-  - when a function is called with the new operator, a new object is created and assigned to this
-  - if there is not an explicit return then this will be returned
-- Apply form
-  - function.apply(thisObject, [arguments])
-
-They all attach this into function (or object) and the difference is in the function invocation (see below).
-
-call attaches this into function and executes the function immediately:
-```javascript
-var person = {
-  name: "James Smith",
-  hello: function(thing) {
-    console.log(this.name + " says hello " + thing);
-  }
-}
-
-person.hello.call(person, "world"); // output: "James Smith says hello world"
-```
-
-bind attaches this into function and it needs to be invoked separately like this:
-```javascript
-var person = {  
-  name: "James Smith",
-  hello: function(thing) {
-    console.log(this.name + " says hello " + thing);
-  }
-}
-
-var helloFunc = person.hello.bind(person);
-helloFunc("world");  // output: "James Smith says hello world"
-```
-
-apply is similar to call except that it takes an array-like object instead of a list the arguments.
-
-### CSS
-- Unhealthy separation of structure and presentation
-- long fagile list of self-contradictory fules
-- eah rule has two parts: selector and declaration
-- difficult to understand. Difficult to use.
-
-Five problems:
-- Lack of modularity
-- Selector management is complicated
-- Declaration are too weak for modern web app
-- Not intenden for dynamic content
-- It is unimplementable. It's all about the quirks.
-
-Document Object Model
-- The "DOM"
-- the browser's API
-- document is the page
-- document.body, document.head, document.documentElement is <html>
-- each node has firstChild, lastChild, children
-- each node has parent node
-- each node has sibilings (nextSibiling, prevSibiling)
-- each node has className, style
-- each node has appendChild(new), insertBefore(new, sibiling), replaceChild(new, old), removeChild(old)
-- When use removeChild be sure to remove any event handler
-- Event Handles
-  node.addEventListener(type, f, false);
-
-CSS use hyphens, Javascript is camelCase
-
-Bubbling: means that the event is given to the target, and then its parent, and then its paretnt, and so on until the event is canceled. To cancel propagation call `stopPropagation()`. To prevent default action (e.g. submiting a form) call `preventDefault()`.
-
-```javascript
-function walkTheDOM(node, func) {
-  func(node);
-  node = node.firstChild;
-  while(node) {
-    walkTheDOM(node, func);
-    node = node.nextSibiling;
-  }
-}
 ```
