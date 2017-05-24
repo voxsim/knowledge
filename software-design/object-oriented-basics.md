@@ -1,3 +1,9 @@
+They are first class objects:
+- A number can be stored in a variable
+- A number can be passed as a parameter
+- A number can be returned from a function
+- A number can be stored in a object
+
 TBD
 
 class, object (and the difference between the two)
