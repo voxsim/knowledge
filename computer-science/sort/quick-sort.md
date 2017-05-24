@@ -1,3 +1,9 @@
+Big O efficiency:
+- Best Case Sort: Merge Sort: O(n)
+- Average Case Sort: Merge Sort: O(n log n)
+- Worst Case Sort: Merge Sort: O(n^2)
+- Memory: O(n)
+
 A comparison based sorting algorithm
 - Divides entire dataset in half by selecting the average element and putting all smaller elements to the left of the average.
 - It repeats this process on the left side until it is comparing only two elements at which point the left side is sorted.
@@ -8,12 +14,6 @@ What you need to know:
 - While it has the same Big O as (or worse in some cases) many other sorting algorithms it is often faster in practice than many other sorting algorithms, such as merge sort.
 - Know that it halves the data set by the average continuously until all the information is sorted.
 
-Big O efficiency:
-- Best Case Sort: Merge Sort: O(n)
-- Average Case Sort: Merge Sort: O(n log n)
-- Worst Case Sort: Merge Sort: O(n^2)
-- Memory: O(n)
-
 Merge Sort Vs. Quicksort
 - Quicksort is likely faster in practice.
 - Merge Sort divides the set into the smallest possible groups immediately then reconstructs the incrementally as it sorts the groupings.
@@ -21,31 +21,33 @@ Merge Sort Vs. Quicksort
 
 Implementation:
 ```javascript
+
+function random(a, b) {
+  return Math.floor(Math.random()*(b-a))+a
+}
+
 function quicksort(array) {
   if(array.length <= 1) {
     return array;
   }
 
-  const middle = Math.ceil(array.length/2);
+  const pivot = random(0, array.length-1);
   const left = [];
   const right = [];
   for(let i = 0; i < array.length; i++) {
-    if(i === middle) {
+    if(i === pivot) {
       continue;
     }
 
-    if(array[i] <= array[middle]) {
+    if(array[i] <= array[pivot]) {
       left.push(array[i]);
     }
 
-    if(array[i] > array[middle]) {
+    if(array[i] > array[pivot]) {
       right.push(array[i]);
     }
   }
 
-  return [...quicksort(left), array[middle], ...quicksort(right)];
+  return [...quicksort(left), array[pivot], ...quicksort(right)];
 }
 ```
-
-1) https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py
-2) https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c
