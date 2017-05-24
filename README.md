@@ -27,6 +27,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Linked List](./computer-science/data-structures/linked-list.md)
     * [Stack](./computer-science/data-structures/stack.md)
     * [Queue](./computer-science/data-structures/queue.md)
+    * [Priority Queue](./computer-science/data-structures/priority-queue.md)
     * [Hash Table or Map](./computer-science/data-structures/hash.md)
     * [Tree](./computer-science/data-structures/tree.md)
     * [Graph](./computer-science/data-structures/graph.md)
