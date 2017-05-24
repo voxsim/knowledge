@@ -30,6 +30,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Priority Queue](./computer-science/data-structures/priority-queue.md)
     * [Hash Table or Map](./computer-science/data-structures/hash.md)
     * [Tree](./computer-science/data-structures/tree.md)
+    * [Binary Search Tree](./computer-science/data-structures/binary-search-tree.md)
     * [Graph](./computer-science/data-structures/graph.md)
     * Heap ?
   * Search basics

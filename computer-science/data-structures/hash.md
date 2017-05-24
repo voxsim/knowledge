@@ -2,10 +2,10 @@ Big O efficiency:
 
 Operation | Average | Worst 
 -------|---------|-------
-Access | n/a     | n/a    
-Search | O(1)    | O(1)  
-Insert | O(1)    | O(n)  
-Delete | O(1)    | O(n)  
+Access | n/a     | n/a
+Search | O(1)    | O(1)
+Insert | O(1)    | O(n)
+Delete | O(1)    | O(n)
 
 A hash table is a data structure that maps keys to values for highly efficient lookup. In a very simple implementation of a hash table, the hash table has an underlying array and a hash function. When you want to insert an object and its key, the hash function maps the key to an integer, which indicates the index in the array. The object is then stored at that index.
 Usually hash function generates values are almost unique, but sometimes collisions may happen.

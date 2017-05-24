@@ -106,7 +106,7 @@ class Queue {
   enqueue(value) {
     this.length++;
     const t = { value, next: null }
-    
+
     if(this.head === null) {
       this.head = t;
       this.last = this.head;
