@@ -53,7 +53,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
     * [Iterative](./computer-science/algo/iterative.md)
     * [Greedy](./computer-science/algo/greedy.md)
     * [Dynamic Programming](./computer-science/algo/dynamic-programming.md)
-  * [Big Manipulation](./computer-science/bit-manipulation.md)
+  * [Bit Manipulation](./computer-science/bit-manipulation.md)
 * Software Design
   * [Object oriented basics](./software-design/object-oriented-basics.md)
   * [Functional basics](./software-design/functional-basics.md)
