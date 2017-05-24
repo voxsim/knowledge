@@ -5,9 +5,10 @@ Big O efficiency:
 - Insertion:        array: n/a        list: O(n)
 - Delete:           array: n/a        list: O(n)
 
-A list/array is a representation of an ordered sequence of values where the same value may appear many times.
+A list/array is a representation of a sequence of values where the same value may appear many times.
 They are great for fast access and dealing with items at the end (i.e. they are bad at searching, inserting and deleting at beginning and middle).
 Usually an array is a contiguous area of memory consisting of equal-size elements indexed by contiguous integers. They have fixed size. A list (or arraylist) is called also dynamic array and when is full, it copies its content to a larger array: the new array has usually double size of the original one, the time of doubling is O(n) but it is rarely so the amortized time is still O(1).
+Other advantages of arrays are space efficiency and memory locality.
 
 Implementation in javascript inspired by [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures).
 
@@ -129,10 +130,6 @@ class List {
   }
 }
 ```
-
-From Topcoder:
-Arrays are a very simple data structure, and may be thought of as a list of a fixed length. Arrays are nice because of their simplicity, and are well suited for situations where the number of data items is known (or can be programmatically determined). Suppose you need a piece of code to calculate the average of several numbers. An array is a perfect data structure to hold the individual values, since they have no specific order, and the required computations do not require any special handling other than to iterate through all of the values. The other big strength of arrays is that they can be accessed randomly, by index. For instance, if you have an array containing a list of names of students seated in a classroom, where each seat is numbered 1 through n, then studentName[i] is a trivial way to read or store the name of the student in seat i. 
-An array might also be thought of as a pre-bound pad of paper. It has a fixed number of pages, each page holds information, and is in a predefined location that never changes.
 
 Questions:
 1. Implement an algorithm to detemirmine if a string has all unique characters. What if you cannot use additional data structures?
