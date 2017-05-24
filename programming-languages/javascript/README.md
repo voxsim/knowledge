@@ -8,6 +8,12 @@
 - Initial _ should be reserved for implementation
 - $ should be reserved for machines
 
+## Scoping
+In JavaScript, functions are our de facto scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+
+## Hoisting
+On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
+
 ## Statements
 - A block statement is something between { }
 - A function statement is something inside a function
@@ -297,6 +303,7 @@ apply is similar to call except that it takes an array-like object instead of a 
 - Produce an instance of a function object
 - Function object are first class object
 - Function objects inherit from Function.prototype
+- Also called closures
 
 ### Function statement
 - the function statement is just a short-hand for a var statement with a function value
@@ -527,3 +534,9 @@ Promise.all([p1, p2]).then((res) => {
    console.log("error " + res)
 })
 ```
+
+## Strict mode
+ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+
+## Immediately-invoked function expression (IIFE)
+An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.
