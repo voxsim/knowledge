@@ -20,6 +20,26 @@ Merge Sort Vs. Quicksort
 
 Implementation:
 ```
+function merge(left, right) {
+  let result = [];
+  for(let l=0, r=0; l < left.length || r < right.length;) {
+    if(l === left.length) {
+      result.push(right[r]);
+      r++;
+    } else if(r === right.length) {
+      result.push(left[l]);
+      l++;
+    } else if(left[l] < right[r]) {
+      result.push(left[l]);
+      l++;
+    } else {
+      result.push(right[r]);
+      r++;
+    }
+  }
+  return result;
+}
+
 function mergesort(array) {
   if(array.length <= 1) {
     return array;
@@ -27,26 +47,7 @@ function mergesort(array) {
   const middle = Math.ceil(array.length / 2);
   const left = mergesort(array.slice(0, middle));
   const right = mergesort(array.slice(middle));
-  const result = [];
-  console.log(left, right);
-  let l = 0;
-  let r = 0;
-  for(let d = 0; d < array.length; d++) {
-    if(l === left.length) {
-      result[d] = right[r];
-      r++;
-    } else if(r === right.length) {
-      result[d] = left[l];
-      l++;
-    } else if(left[l] < right[r]) {
-      result[d] = left[l];
-      l++;
-    } else {
-      result[d] = right[r];
-      r++;
-    }
-  }
-  return result;
+  return merge(left, right);
 }
 ```
 
