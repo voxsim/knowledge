@@ -88,8 +88,14 @@ Instead of making an extremely large array for storing objects at index `hash(ke
 
 Alternatively, we can implement the hash table with a binary search tree. We can then guarantee an O(log n) lookup time, since we keep the tree balanced. Aditionally we may use less space, since a large array no longer needs to be allocated in the very beginning.
 
+Hash function
+We can write:
+- `((hash << 5) - hash) + code`
+- `((hash * 32) - hash) + code`
+- `hash * (1 * 32 - 1) + code`
+- `hash * 31 + code`
+
+The value 31 was chosen because it is an odd prime. If it were even and the multiplication overflowed, information would be lost, as multiplication by 2 is equivalent to shifting. The advantage of using a prime is less clear, but it is traditional. A nice property of 31 is that the multiplication can be replaced by a shift and a subtraction for better performance: 31 * i == (i << 5) - i. Modern VMs do this sort of optimization automatically.
+
 Questions:
-1. Implement and explain how an hash function
-2. Why the worst case for insert/delete is O(n) for an hash table?
-3. What are and why the worst operations for an hash table
-4. Can you implement a Map with a tree? What about with a list?
+1. Can you implement a Map with a tree? What about with a list?
