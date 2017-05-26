@@ -18,12 +18,6 @@ On runtime, all var and function declarations are moved to the beginning of each
 - A block statement is something between { }
 - A function statement is something inside a function
 
-## this
-The this parameter contains a reference to the object of invocation.
-this allows a method to know what object it is concerned with.
-this allows a single function object to service many functions.
-this is key to prototypal inheritance.
-
 ## Primitive types
 There are seven primitive types: null, undefined, Number, String, Object, Boolean, Symbol.
 
@@ -540,3 +534,84 @@ ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScr
 
 ## Immediately-invoked function expression (IIFE)
 An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.
+
+
+## this
+- The this parameter contains a reference to the object of invocation.
+- this allows a method to know what object it is concerned with.
+- this allows a single function object to service many functions.
+- this is key to prototypal inheritance.
+The this variable is attached to functions. Whenever you invoke a function, this is given a certain value, depending on how you invoke the function. This is often called the invocation pattern.
+
+There are four ways to invoke functions in javascript. You can invoke the function as a method, as a function, as a constructor, and with apply.
+
+As a Method
+
+A method is a function that's attached to an object
+
+```javascript
+var foo = {};
+foo.someMethod = function(){
+    alert(this);
+}
+```
+
+When invoked as a method, this will be bound to the object the function/method is a part of. In this example, this will be bound to foo.
+
+As A Function
+
+If you have a stand alone function, the this variable will be bound to the "global" object, almost always the window object in the context of a browser.
+
+```javascript
+ var foo = function(){
+    alert(this);
+ }
+ foo();
+```
+ 
+This may be what's tripping you up, but don't feel bad. Many people consider this a bad design decision. Since a callback is invoked as a function and not as a method, that's why you're seeing what appears to be inconsistent behavior.
+
+Many people get around the problem by doing something like, um, this
+
+```javascript
+var foo = {};
+foo.someMethod = function (){
+    var that=this;
+    function bar(){
+        alert(that);
+    }
+}
+```
+
+You define a variable that which points to this. Closure (a topic all it's own) keeps that around, so if you call bar as a callback, it still has a reference.
+
+As a Constructor
+
+You can also invoke a function as a constructor. Based on the naming convention you're using (TestObject) this also may be what you're doing and is what's tripping you up.
+
+You invoke a function as a Constructor with the new keyword.
+
+```javascript
+function Foo(){
+    this.confusing = 'hell yeah';
+}
+var myObject = new Foo();
+```
+
+When invoked as a constructor, a new Object will be created, and this will be bound to that object. Again, if you have inner functions and they're used as callbacks, you'll be invoking them as functions, and this will be bound to the global object. Use that var that = this trick/pattern.
+
+Some people think the constructor/new keyword was a bone thrown to Java/traditional OOP programmers as a way to create something similar to classes.
+
+With the Apply Method.
+
+Finally, every function has a method (yes, functions are objects in Javascript) named "apply". Apply lets you determine what the value of this will be, and also lets you pass in an array of arguments. Here's a useless example.
+
+```javascript
+function foo(a,b){
+    alert(a);
+    alert(b);
+    alert(this);
+}
+var args = ['ah','be'];
+foo.apply('omg',args);
+```
