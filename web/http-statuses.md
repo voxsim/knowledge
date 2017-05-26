@@ -70,3 +70,5 @@
 - 510 Not Extended
 - 511 Network Authentication Required
 - 599 Network Connect Timeout Error
+
+For more info: https://httpstatuses.com/
