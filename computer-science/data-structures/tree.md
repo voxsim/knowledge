@@ -141,3 +141,33 @@ Implement:
 - [ ] is_binary_search_tree
 - [ ] delete_value
 - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+
+From GeeksforGeeks:
+Binary Tree
+
+Unlike Arrays, Linked Lists, Stack and queues, which are linear data structures, trees are hierarchical data structures.
+A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. It is implemented mainly using Links.
+Binary Tree Representation: A tree is represented by a pointer to the topmost node in tree. If the tree is empty, then value of root is NULL. A Binary Tree node contains following parts.
+1. Data
+2. Pointer to left child
+3. Pointer to right child
+
+A Binary Tree can be traversed in two ways:
+Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postoder (Left-Right-Root)
+Breadth First Traversal: Level Order Traversal
+
+Binary Tree Properties:
+
+The maximum number of nodes at level ‘l’ = 2l-1.
+
+Maximum number of nodes = 2h – 1.
+Here h is height of a tree. Height is considered 
+as is maximum number of nodes on root to leaf path
+
+Minimum possible height =  ceil(Log2(n+1))   
+
+In Binary tree, number of leaf nodes is always one 
+more than nodes with two children.
+
+Time Complexity of Tree Traversal: O(n)
+Examples : One reason to use binary tree or tree in general is for the things that form a hierarchy. They are useful in File structures where each file is located in a particular directory and there is a specific hierarchy associated with files and directories. Another example where Trees are useful is storing heirarchical objects like JavaScript Document Object Model considers HTML page as a tree with nesting of tags as parent child relations.
