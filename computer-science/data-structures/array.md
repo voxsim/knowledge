@@ -130,10 +130,3 @@ class List {
   }
 }
 ```
-
-Questions:
-1. Implement an algorithm to detemirmine if a string has all unique characters. What if you cannot use additional data structures?
-2. Write reverse function
-3. Given two strings, write a method to decide if one is a permutation of the other.
-4. Write an algorithm such that if an element in a MxN matrix is 0, its entire row and column is set to 0.
-5. Assume you have a method isSubSstring which checks if one word is a substring of another. Given two string, s1 and s2, write code that checks if s2 is a rotation of s1 using only one call to isSubstring.
