@@ -150,26 +150,3 @@ Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list.
 3) Insert costs O(N) due the lack of random access
-
-Questions:
-1. Write code to remove duplicates from an unsorted linked list
-2. How you would solve (1) if a temporary buffer is not allowed?
-3. Implement an algorithm to find kth to last element of a single linked list
-4. Implement an algorithm to delete a node in the middle of a singly linked list, given only access to that node.
-5. Write a code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x
-6. You have two numbers represented by a linked list, where each node is a single digit. THe digits are stored in reverse order, such that 7 -> 1 -> 6 is 617. Write a function that adds two numbers and return the sum as linked list.
-7. Do the same of (6), but the digits are stored in forward order, e.g. 6 -> 1 -> 7 is 617.
-8. Implement a function to check if a linked list is palindrome.
-9. Write push_front(value) - adds an item to the front of the list
-10. Write pop_front() - remove front item and return its value
-11. Write push_back(value) - adds an item at the end
-12. Write pop_back() - removes end item and returns its value
-13. Write front() - get value of front item
-14. Write back() - get value of end item
-15. Write reverse() - reverses the list
-16. http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
-17. http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/
-18. http://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/
-19. http://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
-20. http://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/
-21. Sorting a linked list? I wouldn't reccomend but http://www.geeksforgeeks.org/merge-sort-for-linked-list/
