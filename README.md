@@ -12,8 +12,8 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
   * French (TBD)
   * German (TBD)
   * [Russian](./languages/russian.md)
-* [Regular Expression](/.regular-expression.md)
-* [Scripting](/.scripting.md)
+* [Regular Expression](/regular-expression.md)
+* [Scripting](/scripting.md)
 * Programming Languages
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
