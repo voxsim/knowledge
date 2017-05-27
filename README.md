@@ -38,7 +38,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * Search basics
     * [Binary Search](./computer-science/search/binary-search.md)
     * [BFS](./computer-science/search/bfs.md)
-    * [DFS](./computer-science/search/dfs.md)
+    * [DFS !](./computer-science/search/dfs.md)
     * [BFS vs DFS](./computer-science/search/bfs-vs-dfs.md)
     * [Dijkstra](./computer-science/search/dijkstra.md)
     * [Floyd-Warshall](./computer-science/search/floyd-warshall.md)
@@ -54,7 +54,7 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Recursion](./computer-science/algo/recursion.md)
     * [Iterative](./computer-science/algo/iterative.md)
     * [Greedy](./computer-science/algo/greedy.md)
-    * [Dynamic Programming](./computer-science/algo/dynamic-programming.md)
+    * [Dynamic Programming !](./computer-science/algo/dynamic-programming.md)
   * [Bit Manipulation](./computer-science/bit-manipulation.md)
 * Software Design
   * [Object oriented basics](./software-design/object-oriented-basics.md)
