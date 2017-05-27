@@ -3,7 +3,6 @@ An algorithm that searches a value divinding constantly the space in two.
 Recursive approach:
 ```javascript
 function binary_search(array, valueToSearch) {
-  console.log(array, valueToSearch);
   if(array.length === 0) {
     return;
   }
