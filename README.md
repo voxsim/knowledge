@@ -6,17 +6,19 @@ Repository for recording knowledge about things I'm learning and things I'm inte
 See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other lists by people who also record stuff on GitHub.
 
 ## Summary
+Legenda: Titles with bang (!) needs refactoring.
 
 * Languages
   * English (TBD)
   * French (TBD)
   * German (TBD)
   * [Russian](./languages/russian.md)
-* [Regular Expression](/regular-expression.md)
-* [Scripting](/scripting.md)
+* [Regular Expression !](/regular-expression.md)
+* [Scripting !](/scripting.md)
 * Programming Languages
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
+    * [Dev tools](./programming-languages/javascript/dev-tools.md)
   * [PHP](./programming-languages/php.md)
   * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
