@@ -107,8 +107,3 @@ class Stack {
   }
 }
 ```
-
-Questions:
-1. How you would design a stack which returns the minimum element? Push, pop and min should all operate in O(1) time.
-2. Towers of Hanoi with 3 stacks and move N disks
-3. Sort a stack in ascending order, using at most one other stack. The stack supports the following operations: push, pop, peek, isEmpty.
