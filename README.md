@@ -30,10 +30,10 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Stack](./computer-science/data-structures/stack.md)
     * [Queue](./computer-science/data-structures/queue.md)
     * [Priority Queue](./computer-science/data-structures/priority-queue.md)
-    * [Hash Table or Map](./computer-science/data-structures/hash.md)
-    * [Tree](./computer-science/data-structures/tree.md)
-    * [Binary Search Tree](./computer-science/data-structures/binary-search-tree.md)
-    * [Graph](./computer-science/data-structures/graph.md)
+    * [Hash Table or Map !](./computer-science/data-structures/hash.md)
+    * [Tree !](./computer-science/data-structures/tree.md)
+    * [Binary Search Tree !](./computer-science/data-structures/binary-search-tree.md)
+    * [Graph !](./computer-science/data-structures/graph.md)
     * Heap ?
   * Search basics
     * [Binary Search](./computer-science/search/binary-search.md)
