@@ -122,3 +122,16 @@ SSH stands for secure shell. It is an encrypted protocol implemented in the appl
 There are many other protocols that we haven't covered that are equally important. However, this should give you a good overview of some of the fundamental technologies that make the internet and networking possible.
 
 * http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals/
+- [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
+- [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+- [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+- [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
+- [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+- [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+- [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+- [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+- [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+- [ ] Sockets:
+    - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+    - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
