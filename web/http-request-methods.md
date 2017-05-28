@@ -108,9 +108,6 @@ Idempotent	Yes
 Cacheable	No
 Allowed in HTML forms	No
 
-## TRACE
-The TRACE method performs a message loop-back test along the path to the target resource.
-
 ## PATCH
 The PATCH method is used to apply partial modifications to a resource.
 The HTTP PATCH request method applies partial modifications to a resource.
