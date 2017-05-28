@@ -1,4 +1,4 @@
-- [ ] Gainlo
+- Gainlo
   - [x] [Longest Increasing Subarray](http://blog.gainlo.co/index.php/2017/02/02/uber-interview-questions-longest-increasing-subarray/)
   - [x] [Arrange Given Numbers To Form The Biggest Number Possible](http://blog.gainlo.co/index.php/2017/01/20/arrange-given-numbers-to-form-the-biggest-number-possible/)
   - [ ] [Search an Element in a Sorted and Rotated Array](http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/)
@@ -23,7 +23,7 @@
   - [x] [Print All Paths Of a Binary Tree](http://blog.gainlo.co/index.php/2016/04/15/print-all-paths-of-a-binary-tree/)
   - [x] [Find The Longest Substring With K Unique Characters](http://blog.gainlo.co/index.php/2016/04/12/find-the-longest-substring-with-k-unique-characters/)
   - [ ] [If a String Contains an Anagram of Another String](http://blog.gainlo.co/index.php/2016/04/08/if-a-string-contains-an-anagram-of-another-string/)
-- [ ] CoderCareer
+- CoderCareer
   - [ ] http://codercareer.blogspot.it/2011/09/interview-question-no-1-binary-search.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/09/no-02-stack-with-function-min.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/09/no-03-maximum-sum-of-all-sub-arrays.html?m=1
@@ -83,6 +83,8 @@
   - [ ] http://codercareer.blogspot.it/2014/10/no-57-integer-identical-to-index.html?m=1
   - [ ] http://codercareer.blogspot.it/2015/09/no-58-search-in-adjacent-numbers.html?m=1
   - [ ] http://codercareer.blogspot.it/2016/04/no-59-duplications-in-arrays.html?m=1
+- Custom
+  - [ ] [2-sum](https://stackoverflow.com/questions/11928091/linear-time-algorithm-for-2-sum)
 
 ## Coding exercises/challenges
 
