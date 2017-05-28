@@ -36,6 +36,7 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Binary Search Tree !](./computer-science/data-structures/binary-search-tree.md)
     * [Graph !](./computer-science/data-structures/graph.md)
     * Heap ?
+    * [Trie](./computer-science/data-structures/trie.md)
   * Search basics
     * [Binary Search](./computer-science/search/binary-search.md)
     * [BFS](./computer-science/search/bfs.md)
