@@ -24,21 +24,21 @@
   - [x] [Find The Longest Substring With K Unique Characters](http://blog.gainlo.co/index.php/2016/04/12/find-the-longest-substring-with-k-unique-characters/)
   - [ ] [If a String Contains an Anagram of Another String](http://blog.gainlo.co/index.php/2016/04/08/if-a-string-contains-an-anagram-of-another-string/)
 - CoderCareer
-  - [ ] http://codercareer.blogspot.it/2011/09/interview-question-no-1-binary-search.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/09/no-02-stack-with-function-min.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/09/interview-question-no-1-binary-search.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/09/no-02-stack-with-function-min.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/09/no-03-maximum-sum-of-all-sub-arrays.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/09/no-04-paths-with-specified-sum-in.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/09/no-05-least-k-numbers.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/09/no-06-post-order-traversal-sequences-of.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/09/no-07-reverse-words-in-sentence.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/10/no-08-calculate-12n.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/09/no-04-paths-with-specified-sum-in.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/09/no-05-least-k-numbers.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/09/no-06-post-order-traversal-sequences-of.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/09/no-07-reverse-words-in-sentence.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/10/no-08-calculate-12n.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/10/no-09-numbers-with-given-sum.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/10/no-10-k-th-node-from-end.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/10/no-11-print-binary-trees-from-top-to.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/10/no-12-mirror-of-binary-trees.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/10/no-10-k-th-node-from-end.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/10/no-11-print-binary-trees-from-top-to.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/10/no-12-mirror-of-binary-trees.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/10/no-13-first-character-appearing-only.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/10/no-14-last-number-in-circle.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/10/no-15-fibonacci-sequences.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/10/no-15-fibonacci-sequences.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/10/no-16-maximum-length-of-incremental.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/10/no-17-queue-implemented-with-two-stacks.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/10/no-18-reverse-linked-list.html?m=1
