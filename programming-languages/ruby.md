@@ -6,3 +6,5 @@
 * Eloquent ruby
 * https://github.com/bbatsov/ruby-style-guide
 * https://github.com/bbatsov/rails-style-guide
+* https://m.signalvnoise.com/programming-with-a-love-of-the-implicit-66629bb81ee7
+* http://rubyonrails.org/doctrine/
