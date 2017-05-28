@@ -79,6 +79,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [HTTP Request methods](./web/http-request-methods.md)
   * [HTTP Response Statuses](./web/http-response-statuses.md)
   * [Cookies](./web/cookies.md)
+  * [Components]((./web/components.md)
 * Mathematics
   * [Prime](./math/prime.md)
   * [GCD](./math/gcd.md)
