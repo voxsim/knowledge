@@ -1,5 +1,15 @@
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
 
+## Safe Methods
+
+Request methods are considered "safe" if their defined semantics are essentially read-only; i.e., the client does not request, and does not expect, any state change on the origin server as a result of applying a safe method to a target resource.  Likewise, reasonable use of a safe method is not expected to cause any harm, loss of property, or unusual burden on the origin server.
+
+## Idempotent Methods
+ A request method is considered "idempotent" if the intended effect on the server of multiple identical requests with that method is the same as the effect for a single such request.  Of the request methods defined by this specification, PUT, DELETE, and safe request methods are idempotent.
+ 
+## Cachable Methods
+Request methods can be defined as "cacheable" to indicate that responses to them are allowed to be stored for future reuse
+
 ## GET
 The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
 - Request has body	No
