@@ -120,3 +120,5 @@ SSH
 SSH stands for secure shell. It is an encrypted protocol implemented in the application layer that can be used to communicate with a remote server in a secure way. Many additional technologies are built around this protocol because of its end-to-end encryption and ubiquity.
 
 There are many other protocols that we haven't covered that are equally important. However, this should give you a good overview of some of the fundamental technologies that make the internet and networking possible.
+
+* http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals/
