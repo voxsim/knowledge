@@ -52,6 +52,7 @@ As described in the HTTP 1.1 specification, POST is designed to allow a uniform 
 - Providing a block of data, such as the result of submitting a form, to a data-handling process;
 - Extending a database through an append operation.
 
+Details:
 - Request has body	Yes
 - Successful response has body	Yes
 - Safe	No
