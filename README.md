@@ -59,7 +59,7 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Dynamic Programming !](./computer-science/algo/dynamic-programming.md)
   * [Bit Manipulation](./computer-science/bit-manipulation.md)
   * [NP](./computer-science/np.md)
-* Software Design
+* [Software Design](./software-design/README.md)
   * [Object oriented basics](./software-design/object-oriented-basics.md)
   * [Functional basics](./software-design/functional-basics.md)
   * [Nil](./software-design/nil.md)
