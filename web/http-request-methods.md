@@ -28,12 +28,12 @@ A response to a HEAD method should not have a body. If so, it must be ignored. E
 
 If the result of a HEAD request shows that a cached resource after a GET request is now outdated, the cache is invalidated, even if no GET request has been made.
 
-Request has body	No
-Successful response has body	No
-Safe	Yes
-Idempotent	Yes
-Cacheable	Yes
-Allowed in HTML forms	No
+- Request has body	No
+- Successful response has body	No
+- Safe	Yes
+- Idempotent	Yes
+- Cacheable	Yes
+- Allowed in HTML forms	No
 
 ## POST
 The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server
@@ -52,12 +52,12 @@ As described in the HTTP 1.1 specification, POST is designed to allow a uniform 
 - Providing a block of data, such as the result of submitting a form, to a data-handling process;
 - Extending a database through an append operation.
 
-Request has body	Yes
-Successful response has body	Yes
-Safe	No
-Idempotent	No
-Cacheable	Only if freshness information is included
-Allowed in HTML forms	Yes
+- Request has body	Yes
+- Successful response has body	Yes
+- Safe	No
+- Idempotent	No
+- Cacheable	Only if freshness information is included
+- Allowed in HTML forms	Yes
 
 ## PUT
 The PUT method replaces all current representations of the target resource with the request payload.
@@ -66,22 +66,22 @@ The HTTP PUT request method creates a new resource or replaces a representation 
 The difference between PUT and POST is that PUT is idempotent: calling it once or several times successively has the same effect
 (that is no side effect), where successive identical POST may have additional effects, like passing an order several times.
 
-Request has body	Yes
-Successful response has body	No
-Safe	No
-Idempotent	Yes
-Cacheable	No
-Allowed in HTML forms	No
+- Request has body	Yes
+- Successful response has body	No
+- Safe	No
+- Idempotent	Yes
+- Cacheable	No
+- Allowed in HTML forms	No
 
 ## DELETE
 The DELETE method deletes the specified resource.
 
-Request has body	No
-Successful response has body	No
-Safe	No
-Idempotent	Yes
-Cacheable	No
-Allowed in HTML forms	No
+- Request has body	No
+- Successful response has body	No
+- Safe	No
+- Idempotent	Yes
+- Cacheable	No
+- Allowed in HTML forms	No
 
 ##CONNECT
 The CONNECT method establishes a tunnel to the server identified by the target resource. It can be used to open a tunnel.
@@ -90,23 +90,23 @@ For example, the CONNECT method can be used to access websites that use SSL (HTT
 
 CONNECT is a hop-by-hop method.
 
-Request has body	Yes
-Successful response has body	Yes
-Safe	No
-Idempotent	No
-Cacheable	No
-Allowed in HTML forms	No
+- Request has body	Yes
+- Successful response has body	Yes
+- Safe	No
+- Idempotent	No
+- Cacheable	No
+- Allowed in HTML forms	No
 
 ## OPTIONS
 The OPTIONS method is used to describe the communication options for the target resource.
 The HTTP OPTIONS method is used to describe the communication options for the target resource. The client can specify a specific URL for the OPTIONS method, or an asterisk (*) to refer to the entire server.
 
-Request has body	No
-Successful response has body	No
-Safe	Yes
-Idempotent	Yes
-Cacheable	No
-Allowed in HTML forms	No
+- Request has body	No
+- Successful response has body	No
+- Safe	Yes
+- Idempotent	Yes
+- Cacheable	No
+- Allowed in HTML forms	No
 
 ## PATCH
 The PATCH method is used to apply partial modifications to a resource.
@@ -118,9 +118,9 @@ To find out whether a server supports PATCH, a server can advertise its support 
 
 Another (implicit) indication that PATCH is allowed, is the presence of the Accept-Patch header, which specifies the patch document formats accepted by the server.
 
-Request has body	Yes
-Successful response has body	No
-Safe	No
-Idempotent	No
-Cacheable	No
-Allowed in HTML forms	No
+- Request has body	Yes
+- Successful response has body	No
+- Safe	No
+- Idempotent	No
+- Cacheable	No
+- Allowed in HTML forms	No
