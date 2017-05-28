@@ -95,6 +95,7 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Security](./security.md)
 * [Distributed Systems](./distributed-systems.md)
 * [Papers](./papers.md)
+* [Processes and Threads](./processes-vs-threads.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
