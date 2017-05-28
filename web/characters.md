@@ -15,3 +15,4 @@ UTF-8 etc..
 
 * https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
 * http://reedbeta.com/blog/programmers-intro-to-unicode/
+* http://kunststube.net/encoding/
