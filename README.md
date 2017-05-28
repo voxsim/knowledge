@@ -71,6 +71,12 @@ Legenda: Titles with bang (!) needs refactoring.
   * [Software](./testing/software.md)
   * [Function](./testing/function.md)
   * [Function - Edge cases](./testing/edge-cases.md)
+* Web
+  * [Dom](./web/dom.md)
+  * [Caching](./web/caching.md)
+  * [Characters](./web/characters.md)
+  * [CSS](./web/css.md)
+  * [HTTP Statuses](./web/http-statuses.md)
 * Mathematics
   * [Prime](./math/prime.md)
   * [GCD](./math/gcd.md)
