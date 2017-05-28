@@ -61,9 +61,9 @@
   - [x] http://codercareer.blogspot.it/2013/01/no-35-depth-of-binary-trees.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-36-permutation.html?m=1
   - [x] http://codercareer.blogspot.it/2013/02/no-37-missing-number-in-array.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/02/no-38-digits-in-sequence.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/02/no-39-stacks-sharing-array.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/02/no-40-add-on-lists.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/02/no-38-digits-in-sequence.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/02/no-39-stacks-sharing-array.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/02/no-40-add-on-lists.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-41-group-of-1s-in-matrix.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-42-three-increasing-elements-in-array.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-43-minimal-number-of-splits-on-string.html?m=1
