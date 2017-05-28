@@ -13,8 +13,8 @@
   - [x] [Group Anagrams](http://blog.gainlo.co/index.php/2016/05/06/group-anagrams/)
   - [x] [Deepest Node In a Tree](http://blog.gainlo.co/index.php/2016/04/26/deepest-node-in-a-tree/)
   - [x] [Longest Substring Without Repeating Characters](http://blog.gainlo.co/index.php/2016/10/07/facebook-interview-longest-substring-without-repeating-characters/)
-  - [ ] [3sum](http://blog.gainlo.co/index.php/2016/07/19/3sum/)
-  - [ ] [Meeting Room Scheduling Problem](http://blog.gainlo.co/index.php/2016/07/12/meeting-room-scheduling-problem/)
+  - [x] [3sum](http://blog.gainlo.co/index.php/2016/07/19/3sum/)
+  - [x] [Meeting Room Scheduling Problem](http://blog.gainlo.co/index.php/2016/07/12/meeting-room-scheduling-problem/)
   - [x] [Lowest Common Ancestor](http://blog.gainlo.co/index.php/2016/07/06/lowest-common-ancestor/)
   - [x] [Flatten a Linked List](http://blog.gainlo.co/index.php/2016/06/12/flatten-a-linked-list/)
   - [x] [Second Largest Element of a Binary Search Tree](http://blog.gainlo.co/index.php/2016/06/03/second-largest-element-of-a-binary-search-tree/)
@@ -22,7 +22,7 @@
   - [ ] [Minimum Number of Deletions Of a String](http://blog.gainlo.co/index.php/2016/04/29/minimum-number-of-deletions-of-a-string/)
   - [x] [Print All Paths Of a Binary Tree](http://blog.gainlo.co/index.php/2016/04/15/print-all-paths-of-a-binary-tree/)
   - [x] [Find The Longest Substring With K Unique Characters](http://blog.gainlo.co/index.php/2016/04/12/find-the-longest-substring-with-k-unique-characters/)
-  - [ ] [If a String Contains an Anagram of Another String](http://blog.gainlo.co/index.php/2016/04/08/if-a-string-contains-an-anagram-of-another-string/)
+  - [x] [If a String Contains an Anagram of Another String](http://blog.gainlo.co/index.php/2016/04/08/if-a-string-contains-an-anagram-of-another-string/)
 - CoderCareer
   - [x] http://codercareer.blogspot.it/2011/09/interview-question-no-1-binary-search.html?m=1
   - [x] http://codercareer.blogspot.it/2011/09/no-02-stack-with-function-min.html?m=1
