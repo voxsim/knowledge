@@ -3,6 +3,9 @@
 I need to read:
 - http://php.net/manual/en/migration56.new-features.php
 - http://php.net/manual/en/migration70.new-features.php
+- http://www.phpthewrongway.com/
+- http://www.php-fig.org/
+- http://www.phptherightway.com/
 
 ## Features from PHP 7.1 (http://php.net/manual/en/migration71.new-features.php)
 
