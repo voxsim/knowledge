@@ -13,7 +13,11 @@
   The request has succeeded and a new resource has been created as a result of it. This is typically the response sent after a PUT request.
 - 202 Accepted
   The request has been received but not yet acted upon. It is non-committal, meaning that there is no way in HTTP to later send an asynchronous response indicating the outcome of processing the request. It is intended for cases where another process or server handles the request, or for batch processing.
-
+- 204 No content
+  There is no response body. We can use when we have PUT, DELETE.
+- 207 Multi-Status
+  The response body contains multiple status informations for different parts of a batch/bulk request
+  
 ## 3×× Redirection
 - 300 Multiple Choices
   The request has more than one possible responses. User-agent or user should choose one of them. There is no standardized way to choose one of the responses.
@@ -37,6 +41,8 @@
   Server can not find requested resource. This response code probably is most famous one due to its frequency to occur in web.
 - 405 Method Not Allowed
   The request method is known by the server but has been disabled and cannot be used. The two mandatory methods, GET and HEAD, must never be disabled and should not return this error code.
+- 429 Too many requests
+  The client does not consider rate limiting and sent too many requests.
 
 ## 5×× Server Error
 - 500 Internal Server Error
