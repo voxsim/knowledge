@@ -69,6 +69,9 @@ Legenda: Titles with bang (!) needs refactoring.
   * [SOLID](./software-design/solid.md)
   * [Tell don't ask](./software-design/tell-dont-ask.md)
   * [Design Patterns](./software-design/design-patterns.md)
+  * [TDD]((./software-design/tdd.md)
+  * [Refactoring]((./software-design/refactoring.md)
+  * [Doubles]((./software-design/doubles.md)
 * Testing
   * [At higher level](./testing/higher-level.md)
   * [Real world object](./testing/real-world-object.md)
