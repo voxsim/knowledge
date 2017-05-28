@@ -22,7 +22,6 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Node](./programming-languages/javascript/node.md)
   * [PHP](./programming-languages/php.md)
   * [Ruby](./programming-languages/ruby.md)
-  * [Java](./programming-languages/java.md)
   * [GO](./programming-languages/go.md)
 * Computer science
   * [Big O Notation](./computer-science/big-o-notation.md)
