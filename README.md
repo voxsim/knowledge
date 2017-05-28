@@ -107,5 +107,7 @@ Legenda: Titles with bang (!) needs refactoring.
 * Tools
   * [Git](./tools/git.md)
 
+[Trash](./trash.md) <- I have no idea what there is inside.
+
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
