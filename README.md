@@ -19,6 +19,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
     * [Dev tools](./programming-languages/javascript/dev-tools.md)
+    * [Node](./programming-languages/javascript/node.md)
   * [PHP](./programming-languages/php.md)
   * [Ruby](./programming-languages/ruby.md)
   * Java (TBD)
