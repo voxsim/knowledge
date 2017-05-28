@@ -1,0 +1,84 @@
+- [ ] Gainlo
+  - [ ] [Longest Increasing Subarray](http://blog.gainlo.co/index.php/2017/02/02/uber-interview-questions-longest-increasing-subarray/)
+  - [ ] [Arrange Given Numbers To Form The Biggest Number Possible](http://blog.gainlo.co/index.php/2017/01/20/arrange-given-numbers-to-form-the-biggest-number-possible/)
+  - [ ] [Search an Element in a Sorted and Rotated Array](http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/)
+  - [ ] [Permutations of an Array of Arrays](http://blog.gainlo.co/index.php/2017/01/05/uber-interview-questions-permutations-array-arrays/)
+  - [ ] [Permutations of Parentheses](http://blog.gainlo.co/index.php/2016/12/23/uber-interview-questions-permutations-parentheses/)
+  - [ ] [Maximum Sum of Non-adjacent Elements](http://blog.gainlo.co/index.php/2016/12/02/uber-interview-question-maximum-sum-non-adjacent-elements/)
+  - [ ] [Move Zeroes](http://blog.gainlo.co/index.php/2016/11/18/uber-interview-question-move-zeroes/)
+  - [ ] [Weighted Random Numbers](http://blog.gainlo.co/index.php/2016/11/11/uber-interview-question-weighted-random-numbers/)
+  - [ ] [Delimiter Matching](http://blog.gainlo.co/index.php/2016/09/30/uber-interview-question-delimiter-matching/)
+  - [ ] [Map Implementation](http://blog.gainlo.co/index.php/2016/08/14/uber-interview-question-map-implementation/)
+  - [ ] [Duplicate Elements of An Array](http://blog.gainlo.co/index.php/2016/05/10/duplicate-elements-of-an-array/)
+  - [ ] [Group Anagrams](http://blog.gainlo.co/index.php/2016/05/06/group-anagrams/)
+  - [ ] [Deepest Node In a Tree](http://blog.gainlo.co/index.php/2016/04/26/deepest-node-in-a-tree/)
+  - [ ] [Longest Substring Without Repeating Characters](http://blog.gainlo.co/index.php/2016/10/07/facebook-interview-longest-substring-without-repeating-characters/)
+  - [ ] [3sum](http://blog.gainlo.co/index.php/2016/07/19/3sum/)
+  - [ ] [Meeting Room Scheduling Problem](http://blog.gainlo.co/index.php/2016/07/12/meeting-room-scheduling-problem/)
+  - [ ] [Lowest Common Ancestor](http://blog.gainlo.co/index.php/2016/07/06/lowest-common-ancestor/)
+  - [ ] [Flatten a Linked List](http://blog.gainlo.co/index.php/2016/06/12/flatten-a-linked-list/)
+  - [ ] [Second Largest Element of a Binary Search Tree](http://blog.gainlo.co/index.php/2016/06/03/second-largest-element-of-a-binary-search-tree/)
+  - [ ] [Subarray With Given Sum](http://blog.gainlo.co/index.php/2016/06/01/subarray-with-given-sum/)
+  - [ ] [Minimum Number of Deletions Of a String](http://blog.gainlo.co/index.php/2016/04/29/minimum-number-of-deletions-of-a-string/)
+  - [ ] [Print All Paths Of a Binary Tree](http://blog.gainlo.co/index.php/2016/04/15/print-all-paths-of-a-binary-tree/)
+  - [ ] [Find The Longest Substring With K Unique Characters](http://blog.gainlo.co/index.php/2016/04/12/find-the-longest-substring-with-k-unique-characters/)
+- [ ] CoderCareer
+  - [ ] http://codercareer.blogspot.it/2011/09/interview-question-no-1-binary-search.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/09/no-02-stack-with-function-min.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/09/no-03-maximum-sum-of-all-sub-arrays.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/09/no-04-paths-with-specified-sum-in.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/09/no-05-least-k-numbers.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/09/no-06-post-order-traversal-sequences-of.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/09/no-07-reverse-words-in-sentence.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-08-calculate-12n.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-09-numbers-with-given-sum.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-10-k-th-node-from-end.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-11-print-binary-trees-from-top-to.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-12-mirror-of-binary-trees.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-13-first-character-appearing-only.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-14-last-number-in-circle.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-15-fibonacci-sequences.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-16-maximum-length-of-incremental.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-17-queue-implemented-with-two-stacks.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/10/no-18-reverse-linked-list.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/11/no-19-left-rotation-of-string.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/11/no-20-number-of-1-in-binary.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/11/no-21-push-and-pop-sequences-of-stacks.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/11/no-22-turning-number-in-array.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/11/no-23-palindrome-numbers.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/11/no-24-intersection-of-sorted-arrays.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/12/no-25-edit-distance.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/12/no-26-minimal-number-of-coins-for.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/12/no-27-area-of-rectangles.html?m=1
+  - [ ] http://codercareer.blogspot.it/2011/12/no-28-pair-with-maximal-difference.html?m=1
+  - [ ] http://codercareer.blogspot.it/2012/01/no-29-loop-in-list.html?m=1
+  - [ ] http://codercareer.blogspot.it/2012/01/no-30-median-in-stream.html?m=1
+  - [ ] http://codercareer.blogspot.it/2012/01/no-31-binary-search-tree-verification.html?m=1
+  - [ ] http://codercareer.blogspot.it/2012/02/no-32-remove-numbers-in-array.html?m=1
+  - [ ] http://codercareer.blogspot.it/2012/02/no-33-maximums-in-sliding-windows.html?m=1
+  - [ ] http://codercareer.blogspot.it/2012/02/no-34-string-path-in-matrix.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/01/no-35-depth-of-binary-trees.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-36-permutation.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-37-missing-number-in-array.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-38-digits-in-sequence.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-39-stacks-sharing-array.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-40-add-on-lists.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-41-group-of-1s-in-matrix.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-42-three-increasing-elements-in-array.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-43-minimal-number-of-splits-on-string.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/02/no-44-maximal-stolen-values.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/03/no-45-closest-node-in-binary-search-tree_2.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/03/no-46-nodes-with-sum-in-binary-search.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/03/no-47-search-in-rotation-of-array_31.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/11/no-48-least-number-after-deleting-digits.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/11/no-49-longest-substring-without.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/12/no-50-numbers-appearing-once.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/12/no-51-next-number-with-same-set-of.html?m=1
+  - [ ] http://codercareer.blogspot.it/2013/12/no-52-maximal-product-when-cutting-rope.html?m=1
+  - [ ] http://codercareer.blogspot.it/2014/03/no-53-longest-arithmetic-sequence.html?m=1
+  - [ ] http://codercareer.blogspot.it/2014/08/no-54-merge-ranges.html?m=1
+  - [ ] http://codercareer.blogspot.it/2014/09/no-55-translating-numbers-to-string.html?m=1
+  - [ ] http://codercareer.blogspot.it/2014/10/no-56-maximal-value-of-gifts.html?m=1
+  - [ ] http://codercareer.blogspot.it/2014/10/no-57-integer-identical-to-index.html?m=1
+  - [ ] http://codercareer.blogspot.it/2015/09/no-58-search-in-adjacent-numbers.html?m=1
+  - [ ] http://codercareer.blogspot.it/2016/04/no-59-duplications-in-arrays.html?m=1
