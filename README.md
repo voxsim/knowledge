@@ -101,6 +101,7 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Papers](./papers.md)
 * [Processes and Threads](./processes-vs-threads.md)
 * [Endianness](./endianness.md)
+* [Coding Questions Practice](/coding-questions-practice.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
