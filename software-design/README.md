@@ -1,0 +1,2 @@
+- https://cleancoders.com/videos
+- https://martinfowler.com/bliki/
