@@ -97,6 +97,7 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Distributed Systems](./distributed-systems.md)
 * [Papers](./papers.md)
 * [Processes and Threads](./processes-vs-threads.md)
+* [Endianness](./endianness.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
