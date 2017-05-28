@@ -88,6 +88,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [Fraction](./math/fraction.md)
 * [Probability](./probability.md)
 * [Networking](./networking.md)
+* [Memory](./memory.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
