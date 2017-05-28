@@ -68,21 +68,21 @@
   - [ ] http://codercareer.blogspot.it/2013/02/no-42-three-increasing-elements-in-array.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-43-minimal-number-of-splits-on-string.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-44-maximal-stolen-values.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/03/no-45-closest-node-in-binary-search-tree_2.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/03/no-46-nodes-with-sum-in-binary-search.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/03/no-45-closest-node-in-binary-search-tree_2.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/03/no-46-nodes-with-sum-in-binary-search.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/03/no-47-search-in-rotation-of-array_31.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/11/no-48-least-number-after-deleting-digits.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/11/no-49-longest-substring-without.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/12/no-50-numbers-appearing-once.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/12/no-51-next-number-with-same-set-of.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/12/no-50-numbers-appearing-once.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/12/no-51-next-number-with-same-set-of.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/12/no-52-maximal-product-when-cutting-rope.html?m=1
   - [ ] http://codercareer.blogspot.it/2014/03/no-53-longest-arithmetic-sequence.html?m=1
   - [ ] http://codercareer.blogspot.it/2014/08/no-54-merge-ranges.html?m=1
-  - [ ] http://codercareer.blogspot.it/2014/09/no-55-translating-numbers-to-string.html?m=1
+  - [x] http://codercareer.blogspot.it/2014/09/no-55-translating-numbers-to-string.html?m=1
   - [ ] http://codercareer.blogspot.it/2014/10/no-56-maximal-value-of-gifts.html?m=1
-  - [ ] http://codercareer.blogspot.it/2014/10/no-57-integer-identical-to-index.html?m=1
-  - [ ] http://codercareer.blogspot.it/2015/09/no-58-search-in-adjacent-numbers.html?m=1
-  - [ ] http://codercareer.blogspot.it/2016/04/no-59-duplications-in-arrays.html?m=1
+  - [x] http://codercareer.blogspot.it/2014/10/no-57-integer-identical-to-index.html?m=1
+  - [x] http://codercareer.blogspot.it/2015/09/no-58-search-in-adjacent-numbers.html?m=1
+  - [x] http://codercareer.blogspot.it/2016/04/no-59-duplications-in-arrays.html?m=1
 - Custom
   - [ ] [2-sum](https://stackoverflow.com/questions/11928091/linear-time-algorithm-for-2-sum)
 
