@@ -81,6 +81,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [HTTP Response Statuses](./web/http-response-statuses.md)
   * [Cookies](./web/cookies.md)
   * [Components](./web/components.md)
+  * [Offline first](./web/offline-first.md)
 * Mathematics
   * [Prime](./math/prime.md)
   * [GCD](./math/gcd.md)
@@ -89,6 +90,7 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Probability](./probability.md)
 * [Networking](./networking.md)
 * [Memory](./memory.md)
+* [Security](./security.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
