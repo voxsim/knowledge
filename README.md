@@ -66,6 +66,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [Law of Demeter](./software-design/law-of-demeter.md)
   * [SOLID](./software-design/solid.md)
   * [Tell don't ask](./software-design/tell-dont-ask.md)
+  * [Design Patterns](./software-design/design-patterns.md)
 * Testing
   * [At higher level](./testing/higher-level.md)
   * [Real world object](./testing/real-world-object.md)
@@ -91,6 +92,8 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Networking](./networking.md)
 * [Memory](./memory.md)
 * [Security](./security.md)
+* [Distributed Systems](./distributed-systems.md)
+* [Papers](./papers.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
