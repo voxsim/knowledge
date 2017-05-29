@@ -26,3 +26,85 @@ function walkTheDOM(node, func) {
   }
 }
 ```
+
+## Selectors API
+
+JavaScript’s native selectors API is very good. It works with CSS selectors and is very similar to what jQuery provides. If you are used to writing this in jQuery:
+
+```
+var element = $("div");
+```
+
+You can now replace that with:
+
+```
+var element = document.querySelector("div");
+```
+
+Or, to select all div’s inside some container:
+
+```
+var elements = document.querySelectorAll(".container div");
+```
+
+You can also query against a specific element to find it’s children:
+
+```
+var navigation = document.querySelector("nav");
+var links = navigation.querySelectorAll("a");
+```
+
+Quite straightforward, easy to understand, and doesn’t really require much more writing now does it? To go a little further, we could even build a tiny JavaScript library for ourselves for simple DOM querying. Here’s something that Andrew Lunny has came up with:
+
+```
+// This gives us simple dollar function and event binding
+var $ = document.querySelectorAll.bind(document);
+Element.prototype.on = Element.prototype.addEventListener;
+
+// This is how you use it
+$(".element")[0].on("touchstart", handleTouch, false);
+```
+
+## Traversing the DOM
+
+Traversing the DOM with plain JavaScript is a bit harder than it is with jQuery. But not too hard. Here are some simple examples:
+
+```
+// Getting the parent node
+var parent = document.querySelector("div").parentNode;
+
+// Getting the next node
+var next = document.querySelector("div").nextSibling;
+
+// Getting the previous node
+var next = document.querySelector("div").previousSibling;
+
+// Getting the first child element
+var child = document.querySelector("div").children[0];
+
+// Getting the last child
+var last = document.querySelector("div").lastElementChild;
+```
+
+## HTML5 classList API
+
+You can feature detect if the browser supports it by using this simple "if" statement:
+
+```
+if ("classList" in document.documentElement) {
+  // classList is supported, now do something with it
+}
+Adding, removing and toggling classes with classList:
+
+// Adding a class
+element.classList.add("bar");
+
+// Removing a class
+element.classList.remove("foo");
+
+// Checking if has a class
+element.classList.contains("foo");
+
+// Toggle a class
+element.classList.toggle("active");
+```
