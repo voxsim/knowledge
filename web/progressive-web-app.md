@@ -3,3 +3,6 @@
 - https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-3-offline-support-and-network-resilience-c84db889162c
 - https://medium.com/dev-channel/progressive-web-app-libraries-in-production-b52cad37d34
 - https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
+- https://blog.booking.com/progressive-web-apps-with-service-workers.html
+- https://developers.google.com/web/fundamentals/performance/rail?hl=en
+- https://developers.google.com/web/updates/2015/11/app-shell?hl=en
