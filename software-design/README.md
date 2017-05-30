@@ -38,3 +38,6 @@
 - https://martinfowler.com/articles/designDead.html
 - http://wiki.c2.com/?CouplingAndCohesion
 - https://yurichev.com/blog/cyclomatic/
+- https://martinfowler.com/tags/extreme%20programming.html
+- https://martinfowler.com/tags/agile.html
+- https://martinfowler.com/tags/design.html
