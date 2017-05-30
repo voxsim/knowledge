@@ -84,7 +84,7 @@
   - [x] http://codercareer.blogspot.it/2015/09/no-58-search-in-adjacent-numbers.html?m=1
   - [x] http://codercareer.blogspot.it/2016/04/no-59-duplications-in-arrays.html?m=1
 - Custom
-  - [ ] [2-sum](https://stackoverflow.com/questions/11928091/linear-time-algorithm-for-2-sum)
+  - [x] [2-sum](https://stackoverflow.com/questions/11928091/linear-time-algorithm-for-2-sum)
 
 ## Coding exercises/challenges
 
@@ -133,8 +133,65 @@ function(A){
 }
 ```
 
+## 2sum (sliding window)
+Given an integer x and a sorted array a of N distinct integers, design a linear-time algorithm to determine if there exists two distinct indices i and j such that a[i] + a[j] == x.
+
+This is type of Subset sum problem. For every i there is such j that a[i]+a[j] is closest to x. All these (i,j) pairs form closest-to-x line. We just need to walk along this line and look for a[i]+a[j] == x. Complexity: O(n).
+
+```javascript
+function twosum(A, S) {
+  if(!A) return [];
+  
+  var i = 0, j = A.length - 1;
+  
+  for(; i<A.length && j >= 0 && i < j; ) {
+    if(A[i] + A[j] === S) {
+      return [i, j];
+    }
+    
+    if(A[i] + A[j] > S) {
+      j--;
+    } else {
+      i++;
+    }
+  }
+  
+  return [];
+}
+```
+
 ## Longest Increasing subarray (sliding window)
 
 ## Longest Increasing subsequence
 
 ## Search an Element in a Sorted and Rotated Array
+Search an element in a sorted and rotated array, e.g. [10, 20, 1, 3, 6, 7, 8].
+
+```javascript
+function binary_search(A, x) {
+  if(A.length === 0) return;
+  if(A.length === 1) return A[0] === x ? 0 : -1;
+  
+  var mid = Math.ceil(A.length/2) - 1;
+  var high = A.length-1;
+  var low = 0;
+  
+  if(A[mid] === x) {
+    return mid;
+  } else if(A[mid] > x){
+    if(A[low] < A[mid]) {
+      var result = binary_search(A.slice(mid+1), x);
+      return result !== -1 ? mid + 1 + result : undefined;
+    } else {
+      return binary_search(A.slice(0, mid), x);
+    }
+  } else {
+    if(A[high] < x) {
+      return binary_search(A.slice(0, mid), x);
+    } else {
+      var result = binary_search(A.slice(mid+1), x);
+      return result !== -1 ? mid + 1 + result : -1;
+    }
+  }
+}
+```
