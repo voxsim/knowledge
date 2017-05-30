@@ -60,3 +60,4 @@ Found "<b>best</b>" starting at index 38 and ending at index 49.
 - http://www.regular-expressions.info/tutorial.html
 - http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
 - https://robots.thoughtbot.com/back-to-basics-regular-expressions
+- https://en.wikipedia.org/wiki/Regular_expression
