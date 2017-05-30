@@ -1,3 +1,7 @@
+Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. Eg. multitasking on a single-core machine.
+
+Parallelism is when tasks literally run at the same time, eg. on a multicore processor.
+
 - [ ] Computer Science 162 - Operating Systems (25 videos):
     - for processes and threads see videos 1-11
     - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
