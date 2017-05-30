@@ -58,3 +58,4 @@ Found "<b>best</b>" starting at index 38 and ending at index 49.
 
 - https://swtch.com/~rsc/regexp/regexp1.html
 - http://www.regular-expressions.info/tutorial.html
+- http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
