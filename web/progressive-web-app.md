@@ -6,3 +6,6 @@
 - https://blog.booking.com/progressive-web-apps-with-service-workers.html
 - https://developers.google.com/web/fundamentals/performance/rail?hl=en
 - https://developers.google.com/web/updates/2015/11/app-shell?hl=en
+- https://developers.google.com/web/ilt/pwa/
+- https://www.youtube.com/watch?v=C8KcW1Nj3Mw
+- https://www.youtube.com/watch?v=m-sCdS0sQO8
