@@ -34,3 +34,4 @@
 - https://martinfowler.com/bliki/PhoenixServer.html
 - https://martinfowler.com/bliki/SyntheticMonitoring.html
 - https://martinfowler.com/bliki/SnowflakeServer.html
+- https://github.com/joebew42/study-path
