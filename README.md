@@ -90,7 +90,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [Cookies](./web/cookies.md)
   * [Components](./web/components.md)
   * [Offline first](./web/offline-first.md)
-* Mathematics
+* [Mathematics](./math/README.md)
   * [Prime](./math/prime.md)
   * [GCD](./math/gcd.md)
   * [Base](./math/base.md)
