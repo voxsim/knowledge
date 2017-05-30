@@ -35,3 +35,6 @@
 - https://martinfowler.com/bliki/SyntheticMonitoring.html
 - https://martinfowler.com/bliki/SnowflakeServer.html
 - https://github.com/joebew42/study-path
+- https://martinfowler.com/articles/designDead.html
+- http://wiki.c2.com/?CouplingAndCohesion
+- https://yurichev.com/blog/cyclomatic/
