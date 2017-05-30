@@ -1,7 +1,7 @@
 - Gainlo
   - [x] [Longest Increasing Subarray](http://blog.gainlo.co/index.php/2017/02/02/uber-interview-questions-longest-increasing-subarray/)
   - [x] [Arrange Given Numbers To Form The Biggest Number Possible](http://blog.gainlo.co/index.php/2017/01/20/arrange-given-numbers-to-form-the-biggest-number-possible/)
-  - [ ] [Search an Element in a Sorted and Rotated Array](http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/)
+  - [x] [Search an Element in a Sorted and Rotated Array](http://blog.gainlo.co/index.php/2017/01/12/rotated-array-binary-search/)
   - [x] [Permutations of an Array of Arrays](http://blog.gainlo.co/index.php/2017/01/05/uber-interview-questions-permutations-array-arrays/)
   - [x] [Permutations of Parentheses](http://blog.gainlo.co/index.php/2016/12/23/uber-interview-questions-permutations-parentheses/)
   - [x] [Maximum Sum of Non-adjacent Elements](http://blog.gainlo.co/index.php/2016/12/02/uber-interview-question-maximum-sum-non-adjacent-elements/)
@@ -19,7 +19,7 @@
   - [x] [Flatten a Linked List](http://blog.gainlo.co/index.php/2016/06/12/flatten-a-linked-list/)
   - [x] [Second Largest Element of a Binary Search Tree](http://blog.gainlo.co/index.php/2016/06/03/second-largest-element-of-a-binary-search-tree/)
   - [x] [Subarray With Given Sum](http://blog.gainlo.co/index.php/2016/06/01/subarray-with-given-sum/)
-  - [ ] [Minimum Number of Deletions Of a String](http://blog.gainlo.co/index.php/2016/04/29/minimum-number-of-deletions-of-a-string/)
+  - [x] [Minimum Number of Deletions Of a String](http://blog.gainlo.co/index.php/2016/04/29/minimum-number-of-deletions-of-a-string/)
   - [x] [Print All Paths Of a Binary Tree](http://blog.gainlo.co/index.php/2016/04/15/print-all-paths-of-a-binary-tree/)
   - [x] [Find The Longest Substring With K Unique Characters](http://blog.gainlo.co/index.php/2016/04/12/find-the-longest-substring-with-k-unique-characters/)
   - [x] [If a String Contains an Anagram of Another String](http://blog.gainlo.co/index.php/2016/04/08/if-a-string-contains-an-anagram-of-another-string/)
@@ -136,3 +136,5 @@ function(A){
 ## Longest Increasing subarray (sliding window)
 
 ## Longest Increasing subsequence
+
+## Search an Element in a Sorted and Rotated Array
