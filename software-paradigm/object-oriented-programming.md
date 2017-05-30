@@ -63,3 +63,5 @@ Model the monorail system at Disney World.
 Design a restaurant-reservation system.
 Design a hotel room-reservation system.
 A good OO design question can test coding, design, domain knowledge, OO principles, and so on. A good weeder question should probably just target whether they know when to use subtypes, attributes, and containment.
+
+- https://github.com/willdurand/willdurand.github.com/blob/master/_posts/2013-06-03-object-calisthenics.markdown
