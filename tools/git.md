@@ -477,3 +477,5 @@ Interactive rebase is very similar. We begin with a set of commits, typically on
 Once again, we can see that the old commits live on despite being orphaned, and we can therefore get back to them as needed.
 
 $ git rebase --interactve master
+
+- https://github.com/jkulak/git-ninja/blob/master/README.md#toc
