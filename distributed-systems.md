@@ -125,3 +125,4 @@
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
 - https://github.com/aphyr/distsys-class
+- http://blog.arkency.com/2016/12/techniques-for-dealing-with-uncertainity/
