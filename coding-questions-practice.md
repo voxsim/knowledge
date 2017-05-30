@@ -110,7 +110,7 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-# Permutations of a string A
+## Permutations of a string A
 
 ```javascript
 function(A){
@@ -132,3 +132,7 @@ function(A){
   return results;
 }
 ```
+
+## Longest Increasing subarray (sliding window)
+
+## Longest Increasing subsequence
