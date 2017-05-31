@@ -102,6 +102,12 @@ delete myArray[1];
 
 ## Object
 
+### Prototype
+Every JavaScript object has a prototype. The prototype is also an object.
+All JavaScript objects inherit their properties and methods from their prototype.
+The standard way to create an object prototype is to use an object constructor function.
+With a constructor function, you can use the new keyword to create new objects from the same prototype.
+
 ### Object literal
 An expressive notation to define object
 
