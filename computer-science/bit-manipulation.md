@@ -3,8 +3,8 @@ Bit operations:
 - OR or |
 - XOR or ^
 - NOT or ~
-- << means shift to left
-- >> means shift to right
+- `<<` means shift to left
+- `>>` means shift to right
 
 Bit tricks:
 - 0110 + 0110 => 0110 * 2 => equivalent to shifting 0110 left by 1 => 1100
