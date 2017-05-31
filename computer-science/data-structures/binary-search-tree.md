@@ -7,7 +7,7 @@ Big O efficiency:
 Binary search tree imposes the condition that, for all nodes, the left children are less than or equal to the current node, which is less then all the right nodes.
 Binary search trees are a fairly common form of tree for their ability to
 efficiently access, search, insert, and delete values all while keeping them
-in a sorted order.
+in a sorted order. The height of the tree is h = log(n).
 
 Imagine taking a sequence of numbers:
 
@@ -156,33 +156,6 @@ class BinarySearchTree {
 }
 ```
 
-1. If we want to balance a tree? I.e. each subtree of each node don't differ more than a certain amount.
-2. Skiena: Stop and Think: Exploiting Balanced Search Trees
-
-From geeksforgeeks:
-Binary Search Tree
-
-In Binary Search Tree is a Binary Tree with following additional properties:
-1. The left subtree of a node contains only nodes with keys less than the node’s key.
-2. The right subtree of a node contains only nodes with keys greater than the node’s key.
-3. The left and right subtree each must also be a binary search tree.
-Time Complexities:
-
-Search :  O(h)
-Insertion : O(h)
-Deletion : O(h)
-Extra Space : O(n) for pointers
-
-h: Height of BST
-n: Number of nodes in BST
-
-If Binary Search Tree is Height Balanced, 
-then h = O(Log n) 
-
-Self-Balancing BSTs such as AVL Tree, Red-Black
-Tree and Splay Tree make sure that height of BST 
-remains O(Log n)
-BST provide moderate access/search (quicker than Linked List and slower than arrays).
-BST provide moderate insertion/deletion (quicker than Arrays and slower than Linked Lists).
-
-Examples : Its main use is in search application where data is constantly entering/leaving and data needs to printed in sorted order. For example in implementation in E- commerce websites where a new product is added or product goes out of stock and all products are lised in sorted order.
+Questions:
+1. Given a sorted array with unique integers, write an algorithm to create a binary search tree with miniaml height.
+2. Implement a function to check if a binary tree is a binary search tree
