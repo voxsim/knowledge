@@ -39,7 +39,7 @@
   - [x] http://codercareer.blogspot.it/2011/10/no-13-first-character-appearing-only.html?m=1
   - [x] http://codercareer.blogspot.it/2011/10/no-14-last-number-in-circle.html?m=1
   - [x] http://codercareer.blogspot.it/2011/10/no-15-fibonacci-sequences.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/10/no-16-maximum-length-of-incremental.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/10/no-16-maximum-length-of-incremental.html?m=1
   - [x] http://codercareer.blogspot.it/2011/10/no-17-queue-implemented-with-two-stacks.html?m=1
   - [x] http://codercareer.blogspot.it/2011/10/no-18-reverse-linked-list.html?m=1
   - [x] http://codercareer.blogspot.it/2011/11/no-19-left-rotation-of-string.html?m=1
@@ -47,9 +47,9 @@
   - [x] http://codercareer.blogspot.it/2011/11/no-21-push-and-pop-sequences-of-stacks.html?m=1
   - [x] http://codercareer.blogspot.it/2011/11/no-22-turning-number-in-array.html?m=1
   - [x] http://codercareer.blogspot.it/2011/11/no-23-palindrome-numbers.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/11/no-24-intersection-of-sorted-arrays.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/12/no-25-edit-distance.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/12/no-26-minimal-number-of-coins-for.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/11/no-24-intersection-of-sorted-arrays.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/12/no-25-edit-distance.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/12/no-26-minimal-number-of-coins-for.html?m=1
   - [x] http://codercareer.blogspot.it/2011/12/no-27-area-of-rectangles.html?m=1
   - [ ] http://codercareer.blogspot.it/2011/12/no-28-pair-with-maximal-difference.html?m=1
   - [x] http://codercareer.blogspot.it/2012/01/no-29-loop-in-list.html?m=1
@@ -163,6 +163,29 @@ function twosum(A, S) {
 ## Longest Increasing subarray (sliding window)
 
 ## Longest Increasing subsequence
+Given an unsorted array, find the max length of subsequence in which the numbers are in incremental order.
+For example: If the input array is {7, 2, 3, 1, 5, 8, 9, 6}, a subsequence with the most numbers in incremental order is {2, 3, 5, 8, 9} and the expected output is 5. Complexity O(n^2)
+
+```javascript
+function longest_increasing_subsequence(A) {
+   var ml = [];
+   ml[0] = 1;
+   for(var i = 1; i<A.length; i++) {
+       var max = 0;
+       for(var j=0; j<i; j++) {
+            if(A[i] > A[j] && ml[j] > max) {
+              max = ml[j];
+            }
+       }
+       if(ml[i-1] > max + 1) {
+         ml[i] = ml[i-1];
+       } else {
+         ml[i] = max + 1;
+       }
+   }
+   return ml[A.length-1];
+}
+```
 
 ## Search an Element in a Sorted and Rotated Array
 Search an element in a sorted and rotated array, e.g. [10, 20, 1, 3, 6, 7, 8].
@@ -195,3 +218,43 @@ function binary_search(A, x) {
   }
 }
 ```
+
+## Intersection of Sorted Arrays
+Please implement a function which gets the intersection of two sorted arrays. Assuming numbers in each array are unique.
+
+For example, if the two sorted arrays as input are {1, 4, 7, 10, 13} and {1, 3, 5, 7, 9}, it returns an intersection array with numbers {1, 7}. 
+
+Solution 1: Complexity O(m+n)
+
+```javascript
+function intersection(A, B) {
+
+  if(!A || !B) return;
+
+  var result = [];
+
+  for(var i=0, j=0; i<A.length && j < B.length; ) {
+
+    if(A[i] === B[j]) {
+
+      result.push(A[i]);
+
+      i++;
+
+      j++;
+
+    } else if(A[i] < B[j]) {
+       i++;
+
+    } else {
+
+       j++;
+
+    }
+
+ }
+ return result;
+}
+```
+
+Solution 2: for m >> n, complexity O(nlogm), for each number of A we use binary_search on B.
