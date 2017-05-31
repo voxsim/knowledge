@@ -51,12 +51,12 @@
   - [x] http://codercareer.blogspot.it/2011/12/no-25-edit-distance.html?m=1
   - [x] http://codercareer.blogspot.it/2011/12/no-26-minimal-number-of-coins-for.html?m=1
   - [x] http://codercareer.blogspot.it/2011/12/no-27-area-of-rectangles.html?m=1
-  - [ ] http://codercareer.blogspot.it/2011/12/no-28-pair-with-maximal-difference.html?m=1
+  - [x] http://codercareer.blogspot.it/2011/12/no-28-pair-with-maximal-difference.html?m=1
   - [x] http://codercareer.blogspot.it/2012/01/no-29-loop-in-list.html?m=1
   - [x] http://codercareer.blogspot.it/2012/01/no-30-median-in-stream.html?m=1
   - [x] http://codercareer.blogspot.it/2012/01/no-31-binary-search-tree-verification.html?m=1
   - [x] http://codercareer.blogspot.it/2012/02/no-32-remove-numbers-in-array.html?m=1
-  - [ ] http://codercareer.blogspot.it/2012/02/no-33-maximums-in-sliding-windows.html?m=1
+  - [x] http://codercareer.blogspot.it/2012/02/no-33-maximums-in-sliding-windows.html?m=1
   - [x] http://codercareer.blogspot.it/2012/02/no-34-string-path-in-matrix.html?m=1
   - [x] http://codercareer.blogspot.it/2013/01/no-35-depth-of-binary-trees.html?m=1
   - [x] http://codercareer.blogspot.it/2013/02/no-36-permutation.html?m=1
@@ -70,7 +70,7 @@
   - [ ] http://codercareer.blogspot.it/2013/02/no-44-maximal-stolen-values.html?m=1
   - [x] http://codercareer.blogspot.it/2013/03/no-45-closest-node-in-binary-search-tree_2.html?m=1
   - [x] http://codercareer.blogspot.it/2013/03/no-46-nodes-with-sum-in-binary-search.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/03/no-47-search-in-rotation-of-array_31.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/03/no-47-search-in-rotation-of-array_31.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/11/no-48-least-number-after-deleting-digits.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/11/no-49-longest-substring-without.html?m=1
   - [x] http://codercareer.blogspot.it/2013/12/no-50-numbers-appearing-once.html?m=1
@@ -161,10 +161,34 @@ function twosum(A, S) {
 ```
 
 ## Longest Increasing subarray (sliding window)
+Given an unsorted array, find the max length of subarray in which the numbers are in incremental order.
+For example: If the input array is {7, 2, 3, 1, 5, 8, 9, 6}, a subarray with the most numbers in incremental order is {1, 5, 8, 9} and the expected output is 4. Complexity O(n). Subarray is contiguous respect than a subsequence.
+
+```javascript
+function longest_increasing_subsubarray(A) {
+  var lis = [];
+  lis[0] = 1;
+  var max = 0;
+  
+  for(var i=1; i < A.length; i++) {
+     if(A[i-1] <= A[i]) {
+       lis[i] = lis[i-1] + 1;
+     } else {
+       lis[i] = 1;
+     }
+     if(max < lis[i]) {
+       max = lis[i];
+     }
+  }
+  
+  console.log(lis);
+  return max;
+}
+```
 
 ## Longest Increasing subsequence
 Given an unsorted array, find the max length of subsequence in which the numbers are in incremental order.
-For example: If the input array is {7, 2, 3, 1, 5, 8, 9, 6}, a subsequence with the most numbers in incremental order is {2, 3, 5, 8, 9} and the expected output is 5. Complexity O(n^2)
+For example: If the input array is {7, 2, 3, 1, 5, 8, 9, 6}, a subsequence with the most numbers in incremental order is {2, 3, 5, 8, 9} and the expected output is 5. Complexity O(n^2).
 
 ```javascript
 function longest_increasing_subsequence(A) {
