@@ -137,14 +137,3 @@ A Binary Heap is a Binary Tree with following properties:
 Questions:
 1. Design an algorithm and write code to find the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarily a binary search tree.
 2. You are given a binary tree in which each node contains a value. Design an algorithm to print all paths which sum to a given value. The path does not need to start or end at the root or a leaf, but it must go in a straight line down.
-3. insert    // insert value into tree
-4. get_node_count // get count of values stored
-5. print_values // prints the values in the tree, from min to max
-6. delete_tree
-7. is_in_tree // returns true if given value exists in the tree
-8. get_height // returns the height in nodes (single node's height is 1)
-9. get_min   // returns the minimum value stored in the tree
-10. get_max   // returns the maximum value stored in the tree
-11. is_binary_search_tree
-12. delete_value
-13. get_successor // returns next-highest value in tree after given value, -1 if none
