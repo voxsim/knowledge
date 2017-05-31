@@ -9,9 +9,10 @@ What you need to know:
 - Know that it divides all the data into as small possible sets then compares them.
 
 Big O efficiency:
-- Best Case Sort: Merge Sort: O(n)
-- Average Case Sort: Merge Sort: O(n log n)
-- Worst Case Sort: Merge Sort: O(n log n)
+- Best Case Sort: O(n)
+- Average Case Sort: O(n log n)
+- Worst Case Sort: O(n log n)
+- Memory: O(n)
 
 Merge Sort Vs. Quicksort
 - Quicksort is likely faster in practice.
