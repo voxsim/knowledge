@@ -64,14 +64,14 @@
   - [x] http://codercareer.blogspot.it/2013/02/no-38-digits-in-sequence.html?m=1
   - [x] http://codercareer.blogspot.it/2013/02/no-39-stacks-sharing-array.html?m=1
   - [x] http://codercareer.blogspot.it/2013/02/no-40-add-on-lists.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/02/no-41-group-of-1s-in-matrix.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/02/no-42-three-increasing-elements-in-array.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/02/no-41-group-of-1s-in-matrix.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/02/no-42-three-increasing-elements-in-array.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-43-minimal-number-of-splits-on-string.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/02/no-44-maximal-stolen-values.html?m=1
   - [x] http://codercareer.blogspot.it/2013/03/no-45-closest-node-in-binary-search-tree_2.html?m=1
   - [x] http://codercareer.blogspot.it/2013/03/no-46-nodes-with-sum-in-binary-search.html?m=1
   - [x] http://codercareer.blogspot.it/2013/03/no-47-search-in-rotation-of-array_31.html?m=1
-  - [ ] http://codercareer.blogspot.it/2013/11/no-48-least-number-after-deleting-digits.html?m=1
+  - [x] http://codercareer.blogspot.it/2013/11/no-48-least-number-after-deleting-digits.html?m=1
   - [ ] http://codercareer.blogspot.it/2013/11/no-49-longest-substring-without.html?m=1
   - [x] http://codercareer.blogspot.it/2013/12/no-50-numbers-appearing-once.html?m=1
   - [x] http://codercareer.blogspot.it/2013/12/no-51-next-number-with-same-set-of.html?m=1
