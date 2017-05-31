@@ -1,8 +1,8 @@
 Big O efficiency:
-- Best Case Sort: Merge Sort: O(n)
-- Average Case Sort: Merge Sort: O(n log n)
-- Worst Case Sort: Merge Sort: O(n^2)
-- Memory: O(n)
+- Best Case Sort: O(n log(n))
+- Average Case Sort: O(n log n)
+- Worst Case Sort: O(n^2)
+- Memory: O(log(n))
 
 A comparison based sorting algorithm
 - Divides entire dataset in half by selecting the average element and putting all smaller elements to the left of the average.
