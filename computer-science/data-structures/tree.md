@@ -94,15 +94,6 @@ class Tree {
 }
 ```
 
-*Binary Tree vs Binary Search Tree*
-Binary search tree imposes the condition that, for all nodes, the left children are less than or equal to the current node, which is less then all the right nodes.
-
-*Balanced vs Unbalanced*
-Balancing a tree implies only that the depth of subtrees will not vary by more than a certain amount. It does not mean that the left and right subtrees are exactly the same size.
-
-*Full and Complete*
-Full and complete trees are trees in which all leaves are at the bottom of the tree, and all non-leaf nodes have exactly two children. Note that full and complete trees are extremely rare, as a tree must have exactly 2^n - 1 nodes to meet this condition.
-
 *Types of traversal*
 Pre-order:
 1. Check if the current node is empty / null.
@@ -122,61 +113,25 @@ Post-order:
 3. Traverse the right subtree by recursively calling the post-order function.
 4. Display the data part of the root (or current node) or do an operation.
 
-Questions:
-1. Implement a function to check if a binary tree is balanced. The tree is balanced if the heights of the two subtrees of any node never differ by more than one.
-2. Given a sorted array with unique integers, write an algorithm to create a binary search tree with miniaml height.
-3. Implement a function to check if a binary tree is a binary search tree
-4. Design an algorithm and write code to find the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarily a binary search tree.
-5. You are given a binary tree in which each node contains a value. Design an algorithm to print all paths which sum to a given value. The path does not need to start or end at the root or a leaf, but it must go in a straight line down.
-6. https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
-Implement:
-- [ ] insert    // insert value into tree
-- [ ] get_node_count // get count of values stored
-- [ ] print_values // prints the values in the tree, from min to max
-- [ ] delete_tree
-- [ ] is_in_tree // returns true if given value exists in the tree
-- [ ] get_height // returns the height in nodes (single node's height is 1)
-- [ ] get_min   // returns the minimum value stored in the tree
-- [ ] get_max   // returns the maximum value stored in the tree
-- [ ] is_binary_search_tree
-- [ ] delete_value
-- [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+*Binary Tree vs Binary Search Tree*
+Binary search tree imposes the condition that, for all nodes, the left children are less than or equal to the current node, which is less then all the right nodes.
 
-From GeeksforGeeks:
-Binary Tree
+*Balanced vs Unbalanced*
+Balancing a tree implies only that the depth of subtrees will not vary by more than a certain amount. It does not mean that the left and right subtrees are exactly the same size.
 
-Unlike Arrays, Linked Lists, Stack and queues, which are linear data structures, trees are hierarchical data structures.
-A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. It is implemented mainly using Links.
-Binary Tree Representation: A tree is represented by a pointer to the topmost node in tree. If the tree is empty, then value of root is NULL. A Binary Tree node contains following parts.
-1. Data
-2. Pointer to left child
-3. Pointer to right child
+*Full and Complete*
+Full and complete trees are trees in which all leaves are at the bottom of the tree, and all non-leaf nodes have exactly two children. Note that full and complete trees are extremely rare, as a tree must have exactly 2^n - 1 nodes to meet this condition.
 
-A Binary Tree can be traversed in two ways:
-Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postoder (Left-Right-Root)
-Breadth First Traversal: Level Order Traversal
+*Binary Tree Properties*
+- The maximum number of nodes at level ‘l’ = 2l-1.
+- Maximum number of nodes = 2h – 1. Here h is height of a tree. Height is considered  as is maximum number of nodes on root to leaf path
+- Minimum possible height =  ceil(Log2(n+1))   
+- In Binary tree, number of leaf nodes is always one  more than nodes with two children.
 
-Binary Tree Properties:
-
-The maximum number of nodes at level ‘l’ = 2l-1.
-
-Maximum number of nodes = 2h – 1.
-Here h is height of a tree. Height is considered 
-as is maximum number of nodes on root to leaf path
-
-Minimum possible height =  ceil(Log2(n+1))   
-
-In Binary tree, number of leaf nodes is always one 
-more than nodes with two children.
-
-Time Complexity of Tree Traversal: O(n)
-Examples : One reason to use binary tree or tree in general is for the things that form a hierarchy. They are useful in File structures where each file is located in a particular directory and there is a specific hierarchy associated with files and directories. Another example where Trees are useful is storing heirarchical objects like JavaScript Document Object Model considers HTML page as a tree with nesting of tags as parent child relations.
-
-Binary Heap
-
-A Binary Heap is a Binary Tree with following properties.
-1) It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
-2) A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to Min Heap. It is mainly implemented using array.
+*Binary Heap*
+A Binary Heap is a Binary Tree with following properties:
+- It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
+- A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to Min Heap. It is mainly implemented using array.
 Get Minimum in Min Heap: O(1) [Or Get Max in Max Heap]
 Extract Minimum Min Heap: O(Log n) [Or Extract Max in Max Heap]
 Decrease Key in Min Heap: O(Log n)  [Or Extract Max in Max Heap]
@@ -185,3 +140,18 @@ Delete: O(Log n)
 Example : Used in implementing efficient priority-queues, which in turn are used for scheduling processes in operating systems. Priority Queues are also used in Dijstra’s and Prim’s graph algorithms.
 Order statistics: The Heap data structure can be used to efficiently find the k’th smallest (or largest) element in an array.
 Heap is a special data structure and it cannot be used for searching of a particular element.
+
+Questions:
+1. Design an algorithm and write code to find the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarily a binary search tree.
+2. You are given a binary tree in which each node contains a value. Design an algorithm to print all paths which sum to a given value. The path does not need to start or end at the root or a leaf, but it must go in a straight line down.
+3. insert    // insert value into tree
+4. get_node_count // get count of values stored
+5. print_values // prints the values in the tree, from min to max
+6. delete_tree
+7. is_in_tree // returns true if given value exists in the tree
+8. get_height // returns the height in nodes (single node's height is 1)
+9. get_min   // returns the minimum value stored in the tree
+10. get_max   // returns the maximum value stored in the tree
+11. is_binary_search_tree
+12. delete_value
+13. get_successor // returns next-highest value in tree after given value, -1 if none
