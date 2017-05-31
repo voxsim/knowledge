@@ -155,7 +155,3 @@ class BinarySearchTree {
   }
 }
 ```
-
-Questions:
-1. Given a sorted array with unique integers, write an algorithm to create a binary search tree with miniaml height.
-2. Implement a function to check if a binary tree is a binary search tree
