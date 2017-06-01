@@ -33,4 +33,23 @@ function dfs(root, callback) {
 }
 ```
 
-1. https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-2/ -> DFS Implemented with a stack
+DFS with a stack
+```javascript
+function dfs(root, callback) {
+  if(!root) return;
+  var stack = [root]; // we use an array as stack
+  
+  while(stack.length > 0) {
+    var node = stack.pop();
+    callback(node);
+    node.visited = true;
+  
+    if(!node.adjacents) return;
+    for(const n of node.adjacents) {
+      if(!n.visited) {
+        stack.push(n);
+      }
+    }
+  }
+}
+```
