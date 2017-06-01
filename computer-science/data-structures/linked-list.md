@@ -147,6 +147,5 @@ Advantages over arrays
 3) It is ok when the size is unknown
 
 Drawbacks:
-1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
+1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked list
 2) Extra memory space for a pointer is required with each element of the list.
-3) Insert costs O(N) due the lack of random access
