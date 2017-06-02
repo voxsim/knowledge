@@ -106,10 +106,10 @@ Challenge sites:
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
-## Permutations of a string A
+## Permutations of an array A
 
 ```javascript
-function(A){
+function permute(A){
   if(!A) return;
   if(A.length <= 1) return [A];
 
