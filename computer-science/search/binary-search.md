@@ -10,7 +10,7 @@ function binary_search(array, valueToSearch) {
     return valueToSearch === array[0] ? 0 : undefined;
   }
 
-  const mid = Math.ceil(array.length/2);
+  const mid = Math.floor(array.length/2);
   if(array[mid] === valueToSearch) {
     return mid;
   } else {
@@ -31,7 +31,7 @@ function binary_search(array, valueToSearch) {
   let high = array.length;
 
   for(;low <= high;) {
-    const mid = Math.ceil((low + high)/2);
+    const mid = Math.floor((low + high)/2);
     if(array[mid] === valueToSearch) {
       return mid;
     } else {
