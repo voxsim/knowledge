@@ -2,45 +2,40 @@ An algorithm that searches a value divinding constantly the space in two.
 
 Recursive approach:
 ```javascript
-function binary_search(array, valueToSearch) {
-  if(array.length === 0) {
-    return;
+function binary_search(array, valueToSearch, begin=0, end=array.length-1) {
+  if(end === 0) {
+    return -1;
   }
-  if(array.length === 1) {
-    return valueToSearch === array[0] ? 0 : undefined;
-  }
-
-  const mid = Math.floor(array.length/2);
+  
+  const mid = Math.floor(begin + (end - begin)/2);
   if(array[mid] === valueToSearch) {
     return mid;
-  } else {
-    if(valueToSearch > array[mid]) {
-      let result = binary_search(array.slice(mid), valueToSearch);
-      return result ? mid + result : result;
-    } else {
-      return binary_search(array.slice(0, mid), valueToSearch);
-    }
   }
+  
+  if(array[mid] > valueToSearch) {
+    return binary_search(array, valueToSearch, mid+1, end);
+  }
+  
+  return binary_search(array, valueToSearch, 0, mid-1);
 }
 ```
 
 Iterative approach:
 ```javascript
-function binary_search(array, valueToSearch) {
-  let low = 0;
-  let high = array.length;
-
-  for(;low <= high;) {
-    const mid = Math.floor((low + high)/2);
+function binary_search(array, valueToSearch, begin=0, end=array.length-1) {
+  for(;begin <= end;) {
+    const mid = Math.floor(begin + (end - begin)/2);
     if(array[mid] === valueToSearch) {
       return mid;
+    }
+    
+    if(array[mid] < valueToSearch) {
+      begin = mid + 1;
     } else {
-      if(valueToSearch > array[mid]) {
-        low = mid + 1;
-      } else {
-        high = mid - 1;
-      }
+      end = mid - 1;
     }
   }
+  
+  return -1;
 }
 ```
