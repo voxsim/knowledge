@@ -5,3 +5,4 @@
 - https://github.com/Microsoft/api-guidelines
 - https://github.com/zalando/restful-api-guidelines
 - https://philsturgeon.uk/api/2017/01/24/graphql-vs-rest-overview/
+- http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
