@@ -4,3 +4,4 @@
 - http://restcookbook.com/Basics/hateoas/
 - https://github.com/Microsoft/api-guidelines
 - https://github.com/zalando/restful-api-guidelines
+- https://philsturgeon.uk/api/2017/01/24/graphql-vs-rest-overview/
