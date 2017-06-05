@@ -1,2 +1,3 @@
 - https://cloud.google.com/apis/design/
 - https://geemus.gitbooks.io/http-api-design/content/en/
+- https://martinfowler.com/articles/richardsonMaturityModel.html
