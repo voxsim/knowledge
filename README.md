@@ -13,8 +13,8 @@ Legenda: Titles with bang (!) needs refactoring.
   * French (TBD)
   * German (TBD)
   * [Russian](./languages/russian.md)
-* [Regular Expression !](/regular-expression.md)
-* [Scripting !](/scripting.md)
+* [Regular Expression](/regular-expression.md)
+* [Scripting](/scripting.md)
 * Programming Languages
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
@@ -83,6 +83,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * [Function](./testing/function.md)
   * [Function - Edge cases](./testing/edge-cases.md)
 * Web
+  * [Api](./web/api.md)
   * [Dom](./web/dom.md)
   * [Caching](./web/caching.md)
   * [Characters](./web/characters.md)
