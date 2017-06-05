@@ -149,3 +149,6 @@ Advantages over arrays
 Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked list
 2) Extra memory space for a pointer is required with each element of the list.
+
+## The "Runner" technique
+The "runner" (or second pointer) technique is used in many linked list problems. The runner technique means that you iterate through the linked list with two pointers simultaneously, with one ahead of the other. The "fast" node might be ahead by a fixed amount or it might be hopping multiple nodes for each node that the "slow" node iterates through.
