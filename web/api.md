@@ -7,3 +7,4 @@
 - https://philsturgeon.uk/api/2017/01/24/graphql-vs-rest-overview/
 - http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
 - http://graphql.org/learn/
+- http://www.grpc.io/
