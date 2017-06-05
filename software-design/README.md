@@ -42,3 +42,5 @@
 - https://martinfowler.com/tags/agile.html
 - https://martinfowler.com/tags/design.html
 - https://martinfowler.com/tags/evolutionary%20design.html
+- https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
+- https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
