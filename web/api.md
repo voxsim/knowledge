@@ -1,3 +1,6 @@
 - https://cloud.google.com/apis/design/
 - https://geemus.gitbooks.io/http-api-design/content/en/
 - https://martinfowler.com/articles/richardsonMaturityModel.html
+- http://restcookbook.com/Basics/hateoas/
+- https://github.com/Microsoft/api-guidelines
+- https://github.com/zalando/restful-api-guidelines
