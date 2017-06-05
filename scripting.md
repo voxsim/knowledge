@@ -1,2 +1,3 @@
 - http://mally.stanford.edu/~sr/computing/basic-unix.html
 - https://github.com/jlevy/the-art-of-command-line
+- https://github.com/Idnan/bash-guide
