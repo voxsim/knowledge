@@ -24,9 +24,3 @@ Recursion Vs. Iteration
   - Iteration uses less memory.
 - **Functional languages** tend to use recursion. (i.e. Haskell)
 - **Imperative languages** tend to use iteration. (i.e. Ruby)
-
-Questions:
-1. A child is running up a staircase with n steps, and can hop either 1 step, 2 steps or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs.
-2. Write a program that prints all permutations of a string of unique characters.
-3. Implement an algorithm to print all valid combinations of n-pairs of parentheses
-4. Given a quarter (25 cents), dimes (10 cents), nickels (5 cents) and pennies (1 cent). Write code to calculate the number of ways of representing n cents.
