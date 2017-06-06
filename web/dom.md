@@ -3,11 +3,25 @@ Document Object Model
 - the browser's API
 - document is the page
 - document.body, document.head, document.documentElement is <html>
-- each node has firstChild, lastChild, children
-- each node has parent node
-- each node has sibilings (nextSibiling, prevSibiling)
-- each node has className, style
-- each node has appendChild(new), insertBefore(new, sibiling), replaceChild(new, old), removeChild(old)
+- each node has 
+  - firstChild, lastChild, children
+  - parentNode
+  - sibilings (nextSibiling, prevSibiling)
+  - className, style
+  - appendChild(new), insertBefore(new, sibiling), replaceChild(new, old), removeChild(old)
+  - nodeType that it is a short
+    - Node.ELEMENT_NODE == 1
+    - Node.ATTRIBUTE_NODE == 2
+    - Node.TEXT_NODE == 3
+    - Node.CDATA_SECTION_NODE == 4
+    - Node.ENTITY_REFERENCE_NODE == 5
+    - Node.ENTITY_NODE == 6
+    - Node.PROCESSING_INSTRUCTION_NODE == 7
+    - Node.COMMENT_NODE == 8
+    - Node.DOCUMENT_NODE == 9
+    - Node.DOCUMENT_TYPE_NODE == 10
+    - Node.DOCUMENT_FRAGMENT_NODE == 11
+    - Node.NOTATION_NODE == 12
 - When use removeChild be sure to remove any event handler
 - Event Handles
   node.addEventListener(type, f, false);
@@ -18,6 +32,9 @@ Bubbling: means that the event is given to the target, and then its parent, and 
 
 ```javascript
 function walkTheDOM(node, func) {
+  if(!node) return;
+  if(node.nodeType != 1) return; // if we iterate only on elements
+  
   func(node);
   node = node.firstChild;
   while(node) {
