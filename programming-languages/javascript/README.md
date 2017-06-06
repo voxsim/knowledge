@@ -47,7 +47,7 @@ Produce false for some values of a, b, c, e.g. decimal fractions, big integers
 - Similar string are equal (===)
 - String literals can use single/double quotes with \ for escapment
 
-Template strings
+#### Template strings
 You can use backtick to:
 
 - stick variables inside a string. E.g.:
