@@ -14,6 +14,25 @@ In JavaScript, functions are our de facto scope delimiters for declaring vars, w
 ## Hoisting
 On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
 
+```javascript
+/* Function declaration */
+
+foo(); // "bar"
+
+function foo() {
+  console.log('bar');
+}
+
+
+/* Function expression */
+
+baz(); // TypeError: baz is not a function
+
+var baz = function() {
+  console.log('bar2');
+};
+```
+
 ## Statements
 - A block statement is something between { }
 - A function statement is something inside a function
@@ -21,10 +40,30 @@ On runtime, all var and function declarations are moved to the beginning of each
 ## Primitive types
 There are seven primitive types: null, undefined, Number, String, Boolean, Object, Symbol.
 
+### null
+The value null is written with a literal: null. null is not an identifier for a property of the global object, like undefined can be. Instead, null expresses a lack of identification, indicating that a variable points to no object. 
+
+```
++null // 0
+typeof null        // "object" (not "null" for legacy reasons)
+typeof undefined   // "undefined"
+null === undefined // false
+null  == undefined // true
+null === null //true
+null == null //true
+!null // true
+isNaN(1 + null) //false
+isNaN(1 + undefined) //true
+```
+
 ### undefined
 - a value that isn't even that
 - the default value for variables and parameters
 - the value of missing members in objects
+
+```
++undefined // NaN
+```
 
 ### Number
 - Immutable
