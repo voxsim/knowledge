@@ -505,8 +505,8 @@ for (const cut of cuts) {
 }
 ```
 
-For the second case you can't use `break` or `continue`.
-For the third case it iterates *absolutely* through the array including properties or what we add to the prototype of Array. It is useful if you want to iterate through object properties.
+- For the second case you can't use `break` or `continue`.
+- For the third case it iterates *absolutely* through the array including properties or what we add to the prototype of Array. It is useful if you want to iterate through object properties. Another problem that there is no guarantee about the order of the iteration.
 The fourth case works as normal `foreach`. If you want to iterate through object properties you should use `Object.keys` or `entries`.
 
 ## Operators
@@ -598,6 +598,20 @@ Promise.all([p1, p2]).then((res) => {
 
 ## Strict mode
 ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+- No more implied global variables within a function
+- this is not bound to global object in function form
+- apply and call do not default to global object
+- No with statement
+- Setting writeble: false a property will throw
+- Delete a configurable: false will throw
+- Restrinctions on eval
+- eval and arguments are reserved
+- arguments not linked to parameters
+- No more arguments.caller or arguments.callee
+- No more octal literal
+- Duplicate names in object literals are syntax errors
+- Forgetting to use the new operator will throw an exception, instead to be attached silently on the global object
+- No more is implicity attached to the global object (the default one will be undefined)
 
 ## Immediately-invoked function expression (IIFE)
 An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.
