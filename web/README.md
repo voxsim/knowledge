@@ -2,3 +2,4 @@
 - https://serviceworke.rs/
 - https://github.com/w3c/ServiceWorker/blob/master/explainer.md
 - https://calendar.perfplanet.com/2015/reducing-single-point-of-failure-using-service-workers/
+- http://delapuente.github.io/presentations/at-your-service/
