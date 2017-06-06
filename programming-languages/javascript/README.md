@@ -302,6 +302,17 @@ var helloFunc = person.hello.bind(person);
 helloFunc("world");  // output: "James Smith says hello world"
 ```
 
+Its implementation:
+```javascript
+Function.prototype.bind = function(){ 
+  var fn = this, args = Array.prototype.slice.call(arguments), object = args.shift(); 
+  return function(){ 
+    return fn.apply(object, 
+      args.concat(Array.prototype.slice.call(arguments))); 
+  }; 
+};
+```
+
 ### As a Constructor
 
 You can also invoke a function as a constructor. Based on the naming convention you're using (TestObject) this also may be what you're doing and is what's tripping you up.
