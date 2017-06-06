@@ -205,6 +205,7 @@ The `var` keyword is the oldest one and:
 - the statement gets split into two parts:
   - the declaration part gets hoisted to the top of the function, initializing with undefined
   - the initialization part turns into an ordinary assignment
+- if you define a variable without var it will be attached to the global object window
 
 ```javascript
 var myvar = 0;
