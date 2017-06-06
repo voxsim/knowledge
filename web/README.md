@@ -1,2 +1,4 @@
 - https://developers.google.com/web/fundamentals/getting-started/
 - https://serviceworke.rs/
+- https://github.com/w3c/ServiceWorker/blob/master/explainer.md
+- https://calendar.perfplanet.com/2015/reducing-single-point-of-failure-using-service-workers/
