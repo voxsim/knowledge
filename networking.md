@@ -1,3 +1,10 @@
+## Stack of the protocol
+- Ajax -> Stateful
+- HTTP -> Stateless
+- TCP -> Sessionful
+- IP -> Sessionless
+
+## Other
 - NAT: NAT stands for network address translation. 
 It is a way to translate requests that are incoming into a routing server to the relevant devices or servers that it 
 knows about in the LAN. This is usually implemented in physical LANs as a way to route requests through one IP address 
