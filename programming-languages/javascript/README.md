@@ -631,3 +631,4 @@ The this variable is attached to functions. Whenever you invoke a function, this
 
 More info:
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
+- https://johnresig.com/apps/learn
