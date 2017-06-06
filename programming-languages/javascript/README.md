@@ -596,4 +596,11 @@ An immediately-invoked function expression is a pattern which produces a lexical
 - this is key to prototypal inheritance.
 The this variable is attached to functions. Whenever you invoke a function, this is given a certain value, depending on how you invoke the function. This is often called the invocation pattern.
 
+## Timing events
+`var myTimeoutID = setTimeout(func, X)` call a function after X milliseconds.
+`clearTimeout(myTimeoutID)` can clear the timeout function before it is called.
+`var myIntervalID = setInterval(func, X)` call a function every X milliseconds.
+`clearInterval(myIntervalID)` can clear the interval function before it is called.
+
+More info:
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
