@@ -119,7 +119,7 @@ The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
 
 ### Boolean
 - Immutable
-- true, false
+- literal form: true, false
 
 ### Object
 
@@ -192,7 +192,7 @@ Loosely typed: any of these can be stored in a variable, or passed as a paramete
 - Very efficient for sparse array
 - Not very efficient in most of other cases
 - One advantage: No need to provide a length or type when creating an array
-- [] literal version of Array
+- Literal form: []
 - It can contain any number of expressions separated by commas
 - New items can be appendend
 - The dot notation should be not used by arrays
@@ -667,6 +667,35 @@ The this variable is attached to functions. Whenever you invoke a function, this
 `clearTimeout(myTimeoutID)` can clear the timeout function before it is called.
 `var myIntervalID = setInterval(func, X)` call a function every X milliseconds.
 `clearInterval(myIntervalID)` can clear the interval function before it is called.
+
+## Literals
+- Array -> []
+- Object -> {}
+- Boolean -> true, false
+- Integer -> 1, 2, etc..
+- Floating point -> 1.3, -3.1E+12 etc..
+- Regexp literal -> /ab+c/
+- String literal -> "hello"
+
+## throw statement
+```javascript
+throw 'Error2';   // String type
+throw 42;         // Number type
+throw true;       // Boolean type
+throw {toString: function() { return "I'm an object!"; } };
+```
+
+## try/catch statement
+```javascript
+openMyFile();
+try {
+  writeMyFile(theData); //This may throw a error
+} catch(e) {  
+  handleError(e); // If we got a error we handle it
+} finally {
+  closeMyFile(); // always close the resource
+}
+```
 
 More info:
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
