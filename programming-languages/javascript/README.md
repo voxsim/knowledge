@@ -610,8 +610,4 @@ An immediately-invoked function expression is a pattern which produces a lexical
 - this is key to prototypal inheritance.
 The this variable is attached to functions. Whenever you invoke a function, this is given a certain value, depending on how you invoke the function. This is often called the invocation pattern.
 
-- http://robotlolita.me/2011/10/09/understanding-javascript-oop.html
-- http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/
-- https://msdn.microsoft.com/en-us/magazine/ff852808.aspx
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
-- https://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm
