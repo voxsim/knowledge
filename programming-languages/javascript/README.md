@@ -166,14 +166,14 @@ delete myArray[1];
 -> we need to use splice to delete the element and resize the array
 
 ## typeof
-object -> 'object'
-function -> 'function'
-array -> 'object' ???
-number -> 'number'
-string -> 'string'
-boolean -> 'boolean'
-null -> 'object' ???
-undefined -> 'undefined'
+- object -> 'object'
+- function -> 'function'
+- array -> 'object' ???
+- number -> 'number'
+- string -> 'string'
+- boolean -> 'boolean'
+- null -> 'object' ???
+- undefined -> 'undefined'
 
 ## Falsy values
 - false
@@ -182,7 +182,7 @@ undefined -> 'undefined'
 - ""
 - 0
 - NaN
--> all other values (including objects) are thruthy, e.g. "0", "false"
+- all other values (including objects) are thruthy, e.g. "0", "false"
 
 Thruthy means that if you put in if statemnt it will go in the then branch, otherwise falsy means that it will go in the else branch
 
