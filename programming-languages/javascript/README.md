@@ -19,7 +19,7 @@ On runtime, all var and function declarations are moved to the beginning of each
 - A function statement is something inside a function
 
 ## Primitive types
-There are seven primitive types: null, undefined, Number, String, Object, Boolean, Symbol.
+There are seven primitive types: null, undefined, Number, String, Boolean, Object, Symbol.
 
 ### undefined
 - a value that isn't even that
@@ -82,82 +82,16 @@ The value of `sentence` will be `hi  <span>simon</span> <span></span>`.
 - Immutable
 - true, false
 
-### Array
-- Array inherits from Object
-- Indexes are converted to strings and used as names for retrieving values
-- Very efficient for sparse array
-- Not very efficient in most of other cases
-- One advantage: No need to provide a length or type when creating an array
-- [] literal version of Array
-- It can contain any number of expressions separated by commas
-- New items can be appendend
-- The dot notation should be not used by arrays
+### Object
 
-sort myArray:
--> it sorts alphabetically (everything number too, but we can pass a function in sort)
-
-delete myArray[1];
--> it puts undefined in number 1 index;
--> we need to use splice to delete the element and resize the array
-
-## Object
-
-### Prototype
+#### Prototype
 Every JavaScript object has a prototype. The prototype is also an object.
 All JavaScript objects inherit their properties and methods from their prototype.
 The standard way to create an object prototype is to use an object constructor function.
 With a constructor function, you can use the new keyword to create new objects from the same prototype.
 
-### Object literal
-An expressive notation to define object
-
-### Get, set and delete
-- get
-  object.name
-  object[expression]
-
-- set
-  object.name = value
-  object[expression] = value
-
-- delete
-  delete object.name
-  delete object[expression]
-
-### Properties
-A property is a named collection of attribute
-- value -> any Javascript value
-- writeble -> boolean
-- enumerable -> boolean
-- configurable -> boolean
-- get -> function() { ... return value }
-- set -> function(value) { ... }
-
-### Working with prototypes
-- Make an object that you like
-- Create new instances that inherit from that object
-- Customize new objects
-- Taxonomy and classification are not necessary
-- Object can have prototype attribute (object or null)
-
-### New operator
-```javascript
-function new(func, arguments) {
-  var that = Object.creatre(func.prototype),
-      result = func.apply(that, arguments);
-  return (typeof result === 'object' && result) || that;
-}
-```
-
-### Reference
-Objects can be passed as arguments to functions, and can be returned by functions
-- Objects are passed by references
-- Objects are not passed by value
-The === operator compares object references, not values (true if only it is the same object)
-Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
-
-### Enhanced Object Literals
-Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
+#### Object literal
+An expressive notation to define object.
 
 ```JavaScript
 var obj = {
@@ -174,6 +108,62 @@ var obj = {
     [ 'prop_' + (() => 42)() ]: 42
 };
 ```
+
+#### Get, set and delete
+- get
+  object.name
+  object[expression]
+
+- set
+  object.name = value
+  object[expression] = value
+
+- delete
+  delete object.name
+  delete object[expression]
+
+#### Properties
+A property is a named collection of attribute
+- value -> any Javascript value
+- writeble -> boolean
+- enumerable -> boolean
+- configurable -> boolean
+- get -> function() { ... return value }
+- set -> function(value) { ... }
+
+#### New operator
+```javascript
+function new(func, arguments) {
+  var that = Object.create(func.prototype),
+      result = func.apply(that, arguments);
+  return (typeof result === 'object' && result) || that;
+}
+```
+
+#### Reference
+Objects can be passed as arguments to functions, and can be returned by functions
+- Objects are passed by references
+- Objects are not passed by value
+The === operator compares object references, not values (true if only it is the same object)
+Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
+
+#### Array
+- Array inherits from Object
+- Indexes are converted to strings and used as names for retrieving values
+- Very efficient for sparse array
+- Not very efficient in most of other cases
+- One advantage: No need to provide a length or type when creating an array
+- [] literal version of Array
+- It can contain any number of expressions separated by commas
+- New items can be appendend
+- The dot notation should be not used by arrays
+
+sort myArray:
+-> it sorts alphabetically (everything number too, but we can pass a function in sort)
+
+delete myArray[1];
+-> it puts undefined in number 1 index;
+-> we need to use splice to delete the element and resize the array
 
 ## typeof
 object -> 'object'
@@ -298,6 +288,79 @@ helloFunc("world");  // output: "James Smith says hello world"
 ```
 
 apply is similar to call except that it takes an array-like object instead of a list the arguments.
+
+There are four ways to invoke functions in javascript. You can invoke the function as a method, as a function, as a constructor, and with apply.
+
+As a Method
+
+A method is a function that's attached to an object
+
+```javascript
+var foo = {};
+foo.someMethod = function(){
+    alert(this);
+}
+```
+
+When invoked as a method, this will be bound to the object the function/method is a part of. In this example, this will be bound to foo.
+
+As A Function
+
+If you have a stand alone function, the this variable will be bound to the "global" object, almost always the window object in the context of a browser.
+
+```javascript
+ var foo = function(){
+    alert(this);
+ }
+ foo();
+```
+ 
+This may be what's tripping you up, but don't feel bad. Many people consider this a bad design decision. Since a callback is invoked as a function and not as a method, that's why you're seeing what appears to be inconsistent behavior.
+
+Many people get around the problem by doing something like, um, this
+
+```javascript
+var foo = {};
+foo.someMethod = function (){
+    var that=this;
+    function bar(){
+        alert(that);
+    }
+}
+```
+
+You define a variable that which points to this. Closure (a topic all it's own) keeps that around, so if you call bar as a callback, it still has a reference.
+
+As a Constructor
+
+You can also invoke a function as a constructor. Based on the naming convention you're using (TestObject) this also may be what you're doing and is what's tripping you up.
+
+You invoke a function as a Constructor with the new keyword.
+
+```javascript
+function Foo(){
+    this.confusing = 'hell yeah';
+}
+var myObject = new Foo();
+```
+
+When invoked as a constructor, a new Object will be created, and this will be bound to that object. Again, if you have inner functions and they're used as callbacks, you'll be invoking them as functions, and this will be bound to the global object. Use that var that = this trick/pattern.
+
+Some people think the constructor/new keyword was a bone thrown to Java/traditional OOP programmers as a way to create something similar to classes.
+
+With the Apply Method.
+
+Finally, every function has a method (yes, functions are objects in Javascript) named "apply". Apply lets you determine what the value of this will be, and also lets you pass in an array of arguments. Here's a useless example.
+
+```javascript
+function foo(a,b){
+    alert(a);
+    alert(b);
+    alert(this);
+}
+var args = ['ah','be'];
+foo.apply('omg',args);
+```
 
 ### Function expression
 - Produce an instance of a function object
@@ -479,7 +542,6 @@ function demo(part1, ...part2) {
 console.log(demo(1,2,3,4,5,6))
 ```
 
-
 ## Promises
 Promises are a library for asynchronous programming. Promises are a first class representation of a value that may be made available in the future. Promises are used in many existing JavaScript libraries.
 
@@ -541,86 +603,12 @@ ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScr
 ## Immediately-invoked function expression (IIFE)
 An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.
 
-
 ## this
 - The this parameter contains a reference to the object of invocation.
 - this allows a method to know what object it is concerned with.
 - this allows a single function object to service many functions.
 - this is key to prototypal inheritance.
 The this variable is attached to functions. Whenever you invoke a function, this is given a certain value, depending on how you invoke the function. This is often called the invocation pattern.
-
-There are four ways to invoke functions in javascript. You can invoke the function as a method, as a function, as a constructor, and with apply.
-
-As a Method
-
-A method is a function that's attached to an object
-
-```javascript
-var foo = {};
-foo.someMethod = function(){
-    alert(this);
-}
-```
-
-When invoked as a method, this will be bound to the object the function/method is a part of. In this example, this will be bound to foo.
-
-As A Function
-
-If you have a stand alone function, the this variable will be bound to the "global" object, almost always the window object in the context of a browser.
-
-```javascript
- var foo = function(){
-    alert(this);
- }
- foo();
-```
- 
-This may be what's tripping you up, but don't feel bad. Many people consider this a bad design decision. Since a callback is invoked as a function and not as a method, that's why you're seeing what appears to be inconsistent behavior.
-
-Many people get around the problem by doing something like, um, this
-
-```javascript
-var foo = {};
-foo.someMethod = function (){
-    var that=this;
-    function bar(){
-        alert(that);
-    }
-}
-```
-
-You define a variable that which points to this. Closure (a topic all it's own) keeps that around, so if you call bar as a callback, it still has a reference.
-
-As a Constructor
-
-You can also invoke a function as a constructor. Based on the naming convention you're using (TestObject) this also may be what you're doing and is what's tripping you up.
-
-You invoke a function as a Constructor with the new keyword.
-
-```javascript
-function Foo(){
-    this.confusing = 'hell yeah';
-}
-var myObject = new Foo();
-```
-
-When invoked as a constructor, a new Object will be created, and this will be bound to that object. Again, if you have inner functions and they're used as callbacks, you'll be invoking them as functions, and this will be bound to the global object. Use that var that = this trick/pattern.
-
-Some people think the constructor/new keyword was a bone thrown to Java/traditional OOP programmers as a way to create something similar to classes.
-
-With the Apply Method.
-
-Finally, every function has a method (yes, functions are objects in Javascript) named "apply". Apply lets you determine what the value of this will be, and also lets you pass in an array of arguments. Here's a useless example.
-
-```javascript
-function foo(a,b){
-    alert(a);
-    alert(b);
-    alert(this);
-}
-var args = ['ah','be'];
-foo.apply('omg',args);
-```
 
 - http://robotlolita.me/2011/10/09/understanding-javascript-oop.html
 - http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/
