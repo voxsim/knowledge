@@ -247,51 +247,9 @@ The `const` keyword:
 - no type checking on parameters
 
 ### Invocation
-Four ways to call a function:
-- Function form
-  - functionObject(arguments)
-- Method form
-  - thisObject.methodName(arguments)
-  - thisObject[methodName](arguments)
-- Constructor form
-  - new FunctionObject(arguments)
-  - when a function is called with the new operator, a new object is created and assigned to this
-  - if there is not an explicit return then this will be returned
-- Apply form
-  - function.apply(thisObject, [arguments])
+There are four ways to invoke functions in javascript. You can invoke the function as a method, as a function, as a constructor, and with apply/call.
 
-They all attach this into function (or object) and the difference is in the function invocation (see below).
-
-call attaches this into function and executes the function immediately:
-```javascript
-var person = {
-  name: "James Smith",
-  hello: function(thing) {
-    console.log(this.name + " says hello " + thing);
-  }
-}
-
-person.hello.call(person, "world"); // output: "James Smith says hello world"
-```
-
-bind attaches this into function and it needs to be invoked separately like this:
-```javascript
-var person = {
-  name: "James Smith",
-  hello: function(thing) {
-    console.log(this.name + " says hello " + thing);
-  }
-}
-
-var helloFunc = person.hello.bind(person);
-helloFunc("world");  // output: "James Smith says hello world"
-```
-
-apply is similar to call except that it takes an array-like object instead of a list the arguments.
-
-There are four ways to invoke functions in javascript. You can invoke the function as a method, as a function, as a constructor, and with apply.
-
-As a Method
+#### As a Method
 
 A method is a function that's attached to an object
 
@@ -304,7 +262,7 @@ foo.someMethod = function(){
 
 When invoked as a method, this will be bound to the object the function/method is a part of. In this example, this will be bound to foo.
 
-As A Function
+#### As A Function
 
 If you have a stand alone function, the this variable will be bound to the "global" object, almost always the window object in the context of a browser.
 
@@ -331,7 +289,20 @@ foo.someMethod = function (){
 
 You define a variable that which points to this. Closure (a topic all it's own) keeps that around, so if you call bar as a callback, it still has a reference.
 
-As a Constructor
+Another way to attach a different object to this is `bind`: it attaches this into function and it needs to be invoked separately like this:
+```javascript
+var person = {
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+var helloFunc = person.hello.bind(person);
+helloFunc("world");  // output: "James Smith says hello world"
+```
+
+### As a Constructor
 
 You can also invoke a function as a constructor. Based on the naming convention you're using (TestObject) this also may be what you're doing and is what's tripping you up.
 
@@ -348,18 +319,33 @@ When invoked as a constructor, a new Object will be created, and this will be bo
 
 Some people think the constructor/new keyword was a bone thrown to Java/traditional OOP programmers as a way to create something similar to classes.
 
-With the Apply Method.
+### With the Apply/Call Method.
 
-Finally, every function has a method (yes, functions are objects in Javascript) named "apply". Apply lets you determine what the value of this will be, and also lets you pass in an array of arguments. Here's a useless example.
+Finally, every function has two methods (yes, functions are objects in Javascript) named "apply" and "call". 
+
+Apply lets you determine what the value of this will be, and also lets you pass in an array of arguments.
 
 ```javascript
-function foo(a,b){
-    alert(a);
-    alert(b);
-    alert(this);
+var person = {
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
 }
-var args = ['ah','be'];
-foo.apply('omg',args);
+
+person.hello.apply(person, ["world"]); // output: "James Smith says hello world"
+
+Call is the same but we do not pass an array, but a list of arguments.
+
+```javascript
+var person = {
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+person.hello.call(person, "world"); // output: "James Smith says hello world"
 ```
 
 ### Function expression
