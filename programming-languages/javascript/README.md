@@ -385,10 +385,11 @@ var foo = undefined;
 foo = function foo() {}
 ```
 
-function statement is when function word is defined otherwise is a function expression (e.g. inside another function)
-For return statement if there is no expression, then the return value is undefined.
-Excpet for constructors, whose default return value is this.
-It has a special parameter called arguments, it is array-like object. Treat as read-only structure.
+- function statement is when function word is defined otherwise is a function expression (e.g. inside another function)
+- For return statement if there is no expression, then the return value is undefined.
+- Except for constructors, whose default return value is this.
+- It has a special parameter called arguments, it is array-like object. Treat as read-only structure.
+- arguments.calee is the function itself in case of constructor
 
 ### Arrow functions
 Benefits:
