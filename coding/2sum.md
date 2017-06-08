@@ -10,7 +10,7 @@ function twosum(A, x) {
   
   var begin = 0;
   var end = A.length-1;
-  for(; begin <= end;) {
+  for(; begin < end;) {
     if(A[begin] + A[end] === x) {
       return [begin, end];
     }
