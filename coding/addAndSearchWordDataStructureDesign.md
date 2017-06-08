@@ -28,8 +28,8 @@ class WordDictionary {
   }
   
   search(word, node = undefined) {
-    if(typeof word !== 'string' || !/^[a-z]*$/.test(word))
-      throw 'search accepts only strings that have lower case letters';
+    if(typeof word !== 'string' || !/^[a-z.]*$/.test(word))
+      throw 'search accepts only strings that have lower case letters or points';
     
     if(!node && word.length === 0) {
       return this.trie.final;
@@ -40,11 +40,10 @@ class WordDictionary {
     }
     
     if(word[0] === '.') {
-      for(var child in node.children) {
-        console.log(child);
-        if(word.length === 1 && child.final) {
+      for(var letter in node.children) {
+        if(word.length === 1 && node.children[letter].final) {
           return true;
-        } else if(this.search(word.slice(1), child)) {
+        } else if(word.length > 1 && this.search(word.slice(1), node.children[letter])) {
           return true;
         }
       }
@@ -87,3 +86,4 @@ class WordDictionary {
 - wordDictionary.search('A') -> error
 - wordDictionary.addWord(1) -> error
 - wordDictionary.search(1) -> error
+- wordDictionary.addWord('.') -> error
