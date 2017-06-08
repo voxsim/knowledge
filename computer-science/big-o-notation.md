@@ -8,10 +8,10 @@ give them.
 
 There are two primary things that you measure with Big-O:
 
--*Time complexity** refers to the total count of operations an algorithm
+-*Time complexity* refers to the total count of operations an algorithm
   will perform given a set of items.
 
--*Space complexity** refers to the total memory an algorithm will take up
+-*Space complexity* refers to the total memory an algorithm will take up
   while running given a set of items.
 
 We measure these independently from one another because while an algorithm
@@ -94,4 +94,12 @@ Splay Tree|N/A|Θ(log(n))|Θ(log(n))|Θ(log(n))|N/A|O(log(n))|O(log(n))|O(log(n)
 AVL Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
 KD Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(n)|O(n)|O(n)|O(n)|O(n)|
 
-Remember: in asymptotic analysis we consider growth of algorithm in terms of input size. An algorithm X is said to be asymptotically better than Y if X takes smaller time than y for all input sizes n larger than a value n0 where n0 > 0.
+In asymptotic analysis we consider growth of algorithm in terms of input size. An algorithm X is said to be asymptotically better than Y if X takes smaller time than y for all input sizes n larger than a value n0 where n0 > 0.
+
+* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
+* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
+  that is not asymptotically tight
+* *Big Omega (Ω) Notation* is used to provide an asymptotic lower bound on a particular algorithm
+* *Little Omega (ω) Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight
+* *Theta (Θ) Notation* is used to provide a bound on a particular algorithm such that it can be "sandwiched" between
+  two constants (one for an upper limit and one for a lower limit) for sufficiently large values
