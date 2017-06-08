@@ -129,33 +129,6 @@ function permute(A){
 }
 ```
 
-## 2sum (sliding window)
-Given an integer x and a sorted array a of N distinct integers, design a linear-time algorithm to determine if there exists two distinct indices i and j such that a[i] + a[j] == x.
-
-This is type of Subset sum problem. For every i there is such j that a[i]+a[j] is closest to x. All these (i,j) pairs form closest-to-x line. We just need to walk along this line and look for a[i]+a[j] == x. Complexity: O(n).
-
-```javascript
-function twosum(A, S) {
-  if(!A) return [];
-  
-  var i = 0, j = A.length - 1;
-  
-  for(; i<A.length && j >= 0 && i < j; ) {
-    if(A[i] + A[j] === S) {
-      return [i, j];
-    }
-    
-    if(A[i] + A[j] > S) {
-      j--;
-    } else {
-      i++;
-    }
-  }
-  
-  return [];
-}
-```
-
 ## Longest Increasing subarray (sliding window)
 Given an unsorted array, find the max length of subarray in which the numbers are in incremental order.
 For example: If the input array is {7, 2, 3, 1, 5, 8, 9, 6}, a subarray with the most numbers in incremental order is {1, 5, 8, 9} and the expected output is 4. Complexity O(n). Subarray is contiguous respect than a subsequence.
