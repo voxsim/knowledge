@@ -99,6 +99,8 @@ Legenda: Titles with bang (!) needs refactoring.
   * [GCD](./math/gcd.md)
   * [Base](./math/base.md)
   * [Fraction](./math/fraction.md)
+  * [Permutation](./math/permutation.md)
+  * [Combination](./math/combination.md)
 * [Probability](./probability.md)
 * [Networking](./networking.md)
 * [Memory](./memory.md)
