@@ -697,6 +697,9 @@ try {
 }
 ```
 
+## Regexp
+Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String.
+
 More info:
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
 - https://johnresig.com/apps/learn
