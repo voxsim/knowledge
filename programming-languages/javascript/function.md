@@ -180,3 +180,6 @@ In case you don't have parameters:
 ```javascript
 const hinames = names.map(() => `hi simon`);
 ```
+
+### Default Arguments
+You can define default arguments: if you want to trigger one default argument pass `undefined`.
