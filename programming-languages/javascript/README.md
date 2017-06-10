@@ -401,15 +401,18 @@ An immediately-invoked function expression is a pattern which produces a lexical
 - Regexp literal -> /ab+c/
 - String literal -> "hello"
 
-## throw statement
+## Error Handling
+
+### throw statement
 ```javascript
 throw 'Error2';   // String type
 throw 42;         // Number type
 throw true;       // Boolean type
 throw {toString: function() { return "I'm an object!"; } };
+throw new Error('I am an error')
 ```
 
-## try/catch statement
+### try/catch statement
 ```javascript
 openMyFile();
 try {
