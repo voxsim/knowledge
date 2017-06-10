@@ -8,7 +8,6 @@ Document Object Model
   - parentNode
   - sibilings (nextSibiling, prevSibiling)
   - className, style
-  - appendChild(new), insertBefore(new, sibiling), replaceChild(new, old), removeChild(old)
   - nodeType that it is a short
     - Node.ELEMENT_NODE == 1
     - Node.ATTRIBUTE_NODE == 2
@@ -125,3 +124,11 @@ element.classList.contains("foo");
 // Toggle a class
 element.classList.toggle("active");
 ```
+
+## Changing the document
+```javascript
+var h = document.createElement("H1")                // Create a <h1> element
+var t = document.createTextNode("Hello World");     // Create a text node
+h.appendChild(t);                                   // Append the text to <h1>
+```
+- appendChild(new), insertBefore(new, sibiling), replaceChild(new, old), removeChild(old)
