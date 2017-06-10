@@ -183,3 +183,10 @@ const hinames = names.map(() => `hi simon`);
 
 ### Default Arguments
 You can define default arguments: if you want to trigger one default argument pass `undefined`.
+
+### this
+- The this parameter contains a reference to the object of invocation.
+- this allows a method to know what object it is concerned with.
+- this allows a single function object to service many functions.
+- this is key to prototypal inheritance.
+The this variable is attached to functions. Whenever you invoke a function, this is given a certain value, depending on how you invoke the function. This is often called the invocation pattern.
