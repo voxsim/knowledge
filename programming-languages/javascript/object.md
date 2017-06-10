@@ -8,6 +8,7 @@
 - With a constructor function, you can use the new keyword to create new objects from the same prototype
 - `Object.getPrototypeOf` returns the prototype of an object
 - `Object.create(prototype)` creates an object with prototype `prototype`, if it is null it doesn't have a prototype.
+- `hasOwnProperty`
 
 #### Object literal
 An expressive notation to define object.
