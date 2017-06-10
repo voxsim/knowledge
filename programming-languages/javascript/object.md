@@ -1,10 +1,13 @@
 ### Object
 
 #### Prototype
-- Every JavaScript object has a prototype. The prototype is also an object.
-- All JavaScript objects inherit their properties and methods from their prototype.
-- The standard way to create an object prototype is to use an object constructor function. With a constructor function, you can use the new keyword to create new objects from the same prototype.
-`Object.getPrototypeOf` returns the prototype of an object.
+- Every JavaScript object has a prototype.
+- The prototype is also an object
+- All JavaScript objects inherit their properties and methods from their prototype
+- The standard way to create an object prototype is to use an object constructor function
+- With a constructor function, you can use the new keyword to create new objects from the same prototype
+- `Object.getPrototypeOf` returns the prototype of an object
+- `Object.create(prototype)` creates an object with prototype `prototype`, if it is null it doesn't have a prototype.
 
 #### Object literal
 An expressive notation to define object.
