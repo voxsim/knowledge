@@ -63,3 +63,200 @@ Selectors can be divided into the following categories:
 - Pseudo-elements: Match one or more parts of content that are in a certain position in relation to an element, for example the first word of each paragraph, or generated content appearing just before an element.
 - Combinators: These are not exactly selectors themselves, but ways of combining two or more selectors in useful ways for very specific selections. So for example, you could select only paragraphs that are direct descendants of divs, or paragraphs that come directly after headings.
 - Multiple selectors: Again, these are not separate selectors; the idea is that you can put multiple selectors on the same CSS rule, separated by commas, to apply a single set of declarations to all the elements selected by those selectors.
+
+## Simple selectors
+
+### Class selector
+The class selector consists of a dot, '.', followed by a class name. A class name is any value without spaces put within an HTML class attribute. It is up to you to choose a name for the class. It is also worth knowing that multiple elements in a document can have the same class value and a single element can have multiple class names separated by white space. 
+
+### ID selector
+The ID selector consists of a hash/pound symbol (#), followed by the ID name of a given element. Any element can have a unique ID name set with the id attribute. It is up to you what name you choose for the ID. It's the most efficient way to select a single element.
+
+### Universal selector
+The universal selector (\*) is the ultimate joker. It allows selecting all elements in a page.
+
+### Combinators
+In CSS, combinators allow you to combine multiple selectors together, which allows you to select elements inside other elements, or adjacent to other elements. The four available types are:
+- The descendant selector (space) allows you to select an element nested somewhere inside another element (not necessarily a direct descendant; it could be a grandchild, for example)
+- The child selector (>) allows you to select an element that is an immediate child of another element.
+- The adjacent sibling selector (+) allows you to select an element that is an immediate sibling of another element (i.e. right next to it, at the same level in the hierarchy).
+- The general sibling selector (~) allows you to select any elements that are siblings of another element (i.e. at the same level in the hierarchy, but not necessarily right next to it).
+
+## Attribute selectors
+Attribute selectors are a special kind of selector that will match elements based on their attributes and attribute values. Their generic syntax consists of square brackets ([]) containing an attribute name followed by an optional condition to match against the value of the attribute. Attribute selectors can be divided into two categories depending on the way they match attribute values: Presence and value attribute selectors and Substring value attribute selectors.
+
+### Presence and value attribute selectors
+These attribute selectors try to match an exact attribute value:
+- [attr] : This selector will select all elements with the attribute attr, whatever its value.
+- [attr=val] : This selector will select all elements with the attribute attr, but only if its value is val.
+- [attr~=val]: This selector will select all elements with the attribute attr, but only if the value val is one of a space-separated list of values contained in attr's value, for example a single class in a space-separated list of classes.
+
+### Substring value attribute selectors
+Attribute selectors in this class are also known as "RegExp-like selectors", because they offer flexible matching in a similar fashion to regular expression (but to be clear, these selectors are not true regular expression):
+- [attr|=val] : This selector will select all elements with the attribute attr for which the value is exactly val or starts with val- (careful, the dash here isn't a mistake, this is to handle language codes.)
+- [attr^=val] : This selector will select all elements with the attribute attr for which the value starts with val.
+- [attr$=val] : This selector will select all elements with the attribute attr for which the value ends with val.
+- [attr*=val] : This selector will select all elements with the attribute attr for which the value contains the string val (unlike [attr~=val], this selector doesn't treat spaces as value separators but as part of the attribute value.)
+
+### Pseudo-classes
+A CSS pseudo-class is a keyword preceded by a colon (:) that is added on to the end of selectors to specify that you want to style the selected elements only when they are in certain state. For example you might want to style an element only when it is being hovered over by the mouse pointer, or a checkbox when it is disabled or checked, or an element that is the first child of its parent in the DOM tree.
+Some examples are :active, :first, :last, etc..
+
+### Pseudo elements
+Pseudo-elements are very much like pseudo-classes, but they have differences. They are keywords (this time preceded by two colons (::)) that can be added to the end of selectors to select a certain part of an element. They are:
+- ::after
+- ::before
+- ::first-letter
+- ::first-line
+- ::selection
+- ::backdrop
+
+## Units
+- Pixels (px) are referred to as absolute units because they will always be the same size regardless of any other related settings.
+- em: 1em is the same as the font-size of the current element (more specifically, the width of a capital letter M.) The default base font-size given to web pages by web browsers before CSS styling is applied is 16 pixels, which means the computed value of 1em is 16 pixels for an element by default. But beware — font sizes are inherited by elements from their parents, so if different font sizes have been set on parent elements, the pixel equivalent of an em can start to become complicated.
+- ex, ch: Respectively these are the height of a lower case x, and the width of the number 0. These are not as commonly used or well-supported as ems.
+- rem: The rem (root em) works in exactly the same way as the em, except that it will always equal the size of the default base font-size; inherited font sizes will have no effect, so this sounds like a much better option than ems, although rems don't work in older versions of Internet Explorer (see more about cross-browser support in Debugging CSS.)
+- vw, vh: Respectively these are 1/100th of the width of the viewport, and 1/100th of the height of the viewport. Again, these are not as widely supported as rems.
+
+## Box model
+Every element within a document is structured as a rectangular box inside the document layout, the size and "onion layers" of which can be tweaked using some specific CSS properties. The relevant properties are as follows:
+- The *width* and *height* properties set the width and height of the content box, which is the area in which the content of the box is displayed — this content includes both text content sat inside the box, and other boxes representing nested child elements.
+  - Note: Other properties exist that allow more subtle ways of handling content box size — setting size constraints rather than an absolute size. This can be done with the properties min-width, max-width, min-height, and max-height.
+- *Padding* refers to the inner margin of a CSS box — between the outer edge of the content box and the inner edge of the border. The size of this layer can be set on all four sides at once with the padding shorthand property, or one side at a time with the padding-top, padding-right, padding-bottom and padding-left properties.
+- The *border* of a CSS box sits between the outer edge of the padding and the inner edge of the margin. By default the border has a size of 0 — making it invisible — but you can set the thickness, style and color of the border to make it appear. The border shorthand property allows you to set all of these on all four sides at once, for example border: 1px solid black.
+- The *margin* surrounds a CSS box, and pushes up against other CSS boxes in the layout. It behaves rather like padding; the shorthand property is margin and the individual properties are margin-top, margin-right, margin-bottom, and margin-left.
+
+## CSS Questions
+
+#### What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+
+- Resetting: Remove all the native styles provided by browsers
+- Normalizing: Make the browser styles consistent
+
+#### Describe Floats and how they work.
+
+There are `left`, `right` and `none` for `float`. Each value indicates how an
+element should float. When `float` is set, each element will get out of its
+normal flow and will be shifted to the specified direction, until it gets its
+container or another floated element. Float affects not only  the target element, but also its children.
+
+#### Describe z-index and how stacking context is formed.
+
+The z-index property specifies the stack order of an element, an element with greater stack order is always in front of an element with a lower stack order. Say two DIVs with the same parent, higher z-index will be displayed. It will inherit the z-index property of the parent. Z-index only works on positioned elements (position:absolute, position:relative, or position:fixed). Value can be negative.
+
+#### Describe BFC(Block Formatting Context) and how it works.
+
+BFC is a part of rendering a webpage. It's used to determine from which
+positioning and clearing should be done. The context is created by several
+ways, but the most famously, by a root element, float, positioned elements.
+
+#### What are the various clearing techniques and which is appropriate for what context?
+
+```css
+clear:both;
+```
+
+```css
+overflow: hidden;
+height: auto;
+```
+
+#### Explain CSS sprites, and how you would implement them on a page or site.
+
+CSS sprite is combining multiple images into a merged one image and use CSS to
+render each of them properly for each element.
+
+It's usually implemented using `background: url(...) x-axis y-axis;`, or
+both `background-image` and `background-position`.
+
+#### Are you familiar with styling SVG?
+
+*Not answered yet*
+
+#### How do you optimize your webpages for print?
+
+```css
+@media print {
+  ...
+}
+```
+
+#### What are some of the "gotchas" for writing efficient CSS?
+
+Usually about CSS selectors.
+
+- Know different browsers have different CSS hacks
+- Cater for mobile devices or small screen size
+- Good HTML structure and CSS OOP rules with good naming
+- Avoid key selectors that match large numbers of elements (tag and universal selectors)
+- Prefer class and ID selectors over tag selectors
+- Avoid redundant selectors
+- Preferably don’t use * (universal selector)
+- Use framework (Bootstrap etc.)
+
+#### What are the advantages/disadvantages of using CSS preprocessors?
+###### Describe what you like and dislike about the CSS preprocessors you have used.
+
+- https://adamsilver.io/articles/the-disadvantages-of-css-preprocessors/
+- http://blog.millermedeiros.com/the-problem-with-css-pre-processors/
+
+### How would you implement a web design comp that uses non-standard fonts?
+
+- `@font-face` to write my own `font-family`
+- `@import` to import prepared web font(e.g. Google Webfonts)
+- https://www.quora.com/What-is-the-best-way-to-use-non-standard-fonts-online
+
+### Explain how a browser determines what elements match a CSS selector.
+
+Browsers read selectors from right-to-left. First looks for all elements matching the key selector (the right-most). Then checks if it matches or is under the next (left-most) element.
+
+### What does ```* { box-sizing: border-box; }``` do? What are its advantages?
+
+*Not answered yet*
+
+### List as many values for the display property that you can remember.
+
+*Not answered yet*
+
+### What's the difference between inline and inline-block?
+
+*Not answered yet*
+
+### What's the difference between a relative, fixed, absolute and statically positioned element?
+
+*Not answered yet*
+
+### The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
+
+CSS priority is determined by [specificity and inheritance](https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/).
+
+- Specificity: ID > class, psuedo-class > element, psudo-element
+- Inheritence: specified value → computed value → used value → actual value
+
+### What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+
+*Not answered yet*
+
+### Have you played around with the new CSS Flexbox or Grid specs?
+
+Yes.
+
+- http://flexboxfroggy.com
+- https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
+
+### How is responsive design different from adaptive design?
+
+- Responsive: There is one basic layout, and it changes responsively to
+  screen changes
+- Adaptive: For each possible screen size, there is a distinct layout.
+
+### Have you ever worked with retina graphics? If so, when and what techniques did you use?
+
+```css
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  ...
+}
+```
+
+### Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+- https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
