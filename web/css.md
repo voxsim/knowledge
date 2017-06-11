@@ -240,3 +240,6 @@ Yes.
 
 ### Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 - https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
+- https://www.html5rocks.com/en/tutorials/speed/layers/
+- http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/
+- http://jankfree.org
