@@ -67,6 +67,27 @@ Objects can be passed as arguments to functions, and can be returned by function
 The === operator compares object references, not values (true if only it is the same object)
 Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
 
+#### Property Lookup
+When accessing the properties of an object, JavaScript will traverse the prototype chain upwards until it finds a property with the requested name.
+If it reaches the top of the chain - namely Object.prototype - and still hasn't found the specified property, it will return the value undefined instead.
+
+#### Performance
+
+The lookup time for properties that are high up on the prototype chain can have a negative impact on performance, and this may be significant in code where performance is critical. Additionally, trying to access non-existent properties will always traverse the full prototype chain.
+
+Also, when iterating over the properties of an object every property that is on the prototype chain will be enumerated.
+
+#### Extension of Native Prototypes
+
+One mis-feature that is often used is to extend Object.prototype or one of the other built in prototypes.
+
+This technique is called monkey patching and breaks encapsulation. While used by popular frameworks such as Prototype, there is still no good reason for cluttering built-in types with additional non-standard functionality.
+
+The only good reason for extending a built-in prototype is to backport the features of newer JavaScript engines; for example, Array.forEach.
+
+#### hasOwnProperty
+To check whether an object has a property defined on itself and not somewhere on its prototype chain, it is necessary to use the hasOwnProperty method which all objects inherit from Object.prototype.
+
 #### Array
 - Array inherits from Object
 - Indexes are converted to strings and used as names for retrieving values
