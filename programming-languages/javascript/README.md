@@ -442,6 +442,240 @@ try {
 ## Regexp
 Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String.
 
+## undefined and null
+JavaScript has two distinct values for nothing, null and undefined, with the latter being more useful.
+
+### The Value undefined
+
+undefined is a type with exactly one value: undefined.
+
+The language also defines a global variable that has the value of undefined; this variable is also called undefined. However, this variable is neither a constant nor a keyword of the language. This means that its value can be easily overwritten.
+
+ES5 Note: undefined in ECMAScript 5 is no longer writable in strict mode, but its name can still be shadowed by for example a function with the name undefined.
+Here are some examples of when the value undefined is returned:
+- Accessing the (unmodified) global variable undefined.
+- Accessing a declared but not yet initialized variable.
+- Implicit returns of functions due to missing return statements.
+- return statements that do not explicitly return anything.
+- Lookups of non-existent properties.
+- Function parameters that do not have any explicit value passed.
+- Anything that has been set to the value of undefined.
+- Any expression in the form of void(expression)
+- Handling Changes to the Value of undefined
+
+Since the global variable undefined only holds a copy of the actual value of undefined, assigning a new value to it does not change the value of the type undefined.
+
+Still, in order to compare something against the value of undefined, it is necessary to retrieve the value of undefined first.
+
+To protect code against a possible overwritten undefined variable, a common technique used is to add an additional parameter to an anonymous wrapper that gets no argument passed to it.
+
+```javascript
+var undefined = 123;
+(function(something, foo, undefined) {
+    // undefined in the local scope does 
+    // now again refer to the value `undefined`
+
+})('Hello World', 42);
+```
+
+Another way to achieve the same effect would be to use a declaration inside the wrapper.
+
+```javascript
+var undefined = 123;
+(function(something, foo) {
+    var undefined;
+    ...
+
+})('Hello World', 42);
+```
+
+The only difference here is that this version results in 4 more bytes being used in case it is minified, and there is no other var statement inside the anonymous wrapper.
+
+### Uses of null
+
+While undefined in the context of the JavaScript language is mostly used in the sense of a traditional null, the actual null (both a literal and a type) is more or less just another data type.
+
+It is used in some JavaScript internals (like declaring the end of the prototype chain by setting Foo.prototype = null), but in almost all cases, it can be replaced by undefined.
+
+## Automatic Semicolon Insertion
+
+Although JavaScript has C style syntax, it does not enforce the use of semicolons in the source code, so it is possible to omit them.
+
+JavaScript is not a semicolon-less language. In fact, it needs the semicolons in order to understand the source code. Therefore, the JavaScript parser automatically inserts them whenever it encounters a parse error due to a missing semicolon.
+
+```javascript
+var foo = function() {
+} // parse error, semicolon expected
+test()
+```
+
+Insertion happens, and the parser tries again.
+
+```javascript
+var foo = function() {
+}; // no error, parser continues
+test()
+```
+
+The automatic insertion of semicolon is considered to be one of biggest design flaws in the language because it can change the behavior of code.
+
+### How it Works
+
+The code below has no semicolons in it, so it is up to the parser to decide where to insert them.
+
+```javascript
+(function(window, undefined) {
+    function test(options) {
+        log('testing!')
+
+        (options.list || []).forEach(function(i) {
+
+        })
+
+        options.value.test(
+            'long string to pass here',
+            'and another long string to pass'
+        )
+
+        return
+        {
+            foo: function() {}
+        }
+    }
+    window.test = test
+
+})(window)
+
+(function(window) {
+    window.someLibrary = {}
+
+})(window)
+```
+
+Below is the result of the parser's "guessing" game.
+
+```javascript
+(function(window, undefined) {
+    function test(options) {
+
+        // Not inserted, lines got merged
+        log('testing!')(options.list || []).forEach(function(i) {
+
+        }); // <- inserted
+
+        options.value.test(
+            'long string to pass here',
+            'and another long string to pass'
+        ); // <- inserted
+
+        return; // <- inserted, breaks the return statement
+        { // treated as a block
+
+            // a label and a single expression statement
+            foo: function() {} 
+        }; // <- inserted
+    }
+    window.test = test; // <- inserted
+
+// The lines got merged again
+})(window)(function(window) {
+    window.someLibrary = {}; // <- inserted
+
+})(window); //<- inserted
+```
+
+The parser drastically changed the behavior of the code above. In certain cases, it does the wrong thing.
+Note: The JavaScript parser does not "correctly" handle return statements that are followed by a new line. While this is not necessarily the fault of the automatic semicolon insertion, it can still be an unwanted side-effect.
+
+### Leading Parenthesis
+
+In case of a leading parenthesis, the parser will not insert a semicolon.
+
+```javascript
+log('testing!')
+(options.list || []).forEach(function(i) {})
+```
+
+This code gets transformed into one line.
+
+```javascript
+log('testing!')(options.list || []).forEach(function(i) {})
+```
+
+Chances are very high that log does not return a function; therefore, the above will yield a TypeError stating that undefined is not a function.
+
+## The delete Operator
+
+In short, it's impossible to delete global variables, functions and some other stuff in JavaScript which have a DontDelete attribute set.
+
+### Global code and Function code
+
+When a variable or a function is defined in a global or a function scope it is a property of either the Activation object or the Global object. Such properties have a set of attributes, one of which is DontDelete. Variable and function declarations in global and function code always create properties with DontDelete, and therefore cannot be deleted.
+
+```javascript
+// global variable:
+var a = 1; // DontDelete is set
+delete a; // false
+a; // 1
+
+// normal function:
+function f() {} // DontDelete is set
+delete f; // false
+typeof f; // "function"
+
+// reassigning doesn't help:
+f = 1;
+delete f; // false
+f; // 1
+```
+
+### Explicit properties
+
+Explicitly set properties can be deleted normally.
+
+```javascript
+// explicitly set property:
+var obj = {x: 1};
+obj.y = 2;
+delete obj.x; // true
+delete obj.y; // true
+obj.x; // undefined
+obj.y; // undefined
+In the example above, obj.x and obj.y can be deleted because they have no DontDelete attribute. That's why the example below works too.
+
+// this works fine, except for IE:
+var GLOBAL_OBJECT = this;
+GLOBAL_OBJECT.a = 1;
+a === GLOBAL_OBJECT.a; // true - just a global var
+delete GLOBAL_OBJECT.a; // true
+GLOBAL_OBJECT.a; // undefined
+Here we use a trick to delete a. this here refers to the Global object and we explicitly declare variable a as its property which allows us to delete it.
+```
+
+IE (at least 6-8) has some bugs, so the code above doesn't work.
+
+### Function arguments and built-ins
+
+Functions' normal arguments, arguments objects and built-in properties also have DontDelete set.
+
+```javascript
+// function arguments and properties:
+(function (x) {
+
+  delete arguments; // false
+  typeof arguments; // "object"
+
+  delete x; // false
+  x; // 1
+
+  function f(){}
+  delete f.length; // false
+  typeof f.length; // "number"
+
+})(1);
+```
+
 More info:
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
 - https://johnresig.com/apps/learn
+- http://bonsaiden.github.io/JavaScript-Garden/
