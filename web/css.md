@@ -169,10 +169,6 @@ render each of them properly for each element.
 It's usually implemented using `background: url(...) x-axis y-axis;`, or
 both `background-image` and `background-position`.
 
-#### Are you familiar with styling SVG?
-
-*Not answered yet*
-
 #### How do you optimize your webpages for print?
 
 ```css
@@ -210,32 +206,16 @@ Usually about CSS selectors.
 
 Browsers read selectors from right-to-left. First looks for all elements matching the key selector (the right-most). Then checks if it matches or is under the next (left-most) element.
 
-### What does ```* { box-sizing: border-box; }``` do? What are its advantages?
-
-*Not answered yet*
-
 ### List as many values for the display property that you can remember.
 
-*Not answered yet*
-
-### What's the difference between inline and inline-block?
-
-*Not answered yet*
+block, inline, inline-block, none, inherit, table, table-cell, flex
 
 ### What's the difference between a relative, fixed, absolute and statically positioned element?
 
-*Not answered yet*
-
-### The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
-
-CSS priority is determined by [specificity and inheritance](https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/).
-
-- Specificity: ID > class, psuedo-class > element, psudo-element
-- Inheritence: specified value → computed value → used value → actual value
-
-### What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
-
-*Not answered yet*
+- static: the default one
+- relative: relative to its static position
+- absolute: you place where you want
+- fixed: fixed respect of the viewport of the page. It isuseful when scrolling, for example.
 
 ### Have you played around with the new CSS Flexbox or Grid specs?
 
