@@ -16,6 +16,13 @@ instances inherit from classes (like a blueprint — a description of the cl
 ##### Prototypal Inheritance
 instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()`. Instances may be composed from many different objects, allowing for easy selective inheritance.
 
+##### When is prototypal inheritance an appropriate choice?
+There is more than one type of prototypal inheritance:
+- Delegation (i.e., the prototype chain).
+- Concatenative (i.e. mixins, `Object.assign()`).
+- Functional (Not to be confused with functional programming. A function used to create a closure for private state/encapsulation).
+Each type of prototypal inheritance has its own set of use-cases, but all of them are equally useful in their ability to enable composition, which creates has-a or uses-a or can-do relationships as opposed to the is-a relationship created with class inheritance.
+
 #### Object literal
 An expressive notation to define object.
 
