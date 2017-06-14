@@ -7,8 +7,14 @@
 - The standard way to create an object prototype is to use an object constructor function
 - With a constructor function, you can use the new keyword to create new objects from the same prototype
 - `Object.getPrototypeOf` returns the prototype of an object
-- `Object.create(prototype)` creates an object with prototype `prototype`, if it is null it doesn't have a prototype.
-- `hasOwnProperty`
+- `Object.create(prototype)` creates an object with prototype `prototype`, if it is null it doesn't have a prototype
+- `hasOwnProperty` check if an object has a property and not his ancestors
+
+##### Class Inheritance
+instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
+
+##### Prototypal Inheritance
+instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()`. Instances may be composed from many different objects, allowing for easy selective inheritance.
 
 #### Object literal
 An expressive notation to define object.
