@@ -5,3 +5,5 @@ One way data flows are deterministic, whereas two-way binding can cause side-eff
 In details:
 - React is the new canonical example of one-way data flow, so mentions of React are a good signal. Cycle.js is another popular implementation of uni-directional data flow.
 - Angular is a popular framework which uses two-way binding.
+
+- http://sam.js.org/
