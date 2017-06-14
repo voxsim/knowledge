@@ -9,6 +9,7 @@
 - `Object.getPrototypeOf` returns the prototype of an object
 - `Object.create(prototype)` creates an object with prototype `prototype`, if it is null it doesn't have a prototype
 - `hasOwnProperty` check if an object has a property and not his ancestors
+- The `Object.assign(target, ...sources)` method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
 
 ##### Class Inheritance
 instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
