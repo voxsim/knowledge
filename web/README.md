@@ -8,3 +8,17 @@
 - https://hacks.mozilla.org/2015/12/beyond-offline/
 - https://auth0.com/blog/introduction-to-progressive-apps-part-one/
 - https://medium.com/google-developer-experts/add-offline-support-to-any-web-app-c20edc4bea0e
+- https://developer.mozilla.org/en-US/Apps/Fundamentals
+- http://substack.net/offline_decentralized_single_sign_on_in_the_browser
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+- https://medium.com/@boopathi/service-workers-gotchas-44bec65eab3f
+- https://www.youtube.com/watch?v=pklpK55uQmE&feature=youtu.be
+- https://www.youtube.com/watch?v=BKD7ZLRi9HI
+- https://ponyfoo.com/articles/backgroundsync
+- https://www.youtube.com/watch?v=dN8e-QdYyCk
+- https://www.youtube.com/watch?v=ejcJmeewtd4
+- https://www.youtube.com/watch?v=W41mvarupH0
+- https://www.youtube.com/watch?v=dN8e-QdYyCk
+- https://www.youtube.com/watch?v=RrGo1Sz4IgQ
+- https://www.youtube.com/watch?v=ceODU6z4-yc
+- https://www.youtube.com/watch?v=cR-TP6jOSQM
