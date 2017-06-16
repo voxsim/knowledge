@@ -25,3 +25,5 @@ The reactive programming paradigm involves observing and reacting to events in a
 - https://auth0.com/blog/glossary-of-modern-javascript-concepts/
 - https://auth0.com/blog/glossary-of-modern-javascript-concepts-part-2/
 - https://github.com/kriskowal/gtor
+- https://www.youtube.com/watch?v=sTSQlYX5DU0
+- https://www.youtube.com/watch?v=_VdIQTtRkb8
