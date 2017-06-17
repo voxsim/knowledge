@@ -97,12 +97,39 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
 }
 ```
 
-## Paint
+## Layout
+When the renderer is created and added to the tree, it does not have a position and size. Calculating these values is called layout or reflow.
 
-### Repaint
+HTML uses a flow based layout model, meaning that most of the time it is possible to compute the geometry in a single pass. Elements later ``in the flow'' typically do not affect the geometry of elements that are earlier ``in the flow'', so layout can proceed left-to-right, top-to-bottom through the document. There are exceptions: for example, HTML tables may require more than one pass.
+
+The coordinate system is relative to the root frame. Top and left coordinates are used.
+
+Layout is a recursive process. It begins at the root renderer, which corresponds to the <html> element of the HTML document. Layout continues recursively through some or all of the frame hierarchy, computing geometric information for each renderer that requires it.
+
+The position of the root renderer is 0,0 and its dimensions are the viewport–the visible part of the browser window.
+All renderers have a "layout" or "reflow" method, each renderer invokes the layout method of its children that need layout.
+
+### Dirty bit system
+
+In order not to do a full layout for every small change, browsers use a "dirty bit" system. A renderer that is changed or added marks itself and its children as "dirty": needing layout.
+
+There are two flags: "dirty", and "children are dirty" which means that although the renderer itself may be OK, it has at least one child that needs a layout.
+
+### The layout algorithm
+1. Parent renderer determines its own width.
+2. Parent goes over children and:
+   1. Place the child renderer (sets its x and y).
+   2. Calls child layout if needed–they are dirty or we are in a global layout, or for some other reason–which calculates the       child's height.
+3. Parent uses children's accumulative heights and the heights of margins and padding to set its own height–this will be used by the parent renderer's parent.
+4. Sets its dirty bit to false.
+
+## Paint
+In the painting stage, the render tree is traversed and the renderer's "paint()" method is called to display content on the screen. Painting uses the UI infrastructure component.
+
+## Repaint
 When changing element styles which don't affect the element's position on a page (such as background-color, border-color, visibility), the browser just repaints the element again with the new styles applied (that means a "repaint" or "restyle" is happening).
 
-### Reflow
+## Reflow
 When the changes affect document contents or structure, or element position, a reflow (or relayout) happens. These changes are usually triggered by:
 - DOM manipulation (element addition, deletion, altering, or changing element order);
 - Contents changes, including text changes in form fields;
