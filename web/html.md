@@ -112,6 +112,26 @@ With HTML progressive rendering is chunking the HTML into separate bits and load
 
 This can be done asynchronously with different components being loaded as they finish. There's new features which can be used with Web Components making it more standard. Another interesting article on this is from eBay with Async Fragments.
 
+## Semantic Elements
+A semantic element clearly describes its meaning to both the browser and the developer.
+- Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+- Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+HTML5 offers new semantic elements to define different parts of a web page:  
+- `<article>`
+- `<aside>`
+- `<details>`
+- `<figcaption>`
+- `<figure>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<mark>`
+- `<nav>`
+- `<section>`
+- `<summary>`
+- `<time>`
+
 More info:
 - https://html.spec.whatwg.org/multipage/
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
