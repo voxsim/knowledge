@@ -96,7 +96,6 @@ RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
     return o;
 }
 ```
-```
 
 ## Paint
 
