@@ -21,10 +21,132 @@ Browser user interfaces have a lot in common with each other. Among the common u
 
 ![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
 
+### How do browsers render a web page
+1. The DOM (Document Object Model) is formed from the HTML that is received from a server.
+2. Styles are loaded and parsed, forming the CSSOM (CSS Object Model).
+3. On top of DOM and CSSOM, a rendering tree is created, which is a set of objects to be rendered (Webkit calls each of those a "renderer" or "render object", while in Gecko it's a "frame"). Render tree reflects the DOM structure except for invisible elements (like the <head> tag or elements that have display:none; set). Each text string is represented in the rendering tree as a separate renderer. Each of the rendering objects contains its corresponding DOM object (or a text block) plus the calculated styles. In other words, the render tree describes the visual representation of a DOM.
+4. For each render tree element, its coordinates are calculated, which is called "layout". Browsers use a flow method which only required one pass to layout all the elements (tables require more than one pass).
+5. Finally, this gets actually displayed in a browser window, a process called "painting".
+
+When users interact with a page, or scripts modify it, some of the aforementioned operations have to be repeated, as the underlying page structure changes.
+
+### Repaint
+When changing element styles which don't affect the element's position on a page (such as background-color, border-color, visibility), the browser just repaints the element again with the new styles applied (that means a "repaint" or "restyle" is happening).
+
+### Reflow
+When the changes affect document contents or structure, or element position, a reflow (or relayout) happens. These changes are usually triggered by:
+- DOM manipulation (element addition, deletion, altering, or changing element order);
+- Contents changes, including text changes in form fields;
+- Calculation or altering of CSS properties;
+- Adding or removing style sheets;
+- Changing the "class" attribute;
+- Browser window manipulation (resizing, scrolling);
+- Pseudo-class activation (:hover).
+
+### How browsers optimize rendering
+Browsers are doing their best to restrict repaint/reflow to the area that covers the changed elements only. For example, a size change in an absolute/fixed positioned element only affects the element itself and its descendants, whereas a similar change in a statically positioned element triggers reflow for all the subsequent elements.
+
+Another optimization technique is that while running pieces of JavaScript code, browsers cache the changes, and apply them in a single pass after the code was run. For example, this piece of code will only trigger one reflow and repaint:
+
+```javascript
+// only 1 reflow and repaint will actually happen
+var $body = $('body');
+$body.css('padding', '1px'); // reflow, repaint
+$body.css('color', 'red'); // repaint
+$body.css('margin', '2px'); // reflow, repaint
+```
+
+However, as mentioned above, accessing an element property triggers a forced reflow. This will happen if we add an extra line that reads an element property to the previous block:
+
+```javascript
+var $body = $('body');
+$body.css('padding', '1px');
+$body.css('padding'); // reading a property, a forced reflow
+$body.css('color', 'red');
+$body.css('margin', '2px');
+```
+
+As a result, we get 2 reflows instead of one. Because of this, you should group reading element properties together to optimize performance (see a more detailed example on JSBin).
+
+There are situations when you have to trigger a forced reflow. Example: we have to apply the same property ("margin-left" for example) to the same element twice. Initially, it should be set to 100px without animation, and then it has to be animated with transition to a value of 50px. You can study this example on JSBin right now, but I'll describe it here in more detail.
+
+We start by creating a CSS class with a transition:
+
+```css
+.has-transition {
+   -webkit-transition: margin-left 1s ease-out;
+      -moz-transition: margin-left 1s ease-out;
+        -o-transition: margin-left 1s ease-out;
+           transition: margin-left 1s ease-out;
+}
+```
+
+Then proceed with the implementation:
+
+```javascript
+// our element that has a "has-transition" class by default
+var $targetElem = $('#targetElemId');
+
+// remove the transition class
+$targetElem.removeClass('has-transition');
+
+// change the property expecting the transition to be off, as the class is not there
+// anymore
+$targetElem.css('margin-left', 100);
+
+// put the transition class back
+$targetElem.addClass('has-transition');
+
+// change the property
+$targetElem.css('margin-left', 50);
+```
+
+This implementation, however, does not work as expected. The changes are cached and applied only at the end of the code block. What we need is a forced reflow, which we can achieve by making the following changes:
+
+```javascript
+// remove the transition class
+$(this).removeClass('has-transition');
+
+// change the property
+$(this).css('margin-left', 100);
+
+// trigger a forced reflow, so that changes in a class/property get applied immediately
+$(this)[0].offsetHeight; // an example, other properties would work, too
+
+// put the transition class back
+$(this).addClass('has-transition');
+
+// change the property
+$(this).css('margin-left', 50);
+```
+
+Now this works as expected.
+
+### Practical advice on optimization
+Summarizing the available information, I could recommend the following:
+- Create valid HTML and CSS, do not forget to specify the document encoding. Styles should be included into <head>, and scripts appended to the end of the <body> tag.
+- Try to simplify and optimize CSS selectors (this optimization is almost universally ignored by developers who mostly use CSS preprocessors). Keep nesting levels at a minimum. This is how CSS selectors rank according to their performance (starting from the fastest ones):
+  - Identificator: #id
+  - Class: .class
+  - Tag: div
+  - Adjacent sibling selector: a + i
+  - Parent selector: ul > li
+  - Universal selector: *
+  - Attribute selector: input[type="text"]
+  - Pseudoclasses and pseudoelements: a:hover You should remember that browsers process selectors from right to left, that's why the rightmost selector should be the fastest one — either #id or .class:
+    - div * {...} // bad
+    - .list li {...} // bad
+    - .list-item {...} // good
+    - #list .list-item {...} // good
+- In your scripts, minimize DOM manipulation whenever possible. Cache everything, including properties and objects (if they are to be reused). It's better to work with an "offline" element when performing complicated manipulations (an "offline" element is one that is disconnected from DOM and only stored in memory), and append it to DOM afterwards.
+- To change element's styles, modifying the "class" attribute is one of the most performant ways. The deeper in the DOM tree you perform this change, the better (also because this helps decouple logic from presentation).
+- Animate only absolute/fixed positioned elements if you can.
+- It is a good idea to disable complicated :hover animations while scrolling (e.g. by adding an extra "no-hover" class to <body>).
+
 - https://dbaron.org/talks/2012-03-11-sxsw/master.xhtml
 - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - https://www.youtube.com/watch?v=SmE4OwHztCc
 - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
-- http://frontendbabel.info/articles/webpage-rendering-101/
 - https://www.udacity.com/course/browser-rendering-optimization--ud860
 - https://www.udacity.com/course/website-performance-optimization--ud884
+- http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/
