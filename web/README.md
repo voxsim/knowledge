@@ -22,3 +22,7 @@
 - https://www.youtube.com/watch?v=RrGo1Sz4IgQ
 - https://www.youtube.com/watch?v=ceODU6z4-yc
 - https://www.youtube.com/watch?v=cR-TP6jOSQM
+
+- HTTP requests – GET and POST along with associated headers such as Cache-Control, ETag, Status Codes, and Transfer-Encoding.
+- REST vs RPC.
+- Security – when to use JSONP, CORs, and iFrame policies.
