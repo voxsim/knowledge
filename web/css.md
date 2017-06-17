@@ -127,6 +127,8 @@ Every element within a document is structured as a rectangular box inside the do
 - The *border* of a CSS box sits between the outer edge of the padding and the inner edge of the margin. By default the border has a size of 0 — making it invisible — but you can set the thickness, style and color of the border to make it appear. The border shorthand property allows you to set all of these on all four sides at once, for example border: 1px solid black.
 - The *margin* surrounds a CSS box, and pushes up against other CSS boxes in the layout. It behaves rather like padding; the shorthand property is margin and the individual properties are margin-top, margin-right, margin-bottom, and margin-left.
 
+![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image046.jpg)
+
 ## Specificity
 The selector specificity is defined by the CSS2 specification as follows:
 
