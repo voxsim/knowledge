@@ -154,7 +154,7 @@ Some examples:
  style=""          /* a=1 b=0 c=0 d=0 -> specificity = 1,0,0,0 */
 ```
 
-## Sorting the rules
+### Sorting the rules
 
 After the rules are matched, they are sorted according to the cascade rules. WebKit uses bubble sort for small lists and merge sort for big ones. WebKit implements sorting by overriding the ">" operator for the rules:
 
@@ -166,6 +166,31 @@ static bool operator >(CSSRuleData& r1, CSSRuleData& r2)
     return (spec1 == spec2) : r1.position() > r2.position() : spec1 > spec2;
 }
 ```
+
+## Positioning schema
+There are several schemas:
+- Normal: the object is positioned according to its place in the document. This means its place in the render tree is like its place in the DOM tree and laid out according to its box type and dimensions
+- Float: the object is first laid out like normal flow, then moved as far left or right as possible
+- Absolute: The layout is defined exactly regardless of the normal flow. The object is put in the render tree in a different place than in the DOM tree
+- Relative: the object is positioned like usual and then moved by the required delta
+
+The positioning scheme is set by the "position" property and the "float" attribute.
+- static and relative cause a normal flow
+- absolute and fixed cause absolute positioning
+
+In static positioning no position is defined and the default positioning is used. In the other schemes, the author specifies the position: top, bottom, left, right.
+
+The way the box is laid out is determined by:
+- Box type
+- Box dimensions
+- Positioning scheme
+- External information such as image size and the size of the screen
+
+## Box Types
+- Block box: forms a block–has its own rectangle in the browser window. Blocks are formatted vertically one after the other.
+- Inline box: does not have its own block, but is inside a containing block. Inlines are formatted horizontally.
+
+Inline boxes are put inside lines or "line boxes". The lines are at least as tall as the tallest box but can be taller, when the boxes are aligned "baseline"–meaning the bottom part of an element is aligned at a point of another box other then the bottom. If the container width is not enough, the inlines will be put on several lines. This is usually what happens in a paragraph.
 
 ## CSS Questions
 
@@ -282,5 +307,4 @@ Yes.
 ### Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 - https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 - https://www.html5rocks.com/en/tutorials/speed/layers/
-- http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/
 - http://jankfree.org
