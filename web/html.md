@@ -1,3 +1,5 @@
+HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.
+
 ## DocType
 
 A DOCTYPE is a required preamble.
@@ -111,6 +113,9 @@ With HTML progressive rendering is chunking the HTML into separate bits and load
 This can be done asynchronously with different components being loaded as they finish. There's new features which can be used with Web Components making it more standard. Another interesting article on this is from eBay with Async Fragments.
 
 More info:
+- https://html.spec.whatwg.org/multipage/
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 - http://w3c.github.io/html/syntax.html
 - https://platform.html5.org/
 - http://www.ebaytechblog.com/2014/12/08/async-fragments-rediscovering-progressive-html-rendering-with-marko/
