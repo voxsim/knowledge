@@ -64,18 +64,18 @@ Just to store additional informations.
 
 ## Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 This question is a bit confusing, as when you say building blocks, my head goes to block elements. The HTML5 specific ones are:
-- <article>
-- <aside>
-- <audio>
-- <canvas>
-- <figcaption>
-- <figure>
-- <footer>
-- <header>
-- <hgroup>
-- <output>
-- <section>
-- <video>
+- `<article>`
+- `<aside>`
+- `<audio>`
+- `<canvas>`
+- `<figcaption>`
+- `<figure>`
+- `<footer>`
+- `<header>`
+- `<hgroup>`
+- `<output>`
+- `<section>`
+- `<video>`
 The numerous APIs and the more semantic tags, could also be said to be the building blocks.
 
 ## Describe the difference between a cookie, sessionStorage and localStorage.
