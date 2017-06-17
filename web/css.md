@@ -130,13 +130,13 @@ Every element within a document is structured as a rectangular box inside the do
 ## Specificity
 The selector specificity is defined by the CSS2 specification as follows:
 
-count 1 if the declaration it is from is a 'style' attribute rather than a rule with a selector, 0 otherwise (= a)
-count the number of ID attributes in the selector (= b)
-count the number of other attributes and pseudo-classes in the selector (= c)
-count the number of element names and pseudo-elements in the selector (= d)
-Concatenating the four numbers a-b-c-d (in a number system with a large base) gives the specificity.
-The number base you need to use is defined by the highest count you have in one of the categories. 
-For example, if a=14 you can use hexadecimal base. In the unlikely case where a=17 you will need a 17 digits number base. The later situation can happen with a selector like this: html body div div p ... (17 tags in your selector.. not very likely).
+- count 1 if the declaration it is from is a 'style' attribute rather than a rule with a selector, 0 otherwise (= a)
+- count the number of ID attributes in the selector (= b)
+- count the number of other attributes and pseudo-classes in the selector (= c)
+- count the number of element names and pseudo-elements in the selector (= d)
+- Concatenating the four numbers a-b-c-d (in a number system with a large base) gives the specificity.
+- The number base you need to use is defined by the highest count you have in one of the categories. 
+- For example, if a=14 you can use hexadecimal base. In the unlikely case where a=17 you will need a 17 digits number base. The later situation can happen with a selector like this: html body div div p ... (17 tags in your selector.. not very likely).
 
 Some examples:
 ```css
