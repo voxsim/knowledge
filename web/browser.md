@@ -28,6 +28,8 @@ Browser user interfaces have a lot in common with each other. Among the common u
 4. For each render tree element, its coordinates are calculated, which is called "layout". Browsers use a flow method which only required one pass to layout all the elements (tables require more than one pass).
 5. Finally, this gets actually displayed in a browser window, a process called "painting".
 
+![](http://www.phpied.com/files/reflow/render.png)
+
 When users interact with a page, or scripts modify it, some of the aforementioned operations have to be repeated, as the underlying page structure changes.
 
 ### Repaint
@@ -143,6 +145,7 @@ Summarizing the available information, I could recommend the following:
 - Animate only absolute/fixed positioned elements if you can.
 - It is a good idea to disable complicated :hover animations while scrolling (e.g. by adding an extra "no-hover" class to <body>).
 
+More info:
 - https://dbaron.org/talks/2012-03-11-sxsw/master.xhtml
 - https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - https://www.youtube.com/watch?v=SmE4OwHztCc
