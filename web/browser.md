@@ -1,4 +1,4 @@
-### The browser's main functionality
+## The browser's main functionality
 The main function of a browser is to present the web resource you choose, by requesting it from the server and displaying it in the browser window. The resource is usually an HTML document, but may also be a PDF, image, or some other type of content. The location of the resource is specified by the user using a URI (Uniform Resource Identifier).
 
 The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.
@@ -10,7 +10,7 @@ Browser user interfaces have a lot in common with each other. Among the common u
 - Refresh and stop buttons for refreshing or stopping the loading of current documents
 - Home button that takes you to your home page
 
-### The browser's high level structure
+## The browser's high level structure
 1. The user interface: this includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
 2. The browser engine: marshals actions between the UI and the rendering engine.
 3. The rendering engine : responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
@@ -21,7 +21,7 @@ Browser user interfaces have a lot in common with each other. Among the common u
 
 ![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
 
-### How do browsers render a web page
+## How do browsers render a web page
 1. The DOM (Document Object Model) is formed from the HTML that is received from a server.
 2. Styles are loaded and parsed, forming the CSSOM (CSS Object Model).
 3. On top of DOM and CSSOM, a rendering tree is created, which is a set of objects to be rendered (Webkit calls each of those a "renderer" or "render object", while in Gecko it's a "frame"). Render tree reflects the DOM structure except for invisible elements (like the <head> tag or elements that have display:none; set). Each text string is represented in the rendering tree as a separate renderer. Each of the rendering objects contains its corresponding DOM object (or a text block) plus the calculated styles. In other words, the render tree describes the visual representation of a DOM.
@@ -31,6 +31,74 @@ Browser user interfaces have a lot in common with each other. Among the common u
 ![](http://www.phpied.com/files/reflow/render.png)
 
 When users interact with a page, or scripts modify it, some of the aforementioned operations have to be repeated, as the underlying page structure changes.
+
+## HTML Parsing
+HTML cannot be parsed using the regular top down or bottom up parsers.
+The reasons are:
+1. The forgiving nature of the language: the fact that browsers have traditional error tolerance to support well known cases of invalid HTML.
+2. The parsing process is reentrant. For other languages, the source doesn't change during parsing, but in HTML, dynamic code (such as script elements containing document.write() calls) can add extra tokens, so the parsing process actually modifies the input.
+3. Speculative parsing: for scripts, css, images we will forward.
+
+The algorithm consists of two stages: tokenization and tree construction.
+Tokenization is the lexical analysis, parsing the input into tokens. Among HTML tokens are start tags, end tags, attribute names and attribute values.
+The tokenizer recognizes the token, gives it to the tree constructor, and consumes the next character for recognizing the next token, and so on until the end of the input.
+
+## CSS Parsing
+
+It just creates the CSSOM.
+
+## Render / Frame Tree
+While the DOM tree is being constructed, the browser constructs another tree, the render tree. This tree is of visual elements in the order in which they will be displayed. It is the visual representation of the document. The purpose of this tree is to enable painting the contents in their correct order.
+
+Firefox calls the elements in the render tree "frames". WebKit uses the term renderer or render object. 
+A renderer knows how to lay out and paint itself and its children. 
+WebKit's RenderObject class, the base class of the renderers, has the following definition:
+```c
+class RenderObject{
+  virtual void layout();
+  virtual void paint(PaintInfo);
+  virtual void rect repaintRect();
+  Node* node;  //the DOM node
+  RenderStyle* style;  // the computed style
+  RenderLayer* containgLayer; //the containing z-index layer
+}
+```
+
+Each renderer represents a rectangular area usually corresponding to a node's CSS box, as described by the CSS2 spec. It includes geometric information like width, height and position. 
+The box type is affected by the "display" value of the style attribute that is relevant to the node (see the style computation section). Here is WebKit code for deciding what type of renderer should be created for a DOM node, according to the display attribute:
+
+```c
+RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
+{
+    Document* doc = node->document();
+    RenderArena* arena = doc->renderArena();
+    ...
+    RenderObject* o = 0;
+
+    switch (style->display()) {
+        case NONE:
+            break;
+        case INLINE:
+            o = new (arena) RenderInline(node);
+            break;
+        case BLOCK:
+            o = new (arena) RenderBlock(node);
+            break;
+        case INLINE_BLOCK:
+            o = new (arena) RenderBlock(node);
+            break;
+        case LIST_ITEM:
+            o = new (arena) RenderListItem(node);
+            break;
+       ...
+    }
+
+    return o;
+}
+```
+```
+
+## Paint
 
 ### Repaint
 When changing element styles which don't affect the element's position on a page (such as background-color, border-color, visibility), the browser just repaints the element again with the new styles applied (that means a "repaint" or "restyle" is happening).
@@ -124,9 +192,12 @@ $(this).css('margin-left', 50);
 
 Now this works as expected.
 
-### Practical advice on optimization
+## Practical advice on optimization
 Summarizing the available information, I could recommend the following:
-- Create valid HTML and CSS, do not forget to specify the document encoding. Styles should be included into <head>, and scripts appended to the end of the <body> tag.
+- Create valid HTML and CSS
+- Do not forget to specify the document encoding
+- Styles should be included into <head>
+- Scripts appended to the end of the <body> tag. Think about async and defer attribute.
 - Try to simplify and optimize CSS selectors (this optimization is almost universally ignored by developers who mostly use CSS preprocessors). Keep nesting levels at a minimum. This is how CSS selectors rank according to their performance (starting from the fastest ones):
   - Identificator: #id
   - Class: .class
