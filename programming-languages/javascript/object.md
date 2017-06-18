@@ -10,6 +10,7 @@
 - `Object.create(prototype)` creates an object with prototype `prototype`, if it is null it doesn't have a prototype
 - `hasOwnProperty` check if an object has a property and not his ancestors
 - The `Object.assign(target, ...sources)` method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
+- `Object.defineProperty(obj, prop, descriptor)` defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
 
 ##### Class Inheritance
 instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
@@ -99,8 +100,22 @@ This technique is called monkey patching and breaks encapsulation. While used by
 
 The only good reason for extending a built-in prototype is to backport the features of newer JavaScript engines; for example, Array.forEach.
 
-#### hasOwnProperty
-To check whether an object has a property defined on itself and not somewhere on its prototype chain, it is necessary to use the hasOwnProperty method which all objects inherit from Object.prototype.
+#### defineProperty
+This method allows precise addition to or modification of a property on an object. Normal property addition through assignment creates properties which show up during property enumeration (for...in loop or Object.keys method), whose values may be changed, and which may be deleted. This method allows these extra details to be changed from their defaults. By default, values added using Object.defineProperty() are immutable.
+
+Property descriptors present in objects come in two main flavors: data descriptors and accessor descriptors. A data descriptor is a property that has a value, which may or may not be writable. An accessor descriptor is a property described by a getter-setter pair of functions. A descriptor must be one of these two flavors; it cannot be both.
+
+Both data and accessor descriptors are objects. They share the following required keys:
+- configurable: true if and only if the type of this property descriptor may be changed and if the property may be deleted from the corresponding object. Defaults to false.
+- enumerable: true if and only if this property shows up during enumeration of the properties on the corresponding object. Defaults to false.
+
+A data descriptor also has the following optional keys:
+- value: The value associated with the property. Can be any valid JavaScript value (number, object, function, etc). Defaults to undefined.
+- writable: true if and only if the value associated with the property may be changed with an assignment operator. Defaults to false.
+
+An accessor descriptor also has the following optional keys:
+- get: A function which serves as a getter for the property, or undefined if there is no getter. The function return will be used as the value of property. Defaults to undefined.
+- set: A function which serves as a setter for the property, or undefined if there is no setter. The function will receive as only argument the new value being assigned to the property. Defaults to undefined.
 
 #### Array
 - Array inherits from Object
