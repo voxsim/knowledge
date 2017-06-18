@@ -120,7 +120,8 @@ person.hello.call(person, "world"); // output: "James Smith says hello world"
 - Produce an instance of a function object
 - Function object are first class object
 - Function objects inherit from Function.prototype
-- Also called closures
+- They are not hoisted
+- Named function expression are useful if you want to refer to the current function inside the function body
 
 ### Function statement
 - the function statement is just a short-hand for a var statement with a function value
