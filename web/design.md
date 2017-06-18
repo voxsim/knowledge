@@ -19,3 +19,4 @@ If you want to design an adaptive site from scratch, that’s OK too. Start agai
 It can be extra work designing and developing a site with adaptive for multiple viewports so it’s usually used for retrofitting.
 
 - https://responsivedesign.is/
+- https://www.w3.org/TR/css3-mediaqueries/
