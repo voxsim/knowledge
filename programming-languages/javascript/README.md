@@ -8,8 +8,31 @@
 - Initial _ should be reserved for implementation
 - $ should be reserved for machines
 
+## Execution context
+When code is run in JavaScript, the environment in which it is executed is very important, and is evaluated as 1 of the following:
+- Global code – The default envionment where your code is executed for the first time.
+- Function code – Whenever the flow of execution enters a function body.
+- Eval code – Text to be executed inside the internal eval function.
+
+- Single threaded.
+- Synchronous execution.
+- 1 Global context.
+- Infinite function contexts.
+- Each function call creates a new execution context, even a call to itself
+
+So we now know that everytime a function is called, a new execution context is created. However, inside the JavaScript interpreter, every call to an execution context has 2 stages:
+
+- Creation Stage [when the function is called, but before it executes any code inside]:
+  - Create the Scope Chain.
+  - Create variables, functions and arguments.
+  - Determine the value of "this".
+- Activation / Code Execution Stage:
+  - Assign values, references to functions and interpret / execute code.
+
 ## Scoping
 In JavaScript, functions are our de facto scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+Every inner function is statically (lexically) bound to the parent context in which the inner function was physically defined in the program code. This is called lexical scope.
+An inner function always has access to the vars and parameters of its outer function, even after the outer function has returned.
 
 ## Hoisting
 On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
