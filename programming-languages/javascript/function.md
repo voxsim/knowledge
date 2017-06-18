@@ -123,7 +123,7 @@ person.hello.call(person, "world"); // output: "James Smith says hello world"
 - They are not hoisted
 - Named function expression are useful if you want to refer to the current function inside the function body
 
-### Function statement
+### Function statement/declaration
 - the function statement is just a short-hand for a var statement with a function value
 
 ```javascript
@@ -143,7 +143,7 @@ var foo = undefined;
 foo = function foo() {}
 ```
 
-- function statement is when function word is defined otherwise is a function expression (e.g. inside another function)
+- function statement is when function word is defined otherwise is a function expression
 - For return statement if there is no expression, then the return value is undefined.
 - Except for constructors, whose default return value is this.
 - It has a special parameter called arguments, it is array-like object. Treat as read-only structure.
@@ -184,10 +184,3 @@ const hinames = names.map(() => `hi simon`);
 
 ### Default Arguments
 You can define default arguments: if you want to trigger one default argument pass `undefined`.
-
-### this
-- The this parameter contains a reference to the object of invocation.
-- this allows a method to know what object it is concerned with.
-- this allows a single function object to service many functions.
-- this is key to prototypal inheritance.
-The this variable is attached to functions. Whenever you invoke a function, this is given a certain value, depending on how you invoke the function. This is often called the invocation pattern.
