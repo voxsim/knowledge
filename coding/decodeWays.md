@@ -8,6 +8,7 @@ A message containing letters from A-Z is being encoded to numbers using the foll
 Given an encoded message containing digits, determine the total number of ways to decode it.
 
 ## Solution
+Determine all encoded messages
 ```javascript
 function decodeWays(n) {
   var chars = {};
@@ -42,6 +43,37 @@ function decodeWays(n) {
 }
 ```
 
+Determine only the number of ways of encoding
+```
+function decodeWays(n) {
+  if(n === '0') return 0;
+  
+  var l = n.length;
+  var dp = {};
+  dp[0] = 1;
+  var pre = +n.slice(0, 2)
+  dp[1] = pre >= 10 && pre <= 26 ? 2 : 1;
+  
+  if(n[1] === '0') {
+    dp[1] -= 1;
+  }
+  
+  for(var i=2; i<l; i++) {
+     if(n[i] === '0') {
+       dp[i] = 0;
+       continue;
+     }
+     
+     dp[i] = dp[i-1];
+     var pre = +n.slice(0, 2);
+     if(pre >= 10 && pre <= 26)
+       dp[i] += dp[i-2];
+  }
+  
+  return dp[l-1];
+}
+```
+
 ## Testcase
 For example, Given encoded message "12", it could be decoded as "AB" (1 2) or "L" (12).
 
@@ -49,8 +81,10 @@ For example, Given encoded message "12", it could be decoded as "AB" (1 2) or "L
 - decodeWays('11') => ['K', 'AA']
 - decodeWays('20') => ['T']
 - decodeWays('21') => ['U', 'BA']
+- decodeWays('31') => ['CA']
 - decodeWays('311') => ['CI', 'CAA']
 - decodeWays('111') => ['AK', 'KA', 'AAA']
+- decodeWays('1111') => ['AAK', 'KAA', 'AAAA', 'AKA', 'KK']
 
 ## Complexity
 
