@@ -58,7 +58,7 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Greedy](./computer-science/algo/greedy.md)
     * [Dynamic Programming](./computer-science/algo/dynamic-programming.md)
     * [Brute force](./computer-science/algo/brute-force.md)
-    * [Backtracking](./computer-science/algo/back-tracking.md)
+    * [Backtracking](./computer-science/algo/backtracking.md)
   * [Bit Manipulation](./computer-science/bit-manipulation.md)
   * [NP](./computer-science/np.md)
 * [Software paradigm](./software-paradigm/README.md)
