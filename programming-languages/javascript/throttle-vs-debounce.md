@@ -1,5 +1,6 @@
 ## Throttle
 Returns a function, that, when invoked, will only be triggered at most once during a given window of time. Normally, the throttled function will run as much as it can, without ever going more than once per `wait` duration.
+Use case: infinite scrolling.
 
 ```javascript
 function throttle(func, wait) {
@@ -38,7 +39,7 @@ function throttle(func, wait) {
 ## Debounce
 Returns a function, that, as long as it continues to be invoked, will not be triggered.
 The function will be called after it stops being called for N milliseconds.
-
+Use cases: resize handler or keypress 
 ```javascript
 function debounce(func, wait, immediate) {
   var timeout, context, args, result;
