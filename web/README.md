@@ -29,3 +29,4 @@
 - Security – when to use JSONP, CORs, and iFrame policies.
 - https://una.im/save-offline/#💁
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://www.smashingmagazine.com/2016/02/making-a-service-worker/
