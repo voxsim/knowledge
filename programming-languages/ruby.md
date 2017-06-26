@@ -10,3 +10,7 @@
 * http://rubyonrails.org/doctrine/
 * https://6ftdan.com/allyourdev/2016/01/13/101-ruby-code-factoids/
 * http://development.wombatsecurity.com/development/2017/05/05/functional-mindset-in-ruby/
+* http://ruby-doc.com/docs/ProgrammingRuby/
+* http://rubylearning.com/satishtalim/tutorial.html
+* http://www.rubyist.net/~slagell/ruby/
+* https://github.com/alexch/ruby_notes/blob/master/ruby-intro.md
