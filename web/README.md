@@ -30,3 +30,4 @@
 - https://una.im/save-offline/#💁
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://www.smashingmagazine.com/2016/02/making-a-service-worker/
+- https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
