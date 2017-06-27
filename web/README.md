@@ -31,3 +31,5 @@
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://www.smashingmagazine.com/2016/02/making-a-service-worker/
 - https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
+- https://github.com/grab/front-end-guide
+- https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout
