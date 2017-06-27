@@ -33,3 +33,4 @@
 - https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
 - https://github.com/grab/front-end-guide
 - https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout
+- https://medium.com/@coreflodev/understand-offline-first-and-offline-last-in-android-71191e92b426
