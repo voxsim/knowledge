@@ -308,3 +308,7 @@ Yes.
 - https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 - https://www.html5rocks.com/en/tutorials/speed/layers/
 - http://jankfree.org
+
+
+More info:
+- https://csswizardry.com/2012/05/keep-your-css-selectors-short/
