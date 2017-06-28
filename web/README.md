@@ -36,3 +36,6 @@
 - https://medium.com/@coreflodev/understand-offline-first-and-offline-last-in-android-71191e92b426
 - https://medium.com/offline-camp/rethinking-offline-first-sync-for-service-workers-da4727b6dee
 - https://kinsta.com/learn/page-speed/
+- http://gethead.info/
+- https://httpsecurityreport.com/best_practice.html
+- https://www.w3schools.com/
