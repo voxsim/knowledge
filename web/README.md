@@ -40,3 +40,4 @@
 - https://httpsecurityreport.com/best_practice.html
 - https://www.w3schools.com/
 - https://internetingishard.com/
+- https://www.codecademy.com/articles
