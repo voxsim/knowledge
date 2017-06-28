@@ -312,3 +312,4 @@ Yes.
 
 More info:
 - https://csswizardry.com/2012/05/keep-your-css-selectors-short/
+- https://www.smashingmagazine.com/2013/10/challenging-css-best-practices-atomic-approach/
