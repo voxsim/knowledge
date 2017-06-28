@@ -313,3 +313,11 @@ Yes.
 More info:
 - https://csswizardry.com/2012/05/keep-your-css-selectors-short/
 - https://www.smashingmagazine.com/2013/10/challenging-css-best-practices-atomic-approach/
+- https://github.com/jareware/css-architecture
+- https://cssguidelin.es/
+- https://github.com/necolas/idiomatic-css
+- https://github.com/AllThingsSmitty/css-protips
+- https://www.w3.org/Style/CSS/
+- http://cssreference.io/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://maintainablecss.com/
