@@ -13,3 +13,4 @@
 - https://github.com/duffn/nodeinteractive-2015
 - http://dry.ly/full-streams-ahead
 - https://www.joyent.com/node-js/production/design/errors
+- https://x-team.com/blog/best-node-js-guides-curated-by-x-team/
