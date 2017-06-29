@@ -48,3 +48,4 @@
 - https://cqrs.wordpress.com/documents/building-event-storage/
 - https://github.com/flyeralarm/onboarding
 - https://github.com/thoughtbot/guides/
+- http://www.faqs.org/docs/artu/ch01s06.html
