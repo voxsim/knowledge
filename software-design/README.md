@@ -46,3 +46,5 @@
 - https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
 - https://www.codeproject.com/articles/555855/introduction-to-cqrs
 - https://cqrs.wordpress.com/documents/building-event-storage/
+- https://github.com/flyeralarm/onboarding
+- https://github.com/thoughtbot/guides/
