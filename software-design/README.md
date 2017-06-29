@@ -44,3 +44,5 @@
 - https://martinfowler.com/tags/evolutionary%20design.html
 - https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
 - https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
+- https://www.codeproject.com/articles/555855/introduction-to-cqrs
+- https://cqrs.wordpress.com/documents/building-event-storage/
