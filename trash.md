@@ -1,3 +1,7 @@
+- http://norvig.com/sudoku.html
+- http://norvig.com/spell-correct.html
+- http://aima.cs.berkeley.edu/
+- http://norvig.com/chomsky.html
 - ### Compilers
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
