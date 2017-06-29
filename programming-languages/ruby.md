@@ -15,3 +15,4 @@
 * http://www.rubyist.net/~slagell/ruby/
 * https://github.com/alexch/ruby_notes/blob/master/ruby-intro.md
 * http://oierud.net/bliki/EventSourcingInRuby.html
+* https://github.com/JuanitoFatas/fast-ruby
