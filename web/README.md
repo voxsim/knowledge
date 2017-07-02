@@ -1,6 +1,7 @@
 TO TRANSCRIPT:
 - https://github.com/grab/front-end-guide
 - https://stackoverflow.com/questions/21862054/single-page-application-advantages-and-disadvantages
+- https://auth0.com/blog/a-brief-history-of-javascript/
 
 TO READ:
 - https://developers.google.com/web/fundamentals/getting-started/
