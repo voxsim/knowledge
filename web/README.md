@@ -1,3 +1,7 @@
+TO TRANSCRIPT:
+- https://github.com/grab/front-end-guide
+
+TO READ:
 - https://developers.google.com/web/fundamentals/getting-started/
 - https://developers.google.com/web/tools/
 - https://developers.google.com/web/progressive-web-apps/
@@ -15,7 +19,6 @@
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://www.smashingmagazine.com/2016/02/making-a-service-worker/
 - https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
-- https://github.com/grab/front-end-guide
 - https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout
 - https://kinsta.com/learn/page-speed/
 - http://gethead.info/
@@ -23,3 +26,12 @@
 - https://www.w3schools.com/
 - https://internetingishard.com/
 - https://www.codecademy.com/articles
+- https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12
+- https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2#.s5bymqtj8
+- https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-3-offline-support-and-network-resilience-c84db889162c
+- https://medium.com/dev-channel/progressive-web-app-libraries-in-production-b52cad37d34
+- https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
+- https://blog.booking.com/progressive-web-apps-with-service-workers.html
+- https://developers.google.com/web/fundamentals/performance/rail?hl=en
+- https://developers.google.com/web/updates/2015/11/app-shell?hl=en
+- https://developers.google.com/web/ilt/pwa/
