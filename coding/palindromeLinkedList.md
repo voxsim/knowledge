@@ -1,6 +1,5 @@
-Given a linked list S check if S is a palindrome.
-
 ## Text
+Given a linked list S check if S is a palindrome.
 
 ## Solution
 ```javascript
