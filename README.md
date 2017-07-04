@@ -64,7 +64,7 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Software paradigm](./software-paradigm/README.md)
   * [Object oriented Programming](./software-paradigm/object-oriented-programming.md)
   * [Functional Programming](./software-paradigm/functional-programming.md)
-  * [Functional Reactive Programming](./software-paradigm/functional-reactive-programming.md)
+  * [Reactive Programming](./software-paradigm/reactive-programming.md)
 * [Software Design](./software-design/README.md)
   * [Nil](./software-design/nil.md)
   * [Coupling](./software-design/coupling.md)
