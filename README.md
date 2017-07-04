@@ -110,8 +110,6 @@ Legenda: Titles with bang (!) needs refactoring.
 * [Processes and Threads](./processes-vs-threads.md)
 * [Endianness](./endianness.md)
 * [Coding](/coding/README.md)
-  * [2sum](/coding/2sum.md)
-  * [3sum](/coding/3sum.md)
 * Exercises
   * [Regex Parser](./exercises/regex-parser.md)
 * Tools
