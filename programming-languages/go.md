@@ -4,3 +4,4 @@
 * https://golang.org/ref/spec
 * https://github.com/ksimka/go-is-not-good
 * https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
+* https://github.com/emluque/golang-internals-resources
