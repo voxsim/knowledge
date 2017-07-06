@@ -259,14 +259,12 @@ Usually about CSS selectors.
 #### What are the advantages/disadvantages of using CSS preprocessors?
 ###### Describe what you like and dislike about the CSS preprocessors you have used.
 
-- https://adamsilver.io/articles/the-disadvantages-of-css-preprocessors/
-- http://blog.millermedeiros.com/the-problem-with-css-pre-processors/
+TO DO.
 
 ### How would you implement a web design comp that uses non-standard fonts?
 
 - `@font-face` to write my own `font-family`
 - `@import` to import prepared web font(e.g. Google Webfonts)
-- https://www.quora.com/What-is-the-best-way-to-use-non-standard-fonts-online
 
 ### Explain how a browser determines what elements match a CSS selector.
 
@@ -283,13 +281,6 @@ block, inline, inline-block, none, inherit, table, table-cell, flex
 - absolute: you place where you want
 - fixed: fixed respect of the viewport of the page. It isuseful when scrolling, for example.
 
-### Have you played around with the new CSS Flexbox or Grid specs?
-
-Yes.
-
-- http://flexboxfroggy.com
-- https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
-
 ### How is responsive design different from adaptive design?
 
 - Responsive: There is one basic layout, and it changes responsively to
@@ -305,19 +296,4 @@ Yes.
 ```
 
 ### Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
-- https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
-- https://www.html5rocks.com/en/tutorials/speed/layers/
-- http://jankfree.org
-
-
-More info:
-- https://csswizardry.com/2012/05/keep-your-css-selectors-short/
-- https://www.smashingmagazine.com/2013/10/challenging-css-best-practices-atomic-approach/
-- https://github.com/jareware/css-architecture
-- https://cssguidelin.es/
-- https://github.com/necolas/idiomatic-css
-- https://github.com/AllThingsSmitty/css-protips
-- https://www.w3.org/Style/CSS/
-- http://cssreference.io/
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- https://maintainablecss.com/
+TO DO
