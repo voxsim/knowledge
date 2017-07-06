@@ -232,3 +232,18 @@ This document only scratches the surface of what service workers enable, and isn
 ## Acknowledgments
 
 Many thanks to [Web Personality of the Year nominee](http://www.ubelly.com/thecritters/) Jake (“B.J.”) Archibald, David Barrett-Kahn, Anne van Kesteren, Michael Nordman, Darin Fisher, Alec Flett, Andrew Betts, Chris Wilson, Aaron Boodman, Dave Herman, Jonas Sicking, Greg Billock, Karol Klepacki, Dan Dascalescu, and Christian Liebel for their comments and contributions to this document and to the discussions that have informed it.
+
+
+A Service worker can't access the DOM but it can make use of the fetch and Cache APIs. You can use the service worker to cache all static resources, which automatically reduces network requests and improve performance. The Service worker can be used to display the application shell, inform users that they are disconnected from the internet and serve up a page for the user to interact with once they are offline.
+
+The Service Worker's Life Cycle goes thus:
+
+Install : An install event is triggered the first time a user visits the page. During this phase, the service worker is installed in the browser. During this installation, you can cache all the static assets in your web app like so:
+The filesToCache variable represents an array of all the files you want to cache
+The cacheName refers to the name given to the cache store
+
+Activate: This event is fired when the service worker starts up.
+
+Here the service worker updates its cache whenever any of the app shell files change.
+
+Fetch: This event helps serve the app shell from the cache. caches.match() dissects the web request that triggered the event, and checks to see if it's available in the cache. It then either responds with the cached version, or uses fetch to get a copy from the network. The response is returned to the web page with e.respondWith().
