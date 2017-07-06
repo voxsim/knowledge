@@ -114,8 +114,8 @@ This can be done asynchronously with different components being loaded as they f
 
 ## Semantic Elements
 A semantic element clearly describes its meaning to both the browser and the developer.
-- Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
-- Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+- Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
+- Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 
 HTML5 offers new semantic elements to define different parts of a web page:  
 - `<article>`
