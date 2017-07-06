@@ -4,9 +4,6 @@ TO TRANSCRIPT:
 - https://auth0.com/blog/a-brief-history-of-javascript/
 
 TO READ:
-- https://developers.google.com/web/fundamentals/getting-started/
-- https://developers.google.com/web/tools/
-- https://developers.google.com/web/progressive-web-apps/
 - https://serviceworke.rs/
 - https://github.com/w3c/ServiceWorker/blob/master/explainer.md
 - https://auth0.com/blog/introduction-to-progressive-apps-part-one/
@@ -34,6 +31,4 @@ TO READ:
 - https://medium.com/dev-channel/progressive-web-app-libraries-in-production-b52cad37d34
 - https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
 - https://blog.booking.com/progressive-web-apps-with-service-workers.html
-- https://developers.google.com/web/fundamentals/performance/rail?hl=en
-- https://developers.google.com/web/updates/2015/11/app-shell?hl=en
-- https://developers.google.com/web/ilt/pwa/
+- https://jakearchibald.com/2014/offline-cookbook/
