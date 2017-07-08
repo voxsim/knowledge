@@ -22,3 +22,10 @@
 * https://learnrubythehardway.org/book/
 * http://exceptionalruby.com/
 * http://www.betterspecs.org/
+* http://blog.arkency.com/2015/04/why-i-want-to-introduce-mutation-testing-to-the-rails-event-store-gem/
+* https://github.com/arkency/rails_event_store
+* http://www.justinweiss.com/articles/a-decorator-vs-a-subclass/
+* https://github.com/Shopify/identity_cache
+* https://github.com/Shopify/verdict
+* https://github.com/Shopify/semian
+* https://github.com/Shopify/toxiproxy
