@@ -2,6 +2,8 @@
 - http://norvig.com/spell-correct.html
 - http://aima.cs.berkeley.edu/
 - http://norvig.com/chomsky.html
+- Programming Languages - https://www.udacity.com/course/programming-languages--cs262 (Programming Languages: Building A Web Browser | Udacity)
+- www.craftinginterpreters.com/contents.html
 - ### Compilers
     - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
     - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
