@@ -38,8 +38,37 @@ If an object is mutable, its value can be modified after creation.
 
 ## Higher-order Function
 A higher-order function is a function that:
-- accepts another function as an argument, or
+- accepts another function as an argument
 - returns a function as a result.
+
+## Currying
+A common technique in FP is currying. Currying is the process of converting a function that
+takes multiple arguments into a function that takes one argument at a time, returning
+another function.
+
+Let's look at an example to clarify the concept.
+Instead of writing:
+```javascript
+const add = (x, y) => x + y
+```
+
+We define the function like this:
+```javascript
+const add = x => y => x + y
+```
+
+And we use it in the following way:
+```javascript
+constadd1 = add(1)
+add1(2) // 3
+add1(3) // 4
+```
+
+This is a pretty convenient way of writing functions because since the first value is stored
+after the application of the first parameter, we can reuse the second function multiple times.
+
+## Composition
+Functions can be combined to produce new functions with more advanced features.
 
 To see:
 - SICP
@@ -47,3 +76,4 @@ To see:
 - https://stackoverflow.com/questions/210835/what-is-referential-transparency/9859966#9859966
 - https://github.com/MostlyAdequate/mostly-adequate-guide
 - http://haskell.cs.yale.edu/wp-content/uploads/2015/03/HSoM.pdf
+- https://github.com/stuartsierra/reducible-stream
