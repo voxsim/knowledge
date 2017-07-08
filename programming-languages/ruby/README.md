@@ -16,3 +16,9 @@
 * https://github.com/alexch/ruby_notes/blob/master/ruby-intro.md
 * http://oierud.net/bliki/EventSourcingInRuby.html
 * https://github.com/JuanitoFatas/fast-ruby
+* Read "eloquent ruby"
+* Read "metaprogramming ruby"
+* http://www.confidentruby.com/
+* https://learnrubythehardway.org/book/
+* http://exceptionalruby.com/
+* http://www.betterspecs.org/
