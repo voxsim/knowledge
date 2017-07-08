@@ -3,3 +3,4 @@
 - https://github.com/Idnan/bash-guide
 - https://google.github.io/styleguide/shell.xml
 - https://github.com/denysdovhan/bash-handbook
+- https://www.learnenough.com/command-line-tutorial
