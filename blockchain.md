@@ -1,0 +1,2 @@
+- https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
+- https://sgoedecke.github.io/blockchain-for-beginners/
