@@ -33,13 +33,13 @@ function addBinary(x, y) {
 ```
 
 ## Testcase
-addBinary(undefined, undefined) => undefined
-addBinary(11, 1) => undefined
-addBinary("1", "0") => "1"
-addBinary("1", "1") => "10";
-addBinary("11", "11") => "110";
-addBinary("1000", "1") => "1001";
-addBinary("1", "1000") => "1001";
+- addBinary(undefined, undefined) => undefined
+- addBinary(11, 1) => undefined
+- addBinary("1", "0") => "1"
+- addBinary("1", "1") => "10";
+- addBinary("11", "11") => "110";
+- addBinary("1000", "1") => "1001";
+- addBinary("1", "1000") => "1001";
 
 # Complexity
 Time complexity: O(m+n) where x has m characters and y has n characters
