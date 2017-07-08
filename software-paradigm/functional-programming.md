@@ -70,6 +70,12 @@ after the application of the first parameter, we can reuse the second function m
 ## Composition
 Functions can be combined to produce new functions with more advanced features.
 
+## Structural sharing
+
+## Memoization
+Memoization is memorize a deterministic result of a pure function -> Pure.
+Caching, is impure by design: we can cache something that change during the time. Deciding when change the cache is an indecidible problem.
+
 To see:
 - SICP
 - The little schemer
