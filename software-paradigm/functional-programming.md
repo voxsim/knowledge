@@ -77,3 +77,6 @@ To see:
 - https://github.com/MostlyAdequate/mostly-adequate-guide
 - http://haskell.cs.yale.edu/wp-content/uploads/2015/03/HSoM.pdf
 - https://github.com/stuartsierra/reducible-stream
+- https://purelyfunctional.tv/
+- Learn Clojure
+- Learn Scala
