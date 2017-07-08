@@ -1,0 +1,4 @@
+- https://gorails.com/
+- https://www.railstutorial.org/book
+- Read Agile Web Development with Rails
+- http://objectsonrails.com/
