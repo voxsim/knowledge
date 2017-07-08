@@ -71,6 +71,7 @@ after the application of the first parameter, we can reuse the second function m
 Functions can be combined to produce new functions with more advanced features.
 
 ## Structural sharing
+In functional languages, every data is immutable by design. This can seems very slow for complex data, but this is can be healed using structural sharing: every time we do an action on a data, it recycle everything it can from the old data. This opens a new class of data strctures called persistent immutable data stractures.
 
 ## Memoization
 Memoization is memorize a deterministic result of a pure function -> Pure.
