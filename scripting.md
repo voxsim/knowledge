@@ -4,3 +4,14 @@
 - https://google.github.io/styleguide/shell.xml
 - https://github.com/denysdovhan/bash-handbook
 - https://www.learnenough.com/command-line-tutorial
+- https://commandlinepoweruser.com/
+- http://linuxcommand.org/learning_the_shell.php
+- http://ryanstutorials.net/linuxtutorial/
+- http://www.ee.surrey.ac.uk/Teaching/Unix/
+- http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/
+- http://freeengineer.org/learnUNIXin10minutes.html
+- http://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html
+- https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/
+- https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/
+- http://duartes.org/gustavo/blog/post/system-calls/
+- http://guide.bash.academy/
