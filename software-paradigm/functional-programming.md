@@ -1,4 +1,5 @@
 Functional programming produces programs by composing mathematical functions and avoids shared state & mutable data. Lisp (specified in 1958) was among the first languages to support functional programming, and was heavily inspired by lambda calculus. Lisp and many Lisp family languages are still in common use today.
+In functional programming, a program is an expression that is composed by other function.
 
 Pros:
 - Using the functional paradigm, programmers avoid any shared state or side-effects, which eliminates bugs caused by multiple functions competing for the same resources. With features such as the availability of point-free style (aka tacit programming), functions tend to be radically simplified and easily recomposed for more generally reusable code compared to OOP.
@@ -79,6 +80,12 @@ In functional languages, every data is immutable by design. This can seems very 
 Memoization is memorize a deterministic result of a pure function -> Pure.
 Caching, is impure by design: we can cache something that change during the time. Deciding when change the cache is an indecidible problem.
 
+## Referential trasparency ?
+
+## Tail call elimination ?
+Tail call is the last thing that a function does. Teoretically the compiler could figure out a tail call, so a function instead of returning itself can return the tail call. The elimination of that stack frame is tail call elimination.
+It's really important in functional programming because we want to compose many function, but if we do not tail call elimination, this can cause the computer to crash do too many stackframes.
+
 To see:
 - SICP
 - The little schemer
@@ -89,3 +96,5 @@ To see:
 - https://purelyfunctional.tv/
 - Learn Clojure
 - Learn Scala
+- http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+- https://www.youtube.com/watch?v=Dsd4pc99FSY&list=PLFrwDVdSrYE6dy14XCmUtRAJuhCxuzJp0
