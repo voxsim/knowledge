@@ -479,3 +479,11 @@ Once again, we can see that the old commits live on despite being orphaned, and 
 $ git rebase --interactve master
 
 - https://github.com/jkulak/git-ninja/blob/master/README.md#toc
+
+More info:
+- https://www.learnenough.com/git-tutorial
+- https://wildlyinaccurate.com/a-hackers-guide-to-git/
+- https://maryrosecook.com/blog/post/git-from-the-inside-out
+- https://davidwalsh.name/checkout-previous-branch-git
+- https://medium.com/walmartlabs/nitty-gitties-69998e14cc92
+- https://vimeo.com/146478456
