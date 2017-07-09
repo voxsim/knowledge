@@ -111,3 +111,5 @@ Challenge sites:
 - [CareerCup](https://www.careercup.com/page)
 - [Algorithmist](http://www.algorithmist.com/index.php/Main_Page)
 - [Facebook Code Lab](https://codelab.interviewbit.com/users/sign_in/)
+- [TeachInterview](https://www.techinterview.org/)
+- [ProgrammerInterview](http://www.programmerinterview.com/)
