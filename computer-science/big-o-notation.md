@@ -96,7 +96,7 @@ KD Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(n)|O(n)|O(n)|O(n)|O(n)|
 
 In asymptotic analysis we consider growth of algorithm in terms of input size. An algorithm X is said to be asymptotically better than Y if X takes smaller time than y for all input sizes n larger than a value n0 where n0 > 0.
 
-* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
+* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios but big-O notation doesn’t imply anything of the sort. If someone is talking about the randomized QuickSort and says that it is O(nlogn)O(nlog⁡n), they presumably mean that its expected running time is O(nlogn)O(nlog⁡n).
 * *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
   that is not asymptotically tight
 * *Big Omega (Ω) Notation* is used to provide an asymptotic lower bound on a particular algorithm
