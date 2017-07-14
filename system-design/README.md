@@ -120,10 +120,10 @@ Outline a high level design with all important components.
 
 ### Step 3: Design core components
 
-Dive into details for each core component.  For example, if you were asked to [design a url shortening service](solutions/system_design/pastebin.md), discuss:
+Dive into details for each core component.  For example, if you were asked to [design a url shortening service](solutions/pastebin.md), discuss:
 
 * Generating and storing a hash of the full url
-    * [MD5](solutions/system_design/pastebin.md) and [Base62](solutions/system_design/pastebin.md)
+    * [MD5](solutions/pastebin.md) and [Base62](solutions/pastebin.md)
     * Hash collisions
     * SQL or NoSQL
     * Database schema
@@ -166,14 +166,14 @@ Check out the following links to get a better idea of what to expect:
 
 | Question | |
 |---|---|
-| Design Pastebin.com (or Bit.ly) | [Solution](solutions/system_design/pastebin.md) |
-| Design the Twitter timeline (or Facebook feed)<br/>Design Twitter search (or Facebook search) | [Solution](solutions/system_design/twitter.md) |
-| Design a web crawler | [Solution](solutions/system_design/web_crawler.md) |
-| Design Mint.com | [Solution](solutions/system_design/mint.md) |
-| Design the data structures for a social network | [Solution](solutions/system_design/social_graph.md) |
-| Design a key-value store for a search engine | [Solution](solutions/system_design/query_cache.md) |
-| Design Amazon's sales ranking by category feature | [Solution](solutions/system_design/sales_rank.md) |
-| Design a system that scales to millions of users on AWS | [Solution](solutions/system_design/scaling_aws.md) |
+| Design Pastebin.com (or Bit.ly) | [Solution](solutions/pastebin.md) |
+| Design the Twitter timeline (or Facebook feed)<br/>Design Twitter search (or Facebook search) | [Solution](solutions/twitter.md) |
+| Design a web crawler | [Solution](solutions/web_crawler.md) |
+| Design Mint.com | [Solution](solutions/mint.md) |
+| Design the data structures for a social network | [Solution](solutions/social_graph.md) |
+| Design a key-value store for a search engine | [Solution](solutions/query_cache.md) |
+| Design Amazon's sales ranking by category feature | [Solution](solutions/sales_rank.md) |
+| Design a system that scales to millions of users on AWS | [Solution](solutions/scaling_aws.md) |
 
 ## Object-oriented design interview questions with solutions
 
