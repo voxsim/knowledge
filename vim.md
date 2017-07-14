@@ -1,2 +1,3 @@
 - https://github.com/w0rp/ale
 - https://github.com/vim-airline/vim-airline#integrating-with-powerline-fonts
+- https://github.com/sbdchd/neoformat
