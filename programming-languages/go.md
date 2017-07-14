@@ -5,3 +5,7 @@
 * https://github.com/ksimka/go-is-not-good
 * https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
 * https://github.com/emluque/golang-internals-resources
+* https://blog.golang.org/toward-go2
+* https://github.com/golang/go/wiki/ExperienceReports
+* https://www.goinggo.net/2017/06/for-range-semantics.html
+* https://medium.com/square-corner-blog/always-be-closing-3d5fda0e00da
