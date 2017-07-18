@@ -6,27 +6,39 @@ The Document Object Model (DOM) is a cross-platform and language-independent con
   - parentNode
   - sibilings (nextSibiling, prevSibiling)
   - className, style
-  - nodeType that it is a short
-    - Node.ELEMENT_NODE == 1
-    - Node.ATTRIBUTE_NODE == 2
-    - Node.TEXT_NODE == 3
-    - Node.CDATA_SECTION_NODE == 4
-    - Node.ENTITY_REFERENCE_NODE == 5
-    - Node.ENTITY_NODE == 6
-    - Node.PROCESSING_INSTRUCTION_NODE == 7
-    - Node.COMMENT_NODE == 8
-    - Node.DOCUMENT_NODE == 9
-    - Node.DOCUMENT_TYPE_NODE == 10
-    - Node.DOCUMENT_FRAGMENT_NODE == 11
-    - Node.NOTATION_NODE == 12
+  - nodeType (read (Differences between node and element)[#])
+    
 - When use removeChild be sure to remove any event handler
 - Event Handles
   node.addEventListener(type, f, false);
+  
+## Differences between node and element
+A node is the generic name for any type of object in the DOM hierarchy. A node could be one of the built-in DOM elements such as document or document.body, it could be an HTML tag specified in the HTML such as <input> or <p> or it could be a text node that is created by the system to hold a block of text inside another element. So, in a nutshell, a node is any DOM object.
 
-CSS use hyphens, Javascript is camelCase
+An element is one specific type of node as there are many other types of nodes (text nodes, comment nodes, document nodes, etc...).
 
-Bubbling: means that the event is given to the target, and then its parent, and then its paretnt, and so on until the event is canceled. To cancel propagation call `stopPropagation()`. To prevent default action (e.g. submiting a form) call `preventDefault()`.
+The DOM consists of a hierarchy of nodes where each node can have a parent, a list of child nodes and a nextSibling and previousSibling. That structure forms a tree-like hierarchy. The document node would have its list of child nodes (the head node and the body node). The body node would have its list of child nodes (the top level elements in your HTML page) and so on.
 
+So, a nodeList is simply an array-like list of nodes.
+
+An element is a specific type of node, one that can be directly specified in the HTML with an HTML tag and can have properties like an id or a class. can have children, etc... There are other types of nodes such as comment nodes, text nodes, etc... with different characteristics. Each node has a property .nodeType which reports what type of node it is. You can see the various types of nodes here (diagram from MDN):
+- Node.ELEMENT_NODE == 1
+- Node.ATTRIBUTE_NODE == 2
+- Node.TEXT_NODE == 3
+- Node.CDATA_SECTION_NODE == 4
+- Node.ENTITY_REFERENCE_NODE == 5
+- Node.ENTITY_NODE == 6
+- Node.PROCESSING_INSTRUCTION_NODE == 7
+- Node.COMMENT_NODE == 8
+- Node.DOCUMENT_NODE == 9
+- Node.DOCUMENT_TYPE_NODE == 10
+- Node.DOCUMENT_FRAGMENT_NODE == 11
+- Node.NOTATION_NODE == 12
+
+## Bubbling
+It means that the event is given to the target, and then its parent, and then its paretnt, and so on until the event is canceled. To cancel propagation call `stopPropagation()`. To prevent default action (e.g. submiting a form) call `preventDefault()`.
+
+## How to walk the DOM
 ```javascript
 function walkTheDOM(node, func) {
   if(!node) return;
