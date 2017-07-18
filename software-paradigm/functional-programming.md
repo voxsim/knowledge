@@ -16,7 +16,7 @@ A pure function's return value is determined only by its input values (arguments
 
 In summary:
 - Pure functions must take arguments.
-- The same input (arguments) will always produce the same output (return).
+- The same input (arguments) will always produce the same output (return): they are predictable and easy to test.
 - Pure functions rely only on local state and do not mutate external state.
 - Pure functions do not produce side effects.
 - Pure functions cannot call impure functions.
