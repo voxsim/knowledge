@@ -65,17 +65,6 @@ Selectors can be divided into the following categories:
 - Combinators: These are not exactly selectors themselves, but ways of combining two or more selectors in useful ways for very specific selections. So for example, you could select only paragraphs that are direct descendants of divs, or paragraphs that come directly after headings.
 - Multiple selectors: Again, these are not separate selectors; the idea is that you can put multiple selectors on the same CSS rule, separated by commas, to apply a single set of declarations to all the elements selected by those selectors.
 
-## Simple selectors
-
-### Class selector
-The class selector consists of a dot, '.', followed by a class name. A class name is any value without spaces put within an HTML class attribute. It is up to you to choose a name for the class. It is also worth knowing that multiple elements in a document can have the same class value and a single element can have multiple class names separated by white space. 
-
-### ID selector
-The ID selector consists of a hash/pound symbol (#), followed by the ID name of a given element. Any element can have a unique ID name set with the id attribute. It is up to you what name you choose for the ID. It's the most efficient way to select a single element.
-
-### Universal selector
-The universal selector (\*) is the ultimate joker. It allows selecting all elements in a page.
-
 ### Combinators
 In CSS, combinators allow you to combine multiple selectors together, which allows you to select elements inside other elements, or adjacent to other elements. The four available types are:
 - The descendant selector (space) allows you to select an element nested somewhere inside another element (not necessarily a direct descendant; it could be a grandchild, for example)
