@@ -62,37 +62,37 @@ HTML documents represent a media-independent description of interactive content.
 Block-level elements are always drawn on a new line after them.
 
 ### Paragraphs
-The <p> element marks all the text inside it as a distinct paragraph.
+The `<p>` element marks all the text inside it as a distinct paragraph.
 
 ### Headings
-Headings are like titles, but they’re actually displayed on the page. HTML provides six levels of headings, and the corresponding elements are: <h1>, <h2>, <h3>, … , <h6>. The higher the number, the less prominent the heading.
+Headings are like titles, but they're actually displayed on the page. HTML provides six levels of headings, and the corresponding elements are: `<h1>`, `<h2>`, `<h3>`, … , `<h6>`. The higher the number, the less prominent the heading.
 
 ### unordered lists
-Whenever you surround a piece of text with HTML tags, you’re adding new meaning to that text. Wrapping content in <ul> tags tells a browser that whatever is inside should be rendered as an “unordered list”. To denote individual items in that list, you wrap them in <li> tags
+Whenever you surround a piece of text with HTML tags, you’re adding new meaning to that text. Wrapping content in `<ul>` tags tells a browser that whatever is inside should be rendered as an “unordered list”. To denote individual items in that list, you wrap them in `<li>` tags
 
 ### ordered lists
-With an unordered list, rearranging the <li> elements shouldn’t change the meaning of the list. If the sequence of list items does matter, you should use an “ordered list” instead. To create an ordered list, simply change the parent <ul> element to <ol>.
+With an unordered list, rearranging the `<li>` elements shouldn’t change the meaning of the list. If the sequence of list items does matter, you should use an “ordered list” instead. To create an ordered list, simply change the parent `<ul>` element to `<ol>`.
 
 ## Inline Elements
 Inline elements can affect sections of text anywhere within a line.
 
 ### emphasis (italic) elements
-For instance, <p> is a block-level element, while <em> is an inline element that affects a span of text inside of a paragraph. It stands for “emphasis”, and it’s typically displayed as italicized text.
+For instance, `<p>` is a block-level element, while `<em>` is an inline element that affects a span of text inside of a paragraph. It stands for “emphasis”, and it’s typically displayed as italicized text.
 
 ### strong (bold) elements
-If you want to be more emphatic than an <em> tag, you can use <strong>. 
+If you want to be more emphatic than an `<em>` tag, you can use `<strong>`. 
 
 ## Empty html elements
-The HTML tags we’ve encountered so far either wrap text content (e.g., <p>) or other HTML elements (e.g., <ol>). That’s not the case for all HTML elements. Some of them can be “empty“ or “self-closing”. Line breaks and horizontal rules are the most common empty elements you’ll find. The trailing slash (/) in all empty HTML elements is entirely optional.
+The HTML tags we’ve encountered so far either wrap text content (e.g., `<p>`) or other HTML elements (e.g., `<ol>`). That’s not the case for all HTML elements. Some of them can be “empty“ or “self-closing”. Line breaks and horizontal rules are the most common empty elements you’ll find. The trailing slash (/) in all empty HTML elements is entirely optional.
 
 ### Line breaks
-To tell the browser that we want a hard line break, we need to use an explicit <br/> element.
+To tell the browser that we want a hard line break, we need to use an explicit `<br/>` element.
 
 ### Horizontal rules
-The <hr/> element is a “horizontal rule”, which represents a thematic break. The transition from one scene of a story into the next or between the end of a letter and a postscript are good examples of when a horizontal rule may be appropriate.
+The `<hr/>` element is a “horizontal rule”, which represents a thematic break. The transition from one scene of a story into the next or between the end of a letter and a postscript are good examples of when a horizontal rule may be appropriate.
 
 ## Links/Anchors
-Links are created with the <a> element, which stands for “anchor”.
+Links are created with the `<a>` element, which stands for “anchor”.
 
 There are three types of links:
 - Absolute links: they are the most detailed way you can refer to a web resource. They start with the “scheme” (typically http:// or https://), followed by the domain name of the website, then the path of the target web page.
@@ -104,7 +104,7 @@ Attributes alter the meaning of HTML elements, and sometimes you need to modify 
 ## Images
 Unlike all the HTML elements we’ve encountered so far, image content is defined outside of the web page that renders it. Fortunately for us, we already have a way to refer to external resources from within an HTML document: absolute, relative, and root-relative URLs.
 
-Images are included in web pages with the <img/> tag and its src attribute, which points to the image file you want to display.
+Images are included in web pages with the `<img/>` tag and its `src` attribute, which points to the image file you want to display.
 
 ### Image formats
 There’s four main image formats in use on the web, and they were all designed to do different things. Understanding their intended purpose goes a long way towards improving the quality of your web pages.
@@ -124,7 +124,7 @@ Unlike the pixel-based image formats above, SVG is a vector-based graphics forma
 There is one potential issue with SVGs: for them to display consistently across browsers, you need to convert any text fields to outlines using your image editor. If your images contain a lot of text, this can have a big impact on file size.
 
 ### Define dimensions
-By default, the <img/> element uses the inherit dimensions of its image file. To get our pixel-based images down to the intended size (75×75), we can use the <img/> element’s width attribute. The width attribute sets an explicit dimension for the image. There’s a corresponding height attribute, as well. Setting only one of them will cause the image to scale proportionally, while defining both will stretch the image. 
+By default, the `<img/>` element uses the inherit dimensions of its image file. To get our pixel-based images down to the intended size (75×75), we can use the `<img/>` element’s width attribute. The width attribute sets an explicit dimension for the image. There’s a corresponding height attribute, as well. Setting only one of them will cause the image to scale proportionally, while defining both will stretch the image. 
 
 ### Text alternatives
 Adding alt attributes to your <img/> elements is a best practice. It defines a “text alternative” to the image being displayed. This has an impact on both search engines and users with text-only browsers (e.g., people that use text-to-speech software due to a vision impairment).
