@@ -51,55 +51,10 @@ As there are several ways to define the character encoding of a style sheet, the
 Much like the values of properties, each at-rule has a different syntax. Nevertheless, several of them can be grouped into a special category named conditional group rules. These statements share a common syntax and each of them can include nested statements—either rulesets or nested at-rules. Furthermore, they all convey a common semantic meaning—they all link some type of condition, which at any time evaluates to either true or false. If the condition evaluates to true, then all of the statements within the group will be applied.
 
 ## Cascade algorithm
-CSS is an acronym of Cascading Style Sheets, which indicates that the notion of the cascade is important. At its most basic level it indicates that the order of CSS rules matter, but it's more complex than that. What selectors win out in the cascade depends on three factors (these are listed in order of weight — earlier ones will overrule later ones):
+Its most basic level it indicates that the order of CSS rules matter, but it's more complex than that. What selectors win out in the cascade depends on three factors (these are listed in order of weight — earlier ones will overrule later ones):
 - Importance: In CSS, there is a special piece of syntax you can use to make sure that a certain rule will always win over all others: !important. Adding this to the end of a property value will give it superpowers.
 - Specificity: Specificity is basically a measure of how specific a selector is and how many elements it could match
 - Source order: As mentioned above, if multiple competing selectors have the same importance and specificity, the third factor that comes into play to help decide which rule wins is source order, later rules will win over earlier rules.
-
-## Different types of selector
-Selectors can be divided into the following categories:
-- Simple selectors: Match one or more elements based on element type, class, or id.
-- Attribute selectors: Match one or more elements based on their attributes/attribute values.
-- Pseudo-classes: Match one or more elements that exist in a certain state, such as an element that is being hovered over by the mouse pointer, or a checkbox that is currently disabled or checked, or an element that is the first child of its parent in the DOM tree.
-- Pseudo-elements: Match one or more parts of content that are in a certain position in relation to an element, for example the first word of each paragraph, or generated content appearing just before an element.
-- Combinators: These are not exactly selectors themselves, but ways of combining two or more selectors in useful ways for very specific selections. So for example, you could select only paragraphs that are direct descendants of divs, or paragraphs that come directly after headings.
-- Multiple selectors: Again, these are not separate selectors; the idea is that you can put multiple selectors on the same CSS rule, separated by commas, to apply a single set of declarations to all the elements selected by those selectors.
-
-### Combinators
-In CSS, combinators allow you to combine multiple selectors together, which allows you to select elements inside other elements, or adjacent to other elements. The four available types are:
-- The descendant selector (space) allows you to select an element nested somewhere inside another element (not necessarily a direct descendant; it could be a grandchild, for example)
-- The child selector (>) allows you to select an element that is an immediate child of another element.
-- The adjacent sibling selector (+) allows you to select an element that is an immediate sibling of another element (i.e. right next to it, at the same level in the hierarchy).
-- The general sibling selector (~) allows you to select any elements that are siblings of another element (i.e. at the same level in the hierarchy, but not necessarily right next to it).
-
-## Attribute selectors
-Attribute selectors are a special kind of selector that will match elements based on their attributes and attribute values. Their generic syntax consists of square brackets ([]) containing an attribute name followed by an optional condition to match against the value of the attribute. Attribute selectors can be divided into two categories depending on the way they match attribute values: Presence and value attribute selectors and Substring value attribute selectors.
-
-### Presence and value attribute selectors
-These attribute selectors try to match an exact attribute value:
-- [attr] : This selector will select all elements with the attribute attr, whatever its value.
-- [attr=val] : This selector will select all elements with the attribute attr, but only if its value is val.
-- [attr~=val]: This selector will select all elements with the attribute attr, but only if the value val is one of a space-separated list of values contained in attr's value, for example a single class in a space-separated list of classes.
-
-### Substring value attribute selectors
-Attribute selectors in this class are also known as "RegExp-like selectors", because they offer flexible matching in a similar fashion to regular expression (but to be clear, these selectors are not true regular expression):
-- [attr|=val] : This selector will select all elements with the attribute attr for which the value is exactly val or starts with val- (careful, the dash here isn't a mistake, this is to handle language codes.)
-- [attr^=val] : This selector will select all elements with the attribute attr for which the value starts with val.
-- [attr$=val] : This selector will select all elements with the attribute attr for which the value ends with val.
-- [attr*=val] : This selector will select all elements with the attribute attr for which the value contains the string val (unlike [attr~=val], this selector doesn't treat spaces as value separators but as part of the attribute value.)
-
-### Pseudo-classes
-A CSS pseudo-class is a keyword preceded by a colon (:) that is added on to the end of selectors to specify that you want to style the selected elements only when they are in certain state. For example you might want to style an element only when it is being hovered over by the mouse pointer, or a checkbox when it is disabled or checked, or an element that is the first child of its parent in the DOM tree.
-Some examples are :active, :first, :last, etc..
-
-### Pseudo elements
-Pseudo-elements are very much like pseudo-classes, but they have differences. They are keywords (this time preceded by two colons (::)) that can be added to the end of selectors to select a certain part of an element. They are:
-- ::after
-- ::before
-- ::first-letter
-- ::first-line
-- ::selection
-- ::backdrop
 
 ## Units
 - Pixels (px) are referred to as absolute units because they will always be the same size regardless of any other related settings.
