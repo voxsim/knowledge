@@ -6,8 +6,7 @@ The Document Object Model (DOM) is a cross-platform and language-independent con
   - parentNode
   - sibilings (nextSibiling, prevSibiling)
   - className, style
-  - nodeType (read (Differences between node and element)[#])
-    
+  - nodeType
 - When use removeChild be sure to remove any event handler
 - Event Handles
   node.addEventListener(type, f, false);
