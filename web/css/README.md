@@ -74,7 +74,7 @@ Every element within a document is structured as a rectangular box inside the do
 ![](https://internetingishard.com/html-and-css/css-box-model/css-box-model-73a525.png)
 
 ### Changing box behavior
-We can override the default box type of HTML elements with the CSS display property. For example, if we wanted to make our <em> and <strong> elements blocks instead of inline elements, we could:
+We can override the default box type of HTML elements with the CSS display property. For example, if we wanted to make our `<em>` and `<strong>` elements blocks instead of inline elements, we could:
 
 ```css
 em, strong {
