@@ -59,7 +59,11 @@ This DOM tree can be manipulated from scripts in the page. Scripts (typically in
 HTML documents represent a media-independent description of interactive content. HTML documents might be rendered to a screen, or through a speech synthesizer, or on a braille display. To influence exactly how such rendering takes place, authors can use a styling language such as CSS.
 
 ## Block Elements (also called “flow content”)
-Block-level elements are always drawn on a new line after them.
+Block boxes always appear below the previous block element. This is the “natural” or “static” flow of an HTML document when it gets rendered by a web browser.
+
+The width of block boxes is set automatically based on the width of its parent container. In this case, our blocks are always the width of the browser window.
+
+The default height of block boxes is based on the content it contains. When you narrow the browser window, the <h1> gets split over two lines, and its height adjusts accordingly.
 
 ### Paragraphs
 The `<p>` element marks all the text inside it as a distinct paragraph.
@@ -75,6 +79,10 @@ With an unordered list, rearranging the `<li>` elements shouldn’t change the m
 
 ## Inline Elements
 Inline elements can affect sections of text anywhere within a line.
+
+Inline boxes don’t affect vertical spacing. They’re not for determining layout—they’re for styling stuff inside of a block.
+
+The width of inline boxes is based on the content it contains, not the width of the parent element.
 
 ### emphasis (italic) elements
 For instance, `<p>` is a block-level element, while `<em>` is an inline element that affects a span of text inside of a paragraph. It stands for “emphasis”, and it’s typically displayed as italicized text.
