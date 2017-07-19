@@ -3,10 +3,6 @@
 - Resetting: Remove all the native styles provided by browsers
 - Normalizing: Make the browser styles consistent
 
-#### Describe z-index and how stacking context is formed.
-
-The z-index property specifies the stack order of an element, an element with greater stack order is always in front of an element with a lower stack order. Say two DIVs with the same parent, higher z-index will be displayed. It will inherit the z-index property of the parent. Z-index only works on positioned elements (position:absolute, position:relative, or position:fixed). Value can be negative.
-
 #### Describe BFC(Block Formatting Context) and how it works.
 
 BFC is a part of rendering a webpage. It's used to determine from which
