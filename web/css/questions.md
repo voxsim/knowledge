@@ -3,13 +3,6 @@
 - Resetting: Remove all the native styles provided by browsers
 - Normalizing: Make the browser styles consistent
 
-#### Describe Floats and how they work.
-
-There are `left`, `right` and `none` for `float`. Each value indicates how an
-element should float. When `float` is set, each element will get out of its
-normal flow and will be shifted to the specified direction, until it gets its
-container or another floated element. Float affects not only  the target element, but also its children.
-
 #### Describe z-index and how stacking context is formed.
 
 The z-index property specifies the stack order of an element, an element with greater stack order is always in front of an element with a lower stack order. Say two DIVs with the same parent, higher z-index will be displayed. It will inherit the z-index property of the parent. Z-index only works on positioned elements (position:absolute, position:relative, or position:fixed). Value can be negative.
