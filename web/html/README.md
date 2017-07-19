@@ -84,6 +84,8 @@ Inline boxes don’t affect vertical spacing. They’re not for determining layo
 
 The width of inline boxes is based on the content it contains, not the width of the parent element.
 
+Inline boxes are put inside lines or "line boxes". The lines are at least as tall as the tallest box but can be taller, when the boxes are aligned "baseline"–meaning the bottom part of an element is aligned at a point of another box other then the bottom. If the container width is not enough, the inlines will be put on several lines. This is usually what happens in a paragraph.
+
 ### emphasis (italic) elements
 For instance, `<p>` is a block-level element, while `<em>` is an inline element that affects a span of text inside of a paragraph. It stands for “emphasis”, and it’s typically displayed as italicized text.
 
