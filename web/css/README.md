@@ -71,7 +71,33 @@ Every element within a document is structured as a rectangular box inside the do
 - The *border* of a CSS box sits between the outer edge of the padding and the inner edge of the margin. By default the border has a size of 0 — making it invisible — but you can set the thickness, style and color of the border to make it appear. The border shorthand property allows you to set all of these on all four sides at once, for example border: 1px solid black.
 - The *margin* surrounds a CSS box, and pushes up against other CSS boxes in the layout. It behaves rather like padding; the shorthand property is margin and the individual properties are margin-top, margin-right, margin-bottom, and margin-left.
 
-![](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image046.jpg)
+![](https://internetingishard.com/html-and-css/css-box-model/css-box-model-73a525.png)
+
+### Changing box behavior
+We can override the default box type of HTML elements with the CSS display property. For example, if we wanted to make our <em> and <strong> elements blocks instead of inline elements, we could:
+
+```css
+em, strong {
+  background-color: #B2D6FF;
+  display: block;
+}
+```
+
+or we can set `display: inline` for other block elements.
+
+### Margin vs padding
+Margins and padding can accomplish the same thing in a lot of situations, making it difficult to determine which one is the “right” choice. The most common reasons why you would pick one over the other are:
+* The padding of a box has a background, while margins are always transparent.
+* Padding is included in the click area of an element, while margins aren’t.
+* Margins collapse vertically, while padding doesn’t.
+If none of these help you decide whether to use padding over margin, then don’t fret about it—just pick one. In CSS, there’s often more than one way to solve your problem.
+
+### Margin of inline elements
+One of the starkest contrasts between block-level elements and inline ones is their handling of margins. Inline boxes completely ignore the top and bottom margins of an element.
+The rationale behind this goes back to the fact that inline boxes format runs of text inside of a block, and thus have limited impact on the overall layout of a page. If you want to play with the vertical space of a page, you must be working with block-level elements.
+
+### Vertical margin collapse
+Another quirk of the CSS box model is the “vertical margin collapse”. When you have two boxes with vertical margins sitting right next to each other, they will collapse. Instead of adding the margins together like you might expect, only the biggest one is displayed. To prevent this all you need to do is put another invisible element in between them.
 
 ## Specificity
 The selector specificity is defined by the CSS2 specification as follows:
