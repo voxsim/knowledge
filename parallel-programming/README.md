@@ -1,6 +1,8 @@
 ## Concurrency
 Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. Eg. multitasking on a single-core machine.
 
+It enables parallelism, but it is different. If you have only one processor, you program can still be concurrent but it cannot be parallel.
+
 ## Parallelism
 Parallelism is when tasks literally run at the same time, eg. on a multicore processor.
 
