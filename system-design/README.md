@@ -225,12 +225,6 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
 * DNS server management could be complex, although they are generally managed by [governments, ISPs, and large companies](http://superuser.com/questions/472695/who-controls-the-dns-servers/472729).
 * DNS services have recently come under [DDoS attack](http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/), preventing users from accessing websites such as Twitter without knowing Twitter's IP address(es).
 
-### Source(s) and further reading
-
-* [DNS architecture](https://technet.microsoft.com/en-us/library/dd197427(v=ws.10).aspx)
-* [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
-* [DNS articles](https://support.dnsimple.com/categories/dns/)
-
 ## Content delivery network
 
 <p align="center">
@@ -265,12 +259,6 @@ Sites with heavy traffic work well with pull CDNs, as traffic is spread out more
 * CDN costs could be significant depending on traffic, although this should be weighed with additional costs you would incur not using a CDN.
 * Content might be stale if it is updated before the TTL expires it.
 * CDNs require changing URLs for static content to point to the CDN.
-
-### Source(s) and further reading
-
-* [Globally distributed content delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-* [The differences between push and pull CDNs](http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/)
-* [Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)
 
 ## Load balancer
 
