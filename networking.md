@@ -142,3 +142,4 @@ There are many other protocols that we haven't covered that are equally importan
 - [ ] Sockets:
     - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
     - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+- https://support.dnsimple.com/categories/dns/
