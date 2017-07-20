@@ -135,12 +135,6 @@ Responses return the most recent version of the data available on the a node, wh
 
 AP is a good choice if the business needs allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
 
-### Source(s) and further reading
-
-* [CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
-* [A plain english introduction to CAP theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-* [CAP FAQ](https://github.com/henryr/cap-faq)
-
 ## Consistency patterns
 
 With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the [CAP theorem](#cap-theorem) - Every read receives the most recent write or an error.
@@ -162,10 +156,6 @@ This approach is seen in systems such as DNS and email.  Eventual consistency wo
 After a write, reads will see it.  Data is replicated synchronously.
 
 This approach is seen in file systems and RDBMSes.  Strong consistency works well in systems that need transactions.
-
-### Source(s) and further reading
-
-* [Transactions across data centers](http://snarfed.org/transactions_across_datacenters_io.html)
 
 ## Availability patterns
 
