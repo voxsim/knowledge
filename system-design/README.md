@@ -825,6 +825,12 @@ Refresh-ahead can result in reduced latency vs read-through if the cache can acc
 * Need to make application changes such as adding Redis or memcached.
 * Cache invalidation is a difficult problem, there is additional complexity associated with when to update the cache.
 
+### Points of attention
+* "Cache everything!" not the best policy
+* Invalidating caches at the right time is difficult
+* Cold Cache problem; What happens after power or system failure?
+* Use cache to augment db, not to replace
+
 ## Asynchronism
 
 <p align="center">
