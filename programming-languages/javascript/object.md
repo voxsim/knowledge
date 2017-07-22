@@ -1,6 +1,6 @@
-### Object
+# Object
 
-#### Prototype
+## Prototype
 - Every JavaScript object has a prototype.
 - The prototype is also an object
 - All JavaScript objects inherit their properties and methods from their prototype
@@ -12,20 +12,20 @@
 - The `Object.assign(target, ...sources)` method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
 - `Object.defineProperty(obj, prop, descriptor)` defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
 
-##### Class Inheritance
+### Class Inheritance
 instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
 
-##### Prototypal Inheritance
+### Prototypal Inheritance
 instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()`. Instances may be composed from many different objects, allowing for easy selective inheritance.
 
-##### When is prototypal inheritance an appropriate choice?
+### When is prototypal inheritance an appropriate choice?
 There is more than one type of prototypal inheritance:
 - Delegation (i.e., the prototype chain).
 - Concatenative (i.e. mixins, `Object.assign()`).
 - Functional (Not to be confused with functional programming. A function used to create a closure for private state/encapsulation).
 Each type of prototypal inheritance has its own set of use-cases, but all of them are equally useful in their ability to enable composition, which creates has-a or uses-a or can-do relationships as opposed to the is-a relationship created with class inheritance.
 
-#### Object literal
+## Object literal
 An expressive notation to define object.
 
 ```JavaScript
@@ -44,7 +44,7 @@ var obj = {
 };
 ```
 
-#### Get, set and delete
+## Get, set and delete
 - get
   object.name
   object[expression]
@@ -57,7 +57,7 @@ var obj = {
   delete object.name
   delete object[expression]
 
-#### Properties
+## Properties
 A property is a named collection of attribute
 - value -> any Javascript value
 - writeble -> boolean
@@ -66,7 +66,7 @@ A property is a named collection of attribute
 - get -> function() { ... return value }
 - set -> function(value) { ... }
 
-#### New operator
+## New operator
 ```javascript
 function new(func, arguments) {
   var that = Object.create(func.prototype),
@@ -75,24 +75,22 @@ function new(func, arguments) {
 }
 ```
 
-#### Reference
+## Reference
 Objects can be passed as arguments to functions, and can be returned by functions
 - Objects are passed by references
 - Objects are not passed by value
 The === operator compares object references, not values (true if only it is the same object)
 Loosely typed: any of these can be stored in a variable, or passed as a parameter to any function, the language is not "untyped"
 
-#### Property Lookup
+## Property Lookup
 When accessing the properties of an object, JavaScript will traverse the prototype chain upwards until it finds a property with the requested name.
 If it reaches the top of the chain - namely Object.prototype - and still hasn't found the specified property, it will return the value undefined instead.
 
-#### Performance
-
+## Performance
 The lookup time for properties that are high up on the prototype chain can have a negative impact on performance, and this may be significant in code where performance is critical. Additionally, trying to access non-existent properties will always traverse the full prototype chain.
-
 Also, when iterating over the properties of an object every property that is on the prototype chain will be enumerated.
 
-#### Extension of Native Prototypes
+## Extension of Native Prototypes
 
 One mis-feature that is often used is to extend Object.prototype or one of the other built in prototypes.
 
@@ -100,7 +98,7 @@ This technique is called monkey patching and breaks encapsulation. While used by
 
 The only good reason for extending a built-in prototype is to backport the features of newer JavaScript engines; for example, Array.forEach.
 
-#### defineProperty
+## defineProperty
 This method allows precise addition to or modification of a property on an object. Normal property addition through assignment creates properties which show up during property enumeration (for...in loop or Object.keys method), whose values may be changed, and which may be deleted. This method allows these extra details to be changed from their defaults. By default, values added using Object.defineProperty() are immutable.
 
 Property descriptors present in objects come in two main flavors: data descriptors and accessor descriptors. A data descriptor is a property that has a value, which may or may not be writable. An accessor descriptor is a property described by a getter-setter pair of functions. A descriptor must be one of these two flavors; it cannot be both.
