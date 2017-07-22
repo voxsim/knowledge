@@ -11,18 +11,14 @@ function validate(node, min, max) {
     if(node === null) {
         return true;
     }
-    return 
-        node.val < max &&
+    return node.val < max &&
         node.val > min &&
         validate(node.left, min, node.val) && 
         validate(node.right, node.val, max);
 }
 
 function validateBinarySearchTree(root) {
-    return
-        root.val < root.right.val &&
-        root.val > root.left.val &&
-        validate(root.left, -Infinity, root.val) && 
+    return validate(root.left, -Infinity, root.val) && 
         validate(root.right, root.val, Infinity);
 }
 ```
@@ -30,20 +26,12 @@ function validateBinarySearchTree(root) {
 ## Explaining
 
 ## Testcase
-```
-Example 1:
-    2
-   / \
-  1   3
-Binary tree [2,1,3], return true.
-```
-```
-Example 2:
-    1
-   / \
-  2   3
-Binary tree [1,2,3], return false.
-```
+- validateBinarySearchTree({val: 2, left: null, right: null})
+- validateBinarySearchTree({val: 2, left: {val: 1, left: null, right: null}, right: {val: 3, left: null, right: null}}) = true
+- validateBinarySearchTree({val: 1, left: {val: 2, left: null, right: null}, right: {val: 3, left: null, right: null}}) = false
+- validateBinarySearchTree({val: 4, left: {val: 2, left: {val: 1, left: null, right: null}, right: {val: 3, left: null, right: null}}, right: {val: 6, left: {val: 5, left: null, right: null}, right: {val: 7, left: null, right: null}}}) = true
+- validateBinarySearchTree({val: 4, left: {val: 2, left: {val: 1, left: null, right: null}, right: {val: 4, left: null, right: null}}, right: {val: 6, left: {val: 5, left: null, right: null}, right: {val: 7, left: null, right: null}}}) = false
+- validateBinarySearchTree({val: 4, left: {val: 2, left: {val: 1, left: null, right: null}, right: {val: 3, left: null, right: null}}, right: {val: 6, left: {val: 4, left: null, right: null}, right: {val: 7, left: null, right: null}}}) = false
 
 ## Complexity
 O(n)
