@@ -7,6 +7,24 @@ Both the left and right subtrees must also be binary search trees.
 
 ## Solution
 ```javascript
+function validate(node, min, max) {
+    if(node === null) {
+        return true;
+    }
+    return 
+        node.val < max &&
+        node.val > min &&
+        validate(node.left, min, node.val) && 
+        validate(node.right, node.val, max);
+}
+
+function validateBinarySearchTree(root) {
+    return
+        root.val < root.right.val &&
+        root.val > root.left.val &&
+        validate(root.left, -Infinity, root.val) && 
+        validate(root.right, root.val, Infinity);
+}
 ```
 
 ## Explaining
@@ -28,4 +46,4 @@ Binary tree [1,2,3], return false.
 ```
 
 ## Complexity
-
+O(n)
