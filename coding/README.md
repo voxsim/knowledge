@@ -113,3 +113,11 @@ Challenge sites:
 - [Facebook Code Lab](https://codelab.interviewbit.com/users/sign_in/)
 - [TeachInterview](https://www.techinterview.org/)
 - [ProgrammerInterview](http://www.programmerinterview.com/)
+
+Solution sites:
+- [Java solutions to Leetcode problems](https://github.com/fishercoder1534/Leetcode)
+- [Everything you need to know to get the job.](https://github.com/kdn251/interviews)
+- [Implementation of Algorithms and Data Structures, Problems and Solutions](https://github.com/sherxon/AlgoDS)
+- [Classic algorithms and data structures implemented in JavaScript](https://github.com/felipernb/algorithms.js)
+- [100 days of algorithms](https://github.com/coells/100days)
+- [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
