@@ -115,6 +115,7 @@ var roots = numbers.map(Math.sqrt);
 ## Array.prototype.reduce
 The reduce(accumulator(accumulator, currentValue, currentIndex)[, initialValue]) method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
 
+```javascript
 var total = [0, 1, 2, 3].reduce(function(sum, value) {
   return sum + value;
 }, 0);
@@ -124,6 +125,7 @@ var flattened = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
   return a.concat(b);
 }, []);
 // flattened is [0, 1, 2, 3, 4, 5]
+```
 
 ## Array.prototype.slice
 The `slice([, start[, end]])`  method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
