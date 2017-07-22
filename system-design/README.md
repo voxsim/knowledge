@@ -1112,3 +1112,16 @@ Handy metrics based on numbers above:
 * Identify shared principles, common technologies, and patterns within these articles
 * Study what problems are solved by each component, where it works, where it doesn't
 * Review the lessons learned
+
+
+## Transactions across data centers
+|            |Backups|Master/Slave|Multi Master|2PC   |Paxos |
+|------------|-------|------------|------------|------|------|
+|Consistency |Weak	 |Eventual	  |Eventual    |Strong|Strong|
+|Transactions|No	   |Full	      |Local 	     |Full  |Full  |
+|Latency	   |Low	   |Low         |Low         |High  |High  |
+|Throughput	 |High	 |High        |High        |Low	  |Medium|
+|Data loss	 |Lots	 |Some	      |Some        |None  |None  |
+|Failover	   |Down	 |Read only	  |Read/write  |Read/write|Read/write|
+
+For more info: https://snarfed.org/transactions_across_datacenters_io.html
