@@ -114,3 +114,29 @@ A data descriptor also has the following optional keys:
 An accessor descriptor also has the following optional keys:
 - get: A function which serves as a getter for the property, or undefined if there is no getter. The function return will be used as the value of property. Defaults to undefined.
 - set: A function which serves as a setter for the property, or undefined if there is no setter. The function will receive as only argument the new value being assigned to the property. Defaults to undefined.
+
+https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+## Object.assign
+
+## Object.create
+
+## Object.defineProperty
+
+## Object.entries
+
+## Object.freeze / Object.isFrozen
+
+## Object.getOwnPropertyDescriptor
+
+## Object.getPrototypeOf
+
+## Object.is
+
+## Object.isExtensible
+
+## Object.keys
+
+## Object.seal / Object.isSealed
+
+## Object.values
