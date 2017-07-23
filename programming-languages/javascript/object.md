@@ -205,9 +205,53 @@ This is not the same as being equal according to the == operator. The == operato
 This is also not the same as being equal according to the === operator. The === operator (and the == operator as well) treats the number values -0 and +0 as equal and treats Number.NaN as not equal to NaN.
 
 ## Object.isExtensible
+The `Object.isExtensible(obj) method determines if an object is extensible (whether it can have new properties added to it).
+
+```javascript
+// New objects are extensible.
+var empty = {};
+Object.isExtensible(empty); // === true
+
+// ...but that can be changed.
+Object.preventExtensions(empty);
+Object.isExtensible(empty); // === false
+
+// Sealed objects are by definition non-extensible.
+var sealed = Object.seal({});
+Object.isExtensible(sealed); // === false
+
+// Frozen objects are also by definition non-extensible.
+var frozen = Object.freeze({});
+Object.isExtensible(frozen); // === false
+```
 
 ## Object.keys
+The `Object.keys(obj)` method returns an array of a given object's own enumerable properties, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).
+
+```javascript
+var arr = ['a', 'b', 'c'];
+console.log(Object.keys(arr)); // console: ['0', '1', '2']
+
+// array like object
+var obj = { 0: 'a', 1: 'b', 2: 'c' };
+console.log(Object.keys(obj)); // console: ['0', '1', '2']
+
+// array like object with random key ordering
+var anObj = { 100: 'a', 2: 'b', 7: 'c' };
+console.log(Object.keys(anObj)); // ['2', '7', '100']
+
+// getFoo is property which isn't enumerable
+var myObj = Object.create({}, {
+  getFoo: {
+    value: function () { return this.foo; }
+  } 
+});
+myObj.foo = 1;
+console.log(Object.keys(myObj)); // console: ['foo']
+```
 
 ## Object.seal / Object.isSealed
+The `Object.seal(obj)` method seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable. Values of present properties can still be changed as long as they are writable.
 
 ## Object.values
+The `Object.values(obj)` method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).
