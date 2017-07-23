@@ -91,7 +91,6 @@ The lookup time for properties that are high up on the prototype chain can have 
 Also, when iterating over the properties of an object every property that is on the prototype chain will be enumerated.
 
 ## Extension of Native Prototypes
-
 One mis-feature that is often used is to extend Object.prototype or one of the other built in prototypes.
 
 This technique is called monkey patching and breaks encapsulation. While used by popular frameworks such as Prototype, there is still no good reason for cluttering built-in types with additional non-standard functionality.
@@ -118,6 +117,27 @@ An accessor descriptor also has the following optional keys:
 https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
 ## Object.assign
+The `Object.assign(target, ...sources)` method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
+
+The Object.assign() method only copies enumerable and own properties from a source object to a target object. It uses [[Get]] on the source and [[Set]] on the target, so it will invoke getters and setters. Therefore it assigns properties versus just copying or defining new properties. This may make it unsuitable for merging new properties into a prototype if the merge sources contain getters. For copying property definitions, including their enumerability, into prototypes Object.getOwnPropertyDescriptor() and Object.defineProperty() should be used instead.
+
+### Cloning an object
+```javascript
+var obj = { a: 1 };
+var copy = Object.assign({}, obj);
+console.log(copy); // { a: 1 }
+```
+
+### Merging objects
+```javascript
+var o1 = { a: 1 };
+var o2 = { b: 2 };
+var o3 = { c: 3 };
+
+var obj = Object.assign(o1, o2, o3);
+console.log(obj); // { a: 1, b: 2, c: 3 }
+console.log(o1);  // { a: 1, b: 2, c: 3 }, target object itself is changed.
+```
 
 ## Object.create
 
