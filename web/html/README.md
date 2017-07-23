@@ -199,3 +199,22 @@ There are now three modes used by the layout engines in web browsers: quirks mod
 If you serve your page as XHTML using the application/xhtml+xml MIME type in the Content-Type HTTP header, you do not need a DOCTYPE to enable standards mode, as such documents always use full standards mode. Note however that serving your pages as application/xhtml+xml will cause Internet Explorer 8 to show a download dialog box for an unknown format instead of displaying your page, as the first version of Internet Explorer with support for XHTML is Internet Explorer 9.
 
 If you serve XHTML-like content using the text/html MIME type, browsers will read it as HTML, and you will need the DOCTYPE to use standards mode.
+
+Differences between HTML and XHTML:
+* HTML:
+ *   Start tags are not required for every element.
+ *   End tags are not required for every element.
+ *   Only void elements such as br, img, and link may be “self-closed” with />.
+ *   Tags and attributes are case-insensitive.
+ *   Attributes do not need to be quoted.
+ *   Some attributes may be empty (such as checked and disabled).
+ *   Special characters, or entities, do not have to be escaped.
+ *   The document must include an HTML5 DOCTYPE
+* XHTML:
+ *   All elements must have a start tag.
+ *   Non-void elements with a start tag must have an end tag (p and li, for example).
+ *   Any element may be “self-closed” using />.
+ *   Tags and attributes are case sensitive, typically lowercase.
+ *   Attribute values must be enclosed in quotes.
+ *   Empty attributes are forbidden (checked must instead be checked="checked" or checked="true").
+ *   Special characters must be escaped using character entities.
