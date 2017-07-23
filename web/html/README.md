@@ -63,7 +63,7 @@ Block boxes always appear below the previous block element. This is the “natur
 
 The width of block boxes is set automatically based on the width of its parent container. In this case, our blocks are always the width of the browser window.
 
-The default height of block boxes is based on the content it contains. When you narrow the browser window, the <h1> gets split over two lines, and its height adjusts accordingly.
+The default height of block boxes is based on the content it contains. When you narrow the browser window, the `<h1>` gets split over two lines, and its height adjusts accordingly.
 
 ### Paragraphs
 The `<p>` element marks all the text inside it as a distinct paragraph.
