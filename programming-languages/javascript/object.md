@@ -114,8 +114,6 @@ An accessor descriptor also has the following optional keys:
 - get: A function which serves as a getter for the property, or undefined if there is no getter. The function return will be used as the value of property. Defaults to undefined.
 - set: A function which serves as a setter for the property, or undefined if there is no setter. The function will receive as only argument the new value being assigned to the property. Defaults to undefined.
 
-https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
-
 ## Object.assign
 The `Object.assign(target, ...sources)` method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
 
@@ -140,18 +138,71 @@ console.log(o1);  // { a: 1, b: 2, c: 3 }, target object itself is changed.
 ```
 
 ## Object.create
+The `Object.create(proto[, propertiesObject])` method creates a new object with the specified prototype object and properties.
+
+```javascript
+// Shape - superclass
+function Shape() {
+  this.x = 0;
+  this.y = 0;
+}
+
+// superclass method
+Shape.prototype.move = function(x, y) {
+  this.x += x;
+  this.y += y;
+  console.info('Shape moved.');
+};
+
+// Rectangle - subclass
+function Rectangle() {
+  Shape.call(this); // call super constructor.
+}
+
+// subclass extends superclass
+Rectangle.prototype = Object.create(Shape.prototype);
+Rectangle.prototype.constructor = Rectangle;
+
+var rect = new Rectangle();
+
+console.log('Is rect an instance of Rectangle?',
+  rect instanceof Rectangle); // true
+console.log('Is rect an instance of Shape?',
+  rect instanceof Shape); // true
+rect.move(1, 1); // Outputs, 'Shape moved.'
+```
 
 ## Object.defineProperty
+The `Object.defineProperty(obj, prop, descriptor)` method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
 
 ## Object.entries
+The `Object.entries(obj)` method returns an array of a given object's own enumerable property [key, value] pairs, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).
 
 ## Object.freeze / Object.isFrozen
+The `Object.freeze(obj)` method freezes an object: that is, prevents new properties from being added to it; prevents existing properties from being removed; and prevents existing properties, or their enumerability, configurability, or writability, from being changed, it also prevents the prototype from being changed.  The method returns the object in a frozen state.
 
 ## Object.getOwnPropertyDescriptor
+The `Object.getOwnPropertyDescriptor(obj)` method returns a property descriptor for an own property (that is, one directly present on an object and not in the object's prototype chain) of a given object.
 
 ## Object.getPrototypeOf
+The `Object.getPrototypeOf(obj)` method returns the prototype (i.e. the value of the internal [[Prototype]] property) of the specified object.
 
 ## Object.is
+The `Object.is(value1, value2)` method determines whether two values are the same value: two values are the same if one of the following holds:
+* both undefined
+* both null
+* both true or both false
+* both strings of the same length with the same characters
+* both the same object
+* both numbers and
+    * both +0
+    * both -0
+    * both NaN
+    * or both non-zero and both not NaN and both have the same value
+
+This is not the same as being equal according to the == operator. The == operator applies various coercions to both sides (if they are not the same Type) before testing for equality (resulting in such behavior as "" == false being true), but Object.is doesn't coerce either value.
+
+This is also not the same as being equal according to the === operator. The === operator (and the == operator as well) treats the number values -0 and +0 as equal and treats Number.NaN as not equal to NaN.
 
 ## Object.isExtensible
 
