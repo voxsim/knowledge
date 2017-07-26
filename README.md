@@ -60,7 +60,7 @@ Legenda: Titles with bang (!) needs refactoring.
     * [Brute force](./computer-science/algo/brute-force.md)
     * [Backtracking](./computer-science/algo/backtracking.md)
   * [Bit Manipulation](./computer-science/bit-manipulation.md)
-  * [NP](./computer-science/np.md)
+  * [NP!](./computer-science/np!.md)
 * [Software paradigm](./software-paradigm/README.md)
   * [Object oriented Programming](./software-paradigm/object-oriented-programming.md)
   * [Functional Programming](./software-paradigm/functional-programming.md)
