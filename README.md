@@ -14,7 +14,7 @@ Legenda: Titles with bang (!) needs refactoring.
   * German (TBD)
   * [Russian](./languages/russian.md)
 * [Regular Expression](/regular-expression.md)
-* [Scripting](/scripting.md)
+* [Scripting!](/scripting!.md)
 * Programming Languages
   * [Javascript](./programming-languages/javascript/)
     * [ES6](./programming-languages/javascript/es6.md)
