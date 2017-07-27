@@ -1125,3 +1125,6 @@ Handy metrics based on numbers above:
 |Failover	   |Down	 |Read only	  |Read/write  |Read/write|Read/write|
 
 For more info: https://snarfed.org/transactions_across_datacenters_io.html
+
+More info to write up:
+- https://www.youtube.com/watch?v=eSaFVX4izsQ
