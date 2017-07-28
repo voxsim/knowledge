@@ -18,7 +18,7 @@ Implementation in javascript inspired by [itsy-bitsy-data-structures](https://gi
 class HashTable {
 
   constructor() {
-    this.memory = [];
+    this.memory = {}; // not used array, otherwise we allocate address-1 undefined everytime.
   }
 
   /**
