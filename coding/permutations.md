@@ -26,6 +26,4 @@ function permute(A){
 
 ## Testcase
 
-# Complexity
-
-
+## Complexity
