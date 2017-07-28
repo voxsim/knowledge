@@ -23,7 +23,7 @@ function binary_search(array, valueToSearch, begin=0, end=array.length-1) {
 Iterative approach:
 ```javascript
 function binary_search(array, valueToSearch, begin=0, end=array.length-1) {
-  for(;begin <= end;) {
+  for(;begin < end;) {
     const mid = Math.floor(begin + (end - begin)/2);
     if(array[mid] === valueToSearch) {
       return mid;
