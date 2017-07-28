@@ -15,3 +15,5 @@
 - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/
 - http://duartes.org/gustavo/blog/post/system-calls/
 - http://guide.bash.academy/
+- https://github.com/wting/autojump
+- 
