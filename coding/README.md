@@ -113,6 +113,7 @@ Challenge sites:
 - [Facebook Code Lab](https://codelab.interviewbit.com/users/sign_in/)
 - [TeachInterview](https://www.techinterview.org/)
 - [ProgrammerInterview](http://www.programmerinterview.com/)
+- [Awesome Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 
 Solution sites:
 - [Java solutions to Leetcode problems](https://github.com/fishercoder1534/Leetcode)
