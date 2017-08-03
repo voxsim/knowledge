@@ -32,3 +32,6 @@
 * https://medium.com/@kirill_shevch/lint-your-ruby-code-with-overcommit-and-static-analysis-tools-bd36d3147d2e
 * https://blog.codeship.com/advanced-enumeration-with-ruby/
 * https://github.com/airbnb/ruby
+* https://www.toptal.com/ruby/ruby-dsl-metaprogramming-guide
+* https://github.com/ecomba/vim-ruby-refactoring
+* https://launchschool.com/books/core_ruby_tools
