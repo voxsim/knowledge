@@ -99,3 +99,4 @@ To see:
 - http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 - https://www.youtube.com/watch?v=Dsd4pc99FSY&list=PLFrwDVdSrYE6dy14XCmUtRAJuhCxuzJp0
 - https://mitpress.mit.edu/sicp/full-text/book/book.html
+- http://raganwald.com/2017/04/30/transducers.html
