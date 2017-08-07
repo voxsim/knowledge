@@ -49,3 +49,4 @@
 - https://github.com/flyeralarm/onboarding
 - https://github.com/thoughtbot/guides/
 - http://www.faqs.org/docs/artu/ch01s06.html
+- http://courses.cs.washington.edu/courses/cse341/16sp/
