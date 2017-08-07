@@ -52,4 +52,5 @@
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
 - http://blog.wittchen.biz.pl/basic-code-refactoring-principles/
-- 
+- https://tomassetti.me/oops-concepts/
+- https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
