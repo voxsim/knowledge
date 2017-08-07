@@ -1,1 +1,2 @@
 - https://github.com/wearehive/project-guidelines
+- https://github.com/yarnpkg/yarn/issues/376
