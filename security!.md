@@ -10,3 +10,4 @@ More details:
 * https://www.youtube.com/watch?v=zKuFu19LgZA
 * https://github.com/FallibleInc/security-guide-for-developers
 * https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
+* https://ssd.eff.org/en/playlist/want-security-starter-pack
