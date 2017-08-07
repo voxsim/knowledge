@@ -50,3 +50,6 @@
 - https://github.com/thoughtbot/guides/
 - http://www.faqs.org/docs/artu/ch01s06.html
 - http://courses.cs.washington.edu/courses/cse341/16sp/
+- http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
+- http://blog.wittchen.biz.pl/basic-code-refactoring-principles/
+- 
