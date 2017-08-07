@@ -1129,3 +1129,5 @@ For more info: https://snarfed.org/transactions_across_datacenters_io.html
 More info to write up:
 - https://www.youtube.com/watch?v=eSaFVX4izsQ
 - http://multithreaded.stitchfix.com/blog/2017/05/09/patterns-of-soa-asynchronous-transaction/
+- http://nordicapis.com/defining-stateful-vs-stateless-web-services/
+- http://www.beabetterdeveloper.com/2013/11/sessions-pitfall.html
