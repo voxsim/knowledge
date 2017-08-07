@@ -10,3 +10,4 @@
 * https://www.goinggo.net/2017/06/for-range-semantics.html
 * https://medium.com/square-corner-blog/always-be-closing-3d5fda0e00da
 * https://dave.cheney.net/2017/06/18/simplicity-debt-redux
+* https://www.oreilly.com/ideas/how-to-ship-production-grade-go
