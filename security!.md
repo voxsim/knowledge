@@ -12,3 +12,4 @@ More details:
 * https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
 * https://ssd.eff.org/en/playlist/want-security-starter-pack
 * https://www.youtube.com/watch?v=eL5o4PFuxTY
+* https://www.raizlabs.com/dev/2017/05/cryptography-in-colors/
