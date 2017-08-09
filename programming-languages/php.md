@@ -6,3 +6,4 @@
 - https://phpbestpractices.org/
 - http://www.phptherightway.com/
 - http://www.phpthewrongway.com/
+- https://github.com/phptodayorg/php-must-watch
