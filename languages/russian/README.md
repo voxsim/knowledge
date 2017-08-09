@@ -45,9 +45,3 @@
 |ей|ay in pay, preceded by a short y|yay
 |уй|oo in food followed by y as in yes|ooy
 |юй|уй, preceded by a short y|yooy
-
-## Verbs
-
-| English word  | Pronunced as  | Cyrillic      |
-|---------------|---------------|---------------|
-| learn         | uchit'        | учить         |
