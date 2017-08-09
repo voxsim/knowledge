@@ -100,3 +100,4 @@ To see:
 - https://www.youtube.com/watch?v=Dsd4pc99FSY&list=PLFrwDVdSrYE6dy14XCmUtRAJuhCxuzJp0
 - https://mitpress.mit.edu/sicp/full-text/book/book.html
 - http://raganwald.com/2017/04/30/transducers.html
+- https://www.youtube.com/watch?v=qJgff2spvzM
