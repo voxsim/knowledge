@@ -1,5 +1,3 @@
-# Russian
-
 ## Alphabet
 | Letter        | Pronounced as | Symbol        |
 |---------------|---------------|---------------|
