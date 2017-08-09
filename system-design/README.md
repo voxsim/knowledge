@@ -1131,3 +1131,4 @@ More info to write up:
 - http://multithreaded.stitchfix.com/blog/2017/05/09/patterns-of-soa-asynchronous-transaction/
 - http://nordicapis.com/defining-stateful-vs-stateless-web-services/
 - http://www.beabetterdeveloper.com/2013/11/sessions-pitfall.html
+- https://www.youtube.com/watch?v=jk6oiBJxcaA
