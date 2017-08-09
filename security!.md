@@ -13,3 +13,4 @@ More details:
 * https://ssd.eff.org/en/playlist/want-security-starter-pack
 * https://www.youtube.com/watch?v=eL5o4PFuxTY
 * https://www.raizlabs.com/dev/2017/05/cryptography-in-colors/
+* https://www.youtube.com/watch?v=YTtO_TGV2fU
