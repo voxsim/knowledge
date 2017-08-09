@@ -18,3 +18,4 @@
 - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
     - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
 - Pages 1048 - 1140 in CLRS if you have it.
+- https://www.youtube.com/watch?v=0V5D1ZnfqXE
