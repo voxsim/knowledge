@@ -20,3 +20,4 @@
 - https://www.youtube.com/watch?v=p58sFfgMvdI
 - https://www.youtube.com/watch?v=kMHXd_iMGRU
 - http://elixirbridge.org/02_Intro_to_Elixir/01-why-program-why-elixir.html
+- https://elixirschool.com/en/
