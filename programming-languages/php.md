@@ -1,4 +1,7 @@
 - https://daylerees.com/php-pandas/
+- https://daylerees.com/codesmart/
+- https://daylerees.com/php-patterns/
+- https://daylerees.com/composer/
 - http://php.net/manual/en/
 - https://www.pluralsight.com/search?q=php
 - https://teamtreehouse.com/library/php-standards-and-best-practices
