@@ -9,7 +9,6 @@
 * https://blog.codeship.com/advanced-enumeration-with-ruby/
 * https://github.com/airbnb/ruby
 * https://www.toptal.com/ruby/ruby-dsl-metaprogramming-guide
-* https://launchschool.com/books/core_ruby_tools
 * https://www.toptal.com/ruby/ruby-metaprogramming-cooler-than-it-sounds
 * http://ruby-doc.org/core-2.4.1/index.html
 * Read [The Ruby Way (3rd edition)](http://therubyway.io/) - chapters 1-8
