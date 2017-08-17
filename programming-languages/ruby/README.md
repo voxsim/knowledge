@@ -36,6 +36,7 @@
 * https://github.com/ecomba/vim-ruby-refactoring
 * https://launchschool.com/books/core_ruby_tools
 * https://medium.com/@kirill_shevch/lint-your-ruby-code-with-overcommit-and-static-analysis-tools-bd36d3147d2e
+* https://www.toptal.com/ruby/ruby-metaprogramming-cooler-than-it-sounds
 
 # Ruby path
 1. Complete [Code Academy Learn Ruby course](https://www.codecademy.com/learn/ruby)
