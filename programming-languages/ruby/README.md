@@ -13,7 +13,6 @@
 * https://learnrubythehardway.org/book/
 * http://exceptionalruby.com/
 * http://www.justinweiss.com/articles/a-decorator-vs-a-subclass/
-* https://medium.com/@kirill_shevch/lint-your-ruby-code-with-overcommit-and-static-analysis-tools-bd36d3147d2e
 * https://blog.codeship.com/advanced-enumeration-with-ruby/
 * https://github.com/airbnb/ruby
 * https://www.toptal.com/ruby/ruby-dsl-metaprogramming-guide
