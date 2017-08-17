@@ -6,8 +6,6 @@
 * Eloquent ruby
 * https://github.com/bbatsov/ruby-style-guide
 * https://github.com/bbatsov/rails-style-guide
-* https://m.signalvnoise.com/programming-with-a-love-of-the-implicit-66629bb81ee7
-* http://rubyonrails.org/doctrine/
 * https://6ftdan.com/allyourdev/2016/01/13/101-ruby-code-factoids/
 * http://development.wombatsecurity.com/development/2017/05/05/functional-mindset-in-ruby/
 * http://ruby-doc.com/docs/ProgrammingRuby/
