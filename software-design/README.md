@@ -54,3 +54,15 @@
 - http://blog.wittchen.biz.pl/basic-code-refactoring-principles/
 - https://tomassetti.me/oops-concepts/
 - https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
+
+Newly read:
+- Practical Object Oriented Design in Ruby
+- Extreme Programming Explained: Embrace Change
+- Growing Object-Oriented Software, Guided by Tests
+- Clean Code: A Handbook of Agile Software Craftsmanship
+- Refactoring: Improving the Design of Existing Code
+- Test Driven Development: By Example
+- Refactoring to Patterns
+- Implementing Domain-Driven Design
+- The Agile Samurai: How Agile Masters Deliver Great Software
+- Object Thinking
