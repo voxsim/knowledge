@@ -1,0 +1,3 @@
+- http://duartes.org/gustavo/blog/post/cpu-rings-privilege-and-protection/
+- https://en.wikipedia.org/wiki/Protection_ring
+- http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do/
