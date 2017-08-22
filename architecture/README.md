@@ -1,3 +1,6 @@
 - http://duartes.org/gustavo/blog/post/cpu-rings-privilege-and-protection/
 - https://en.wikipedia.org/wiki/Protection_ring
 - http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do/
+- https://www.youtube.com/watch?v=42KTvGYQYnA
+- https://0xax.gitbooks.io/linux-insides/content/Booting/linux-bootstrap-1.html
+- https://lwn.net/Articles/250967/
