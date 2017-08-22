@@ -5,3 +5,5 @@ Accessibility refers to the design of products, devices, services, or environmen
 - http://www.w3.org/standards/techs/aria#w3c_all
 - http://www.w3.org/WAI/
 - http://www.w3.org/standards/techs/wcag#w3c_all
+- https://www.lynda.com/Accessibility-tutorials/Foundations-UX-Accessibility/435008-2.html
+- https://frontendmasters.com/workshops/accessibility/
