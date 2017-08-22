@@ -1,0 +1,4 @@
+- https://github.com/open-source-society/computer-science
+- https://teachyourselfcs.com/
+- http://www.cs.cornell.edu/courses/cs2112/2015fa/lectures/index.html
+- https://sarabander.github.io/sicp/html/index.xhtml
