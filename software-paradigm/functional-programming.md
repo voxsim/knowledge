@@ -101,3 +101,6 @@ To see:
 - https://mitpress.mit.edu/sicp/full-text/book/book.html
 - http://raganwald.com/2017/04/30/transducers.html
 - https://www.youtube.com/watch?v=qJgff2spvzM
+- https://www.youtube.com/watch?v=Tn05cXrhBvg
+- https://www.youtube.com/watch?v=br6035SKu-0
+- https://www.youtube.com/watch?v=ROL58LJGNfA
