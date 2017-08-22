@@ -15,3 +15,5 @@ More details:
 * https://www.raizlabs.com/dev/2017/05/cryptography-in-colors/
 * https://www.youtube.com/watch?v=YTtO_TGV2fU
 * https://www.smashingmagazine.com/2017/06/guide-switching-http-https/?utm_source=webopsweekly&utm_medium=email
+* https://developer.mozilla.org/en-US/docs/Web/Security
+* https://github.com/vasanthk/web-security-basics
