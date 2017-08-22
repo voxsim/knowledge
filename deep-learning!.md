@@ -14,3 +14,4 @@
 - https://www.youtube.com/watch?v=a8hQ9yrF8uA
 - https://www.youtube.com/watch?v=7wDURSStuHI
 - https://jeremykun.com/2017/06/05/formulating-the-support-vector-machine-optimization-problem/
+- https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12
