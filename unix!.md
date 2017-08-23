@@ -1,0 +1,7 @@
+- http://mally.stanford.edu/~sr/computing/basic-unix.html
+- https://github.com/jlevy/the-art-of-command-line
+- https://github.com/denysdovhan/bash-handbook
+- http://www.ee.surrey.ac.uk/Teaching/Unix/
+- http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/
+- https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/
+- https://github.com/wting/autojump
