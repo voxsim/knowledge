@@ -1,0 +1,1 @@
+- https://www.journalofnomads.com/how-to-save-money-while-traveling/
