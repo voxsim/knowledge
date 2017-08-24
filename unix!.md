@@ -5,3 +5,5 @@
 - http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/
 - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/
 - https://github.com/wting/autojump
+- https://github.com/MichielDerhaeg/build-linux
+- https://github.com/k4m4/terminals-are-sexy
