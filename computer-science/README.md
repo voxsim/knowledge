@@ -4,3 +4,13 @@
 - https://sarabander.github.io/sicp/html/index.xhtml
 - http://cs.lmu.edu/~ray/classes/dsa/
 - http://oopweb.com/Algorithms/Documents/PLDS210/VolumeFrames.html
+- https://en.wikipedia.org/wiki/Treap
+- https://en.wikipedia.org/wiki/Skip_list
+- https://en.wikipedia.org/wiki/B-tree
+- https://en.wikipedia.org/wiki/K-ary_tree
+- https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
+- https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
+- https://llimllib.github.io/bloomfilter-tutorial/
+- https://en.wikipedia.org/wiki/A*_search_algorithm
+- 
