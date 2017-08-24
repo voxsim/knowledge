@@ -3,3 +3,4 @@ The Domain Name System (DNS) is a hierarchical distributed naming system for com
 - https://www.youtube.com/watch?v=72snZctFFtA
 - https://howdns.works/ep1/
 - https://www.youtube.com/watch?v=5o8CwafCxnU&index=3&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7
+- https://www.petekeen.net/dns-the-good-parts
