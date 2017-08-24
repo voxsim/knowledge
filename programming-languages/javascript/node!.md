@@ -14,3 +14,6 @@
 - http://dry.ly/full-streams-ahead
 - https://www.joyent.com/node-js/production/design/errors
 - https://x-team.com/blog/best-node-js-guides-curated-by-x-team/
+- https://github.com/nodejs/code-and-learn
+- https://github.com/maxogden/art-of-node
+- https://blog.heroku.com/node-habits-2017
