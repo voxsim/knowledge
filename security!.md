@@ -17,3 +17,6 @@ More details:
 * https://www.smashingmagazine.com/2017/06/guide-switching-http-https/?utm_source=webopsweekly&utm_medium=email
 * https://developer.mozilla.org/en-US/docs/Web/Security
 * https://github.com/vasanthk/web-security-basics
+* https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+* https://github.com/shieldfy/API-Security-Checklist
+* https://httpsecurityreport.com/best_practice.html
