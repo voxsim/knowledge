@@ -1132,3 +1132,5 @@ More info to write up:
 - http://nordicapis.com/defining-stateful-vs-stateless-web-services/
 - http://www.beabetterdeveloper.com/2013/11/sessions-pitfall.html
 - https://www.youtube.com/watch?v=jk6oiBJxcaA
+- http://multithreaded.stitchfix.com/blog/2017/05/09/patterns-of-service-oriented-architecture/
+- http://multithreaded.stitchfix.com/blog/2017/06/26/patterns-of-soa-idempotency-key/
