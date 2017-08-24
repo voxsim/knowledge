@@ -1135,3 +1135,5 @@ More info to write up:
 - http://multithreaded.stitchfix.com/blog/2017/05/09/patterns-of-service-oriented-architecture/
 - http://multithreaded.stitchfix.com/blog/2017/06/26/patterns-of-soa-idempotency-key/
 - http://multithreaded.stitchfix.com/blog/2017/06/28/patterns-of-soa-denormalized-cache/
+- https://stripe.com/blog/idempotency
+- 
