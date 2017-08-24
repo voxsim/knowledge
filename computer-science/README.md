@@ -13,4 +13,8 @@
 - https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
 - https://llimllib.github.io/bloomfilter-tutorial/
 - https://en.wikipedia.org/wiki/A*_search_algorithm
-- 
+- https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd
+- https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c
+- https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
+- https://www.youtube.com/view_play_list?p=9D558D49CA734A02
+- https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
