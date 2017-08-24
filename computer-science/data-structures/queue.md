@@ -131,3 +131,5 @@ class Queue {
   }
 }
 ```
+
+- https://www.schneems.com/2017/06/14/meditations-on-writing-a-queue/
