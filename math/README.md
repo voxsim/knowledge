@@ -1,1 +1,6 @@
 - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
+- https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo
+- https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
+- https://github.com/rossant/awesome-math
+- https://www.youtube.com/playlist?list=PL3B08AE665AB9002A
+- https://github.com/fantasyland/fantasy-land
