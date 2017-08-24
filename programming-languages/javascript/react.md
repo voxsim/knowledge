@@ -1,1 +1,2 @@
 - https://react-styleguidist.js.org/docs/getting-started.html
+- https://medium.com/dailyjs/techniques-for-decomposing-react-components-e8a1081ef5da
