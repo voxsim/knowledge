@@ -17,3 +17,6 @@
 - https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12
 - https://www.youtube.com/watch?v=_IuIBTcL3r0
 - https://jeremykun.com/2017/06/12/duality-for-the-svm/
+- https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
+- https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi
+- 
