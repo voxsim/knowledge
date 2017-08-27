@@ -1,3 +1,7 @@
+- https://github.com/grab/front-end-guide
+- HTTP requests – GET and POST along with associated headers such as Cache-Control, ETag, Status Codes, and Transfer-Encoding.
+- REST vs RPC.
+- Security – when to use JSONP, CORs, and iFrame policies.
 - https://github.com/tkh44/emotion
 - https://github.com/threepointone/glam
 - https://gist.github.com/threepointone/0ef30b196682a69327c407124f33d69a
