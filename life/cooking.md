@@ -1,0 +1,2 @@
+- http://www.seriouseats.com/the-food-lab
+- http://www.seriouseats.com/2015/05/food-lab-how-to-grill-steak-cuts-of-steak-marbling-salting-charcoal-technique-resting-tips.html
