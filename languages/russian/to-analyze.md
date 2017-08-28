@@ -1,7 +1,3 @@
-io sarò pronto
-io sono stato pronto
-il verbo essere viene usato solo nel passato e nel futuro
-
 eto simon, questo é usato al telefono o al citofono
 i simon
 Я Саймон
@@ -9,22 +5,10 @@ ne - usato con un verbo o un sostantivo
 net - é un nome, un affermazione, partitivo (lo si può usare per una mancanza di qualcosa)
 i nie gatof - io non sono pronto
 il trattino (-) viene usato spesso dopo this is, per sostituire qualsiasi altro verbo / sostantivo che manca nella frase
-- fratello brat
-- sorella Сестра - sorella
+
 - non capisco Я не понимаю - io non capisco
 
 il russo usiamo sempre i pronomi
-
-grazie - spacibo
-Кофе - cofee
-
-Спасибо [spasiba] - grazie
-
-Поцелуй меня [patzeluj minya] - baciami
-
-Право [prava] destra
-
-Лево [leva] sinistra
 
 [ya ponyal] io capisco
 
