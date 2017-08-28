@@ -9,4 +9,4 @@
 |               |               |seven          |
 |вoceмь         |voisem         |eight          |
 |               |               |nine           |
-|               |               |ten            |
+|дecять         |dicjet         |ten            |
