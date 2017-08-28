@@ -26,6 +26,6 @@
 |лево           |leva           |left           |
 |привет         |privet         |hi             |
 |право          |prava          |right          |
-|cестра         |               |sister         |
+|cестра         |sestra         |sister         |
 |cпасибо        |spasiba        |thank you      |
 |ypok           |urok           |lesson         |
