@@ -5,3 +5,4 @@
 - https://0xax.gitbooks.io/linux-insides/content/Booting/linux-bootstrap-1.html
 - https://lwn.net/Articles/250967/
 - https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
+- https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq
