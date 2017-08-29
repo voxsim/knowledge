@@ -1,0 +1,3 @@
+- https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy
+- https://www.khanacademy.org/computing/computer-science/cryptography
+- https://www.khanacademy.org/computing/computer-science/informationtheory
