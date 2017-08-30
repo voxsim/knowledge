@@ -3,3 +3,15 @@
 - https://github.com/sbdchd/neoformat
 - https://github.com/sindresorhus/pure
 - fzf alternatives?
+- https://github.com/sheerun/vim-polyglot
+- https://github.com/mhinz/vim-galore
+- https://github.com/ntpeters/vim-better-whitespace
+- https://github.com/junegunn/vim-plug
+- https://github.com/janko-m/vim-test
+- https://github.com/mattn/vim-fz
+- https://github.com/itchyny/lightline.vim
+- https://github.com/metakirby5/codi.vim
+- https://github.com/skwp/dotfiles
+- https://github.com/square/maximum-awesome
+- https://github.com/ryanoasis/vim-devicons
+- https://github.com/MarcWeber/vim-addon-local-vimrc
