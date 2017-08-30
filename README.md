@@ -7,6 +7,3 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
-
-## To dissect:
-- https://github.com/nikitavoloboev/learn-anything
