@@ -7,3 +7,4 @@
 - https://github.com/wting/autojump
 - https://github.com/MichielDerhaeg/build-linux
 - https://github.com/k4m4/terminals-are-sexy
+- https://monkey.org/~marius/unix-tools-hints.html
