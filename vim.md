@@ -2,3 +2,4 @@
 - https://github.com/vim-airline/vim-airline#integrating-with-powerline-fonts
 - https://github.com/sbdchd/neoformat
 - https://github.com/sindresorhus/pure
+- fzf alternatives?
