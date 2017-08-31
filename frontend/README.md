@@ -17,3 +17,4 @@
 - https://github.com/stylelint/stylelint
 - https://github.com/dexteryy/spellbook-of-modern-webdev
 - https://github.com/AllThingsSmitty/css-protips
+- https://github.com/mateusortiz/webcomponents-the-right-way
