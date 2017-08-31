@@ -20,3 +20,8 @@
 - https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
 - https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi
 - http://karpathy.github.io/neuralnets/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav
+- https://github.com/bulutyazilim/awesome-datascience
+- https://github.com/owainlewis/awesome-artificial-intelligence
+- https://github.com/kiloreux/awesome-robotics
+- http://aima.cs.berkeley.edu/
+- http://norvig.com/chomsky.html
