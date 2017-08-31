@@ -580,3 +580,6 @@ To see:
 - https://en.wikipedia.org/wiki/Memoization
 - https://en.wikipedia.org/wiki/Common_subexpression_elimination
 - https://en.wikipedia.org/wiki/Lazy_evaluation
+- https://github.com/swannodette/logic-tutorial
+- https://medium.freecodecamp.org/learning-the-fundamentals-of-functional-programming-425c9fd901c6
+- https://davidwalsh.name/functional-programming
