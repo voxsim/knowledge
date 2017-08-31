@@ -1,3 +1,4 @@
+- https://github.com/MostlyAdequate/mostly-adequate-guide
 - https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2
 - https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4
 - https://medium.com/@thejameskyle/type-systems-refinements-explained-26f713c6cc2a
