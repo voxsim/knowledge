@@ -488,3 +488,4 @@ More info:
 - https://medium.com/walmartlabs/nitty-gitties-69998e14cc92
 - https://vimeo.com/146478456
 - https://github.com/blynn/gitmagic
+- https://github.com/git-tips/tips
