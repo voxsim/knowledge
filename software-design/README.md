@@ -55,6 +55,9 @@
 - https://tomassetti.me/oops-concepts/
 - https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
 - https://www.youtube.com/watch?v=ElnqUIjLWVk
+- http://www.faqs.org/docs/artu/ch01s06.html
+- http://wiki.c2.com/?TechnicalDebt
+- http://wiki.c2.com/?SeparationOfConcerns
 
 Newly read:
 - Practical Object Oriented Design in Ruby
