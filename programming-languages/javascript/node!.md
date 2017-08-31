@@ -17,3 +17,5 @@
 - https://github.com/nodejs/code-and-learn
 - https://github.com/maxogden/art-of-node
 - https://blog.heroku.com/node-habits-2017
+- https://www.youtube.com/watch?v=jo_B4LTHi3I
+- https://blog.risingstack.com/mastering-async-await-in-nodejs/
