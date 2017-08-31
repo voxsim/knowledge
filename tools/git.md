@@ -489,3 +489,4 @@ More info:
 - https://vimeo.com/146478456
 - https://github.com/blynn/gitmagic
 - https://github.com/git-tips/tips
+- https://github.com/jkulak/git-ninja
