@@ -1,0 +1,2 @@
+- https://github.com/localstack/localstack
+- https://github.com/open-guides/og-aws
