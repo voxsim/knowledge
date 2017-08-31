@@ -15,3 +15,4 @@
 - https://frontendmasters.com/courses/
 - https://github.com/alexpate/awesome-design-systems
 - https://github.com/stylelint/stylelint
+- https://github.com/dexteryy/spellbook-of-modern-webdev
