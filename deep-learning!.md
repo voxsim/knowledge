@@ -19,4 +19,4 @@
 - https://jeremykun.com/2017/06/12/duality-for-the-svm/
 - https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
 - https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi
-- 
+- http://karpathy.github.io/neuralnets/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav
