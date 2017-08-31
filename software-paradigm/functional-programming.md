@@ -584,3 +584,4 @@ To see:
 - https://medium.freecodecamp.org/learning-the-fundamentals-of-functional-programming-425c9fd901c6
 - https://davidwalsh.name/functional-programming
 - https://medium.com/javascript-scene/iteration-a-gentle-introduction-to-functional-programming-c59fcb0ab58d
+- https://github.com/stoeffel/awesome-fp-js
