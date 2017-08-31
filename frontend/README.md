@@ -13,3 +13,5 @@
 - https://medium.freecodecamp.org/from-zero-to-front-end-hero-part-2-adfa4824da9b
 - https://code.tutsplus.com/categories/front-end
 - https://frontendmasters.com/courses/
+- https://github.com/alexpate/awesome-design-systems
+- https://github.com/stylelint/stylelint
