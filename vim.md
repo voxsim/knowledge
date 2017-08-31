@@ -16,3 +16,4 @@
 - https://github.com/ryanoasis/vim-devicons
 - https://github.com/MarcWeber/vim-addon-local-vimrc
 - https://github.com/sbdchd/neoformat
+- https://github.com/dotphiles/dotphiles
