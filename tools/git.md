@@ -487,3 +487,4 @@ More info:
 - https://davidwalsh.name/checkout-previous-branch-git
 - https://medium.com/walmartlabs/nitty-gitties-69998e14cc92
 - https://vimeo.com/146478456
+- https://github.com/blynn/gitmagic
