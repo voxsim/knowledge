@@ -585,3 +585,12 @@ To see:
 - https://davidwalsh.name/functional-programming
 - https://medium.com/javascript-scene/iteration-a-gentle-introduction-to-functional-programming-c59fcb0ab58d
 - https://github.com/stoeffel/awesome-fp-js
+- https://github.com/lucasviola/awesome-functional-programming
+- https://github.com/perryharlock/refactor-to-functional
+- https://codewithstyle.info/functional-javascript-part-1-introduction/
+- https://codewithstyle.info/functional-javascript-part-2-array-operations/
+- https://codewithstyle.info/functional-javascript-part-3-reduce/
+- https://codewithstyle.info/functional-javascript-part-4-lodash/
+- https://codewithstyle.info/functional-javascript-part-5-immutability-basics/
+- https://codewithstyle.info/functional-javascript-part-6-immutable-js/
+- 
