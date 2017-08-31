@@ -593,4 +593,4 @@ To see:
 - https://codewithstyle.info/functional-javascript-part-4-lodash/
 - https://codewithstyle.info/functional-javascript-part-5-immutability-basics/
 - https://codewithstyle.info/functional-javascript-part-6-immutable-js/
-- 
+- https://github.com/passy/awesome-recursion-schemes
