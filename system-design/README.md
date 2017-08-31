@@ -1189,3 +1189,5 @@ More info to write up:
 - https://softwareengineering.stackexchange.com/questions/38324/how-would-you-implement-google-search
 - http://www.ardendertat.com/2012/01/11/implementing-search-engines/
 - http://infolab.stanford.edu/~backrub/google.html
+- https://github.com/zalando/restful-api-guidelines
+- https://github.com/Microsoft/api-guidelines
