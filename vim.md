@@ -15,3 +15,4 @@
 - https://github.com/square/maximum-awesome
 - https://github.com/ryanoasis/vim-devicons
 - https://github.com/MarcWeber/vim-addon-local-vimrc
+- https://github.com/sbdchd/neoformat
