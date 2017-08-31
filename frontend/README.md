@@ -34,3 +34,9 @@
 - https://developers.google.com/web/updates/2017/06/supercharged-codesplit
 - https://www.toptal.com/designers/interactive/interaction-design-principles
 - https://github.com/anandthakker/doiuse
+- https://github.com/pazguille/offline-first
+- https://github.com/sachin1092/awesome-material
+- https://github.com/brillout/awesome-react-components
+- https://github.com/vasanthk/react-bits
+- https://github.com/mattdesl/module-best-practices
+- https://github.com/enaqx/awesome-react
