@@ -18,3 +18,4 @@
 - https://github.com/sbdchd/neoformat
 - https://github.com/dotphiles/dotphiles
 - https://github.com/agarrharr/awesome-cli-apps
+- https://github.com/unixorn/awesome-zsh-plugins
