@@ -12,3 +12,4 @@
 * https://dave.cheney.net/2017/06/18/simplicity-debt-redux
 * https://www.oreilly.com/ideas/how-to-ship-production-grade-go
 * https://www.goinggo.net/2017/07/interface-semantics.html
+* https://github.com/ksimka/go-is-not-good
