@@ -4,7 +4,11 @@
 - https://www.reddit.com/r/bodyweightfitness/wiki/index
 - https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine
 - https://www.reddit.com/r/Fitness/wiki/faq#wiki_diet_details
+- https://www.reddit.com/r/Fitness/wiki/getting_started#wiki_fixing_your_diet
 
 - http://www.my-personaltrainer.it/integratori/integratori-sport.htm
 - http://www.my-personaltrainer.it/creatina.htm
 - http://www.my-personaltrainer.it/sport/testosterone-doping.html
+
+To buy:
+- https://examine.com/store/stack-guides/#pricing
