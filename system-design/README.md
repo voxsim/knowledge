@@ -1191,3 +1191,4 @@ More info to write up:
 - http://infolab.stanford.edu/~backrub/google.html
 - https://github.com/zalando/restful-api-guidelines
 - https://github.com/Microsoft/api-guidelines
+- http://philcalcado.com/2017/08/03/pattern_service_mesh.html
