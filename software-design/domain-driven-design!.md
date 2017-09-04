@@ -24,3 +24,5 @@ The *Anti Corruption Layer* is an adapter that maps an external concept to our i
 More detail:
 - Read Domain Driven Design distilled
 - Read Domain Driven ecc..
+
+- https://www.youtube.com/watch?v=sFCgXH7DwxM
