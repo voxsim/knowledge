@@ -44,3 +44,9 @@
 - https://github.com/storybooks/storybook
 - https://www.sitepoint.com/improve-web-typography-css-font-size-adjust/?utm_source=frontendfocus&utm_medium=email
 - https://cssgrid.cc/?utm_source=frontendfocus&utm_medium=email
+- https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/?utm_source=frontendfocus&utm_medium=email
+- http://jensimmons.com/post/aug-15-2017/heres-super-quick-way-try-out-css-grid?utm_source=frontendfocus&utm_medium=email
+- https://mxb.at/blog/offline-forms/?utm_source=frontendfocus&utm_medium=email
+- https://aneventapart.com/news/post/real-art-direction-on-the-web-by-jen-simmons-an-event-apart?utm_source=frontendfocus&utm_medium=email
+- http://www.coffeecup.com/help/articles/responsive-site-designer-help-manual/
+- https://medium.com/square-corner-blog/boosting-conversion-rates-with-analytics-design-principles-and-ux-3ee133545610
