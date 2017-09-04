@@ -42,3 +42,5 @@
 - https://github.com/enaqx/awesome-react
 - https://www.toptal.com/designers/blog
 - https://github.com/storybooks/storybook
+- https://www.sitepoint.com/improve-web-typography-css-font-size-adjust/?utm_source=frontendfocus&utm_medium=email
+- https://cssgrid.cc/?utm_source=frontendfocus&utm_medium=email
