@@ -62,6 +62,7 @@
 - http://xunitpatterns.com/Obscure%20Test.html
 - http://xunitpatterns.com/Slow%20Tests.html
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
+- https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
 
 Newly read:
 - Practical Object Oriented Design in Ruby
