@@ -61,6 +61,7 @@
 - http://xunitpatterns.com/Fragile%20Test.html
 - http://xunitpatterns.com/Obscure%20Test.html
 - http://xunitpatterns.com/Slow%20Tests.html
+- http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 
 Newly read:
 - Practical Object Oriented Design in Ruby
