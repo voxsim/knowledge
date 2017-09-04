@@ -58,6 +58,9 @@
 - http://www.faqs.org/docs/artu/ch01s06.html
 - http://wiki.c2.com/?TechnicalDebt
 - http://wiki.c2.com/?SeparationOfConcerns
+- http://xunitpatterns.com/Fragile%20Test.html
+- http://xunitpatterns.com/Obscure%20Test.html
+- http://xunitpatterns.com/Slow%20Tests.html
 
 Newly read:
 - Practical Object Oriented Design in Ruby
