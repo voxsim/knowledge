@@ -647,3 +647,7 @@ More info:
 - http://benalman.com/news/2012/09/partial-application-in-javascript/
 - https://johnresig.com/apps/learn
 - http://bonsaiden.github.io/JavaScript-Garden/
+- mergiare undefined and null
+- risistemare javascript / object
+- mettere delete sotto gli operatori
+- mergiare es6 nel javascript
