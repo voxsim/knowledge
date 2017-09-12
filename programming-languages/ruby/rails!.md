@@ -4,3 +4,4 @@
 - http://objectsonrails.com/
 - https://blog.carbonfive.com/2017/07/18/evented-rails-decoupling-complex-domains-in-rails-with-domain-events/
 - https://github.com/krisleech/wisper
+- https://www.toptal.com/ruby-on-rails
