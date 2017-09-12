@@ -1192,3 +1192,4 @@ More info to write up:
 - https://github.com/zalando/restful-api-guidelines
 - https://github.com/Microsoft/api-guidelines
 - http://philcalcado.com/2017/08/03/pattern_service_mesh.html
+- https://github.com/henryr/cap-faq
