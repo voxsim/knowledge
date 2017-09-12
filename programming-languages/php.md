@@ -639,3 +639,7 @@ The exit() expression is used with a non-zero number to let the shell know that 
 - http://www.php-fig.org/psr/psr-11/
 - http://www.php-fig.org/psr/psr-13/
 - http://www.php-fig.org/psr/psr-16/
+- https://github.com/pehapkari/awesome-symfony-education
+- https://github.com/sitepoint-editors/awesome-symfony
+- https://github.com/ziadoz/awesome-php
+- 
