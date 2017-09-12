@@ -50,3 +50,7 @@
 - https://aneventapart.com/news/post/real-art-direction-on-the-web-by-jen-simmons-an-event-apart?utm_source=frontendfocus&utm_medium=email
 - http://www.coffeecup.com/help/articles/responsive-site-designer-help-manual/
 - https://medium.com/square-corner-blog/boosting-conversion-rates-with-analytics-design-principles-and-ux-3ee133545610
+- https://www.designbetter.co/
+- https://resilientwebdesign.com/
+- http://designingfortheweb.co.uk/
+- http://www.brandhousebook.com/mobile/index.html
