@@ -1,3 +1,4 @@
+- Complete [Ruby on Rails Tutorial](https://www.railstutorial.org/book)
 - https://gorails.com/
 - https://www.railstutorial.org/book
 - Read Agile Web Development with Rails
