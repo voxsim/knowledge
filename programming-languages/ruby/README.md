@@ -19,3 +19,4 @@
 * [Testing Standards and Style Guidelines by Gitlab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/testing.md)
 * [API Style Guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/api_styleguide.md)
 * https://github.com/bbatsov/ruby-style-guide
+* https://gist.github.com/martindemello/7231bf0f407ca428b509
