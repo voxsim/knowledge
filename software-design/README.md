@@ -64,6 +64,7 @@
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 - https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
 - https://robots.thoughtbot.com/mystery-guest
+- https://8thlight.com/blog/mike-knepper/2017/09/20/framework-seams.html
 
 Newly read:
 - Practical Object Oriented Design in Ruby
