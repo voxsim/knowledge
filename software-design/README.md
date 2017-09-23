@@ -65,6 +65,8 @@
 - https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
 - https://robots.thoughtbot.com/mystery-guest
 - https://8thlight.com/blog/mike-knepper/2017/09/20/framework-seams.html
+- https://martinfowler.com/articles/refactoring-external-service.html
+- https://alistapart.com/article/the-ten-essentials-for-good-api-documentation
 
 Newly read:
 - Practical Object Oriented Design in Ruby
