@@ -1,13 +1,45 @@
 - https://www.journalofnomads.com/how-to-save-money-while-traveling/
-
-# Travel Resources
-
+- https://www.nomadicmatt.com/travel-blogs/how-to-travel-anywhere/
 - https://www.trustroots.org/
 - https://www.couchsurfing.com/
-
-
-# Adventure TODO List
-
-- https://en.wikipedia.org/wiki/Appalachian_Trail
-- https://en.wikipedia.org/wiki/West_Highland_Way
-- https://en.wikipedia.org/wiki/Great_Glen_Way
+- https://www.housecarers.com/
+- https://www.trustedhousesitters.com/
+- https://www.homeexchange.com/en/
+- http://www.homeforswap.com/
+- http://www.stay4free.com/
+- http://www.bewelcome.org/
+- https://www.trustroots.org/
+- http://hitchwiki.org/en/Main_Page
+- http://trashwiki.org/en/Main_Page
+- http://nomadwiki.org/en/Main_Page
+- https://www.warmshowers.org/
+- http://www.globalfreeloaders.com/
+- http://www.hospitalityclub.org/
+- http://belodged.com/1000_Home/1000_1000_home_en.asp
+- http://www.talktalkbnb.com/en/
+- https://www.gocambio.com/
+- http://www.staydu.com/
+- https://www.mytwinplace.com/en/#
+- https://servas.org/
+- https://pasportaservo.org/
+- http://www.helpx.net/
+- http://www.workaway.info/
+- https://helpstay.com/
+- https://www.workingtraveller.com/
+- https://www.theremotelife.com/
+- http://purehouse.org/
+- https://www.welive.com/
+- http://www.nomadicmatt.com/travel-resources/
+- http://www.nomadicmatt.com/travel-blogs/sharing-economy-travel-cheap/
+- http://wifitribe.co/
+- https://www.remoteyear.com/
+- https://www.roam.co/
+- https://outsite.co/
+- http://www.dnxcamp.com/digital-nomad-camp/lemnos-2016/
+- http://workingvagabonds.com/landing/?gclid=CjwKEAjw_uvHBRDUkumF0tLFp3cSJACAIHMYrz7N4pXKUQ7xVa1QcLpURs7FjRkvChA--NAvvD8vpoBoCCJDw_wcB
+- https://www.tortugabackpacks.com/pages/minaal-carry-on-vs-tortuga-outbreaker
+- http://www.deuter.com/AU/ae/hiking/futura-28-34214.html
+- http://formmeetsfunction.com/portfolio/the-soot-electropack/
+- https://www.minaal.com/collections/your-future-gear
+- http://www.cohop.it/
+- http://traveldeveloper.com/
