@@ -20,3 +20,8 @@
 * [API Style Guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/api_styleguide.md)
 * https://github.com/bbatsov/ruby-style-guide
 * https://gist.github.com/martindemello/7231bf0f407ca428b509
+* https://robots.thoughtbot.com/debugging-why-your-specs-have-slowed-down
+* https://robots.thoughtbot.com/tags/factory_girl
+* https://robots.thoughtbot.com/tags/ruby
+* https://robots.thoughtbot.com/tags/rails
+* https://www.nasseri.io/posts/1.html
