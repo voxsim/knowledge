@@ -67,6 +67,7 @@
 - https://8thlight.com/blog/mike-knepper/2017/09/20/framework-seams.html
 - https://martinfowler.com/articles/refactoring-external-service.html
 - https://alistapart.com/article/the-ten-essentials-for-good-api-documentation
+- https://www.toptal.com/software/creating-modular-code-with-no-dependencies
 
 Newly read:
 - Practical Object Oriented Design in Ruby
