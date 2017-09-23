@@ -29,3 +29,5 @@ The reactive programming paradigm involves observing and reacting to events in a
 - https://www.youtube.com/watch?v=_VdIQTtRkb8
 - https://tech.instacart.com/rxjava-1-rxjava-2-understanding-the-changes-5370c461bea?source=rss----587883b5d2ee---4&gi=149e1244c996
 - https://tech.instacart.com/rxjava-1-rxjava-2-disposing-subscriptions-48988798eccf
+- https://www.reactivedesignpatterns.com/videos.html
+- https://alligator.io/rxjs/hot-cold-observables/
