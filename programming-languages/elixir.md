@@ -3,7 +3,6 @@
 - https://elixirschool.com/en/
 - https://github.com/christopheradams/elixir_style_guide
 - https://github.com/elixirschool/elixirschool
-- https://github.com/h4cc/awesome-elixir
 - https://github.com/tony612/the-zen-of-elixir
 - https://www.ludu.co/course/discover-elixir-phoenix/
 - http://media.pragprog.com/titles/elixir/ElixirCheat.pdf
