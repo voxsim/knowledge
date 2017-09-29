@@ -1,1 +1,4 @@
-
+- https://nomadlist.com/
+- https://github.com/georgemandis/remote-working-list
+- https://outsite.co/
+- https://zapier.com/learn/remote-work/
