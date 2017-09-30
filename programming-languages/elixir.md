@@ -8,3 +8,5 @@
 - http://www.erlang.org/docs
 - http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
 - https://hexdocs.pm/mox/Mox.html
+- http://learnyousomeerlang.com/
+- https://www.futurelearn.com/courses/functional-programming-erlang
