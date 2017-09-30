@@ -5,3 +5,6 @@
 - http://media.pragprog.com/titles/elixir/ElixirCheat.pdf
 - https://github.com/kblake/functional-programming
 - https://github.com/jwhiteman/a-little-elixir-goes-a-long-way
+- http://www.erlang.org/docs
+- http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
+- https://hexdocs.pm/mox/Mox.html
