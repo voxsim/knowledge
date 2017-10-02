@@ -1194,3 +1194,6 @@ More info to write up:
 - http://philcalcado.com/2017/08/03/pattern_service_mesh.html
 - https://github.com/henryr/cap-faq
 - https://blog.risingstack.com/designing-microservices-architecture-for-failure/
+- https://gist.github.com/jboner/2841832
+- http://queue.acm.org/detail.cfm?id=2745385
+- https://www.microsoft.com/en-us/research/publication/time-clocks-ordering-events-distributed-system/
