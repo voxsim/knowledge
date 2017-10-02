@@ -132,7 +132,7 @@ Connascence of position is when multiple entities must agree on the order of val
 ## Connascence of Algorithm
 Connascence of algorithm is when multiple components must agree on a particular algorithm.
 
-# Type of Dynamic Connascence
+# Type of Dynamic Connascence
 ## Connascence of Execution
 Connascence of execution is when the order of execution of multiple components is important. Common examples include locking and unlocking resources, where locks must be acquired and released in the same order everywhere in the entire codebase.
 
@@ -168,7 +168,9 @@ class Article(object):
         # do whatever is required to publish the article.
         self.state = ArticleState.Published
 ```
+
 Now imagine a hypothetical test that ensures that the publish method works:
+
 ```python
 article = Article("Test Contents")
 assert article.state == ArticleState.Draft
@@ -176,27 +178,30 @@ article.publish()
 assert article.state == ArticleState.Published
 ```
 The problem here is that the test requires knowledge of the initial state of the Article class: if the Article's initial state is ever changed, this test will break (this is arguably a bad test, since the first assertion has little to do with the intent of the test, but it's a common mistake). This code can be improved by adding an InitialState label to ArticleClass, and changing both the Article class and the test to refer to that label instead:
+
 ```python
 class ArticleState(Enum):
     Draft = 1
     Published = 2
     InitialState = Draft
 
-
 class Article(object):
-
     def __init__(self, contents):
         self.contents = contents
         self.state = ArticleState.InitialState
 ```
+
 The test now becomes:
+
 ```python
 article = Article("Test Contents")
 assert article.state == ArticleState.InitialState
 article.publish()
 assert article.state == ArticleState.Published
 ```
+
 Should we need to change the state machine of the Article class, we can do so by changing the ArticleState enumeration:
+
 ```python
 class ArticleState(Enum):
     Preproduction = 1
@@ -204,7 +209,8 @@ class ArticleState(Enum):
     Published = 3
     InitialState = Preproduction
 ```
+
 We have effectively introduced a level of indirection between the Article class and its initial state value.
 
-## Connascence of Identity
+## Connascence of Identity
 Connascence of identity is when multiple components must reference the same entity.
