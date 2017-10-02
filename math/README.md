@@ -5,3 +5,4 @@
 - https://www.youtube.com/playlist?list=PL3B08AE665AB9002A
 - https://github.com/fantasyland/fantasy-land
 - https://www.youtube.com/watch?v=tYD4Kynf_tc
+- https://www.codechef.com/wiki/tutorial-number-theory/
