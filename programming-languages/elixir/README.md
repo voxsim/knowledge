@@ -10,3 +10,4 @@
 - https://hexdocs.pm/mox/Mox.html
 - http://learnyousomeerlang.com/
 - https://www.futurelearn.com/courses/functional-programming-erlang
+- https://github.com/elixir-lang/gen_stage
