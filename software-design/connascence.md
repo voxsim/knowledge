@@ -9,6 +9,7 @@ Connascence is a metric, and like all metrics is an imperfect measure. However, 
 * Strength. Stronger connascences are harder to discover, or harder to refactor.
 * Degree. An entity that is connascant with thousands of other entities is likely to be a larger issue than one that is connascant with only a few.
 * Locality. Connascant elements that are close together in a codebase are better than ones that are far apart.
+
 The three properties of Strength, Degree, and Locality give the programmer all the tools they need in order to make informed decisions about when they will permit certain types of coupling, and when the code ought to be refactored.
 
 ## A Vocabulary for Coupling
@@ -34,4 +35,5 @@ Changing the name of any part of this code will cause code that uses this class 
 - Changing the class name from Request.
 - Changing any of the method names (such as set_proxy).
 - Changing the name of any of the parameters to either __init__ or set_proxy.
+
 Connascence of name is unavoidable, since we refer to entities using labels. If we change the name of an entity when we declare it, we must also change all code that refers to that entity. For this reason, connascence of name is the weakest connascence. However, it also illustrates how important it is to name entities in code well.
