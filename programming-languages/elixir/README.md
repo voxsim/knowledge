@@ -11,3 +11,5 @@
 - http://learnyousomeerlang.com/
 - https://www.futurelearn.com/courses/functional-programming-erlang
 - https://github.com/elixir-lang/gen_stage
+- http://alvaro-videla.com/2013/09/rabbitmq-internals-credit-flow-for-erlang-processes.html
+- http://erlang.org/doc/apps/ssl/ssl_distribution.html
