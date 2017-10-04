@@ -1,3 +1,4 @@
+- https://courses.csail.mit.edu/6.042/spring17/mcs.pdf
 - https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
 - https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo
 - https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
