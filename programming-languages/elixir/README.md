@@ -1,4 +1,3 @@
-- http://elixirbridge.org/02_Intro_to_Elixir/01-why-program-why-elixir.html
 - https://elixirschool.com/en/
 - https://github.com/elixirschool/elixirschool
 - https://github.com/tony612/the-zen-of-elixir
