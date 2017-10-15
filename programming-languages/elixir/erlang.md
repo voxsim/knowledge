@@ -1,3 +1,6 @@
+- http://www.erlang.org/docs
+- http://learnyousomeerlang.com/content
+- http://alvaro-videla.com/2013/09/rabbitmq-internals-credit-flow-for-erlang-processes.html
 - https://github.com/rabbitmq/rabbitmq-management
 - https://github.com/rabbitmq/rabbitmq-autocluster
 - https://github.com/talentdeficit/jsx
