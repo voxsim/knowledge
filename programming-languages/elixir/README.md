@@ -1,3 +1,4 @@
+- https://elixir-lang.org/getting-started/basic-types.html
 - https://elixirschool.com/en/
 - https://github.com/elixirschool/elixirschool
 - https://github.com/jwhiteman/a-little-elixir-goes-a-long-way
