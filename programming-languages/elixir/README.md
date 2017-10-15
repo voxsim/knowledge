@@ -1,14 +1,63 @@
 - https://elixirschool.com/en/
 - https://github.com/elixirschool/elixirschool
-- https://github.com/tony612/the-zen-of-elixir
-- http://media.pragprog.com/titles/elixir/ElixirCheat.pdf
-- https://github.com/kblake/functional-programming
 - https://github.com/jwhiteman/a-little-elixir-goes-a-long-way
-- http://www.erlang.org/docs
 - http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
+
+## BEAM
+
+* [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html) （[中文翻译](http://blog.aquarhead.me/2016/09/the-zen-of-erlang)）
+
+It's important to understand Erlang - not the syntax - if you want to be a master of Elixir.
+Learn to think in *the BEAM way* by reading Fred's great article.
+
+* [Tail Call Optimization in Elixir & Erlang – not as efficient and important as you probably think](https://pragtob.wordpress.com/2016/06/16/tail-call-optimization-in-elixir-erlang-not-as-efficient-and-important-as-you-probably-think/)
+
+Every book about FP have a section on tail recursion, but should we really always program in this style? More importantly, when in doubt, benchmark it!
+
+* [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
+
+Everyone is excited about "Erlang Process", but should you use them at all times? Do separate modules always need to associate with separate processes? This inspiring article from Saša Jurić shows the differences between functions/modules and processes and how you should leverage them for different concerns.
+
+Interestingly, not long after this, in [José's keynote at ElixirConf.EU 2017](https://youtu.be/IZvpKhA6t8A?t=20m51s) he also talked about modules and processes (and data) being different parts which compose Elixir together.
+
+## Elixir
+
+* [Beyond Functional Programming with Elixir and Erlang](http://blog.plataformatec.com.br/2016/05/beyond-functional-programming-with-elixir-and-erlang/)
+
+Erlang and Elixir are considered as functional languages. However, *it's not a goal*.
+So what is the goal of Elixir? And how FP contributes to it? Read this to find out.
+
+* [Comparing Elixir and Erlang variables](http://blog.plataformatec.com.br/2016/01/comparing-elixir-and-erlang-variables/)
+
+It can be confusing to understand rebinding of immutable variables in Elixir.
+Let José explain this for you :)
+
+* [Elixir in times of microservices](http://blog.plataformatec.com.br/2015/06/elixir-in-times-of-microservices/)
+
+Elixir excels at scalability and maintainability, but how to achieve this?
+You should consider **umbrella projects** first for your great projects.
+
+* [Mocks and explicit contracts](http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/)
+
+Elixir is dynamically typed, so tests are important. It's functional, so it's very
+different to write tests. Forget what you know and learn from this great post.
+
+* Elixir and IO Lists [Part 1](https://www.bignerdranch.com/blog/elixir-and-io-lists-part-1-building-output-efficiently/), [Part 2](https://www.bignerdranch.com/blog/elixir-and-io-lists-part-2-io-lists-in-phoenix/), [Talk](https://www.youtube.com/watch?v=zZxBL-lV9uA)
+
+Be it rendering HTTP response, querying a database or even writing to a file, what you actually operate on are *bytes*. All your messages passed around in distributed Erlang clusters are bytes too. How can we send bytes more efficiently? Do we really need to build the entire response or query as one whole thing before sending it? Check out this excellent series to learn the "secrets" of sending bytes.
+
+## Phoenix
+
+*We believe Elixir should not be limited to Phoenix, but still keep this section considering its popularity.*
+
+* [Phoenix Is Not Your Application](http://www.elixirconf.eu/elixirconf2016/lance-halvorsen)
+and [the discussion on elixirforum](https://elixirforum.com/t/phoenix-is-not-your-application-questions/735)
+
+Phoenix is just an [application](http://elixir-lang.org/docs/stable/elixir/Application.html)
+like other applications. So learn to think of Phoenix in this way from this talk.
+
+# Libraries/Projects
 - https://hexdocs.pm/mox/Mox.html
-- http://learnyousomeerlang.com/
-- https://www.futurelearn.com/courses/functional-programming-erlang
-- https://github.com/elixir-lang/gen_stage
-- http://alvaro-videla.com/2013/09/rabbitmq-internals-credit-flow-for-erlang-processes.html
-- http://erlang.org/doc/apps/ssl/ssl_distribution.html
+- https://github.com/thechangelog/changelog.com
+- https://github.com/bigardone/phoenix-trello
+- https://github.com/rrrene/elixirstatus-web
