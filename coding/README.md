@@ -182,21 +182,21 @@ make a single meaningful stride forward
   - [x] [2-sum](https://stackoverflow.com/questions/11928091/linear-time-algorithm-for-2-sum)
 
 # Awesome Competitive Programming
-[ ] [Good Blog Post Resources about Algorithm and Data Structures - Codeforces](http://codeforces.com/blog/entry/13529): A collection of fantastic tutorial blog posts written by Codeforces users. Some intriguing ones include Palindromic Trees, Policy Based Data Structures, and a lot more. 
-[ ] [Data Structures and Algorithms - CodeChef Discuss](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms): A very complete list of competitive programming resources. A must-have in your browser bookmark.
-[ ] [How to prepare for ACM - ICPC? - GeeksforGeeks](http://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/): A detailed walk-through of the preparations for ACM-ICPC.
-[ ] [Algorithms - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/): A website with a large archive of nicely written articles on different topics. It is a great complimentary resource for algorithm courses.
-[ ] [PEGWiki](http://wcipeg.com/wiki/Special:AllPages): A website with amazing in-depth wiki-like writeups on many topics. It's far better than those on Wikipedia in my opinion.
-[ ] [Notes - HackerEarth](https://www.hackerearth.com/practice/notes/trending/): A great crowdsourcing platform for tutorials. Also visit [Code Monk](https://www.hackerearth.com/practice/codemonk/).
+- [ ] [Good Blog Post Resources about Algorithm and Data Structures - Codeforces](http://codeforces.com/blog/entry/13529): A collection of fantastic tutorial blog posts written by Codeforces users. Some intriguing ones include Palindromic Trees, Policy Based Data Structures, and a lot more. 
+- [ ] [Data Structures and Algorithms - CodeChef Discuss](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms): A very complete list of competitive programming resources. A must-have in your browser bookmark.
+- [ ] [How to prepare for ACM - ICPC? - GeeksforGeeks](http://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/): A detailed walk-through of the preparations for ACM-ICPC.
+- [ ] [Algorithms - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/): A website with a large archive of nicely written articles on different topics. It is a great complimentary resource for algorithm courses.
+- [ ] [PEGWiki](http://wcipeg.com/wiki/Special:AllPages): A website with amazing in-depth wiki-like writeups on many topics. It's far better than those on Wikipedia in my opinion.
+- [ ] [Notes - HackerEarth](https://www.hackerearth.com/practice/notes/trending/): A great crowdsourcing platform for tutorials. Also visit [Code Monk](https://www.hackerearth.com/practice/codemonk/).
 
 ## Implementations
 Algorithm & Data structure implementations.  
 
-[ ] [CodeLibrary](http://code-library.herokuapp.com/), by Andrey Naumenko (indy256): CodeLibrary contains a large collection of implementations for algorithms and data structures in Java and C++. You may also visit his [GitHub Repository](https://github.com/indy256/codelibrary).
-[ ] [spaghetti-source/algorithm](https://github.com/spaghetti-source/algorithm), by Takanori MAEHARA (@tmaehara): High-quality implementations of many hard algorithms and data structures.
-[ ] [kth-competitive-programming/kactl](https://github.com/kth-competitive-programming/kactl), by Simon Lindholm (simonlindholm) et al.: A phenomenally organized, documented and tested team notebook from KTH Royal Institute of Technology. One of the most well-crafted team notebooks (contest libraries) I've ever seen. 
-[ ] [jaehyunp/stanfordacm](https://github.com/jaehyunp/stanfordacm): Stanford's team notebook is well maintained and the codes within are of high-quality.
-[ ] [ngthanhtrung23/ACM_Notebook_new](https://github.com/ngthanhtrung23/ACM_Notebook_new), by team RR Watameda (I_love_Hoang_Yen, flashmt, nguyenhungtam) from National University of Singapore: RR Watameda represented National University of Singapore for the 2016 ACM-ICPC World Finals. The items in this notebook are pretty standard and well-organized.
-[ ] [bobogei81123/bcw_codebook](https://github.com/bobogei81123/bcw_codebook), by team bcw0x1bd2 (darkhh, bobogei81123, step5) from National Taiwan University: bcw0x1bd2 represented National Taiwan University for the 2016 ACM-ICPC World Finals. This notebook contains robust implementations for advanced data structures and algorithms.
-[ ] [foreverbell/acm-icpc-cheat-sheet](https://github.com/foreverbell/acm-icpc-cheat-sheet), by foreverbell (foreverbell):  A notebook with some advanced data structures and algorithms including some from the China informatics scene.
-[ ] [igor's code archive](http://shygypsy.com/tools/), by Igor Naverniouk (Abednego): A good notebook by Igor Naverniouk who is currently a software engineer at Google and part of the Google Code Jam team.
+- [ ] [CodeLibrary](http://code-library.herokuapp.com/), by Andrey Naumenko (indy256): CodeLibrary contains a large collection of implementations for algorithms and data structures in Java and C++. You may also visit his [GitHub Repository](https://github.com/indy256/codelibrary).
+- [ ] [spaghetti-source/algorithm](https://github.com/spaghetti-source/algorithm), by Takanori MAEHARA (@tmaehara): High-quality implementations of many hard algorithms and data structures.
+- [ ] [kth-competitive-programming/kactl](https://github.com/kth-competitive-programming/kactl), by Simon Lindholm (simonlindholm) et al.: A phenomenally organized, documented and tested team notebook from KTH Royal Institute of Technology. One of the most well-crafted team notebooks (contest libraries) I've ever seen. 
+- [ ] [jaehyunp/stanfordacm](https://github.com/jaehyunp/stanfordacm): Stanford's team notebook is well maintained and the codes within are of high-quality.
+- [ ] [ngthanhtrung23/ACM_Notebook_new](https://github.com/ngthanhtrung23/ACM_Notebook_new), by team RR Watameda (I_love_Hoang_Yen, flashmt, nguyenhungtam) from National University of Singapore: RR Watameda represented National University of Singapore for the 2016 ACM-ICPC World Finals. The items in this notebook are pretty standard and well-organized.
+- [ ] [bobogei81123/bcw_codebook](https://github.com/bobogei81123/bcw_codebook), by team bcw0x1bd2 (darkhh, bobogei81123, step5) from National Taiwan University: bcw0x1bd2 represented National Taiwan University for the 2016 ACM-ICPC World Finals. This notebook contains robust implementations for advanced data structures and algorithms.
+- [ ] [foreverbell/acm-icpc-cheat-sheet](https://github.com/foreverbell/acm-icpc-cheat-sheet), by foreverbell (foreverbell):  A notebook with some advanced data structures and algorithms including some from the China informatics scene.
+- [ ] [igor's code archive](http://shygypsy.com/tools/), by Igor Naverniouk (Abednego): A good notebook by Igor Naverniouk who is currently a software engineer at Google and part of the Google Code Jam team.
