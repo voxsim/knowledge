@@ -1,12 +1,30 @@
 
+## Study paths
 - https://github.com/xpeppers/starway-to-orione
 - https://github.com/joebew42/study-path
+
+## Martin Fowler bliki
 - https://martinfowler.com/bliki/
 - https://martinfowler.com/tags/testing.html
 - https://martinfowler.com/tags/encapsulation.html
 - https://martinfowler.com/tags/test%20categories.html
 - https://martinfowler.com/tags/application%20integration.html
 - https://martinfowler.com/tags/web%20services.html
+- https://martinfowler.com/tags/agile.html
+- https://martinfowler.com/tags/continuous%20delivery.html
+- https://martinfowler.com/tags/agile%20adoption.html
+- https://martinfowler.com/tags/team%20organization.html
+- https://martinfowler.com/tags/collaboration.html
+- https://martinfowler.com/tags/design.html
+- https://martinfowler.com/tags/object%20collaboration%20design.html
+- https://martinfowler.com/tags/application%20architecture.html
+- https://martinfowler.com/tags/extreme%20programming.html
+- https://martinfowler.com/tags/evolutionary%20design.html
+- https://martinfowler.com/tags/process%20theory.html
+- https://martinfowler.com/articles/newMethodology.html
+- https://martinfowler.com/tags/microservices.html
+
+## XUNIT Patterns
 - http://xunitpatterns.com/Outline.html
 - http://xunitpatterns.com/Problem-Pattern%20Cross-Reference.html
 - http://xunitpatterns.com/Database%20Patterns.html
@@ -16,31 +34,9 @@
 - http://xunitpatterns.com/Fixture%20Teardown%20Patterns.html 
 - http://xunitpatterns.com/Humble%20Object.html
 
-- https://martinfowler.com/articles/continuousIntegration.html
-- https://martinfowler.com/articles/feature-toggles.html
-- https://martinfowler.com/articles/qa-in-production.html
-- https://martinfowler.com/bliki/BlueGreenDeployment.html
-- https://martinfowler.com/bliki/CanaryRelease.html
-- https://martinfowler.com/bliki/CircuitBreaker.html
-- https://martinfowler.com/bliki/ContinuousDelivery.html
-- https://martinfowler.com/bliki/DevOpsCulture.html
-- https://martinfowler.com/bliki/FeatureBranch.html
-- https://martinfowler.com/bliki/DeploymentPipeline.html
-- https://martinfowler.com/bliki/FeatureToggle.html
-- https://martinfowler.com/bliki/PendingHead.html
-- https://martinfowler.com/bliki/ReproducibleBuild.html
-- https://martinfowler.com/bliki/ImmutableServer.html
-- https://martinfowler.com/bliki/SemanticConflict.html
-- https://martinfowler.com/bliki/InfrastructureAsCode.html
-- https://martinfowler.com/bliki/PhoenixServer.html
-- https://martinfowler.com/bliki/SyntheticMonitoring.html
-- https://martinfowler.com/bliki/SnowflakeServer.html
+## TODO
 - https://martinfowler.com/articles/designDead.html
 - https://yurichev.com/blog/cyclomatic/
-- https://martinfowler.com/tags/extreme%20programming.html
-- https://martinfowler.com/tags/agile.html
-- https://martinfowler.com/tags/design.html
-- https://martinfowler.com/tags/evolutionary%20design.html
 - https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
 - https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
 - https://www.codeproject.com/articles/555855/introduction-to-cqrs
