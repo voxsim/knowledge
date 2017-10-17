@@ -42,8 +42,24 @@
 - http://xunitpatterns.com/Fixture%20Teardown%20Patterns.html 
 - http://xunitpatterns.com/Humble%20Object.html
 
-## Other
+## Reading list
 - https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
+- https://blog.codinghorror.com/recommended-reading-for-developers/
+- http://www.poppendieck.com/reference.htm
+- http://noop.nl/2008/06/top-100-best-software-engineering-books-ever.html
+- https://www.amazon.com/gp/richpub/listmania/fullview/R2MOS4VO74D8J8
+- http://www.philosophicalgeek.com/2007/11/21/books/
+- https://www.infoq.com/articles/recommended_reading_list
+- http://isr.uci.edu/Software/phaseII_reading_list.html
+- http://port70.net/~nsz/00_prog.html
+- https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read
+- https://www.quora.com/What-are-the-must-read-books-for-software-engineers
+- https://www.reddit.com/r/learnprogramming/wiki/books
+- http://feltpresence.com/reading_list
+- https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me
+- https://www.joelonsoftware.com/2005/11/22/reading-list-fog-creek-software-management-training-program/
+
+## Other
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 - http://norvig.com/21-days.html
