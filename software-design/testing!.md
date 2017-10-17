@@ -1,0 +1,6 @@
+- https://martinfowler.com/bliki/PageObject.html
+- https://martinfowler.com/bliki/ObjectMother.html
+- https://martinfowler.com/bliki/SpecificationByExample.html
+- https://martinfowler.com/bliki/SelfTestingCode.html
+- https://martinfowler.com/bliki/TestDrivenDevelopment.html
+- https://martinfowler.com/bliki/TestInvariant.html
