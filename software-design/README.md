@@ -2,6 +2,8 @@
 ## Study paths
 - https://github.com/xpeppers/starway-to-orione
 - https://github.com/joebew42/study-path
+- https://github.com/flyeralarm/onboarding
+- https://github.com/thoughtbot/guides/
 
 ## Martin Fowler bliki
 - https://martinfowler.com/bliki/
@@ -23,6 +25,8 @@
 - https://martinfowler.com/tags/process%20theory.html
 - https://martinfowler.com/articles/newMethodology.html
 - https://martinfowler.com/tags/microservices.html
+- https://martinfowler.com/eaaDev/EventSourcing.html
+- https://martinfowler.com/articles/designDead.html
 
 ## XUNIT Patterns
 - http://xunitpatterns.com/Outline.html
@@ -35,14 +39,6 @@
 - http://xunitpatterns.com/Humble%20Object.html
 
 ## TODO
-- https://martinfowler.com/articles/designDead.html
-- https://yurichev.com/blog/cyclomatic/
-- https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
-- https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
-- https://www.codeproject.com/articles/555855/introduction-to-cqrs
-- https://cqrs.wordpress.com/documents/building-event-storage/
-- https://github.com/flyeralarm/onboarding
-- https://github.com/thoughtbot/guides/
 - http://www.faqs.org/docs/artu/ch01s06.html
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
