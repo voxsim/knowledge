@@ -1,0 +1,1 @@
+- http://blog.wittchen.biz.pl/basic-code-refactoring-principles/
