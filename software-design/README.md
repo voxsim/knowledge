@@ -1,19 +1,21 @@
-- https://cleancoders.com/videos
-- https://martinfowler.com/bliki/
+
 - https://github.com/xpeppers/starway-to-orione
-- https://martinfowler.com/bliki/TestDouble.html
-- https://martinfowler.com/bliki/IntegrationContractTest.html
-- https://martinfowler.com/bliki/SelfInitializingFake.html
-- https://martinfowler.com/articles/mocksArentStubs.html
-- https://martinfowler.com/bliki/PageObject.html
-- https://martinfowler.com/bliki/ObjectMother.html
-- https://martinfowler.com/bliki/SpecificationByExample.html
-- https://martinfowler.com/bliki/SelfTestingCode.html
-- https://martinfowler.com/bliki/TestDrivenDevelopment.html
-- https://martinfowler.com/bliki/TestInvariant.html
-- https://martinfowler.com/bliki/IntegrationContractTest.html
-- https://martinfowler.com/bliki/SelfInitializingFake.html
+- https://github.com/joebew42/study-path
+- https://martinfowler.com/bliki/
+- https://martinfowler.com/tags/testing.html
+- https://martinfowler.com/tags/encapsulation.html
+- https://martinfowler.com/tags/test%20categories.html
+- https://martinfowler.com/tags/application%20integration.html
+- https://martinfowler.com/tags/web%20services.html
+- http://xunitpatterns.com/Outline.html
+- http://xunitpatterns.com/Problem-Pattern%20Cross-Reference.html
+- http://xunitpatterns.com/Database%20Patterns.html
+- http://xunitpatterns.com/DfT%20Patterns.html
+- http://xunitpatterns.com/External%20Patterns.html
+- http://xunitpatterns.com/Fixture%20Setup%20Patterns.html
+- http://xunitpatterns.com/Fixture%20Teardown%20Patterns.html 
 - http://xunitpatterns.com/Humble%20Object.html
+
 - https://martinfowler.com/articles/continuousIntegration.html
 - https://martinfowler.com/articles/feature-toggles.html
 - https://martinfowler.com/articles/qa-in-production.html
@@ -33,7 +35,6 @@
 - https://martinfowler.com/bliki/PhoenixServer.html
 - https://martinfowler.com/bliki/SyntheticMonitoring.html
 - https://martinfowler.com/bliki/SnowflakeServer.html
-- https://github.com/joebew42/study-path
 - https://martinfowler.com/articles/designDead.html
 - https://yurichev.com/blog/cyclomatic/
 - https://martinfowler.com/tags/extreme%20programming.html
