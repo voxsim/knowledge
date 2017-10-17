@@ -40,3 +40,9 @@
 - https://martinfowler.com/bliki/TestInvariant.html
 - https://martinfowler.com/bliki/TestingLanguage.html
 - https://martinfowler.com/bliki/Xunit.html
+- https://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test/4904533#4904533
+- https://martinfowler.com/bliki/UnitTest.html
+- https://stackoverflow.com/questions/333682/unit-testing-anti-patterns-catalogue
+- https://www.youtube.com/watch?v=RlfLCWKxHJ0
+- https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
+- https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
