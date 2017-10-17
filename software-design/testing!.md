@@ -4,3 +4,4 @@
 - https://martinfowler.com/bliki/SelfTestingCode.html
 - https://martinfowler.com/bliki/TestDrivenDevelopment.html
 - https://martinfowler.com/bliki/TestInvariant.html
+- http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
