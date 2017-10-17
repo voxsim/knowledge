@@ -11,6 +11,8 @@
 - https://martinfowler.com/articles/newMethodology.html
 - https://martinfowler.com/articles/refactoring-external-service.html
 - https://martinfowler.com/eaaDev/EventSourcing.html
+- https://martinfowler.com/eaaDev/OrganizingPresentations.html
+- https://martinfowler.com/eaaDev/uiArchs.html
 - https://martinfowler.com/tags/agile.html
 - https://martinfowler.com/tags/agile%20adoption.html
 - https://martinfowler.com/tags/application%20architecture.html
@@ -47,13 +49,19 @@
 - http://norvig.com/21-days.html
 
 Newly read:
+- Growing Object-Oriented Software, Guided by Tests
+- Refactoring: Evolving the design of software
+- Clean Code: A Handbook of Agile Software Craftsmanship
+- Object Design
+- Domain Design: Molding software to fit its domain.
+- Implementing Domain Driven Design
 - Practical Object Oriented Design in Ruby
 - Extreme Programming Explained: Embrace Change
-- Growing Object-Oriented Software, Guided by Tests
-- Clean Code: A Handbook of Agile Software Craftsmanship
 - Refactoring: Improving the Design of Existing Code
 - Test Driven Development: By Example
 - Refactoring to Patterns
-- Implementing Domain-Driven Design
 - The Agile Samurai: How Agile Masters Deliver Great Software
 - Object Thinking
+- Software systems architecture
+- Release it!
+- Working Effectively with legacy code
