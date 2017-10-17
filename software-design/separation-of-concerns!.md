@@ -1,0 +1,1 @@
+- http://wiki.c2.com/?SeparationOfConcerns
