@@ -26,6 +26,7 @@
 - https://martinfowler.com/tags/encapsulation.html
 - https://martinfowler.com/tags/extreme%20programming.html
 - https://martinfowler.com/tags/evolutionary%20design.html
+- https://martinfowler.com/tags/metrics.html
 - https://martinfowler.com/tags/microservices.html
 - https://martinfowler.com/tags/object%20collaboration%20design.html
 - https://martinfowler.com/tags/process%20theory.html
