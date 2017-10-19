@@ -31,6 +31,11 @@
 - https://martinfowler.com/tags/team%20organization.html
 - https://martinfowler.com/tags/test%20categories.html
 - https://martinfowler.com/tags/web%20services.html
+- https://www.youtube.com/watch?v=GE6lbPLEAzc
+- https://www.youtube.com/watch?v=wgdBVIX9ifA
+- https://www.youtube.com/watch?v=VjKYO6DP3fo
+- https://www.youtube.com/watch?v=vqEg37e4Mkw
+- https://www.youtube.com/watch?v=Z8aECe4lp44
 
 ## XUNIT Patterns
 - http://xunitpatterns.com/Outline.html
