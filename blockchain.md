@@ -1,4 +1,0 @@
-- https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
-- https://sgoedecke.github.io/blockchain-for-beginners/
-- https://github.com/bitcoinbook/bitcoinbook
-- https://github.com/machinomy/awesome-non-financial-blockchain
