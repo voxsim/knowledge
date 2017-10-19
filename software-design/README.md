@@ -15,8 +15,10 @@
 - https://martinfowler.com/eaaDev/uiArchs.html
 - https://martinfowler.com/tags/agile.html
 - https://martinfowler.com/tags/agile%20adoption.html
+- https://martinfowler.com/tags/API%20design.html
 - https://martinfowler.com/tags/application%20architecture.html
 - https://martinfowler.com/tags/application%20integration.html
+- https://martinfowler.com/tags/bad%20things.html
 - https://martinfowler.com/tags/clean%20code.html
 - https://martinfowler.com/tags/collaboration.html
 - https://martinfowler.com/tags/continuous%20delivery.html
