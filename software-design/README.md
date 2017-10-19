@@ -34,6 +34,7 @@
 - https://martinfowler.com/tags/team%20organization.html
 - https://martinfowler.com/tags/test%20categories.html
 - https://martinfowler.com/tags/web%20services.html
+- https://martinfowler.com/tags/writing.html
 - https://www.youtube.com/watch?v=GE6lbPLEAzc
 - https://www.youtube.com/watch?v=wgdBVIX9ifA
 - https://www.youtube.com/watch?v=VjKYO6DP3fo
