@@ -10,9 +10,8 @@
 - https://martinfowler.com/articles/designDead.html
 - https://martinfowler.com/articles/newMethodology.html
 - https://martinfowler.com/articles/refactoring-external-service.html
-- https://martinfowler.com/eaaDev/EventSourcing.html
-- https://martinfowler.com/eaaDev/OrganizingPresentations.html
-- https://martinfowler.com/eaaDev/uiArchs.html
+- https://martinfowler.com/eaaCatalog/
+- https://martinfowler.com/eaaDev/
 - https://martinfowler.com/tags/agile.html
 - https://martinfowler.com/tags/agile%20adoption.html
 - https://martinfowler.com/tags/API%20design.html
