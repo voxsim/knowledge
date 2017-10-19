@@ -36,6 +36,7 @@
 - https://www.youtube.com/watch?v=VjKYO6DP3fo
 - https://www.youtube.com/watch?v=vqEg37e4Mkw
 - https://www.youtube.com/watch?v=Z8aECe4lp44
+- https://www.youtube.com/watch?v=DngAZyWMGR0
 
 ## XUNIT Patterns
 - http://xunitpatterns.com/Outline.html
@@ -68,6 +69,9 @@
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 - http://norvig.com/21-days.html
+
+## Kent Beck
+- https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 
 Newly read:
 - Growing Object-Oriented Software, Guided by Tests
