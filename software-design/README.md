@@ -4,6 +4,7 @@
 - https://github.com/joebew42/study-path
 - https://github.com/flyeralarm/onboarding
 - https://github.com/thoughtbot/guides/
+- http://ootips.org/
 
 ## Martin Fowler bliki
 - https://martinfowler.com/bliki/
@@ -26,6 +27,8 @@
 - https://martinfowler.com/tags/encapsulation.html
 - https://martinfowler.com/tags/extreme%20programming.html
 - https://martinfowler.com/tags/evolutionary%20design.html
+- https://martinfowler.com/tags/language%20feature.html
+- https://martinfowler.com/tags/legacy%20rehab.html
 - https://martinfowler.com/tags/metrics.html
 - https://martinfowler.com/tags/microservices.html
 - https://martinfowler.com/tags/noSQL.html
@@ -37,6 +40,7 @@
 - https://martinfowler.com/tags/team%20organization.html
 - https://martinfowler.com/tags/technical%20leadership.html
 - https://martinfowler.com/tags/test%20categories.html
+- https://martinfowler.com/tags/web%20development.html
 - https://martinfowler.com/tags/web%20services.html
 - https://martinfowler.com/tags/writing.html
 - https://www.youtube.com/watch?v=GE6lbPLEAzc
