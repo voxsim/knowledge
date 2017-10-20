@@ -6,6 +6,8 @@
 - https://github.com/nushackers/notes-to-cs-freshmen-from-the-future
 - https://github.com/thoughtbot/guides/
 - http://ootips.org/
+- https://github.com/mr-mig/every-programmer-should-know
+- http://matt.might.net/articles/what-cs-majors-should-know/
 
 ## Martin Fowler bliki
 - https://martinfowler.com/bliki/
