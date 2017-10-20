@@ -93,6 +93,9 @@
 - http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
 - https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
+- http://williamdurand.fr/2013/06/03/object-calisthenics/
+- http://blog.thecodewhisperer.com/permalink/beyond-mock-objects
+- https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
