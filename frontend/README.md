@@ -55,3 +55,4 @@
 - http://designingfortheweb.co.uk/
 - http://www.brandhousebook.com/mobile/index.html
 - https://css-tricks.com/difference-explicit-implicit-grids/
+- https://spin.atomicobject.com/2017/05/18/what-is-design-thinking/
