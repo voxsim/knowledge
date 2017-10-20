@@ -24,9 +24,11 @@
 - https://martinfowler.com/tags/continuous%20delivery.html
 - https://martinfowler.com/tags/database.html
 - https://martinfowler.com/tags/design.html
+- https://martinfowler.com/tags/domain%20driven%20design.html
 - https://martinfowler.com/tags/encapsulation.html
-- https://martinfowler.com/tags/extreme%20programming.html
+- https://martinfowler.com/tags/event%20architectures.html
 - https://martinfowler.com/tags/evolutionary%20design.html
+- https://martinfowler.com/tags/extreme%20programming.html
 - https://martinfowler.com/tags/language%20feature.html
 - https://martinfowler.com/tags/legacy%20rehab.html
 - https://martinfowler.com/tags/metrics.html
