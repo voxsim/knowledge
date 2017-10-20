@@ -19,6 +19,7 @@
 - https://martinfowler.com/tags/application%20architecture.html
 - https://martinfowler.com/tags/application%20integration.html
 - https://martinfowler.com/tags/bad%20things.html
+- https://martinfowler.com/tags/build%20scripting.html
 - https://martinfowler.com/tags/clean%20code.html
 - https://martinfowler.com/tags/collaboration.html
 - https://martinfowler.com/tags/continuous%20delivery.html
