@@ -98,6 +98,7 @@
 - http://williamdurand.fr/2013/06/03/object-calisthenics/
 - http://blog.thecodewhisperer.com/permalink/beyond-mock-objects
 - https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
+- https://cstack.github.io/db_tutorial/
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
