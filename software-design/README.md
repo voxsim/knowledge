@@ -36,6 +36,8 @@
 - https://martinfowler.com/tags/noSQL.html
 - https://martinfowler.com/tags/object%20collaboration%20design.html
 - https://martinfowler.com/tags/process%20theory.html
+- https://martinfowler.com/tags/productivity.html
+- https://martinfowler.com/tags/project%20planning.html
 - https://martinfowler.com/tags/refactoring.html
 - https://martinfowler.com/tags/requirements%20analysis.html
 - https://martinfowler.com/tags/version%20control.html
