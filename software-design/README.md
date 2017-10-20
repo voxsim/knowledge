@@ -3,6 +3,7 @@
 - https://github.com/xpeppers/starway-to-orione
 - https://github.com/joebew42/study-path
 - https://github.com/flyeralarm/onboarding
+- https://github.com/nushackers/notes-to-cs-freshmen-from-the-future
 - https://github.com/thoughtbot/guides/
 - http://ootips.org/
 
@@ -87,6 +88,11 @@
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 - http://norvig.com/21-days.html
+- http://alistair.cockburn.us/Hexagonal+architecture
+- http://misko.hevery.com/code-reviewers-guide/flaw-class-does-too-much/
+- http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
+- https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
