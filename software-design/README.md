@@ -90,6 +90,7 @@
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
+- https://www.facebook.com/notes/kent-beck/half-done-versus-fake-the-intermediate-resultmock-tradeoff/1005370156162515/
 
 Newly read:
 - Growing Object-Oriented Software, Guided by Tests
