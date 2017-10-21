@@ -1,3 +1,8 @@
+- https://github.com/yangshun/tech-interview-handbook
+- https://github.com/davidhampgonsalves/interview-resources
+- http://steve-yegge.blogspot.it/2008/03/get-that-job-at-google.html
+- https://github.com/jwasham/coding-interview-university
+
 # Coding exercises/challenges
 
 Once you've learned your brains out, put those brains to work.
@@ -29,7 +34,6 @@ Take coding challenges every day, as many as you can.
 - [ProgrammerInterview](http://www.programmerinterview.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
-- [
 
 # Solution sites
 
