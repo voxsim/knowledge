@@ -106,18 +106,25 @@
 - https://www.facebook.com/notes/kent-beck/half-done-versus-fake-the-intermediate-resultmock-tradeoff/1005370156162515/
 
 ## C2.com
+- http://wiki.c2.com/?AcyclicDependenciesPrinciple
+- http://c2.com/xp/CodeSmell.html
 - http://wiki.c2.com/?CommonClosurePrinciple
 - http://wiki.c2.com/?CommonReusePrinciple
 - http://wiki.c2.com/?CouplingAndCohesion
 - http://wiki.c2.com/?DependencyInversionPrinciple
 - http://wiki.c2.com/?EncapsulationIsNotInformationHiding
+- http://wiki.c2.com/?ExpressionProblem=
 - http://wiki.c2.com/?InterfaceSegregationPrinciple
 - http://wiki.c2.com/?LawOfDemeter
 - http://wiki.c2.com/?LiskovSubstitutionPrinciple
+- http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast
+- http://wiki.c2.com/?OpenClosedPrinciple
 - http://wiki.c2.com/?ReuseReleaseEquivalencePrinciple
 - http://wiki.c2.com/?SingleResponsibilityPrinciple
+- http://wiki.c2.com/?StableAbstractionsPrinciple
 - http://wiki.c2.com/?StableDependenciesPrinciple
 - http://wiki.c2.com/?UnixWay
+- http://wiki.c2.com/?YouArentGonnaNeedIt=
 
 Newly read:
 - Growing Object-Oriented Software, Guided by Tests
