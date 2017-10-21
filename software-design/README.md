@@ -93,6 +93,7 @@
 - http://alistair.cockburn.us/Hexagonal+architecture
 - http://misko.hevery.com/code-reviewers-guide/flaw-class-does-too-much/
 - http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- https://medium.com/javascript-scene/functional-mixins-composing-software-ffb66d5e731c
 - https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - http://williamdurand.fr/2013/06/03/object-calisthenics/
