@@ -154,6 +154,24 @@
 - http://blog.thecodewhisperer.com/permalink/ten-ways-to-kill-your-design
 - http://blog.thecodewhisperer.com/permalink/what-your-tests-dont-need-to-know-will-hurt-you
 
+## Misko Hevery
+- http://misko.hevery.com/2008/07/16/top-10-things-i-do-on-every-project/
+- http://misko.hevery.com/2008/07/30/top-10-things-which-make-your-code-hard-to-test/
+- http://misko.hevery.com/2008/08/17/singletons-are-pathological-liars/
+- http://misko.hevery.com/2008/08/21/where-have-all-the-singletons-gone/
+- http://misko.hevery.com/2008/08/25/root-cause-of-singletons/
+- http://misko.hevery.com/2009/09/16/checked-exceptions-i-love-you-but-you-have-to-go/
+- http://misko.hevery.com/code-reviewers-guide/
+- http://misko.hevery.com/code-reviewers-guide/flaw-brittle-global-state-singletons/
+- http://misko.hevery.com/code-reviewers-guide/flaw-constructor-does-real-work/
+- http://misko.hevery.com/code-reviewers-guide/flaw-digging-into-collaborators/
+- http://www.alphaitjournal.com/2008/08/hevery-changing-developer-behaviour.html
+- http://www.alphaitjournal.com/2009/06/hevery-changing-developer-behaviour.html
+- https://www.youtube.com/watch?v=-FRm3VPhseI
+- https://www.youtube.com/watch?v=4F72VULWFvc
+- https://www.youtube.com/watch?v=XcT4yYu_TTs
+- https://www.youtube.com/watch?v=wEhu57pih5w
+
 Newly read:
 - Growing Object-Oriented Software, Guided by Tests
 - Refactoring: Evolving the design of software
