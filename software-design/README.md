@@ -87,6 +87,8 @@
 - http://feltpresence.com/reading_list
 - https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me
 - https://www.joelonsoftware.com/2005/11/22/reading-list-fog-creek-software-management-training-program/
+- https://github.com/testdouble/contributing-tests/wiki
+- http://www.jmock.org/oopsla2004.pdf
 
 ## Other
 - https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
