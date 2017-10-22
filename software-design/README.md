@@ -1,10 +1,12 @@
 
 ## Study paths
-- https://github.com/xpeppers/starway-to-orione
+- https://github.com/braydie/HowToBeAProgrammer
 - https://github.com/joebew42/study-path
 - https://github.com/flyeralarm/onboarding
 - https://github.com/nushackers/notes-to-cs-freshmen-from-the-future
+- https://github.com/sdmg15/Best-websites-a-programmer-should-visit
 - https://github.com/thoughtbot/guides/
+- https://github.com/xpeppers/starway-to-orione
 - http://ootips.org/
 - https://github.com/mr-mig/every-programmer-should-know
 - http://matt.might.net/articles/what-cs-majors-should-know/
