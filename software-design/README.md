@@ -97,7 +97,6 @@
 - https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
 - http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
-- http://blog.thecodewhisperer.com/permalink/beyond-mock-objects
 - http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
@@ -108,6 +107,7 @@
 - http://williamdurand.fr/2013/06/03/object-calisthenics/
 - https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
 - https://cstack.github.io/db_tutorial/
+
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
@@ -142,6 +142,17 @@
 
 ## Joel on software
 - https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+
+## J. B. Rainsberger
+- http://blog.jbrains.ca/permalink/the-four-elements-of-simple-design
+- http://blog.thecodewhisperer.com/permalink/a-model-for-improving-names
+- http://blog.thecodewhisperer.com/permalink/a-real-life-contract-test
+- http://blog.thecodewhisperer.com/permalink/beyond-mock-objects
+- http://blog.thecodewhisperer.com/permalink/clearing-up-the-integrated-tests-scam
+- http://blog.thecodewhisperer.com/permalink/injecting-dependencies-doesnt-have-to-hurt
+- http://blog.thecodewhisperer.com/permalink/surely-the-mars-rover-needed-integrated-tests-maybe-not
+- http://blog.thecodewhisperer.com/permalink/ten-ways-to-kill-your-design
+- http://blog.thecodewhisperer.com/permalink/what-your-tests-dont-need-to-know-will-hurt-you
 
 Newly read:
 - Growing Object-Oriented Software, Guided by Tests
