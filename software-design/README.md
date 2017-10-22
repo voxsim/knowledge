@@ -87,17 +87,21 @@
 - https://www.joelonsoftware.com/2005/11/22/reading-list-fog-creek-software-management-training-program/
 
 ## Other
+- https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
+- https://8thlight.com/blog/uncle-bob/2011/11/22/Clean-Architecture.html
+- https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
+- https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+- http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
+- http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- http://blog.thecodewhisperer.com/permalink/beyond-mock-objects
+- http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 - http://courses.cs.washington.edu/courses/cse341/16sp/
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 - http://norvig.com/21-days.html
 - http://alistair.cockburn.us/Hexagonal+architecture
 - http://misko.hevery.com/code-reviewers-guide/flaw-class-does-too-much/
-- http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
-- https://medium.com/javascript-scene/functional-mixins-composing-software-ffb66d5e731c
-- https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - http://williamdurand.fr/2013/06/03/object-calisthenics/
-- http://blog.thecodewhisperer.com/permalink/beyond-mock-objects
 - https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
 - https://cstack.github.io/db_tutorial/
 
@@ -125,6 +129,15 @@
 - http://wiki.c2.com/?StableDependenciesPrinciple
 - http://wiki.c2.com/?UnixWay
 - http://wiki.c2.com/?YouArentGonnaNeedIt=
+
+## Eric Elliott
+- https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
+- https://medium.com/javascript-scene/functional-mixins-composing-software-ffb66d5e731c
+- https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a
+- https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
+
+## Joel on software
+- https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 
 Newly read:
 - Growing Object-Oriented Software, Guided by Tests
