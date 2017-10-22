@@ -37,3 +37,5 @@
 |\xhh|Matches the character with the code hh (two hexadecimal digits)|
 |\uhhhh|Matches the character with the code hhhh (four hexadecimal digits).|
 |\u{hhhh}|(only when u flag is set) Matches the character with the Unicode value hhhh (hexadecimal digits).|
+
+- https://github.com/zeeshanu/learn-regex
