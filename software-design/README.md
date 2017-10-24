@@ -91,23 +91,22 @@
 - http://www.jmock.org/oopsla2004.pdf
 
 ## Other
-- https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
-- https://8thlight.com/blog/uncle-bob/2011/11/22/Clean-Architecture.html
-- https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
-- https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+- http://alistair.cockburn.us/Hexagonal+architecture
 - http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
 - http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 - http://courses.cs.washington.edu/courses/cse341/16sp/
-- http://www.artima.com/weblogs/viewpost.jsp?thread=331531
-- http://norvig.com/21-days.html
-- http://alistair.cockburn.us/Hexagonal+architecture
 - http://misko.hevery.com/code-reviewers-guide/flaw-class-does-too-much/
-- https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
+- http://norvig.com/21-days.html
 - http://williamdurand.fr/2013/06/03/object-calisthenics/
-- https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
+- http://www.artima.com/weblogs/viewpost.jsp?thread=331531
+- https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
+- https://8thlight.com/blog/uncle-bob/2011/11/22/Clean-Architecture.html
+- https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
+- https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
 - https://cstack.github.io/db_tutorial/
-
+- https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
+- https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
