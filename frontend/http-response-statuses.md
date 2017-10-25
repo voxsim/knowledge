@@ -17,7 +17,7 @@
   There is no response body. We can use when we have PUT, DELETE.
 - 207 Multi-Status
   The response body contains multiple status informations for different parts of a batch/bulk request
-  
+
 ## 3×× Redirection
 - 300 Multiple Choices
   The request has more than one possible responses. User-agent or user should choose one of them. There is no standardized way to choose one of the responses.

@@ -9,7 +9,7 @@
   - Only last as long as window/tab is open
   - new window/tab is a new session
   - great for sensitive data
-  
+
 ### Operations
 - setItem(key, value)
 - getItem(key)

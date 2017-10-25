@@ -1,6 +1,8 @@
 Read:
 - http://atomicdesign.bradfrost.com/table-of-contents/
 - http://designingfortheweb.co.uk/
+- https://blog.balsamiq.com/ux-ui-links-2017-03/
+- https://blog.balsamiq.com/ux-ui-links/
 - https://frontendmasters.com/courses/
 - https://github.com/dexteryy/spellbook-of-modern-webdev
 - https://github.com/dypsilon/frontend-dev-bookmarks

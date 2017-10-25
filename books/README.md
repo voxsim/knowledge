@@ -1,4 +1,3 @@
-
 - http://www.meaningfulhq.com/the-one-thing.html
 - https://jamesclear.com/book-summaries/what-got-you-here-wont-get-you-there
 - https://www.hubspot.com/sales/how-to-win-friends-and-influence-people-summary
