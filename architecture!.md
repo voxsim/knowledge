@@ -7,6 +7,7 @@
 - https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 - https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq
 - https://lwn.net/Articles/250967/
+- https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957
 
 Process memory is split in two segments:
 - Stack: Local variables, return address, etc.
