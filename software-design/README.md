@@ -108,6 +108,7 @@
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - http://verraes.net/#blog
 - http://verraes.net/2015/02/form-command-model-validation/
+- https://murze.be/2017/10/seven-ineffective-coding-habits-many-programmers/
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
