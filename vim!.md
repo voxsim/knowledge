@@ -20,3 +20,4 @@
 - https://github.com/agarrharr/awesome-cli-apps
 - https://github.com/unixorn/awesome-zsh-plugins
 - https://github.com/clvv/fasd
+- https://www.infoq.com/presentations/Vim-From-Essentials-to-Mastery
