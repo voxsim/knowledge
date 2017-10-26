@@ -1198,3 +1198,4 @@ More info to write up:
 - http://queue.acm.org/detail.cfm?id=2745385
 - https://www.microsoft.com/en-us/research/publication/time-clocks-ordering-events-distributed-system/
 - https://github.com/heathermiller/dist-prog-book
+- https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/
