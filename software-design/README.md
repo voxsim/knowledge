@@ -109,6 +109,7 @@
 - http://verraes.net/#blog
 - http://verraes.net/2015/02/form-command-model-validation/
 - https://murze.be/2017/10/seven-ineffective-coding-habits-many-programmers/
+- https://lwn.net/Articles/191059/
 
 ## Kent Beck
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
