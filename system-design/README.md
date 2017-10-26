@@ -1197,3 +1197,4 @@ More info to write up:
 - https://gist.github.com/jboner/2841832
 - http://queue.acm.org/detail.cfm?id=2745385
 - https://www.microsoft.com/en-us/research/publication/time-clocks-ordering-events-distributed-system/
+- https://github.com/heathermiller/dist-prog-book
