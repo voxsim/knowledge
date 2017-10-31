@@ -17,3 +17,4 @@ Read:
 - http://www.brandhousebook.com/mobile/index.html
 - http://www.coffeecup.com/help/articles/responsive-site-designer-help-manual/
 - https://www.designbetter.co/
+- https://blog.kentcdodds.com/effective-snapshot-testing-e0d1a2c28eca
