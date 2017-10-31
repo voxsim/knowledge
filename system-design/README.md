@@ -1199,3 +1199,4 @@ More info to write up:
 - https://www.microsoft.com/en-us/research/publication/time-clocks-ordering-events-distributed-system/
 - https://github.com/heathermiller/dist-prog-book
 - https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/
+- https://www.techinasia.com/talk/5-companines-5-days-5-offers
