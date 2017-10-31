@@ -1200,3 +1200,5 @@ More info to write up:
 - https://github.com/heathermiller/dist-prog-book
 - https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/
 - https://www.techinasia.com/talk/5-companines-5-days-5-offers
+- https://landing.google.com/sre/book/index.html
+- https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c
