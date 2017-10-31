@@ -13,3 +13,4 @@
 - https://github.com/lsegal/my_toy_compiler
 - https://ruslanspivak.com/lsbasi-part1/
 - https://tomassetti.me/parse-tree-abstract-syntax-tree/
+- https://tomassetti.me/guide-parsing-algorithms-terminology/
