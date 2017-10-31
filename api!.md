@@ -8,3 +8,4 @@
 - http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
 - http://graphql.org/learn/
 - http://www.grpc.io/
+- https://nordicapis.com/the-art-and-personalization-of-the-api-documentation-experience/
