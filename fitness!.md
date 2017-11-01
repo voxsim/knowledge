@@ -43,6 +43,7 @@
 - [ ] http://www.reddit.com/r/Fitness/comments/1f1kqy/why_nobody_is_critiquing_your_workout_read_this/
 - [ ] https://www.reddit.com/r/Fitness/wiki/faq#wiki_how_do_i_add_cardio_to_my_lifting.3F__.28or_vice_versa.3F.29
 - [ ] https://www.reddit.com/r/Fitness/wiki/faq#wiki_what_exercises_can_i_do_to_target_my_.26lt.3Bmuscle.26gt.3B_.2F_replace_.26lt.3Bdifferent_exercise.26gt.3B.3F
+- https://zenhabits.net/plantstrong/
 
 How do I calculate my macros?
 The absolute simplest, bare bones answer to this is:
