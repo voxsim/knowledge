@@ -83,3 +83,4 @@ TODO:
 - https://www.brainpickings.org/2016/07/11/the-lonely-city-olivia-laing/
 - https://www.brainpickings.org/2016/05/23/against-self-criticism-adam-phillips-unforbidden-pleasures/
 - https://www.designluck.com/forget-happiness/
+- https://www.designluck.com/elon-musk-motivation/
