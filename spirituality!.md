@@ -9,7 +9,6 @@ In more recent times, I've also been studying ancient and modern stoic writings
 and trying to experiment with putting these ideas into practice in my day to day
 life.
 
-
 ## Books To do list
 
 ### Buddhism & Zen
@@ -74,3 +73,12 @@ It took a long time for me to realize that people can tell the difference
 between when you're open or closed. We can't connect with closed people. We
 cannot connect with others when we are closed. Be open with others. Confidence
 is borne from trust.
+
+TODO:
+- https://www.brainpickings.org/2015/01/30/d-t-suzuki-essays-in-zen-buddhism/
+- https://www.brainpickings.org/2013/10/23/7-lessons-from-7-years/
+- https://www.brainpickings.org/2016/10/23/10-years-of-brain-pickings/
+- https://www.brainpickings.org/2017/07/17/when-things-fall-apart-pema-chodron/
+- https://www.brainpickings.org/2014/10/15/nietzsche-on-difficulty/
+- https://www.brainpickings.org/2016/07/11/the-lonely-city-olivia-laing/
+- https://www.brainpickings.org/2016/05/23/against-self-criticism-adam-phillips-unforbidden-pleasures/
