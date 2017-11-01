@@ -84,3 +84,6 @@ TODO:
 - https://www.brainpickings.org/2016/05/23/against-self-criticism-adam-phillips-unforbidden-pleasures/
 - https://www.designluck.com/forget-happiness/
 - https://www.designluck.com/elon-musk-motivation/
+- https://www.designluck.com/albert-einstein-creativity/
+- https://www.designluck.com/permission-to-be-a-leader/
+- [How to Have a Good Conversation](https://www.youtube.com/watch?v=iEg5_MaxFPo)
