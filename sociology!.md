@@ -1,0 +1,5 @@
+- [ SOCIOLOGY - Alexis De Tocqueville ]( https://www.youtube.com/watch?v=Rzr3AOtFA8o )
+- [ SOCIOLOGY - Auguste Comte ]( https://www.youtube.com/watch?v=OhVamhT4Q3s )
+- [ SOCIOLOGY - Max Weber ]( https://www.youtube.com/watch?v=ICppFQ6Tabw )
+- [ SOCIOLOGY - Theodor Adorno ]( https://www.youtube.com/watch?v=4YGnPgtWhsw )
+- [ SOCIOLOGY - Émile Durkheim ]( https://www.youtube.com/watch?v=z9W0GQvONKc )

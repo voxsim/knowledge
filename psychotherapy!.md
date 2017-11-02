@@ -1,0 +1,6 @@
+- [ PSYCHOTHERAPY - Anna Freud ]( https://www.youtube.com/watch?v=v80Nd8w1uts )
+- [ PSYCHOTHERAPY - Donald Winnicott ]( https://www.youtube.com/watch?v=ZaZkvvB367I )
+- [ PSYCHOTHERAPY - Jacques Lacan ]( https://www.youtube.com/watch?v=5OnhOXq7m4w )
+- [ PSYCHOTHERAPY - John Bowlby ]( https://www.youtube.com/watch?v=3LM0nE81mIE )
+- [ PSYCHOTHERAPY - Melanie Klein ]( https://www.youtube.com/watch?v=HU3iSW6WTo8 )
+- [ PSYCHOTHERAPY - Sigmund Freud ]( https://www.youtube.com/watch?v=mQaqXK7z9LM )
