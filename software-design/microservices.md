@@ -1,2 +1,8 @@
 - https://martinfowler.com/articles/microservices.html
 - https://www.youtube.com/watch?v=wgdBVIX9ifA
+- [ Adrian Cockcroft|The Evolution of Microservices ]( http://www.ustream.tv/recorded/86151804 )
+- [ GOTO 2017 • Knee Deep in Microservices • Adam Sándor ]( https://www.youtube.com/watch?v=2Rn2VxG2tBU )
+- [ Measuring Microservices ]( http://www.infoq.com/presentations/measuring-microservices )
+- [ Microservices Anti-Patterns ]( https://www.youtube.com/watch?v=I56HzTKvZKc )
+- [ Microservices for Mortals ]( https://www.youtube.com/watch?v=5ZSA99aq6UA )
+- [ What Comes after Microservices ]( https://www.youtube.com/watch?v=UDC3kwkBvkA )
