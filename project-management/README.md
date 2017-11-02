@@ -1,3 +1,26 @@
 - https://github.com/wearehive/project-guidelines
 - https://github.com/yarnpkg/yarn/issues/376
 - https://github.com/etsy/DebriefingFacilitationGuide
+- https://ronjeffries.com/articles/015-10/the-backlog/article.html
+- [The Good Product Owner - A path to become great](https://www.youtube.com/watch?v=tIk9HUyRXJ4)
+- [Managing By The 'Book - Kent Beck](https://www.youtube.com/watch?v=I3tTCuhO6ho)
+- [Pierluigi Pugliese - Come scegliere un coach agile?](https://vimeo.com/81136301)
+- [What is leadership?](https://www.youtube.com/watch?v=pYKH2uSax8U)
+- [#NoEstimates (Allen Holub)](https://www.youtube.com/watch?v=QVBlnCTu9Ms)
+- https://www.infoq.com/presentations/user-story-map
+- https://www.infoq.com/articles/host-leadership-agile
+- [Opening keynote - Dr. Alistair Cockburn "Why Agile Works"](https://www.youtube.com/watch?v=BdSiBlLafNY)
+- [Why Scaling Agile Doesn't Work • Jez Humble](https://www.youtube.com/watch?v=2zYxWEZ0gYg)
+- http://blackswanfarming.com/cost-of-delay/
+- http://www.extremeprogramming.org/rules/crccards.html
+- http://www.extremeprogramming.org/example/crcsim.html
+- http://alistair.cockburn.us/What+is+a+process+good+for%3F
+- [Google I/O 2009 - The Myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Google I/O 2008 - Open Source Projects and Poisonous People](https://www.youtube.com/watch?v=-F-3E8pyjFo)
+- [Google I/O 2010 - The joys of engineering leadership](https://www.youtube.com/watch?v=skD1fjxSRog)
+- [Google I/O 2012 - The Art of Organizational Manipulation](https://www.youtube.com/watch?v=OTCuYzAw31Y)
+- Team Geek
+- [Agile Product Ownership in a Nutshell](https://www.youtube.com/watch?v=502ILHjX9EE)
+- [Lean Summit 2012 - Mike Rother - Toyota Kata](https://www.youtube.com/watch?v=fYoppX3VHIY)
+- [Google I/O 2009 - Do You Believe in the Users?](https://www.youtube.com/watch?v=2an9bWOo89o)
+- [KEYNOTE: Velocity and Volume (or Speed Wins) by Adrian Cockcroft](https://www.youtube.com/watch?v=wyWI3gLpB8o)
