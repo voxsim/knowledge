@@ -191,3 +191,20 @@ Newly read:
 - Software systems architecture
 - Release it!
 - Working Effectively with legacy code
+- [ Sandi Metz|All the Little Things ]( https://www.youtube.com/watch?v=8bZh5LMaSmE )
+- [ Sandi Metz|Less - The Path to Better Design ]( https://vimeo.com/53154357 )
+- [ Sandi Metz|Madam Sandi Tells Your Future ]( https://www.youtube.com/watch?v=JOM5_V5jLAs )
+- [ Sandi Metz|Magic Tricks of Testing - Ancient City Ruby 2013 ]( https://www.youtube.com/watch?v=qPfQM4w4I04 )
+- [ Sandi Metz|Nothing is Something ]( https://www.youtube.com/watch?v=OMPfEXIlTVE )
+- [ Sandi Metz|SOLID Object-Oriented Design ]( https://www.youtube.com/watch?v=v-2yFMzxqwU )
+- [ Katrina Owen|Here be Dragons ]( https://www.youtube.com/watch?v=FvrZrwR5Flc )
+- [ Katrina Owen|Overkill ]( https://www.youtube.com/watch?v=GWEEPt8VvmU )
+- [ Katrina Owen|Succession ]( https://www.youtube.com/watch?v=59YClXmkCVM )
+- [ Katrina Owen|Therapeutic Refactoring ]( https://www.youtube.com/watch?v=J4dlF0kcThQ )
+- [ Nat Pryce|Encapsulation is not Information Hiding ]( http://www.natpryce.com/articles/000498.html )
+- [ Nat Pryce|Message Obsession ]( http://www.natpryce.com/articles/000816.html )
+- [ Nat Pryce|Mock Roles Not Object States ]( http://www.infoq.com/presentations/Mock-Objects-Nat-Pryce-Steve-Freeman )
+- [ Nat Pryce|Refactoring Interfaces ]( http://www.natpryce.com/articles/000746.html )
+- [ Nat Pryce|Test Data Builders: an alternative to the Object Mother pattern ]( http://natpryce.com/articles/000714.html?utm_campaign=buffer&utm_content=bufferf8b0f&utm_medium=social&utm_source=twitter.com )
+- [ Nat Pryce|Working Effectively with Legacy Tests ]( http://www.natpryce.com/articles/000813.html )
+- [ SC London 2017 (Day 1) What We Talk About When We Talk About Software by Nat Pryce ]( https://www.youtube.com/watch?v=syLjjmRgTsE )
