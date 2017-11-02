@@ -1,3 +1,8 @@
 - https://martinfowler.com/bliki/DevOpsCulture.html
 - https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002
 - https://www.cevo.com.au/culture/2017/03/12/four-values-of-devops.html
+- [ Jez Humble|Adopting Continuous Delivery ]( https://www.youtube.com/watch?v=ZLBhVEo1OG4 )
+- [ Jez Humble|Architecting for Continuous Delivery ]( https://www.youtube.com/watch?v=_wnd-eyPoMo )
+- [ Jez Humble|Stop Hiring DevOps Experts and Start Growing Them ]( https://www.youtube.com/watch?v=6m9nCtyn6kE )
+- [ Jez Humble|What is Value? ]( https://www.youtube.com/watch?v=ESOaDiv3lXA )
+- [ Jez Humble|You Can Have It All: Software Development at Ludicrous Speed ]( http://www.ustream.tv/recorded/86180704 )
