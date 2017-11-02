@@ -236,3 +236,8 @@ Newly read:
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-7-intent-to-domain-abstraction/ )
 - [ Arlo Belshee|New code is legacy code ]( http://arlobelshee.com/new-code-is-legacy-code/ )
 - [ Arlo Belshee|WET: When DRY Doesn’t Apply ]( http://arlobelshee.com/wet-when-dry-doesnt-apply/ )
+- [ Michael Feathers|Stunting a Framework ]( http://www.artima.com/weblogs/viewpost.jsp?thread=8826 )
+- [ Michael Feathers|The Deep Synergy Between Testability and Good Design ]( https://vimeo.com/15007792 )
+- [ Michael Feathers|The Ethics of Error Prevention ]( https://www.infoq.com/presentations/error-prevention-ethics )
+- [ Michael Feathers|Using Repository Analysis to Find Single Responsibility Violations ]( http://michaelfeathers.silvrback.com/using-repository-analysis-to-find-single-responsibility-violations )
+- [ SC London 2017 (Day 2) Understanding Understandability by Michael Feathers ]( https://www.youtube.com/watch?v=oUswpgf5V9M )
