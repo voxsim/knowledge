@@ -1,0 +1,15 @@
+-  http://giteinlombardia.it/tour/chiesa-san-bernardino-ossa/ (Chiesa di San Bernardino alle Ossa - Milano)
+-  Parco Lambro - crescenzago m2
+-  http://www.parcodellecave.it/ (Parco delle Cave)
+-  http://giteinlombardia.it/tour/riserva-fagiana/ (Riserva della Fagiana - Parco del Ticino) #
+-  http://giteinlombardia.it/tour/cenacolo-vinciano/ (Cenacolo vinciano - Gite in Lombardia)
+-  http://pinacotecabrera.org/en/ (Pinacoteca di Brera | Official Website)
+-  http://giteinlombardia.it/tour/basilica-di-san-lorenzo-maggiore/ (Basilica di San Lorenzo Maggiore - Milano)
+-  http://giteinlombardia.it/tour/mudec/ (Mudec - Milano)
+-  http://giteinlombardia.it/tour/abbazia-di-chiaravalle/ (Abbazia di Chiaravalle - Milano)
+-  http://giteinlombardia.it/tour/chiesa-di-san-maurizio-al-monastero-maggiore/ (Chiesa di San Maurizio - Milano)
+-  "http://giteinlombardia.it/tour/villa-clerici/ (Visitiamo Villa Clerici tra sculture
+-  Villa Invernizzi
+-  villa necchi
+-  palazzo  meregalli
+-  le ville di milano palestro (via giuseppe baretti)
