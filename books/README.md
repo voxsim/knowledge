@@ -9,3 +9,4 @@
 - http://www.deconstructingexcellence.com/the-7-habits-of-highly-effective-people-summary/
 
 - http://www.deconstructingexcellence.com/think-and-grow-rich-summary/
+- http://www.johnwittenauer.net/tag/book-review/
