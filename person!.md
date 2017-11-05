@@ -44,6 +44,8 @@ Leaders holds a position of power or authority, but those who lead inspire us.
 
 # Epiphany
 - There are two types of law in this world: those that are made by a higher authority and those are made by men. And not until all the laws that are made by men are consistent with the laws made by a higher authority will we live in a just world.
+- Know other people that can tell you what you really are, what you think about yourself are just illusions, you should think harder and analyze yourself.
+- Apart of the former couple, you can couple with your mind with many others, that can stimulate yourself.
 
 # Buddhism, Zen, Stoicism, ...
 
