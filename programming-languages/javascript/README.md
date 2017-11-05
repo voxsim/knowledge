@@ -651,3 +651,5 @@ More info:
 - risistemare javascript / object
 - mettere delete sotto gli operatori
 - mergiare es6 nel javascript
+- [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- [Arindam Paul - JavaScript VM internals, EventLoop, Async and ScopeChains](https://www.youtube.com/watch?v=QyUFheng6J0)
