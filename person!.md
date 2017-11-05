@@ -47,6 +47,18 @@ Leaders holds a position of power or authority, but those who lead inspire us.
 - Know other people that can tell you what you really are, what you think about yourself are just illusions, you should think harder and analyze yourself.
 - Apart of the former couple, you can couple with your mind with many others, that can stimulate yourself.
 
+# Emapthy vs Sumpathy
+Empathy fuels connection, instead Simpathy drives disconnection. Empathy has four qualities:
+- Perspective taking, the ability to take the perspective of another person or recognise their perspective as their truth
+- Staying out of judgement, not easy when enjoy it as much us do
+- Recognising emotion of other people, then communicating that
+- Empathy is feeling WITH people
+-> Empathy good phrase is "I know what it's like down here and you are not alone"
+-> Instead simphaty is "Uuuh, is bad? ah?"
+Empathy is a choice, a vulnerable choice, because in order to connect I have to connect with something that knows that feeling.
+Simpathy try to address the vulnerability trying to change the discourse or galvanize with the good part.
+A good empathy person say "I don't even know how to say, but I am just glad that you told me"; because the thruth is rarely an answer make something better; what makes something better is connection.
+
 # Buddhism, Zen, Stoicism, ...
 
 I've been studying buddhism since August 2016. Quite by accident in fact, when I
@@ -137,6 +149,7 @@ Other:
 - https://www.designluck.com/permission-to-be-a-leader/
 - [How to Have a Good Conversation](https://www.youtube.com/watch?v=iEg5_MaxFPo)
 - [This is Why You Don't SUCCEED - One of the Best Motivational Speeches Ever](https://www.youtube.com/watch?v=3ev7GXzFTPg)
+- [Simon Sinek on Millennials in the Workplace](https://www.youtube.com/watch?v=nvAcQHhCunw&index=17&list=PLMo9vqiZPs0QcndanMjwoQixhH2Pp6efI)
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RycBfFxDA9912figrihp7v
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0Q1OqJfVQMLwmLazp3dGZ7g
