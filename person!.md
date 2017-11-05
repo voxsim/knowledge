@@ -150,7 +150,7 @@ Other:
 - [How to Have a Good Conversation](https://www.youtube.com/watch?v=iEg5_MaxFPo)
 - [This is Why You Don't SUCCEED - One of the Best Motivational Speeches Ever](https://www.youtube.com/watch?v=3ev7GXzFTPg)
 - [Simon Sinek on Millennials in the Workplace](https://www.youtube.com/watch?v=nvAcQHhCunw&index=17&list=PLMo9vqiZPs0QcndanMjwoQixhH2Pp6efI)
-- https://www.youtube.com/playlist?list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv
+- https://www.youtube.com/watch?v=P1iVE8wxGwA&list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv&index=2
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RycBfFxDA9912figrihp7v
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0Q1OqJfVQMLwmLazp3dGZ7g
 - https://www.youtube.com/playlist?list=PL39BF9545D740ECFF
