@@ -1202,3 +1202,4 @@ More info to write up:
 - https://www.techinasia.com/talk/5-companines-5-days-5-offers
 - https://landing.google.com/sre/book/index.html
 - https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c
+- https://12factor.net/
