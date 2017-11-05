@@ -244,3 +244,6 @@ Newly read:
 - [ ootips|The Origins of Object Orientation ]( http://ootips.org/history.html )
 - [ ootips|What Makes A Good Object-Oriented Design? ]( http://ootips.org/ood-principles.html )
 - https://en.wikipedia.org/wiki/Presenter_first_(software_approach)
+- https://pragprog.com/articles/tell-dont-ask
+- https://mitpress.mit.edu/sicp/
+- [Immutable User Interfaces](https://mitpress.mit.edu/sicp/)
