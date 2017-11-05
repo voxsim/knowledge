@@ -14,3 +14,4 @@
 - https://ruslanspivak.com/lsbasi-part1/
 - https://tomassetti.me/parse-tree-abstract-syntax-tree/
 - https://tomassetti.me/guide-parsing-algorithms-terminology/
+- [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
