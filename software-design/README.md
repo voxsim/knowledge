@@ -243,3 +243,4 @@ Newly read:
 - [ SC London 2017 (Day 2) Understanding Understandability by Michael Feathers ]( https://www.youtube.com/watch?v=oUswpgf5V9M )
 - [ ootips|The Origins of Object Orientation ]( http://ootips.org/history.html )
 - [ ootips|What Makes A Good Object-Oriented Design? ]( http://ootips.org/ood-principles.html )
+- https://en.wikipedia.org/wiki/Presenter_first_(software_approach)
