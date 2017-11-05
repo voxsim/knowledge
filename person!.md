@@ -11,6 +11,14 @@
 - Have passion
 - Favoring consistency over intensity: we should do often the things we care, every moment in a while, instead of doing something a lot in a short time of period
 - Be the change you want to see
+- Break the rules
+- Train your mind
+- Be patient
+- Take accountability
+- Outdo yourself, always try to be better, everyday
+- Be the last to speak: A great leader always heard what everyone has to say, don't nod the face, he asks questions to understand everything, he gives to everyone the space and the ability to feel that they have contributed.
+- Be authentic
+- Always think why you do things
 
 ## Motivation
 As long as the task involved only mechanical skills:
