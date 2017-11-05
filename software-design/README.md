@@ -272,3 +272,5 @@ Newly read:
 - [ How we program multicores - Joe Armstrong ]( https://www.youtube.com/watch?v=bo5WL5IQAd0 )
 - [ GOTO 2017 • The Many Meanings of Event-Driven Architecture • Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 - [ Sebastian Markbage: Minimal API Surface Area | JSConf EU 2014](https://www.youtube.com/watch?v=4anAwXYqLG8)
+- https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29
+- [ PHPNW13 Sunday Track 2 Talk 2: Anthony Ferrara - Don't be STUPID, Grasp SOLID ](https://www.youtube.com/watch?v=KHBrDWIKW8Q)
