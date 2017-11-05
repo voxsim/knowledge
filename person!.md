@@ -137,7 +137,6 @@ Other:
 - https://www.designluck.com/permission-to-be-a-leader/
 - [How to Have a Good Conversation](https://www.youtube.com/watch?v=iEg5_MaxFPo)
 - [This is Why You Don't SUCCEED - One of the Best Motivational Speeches Ever](https://www.youtube.com/watch?v=3ev7GXzFTPg)
-- https://www.youtube.com/playlist?list=PLMo9vqiZPs0QcndanMjwoQixhH2Pp6efI
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RycBfFxDA9912figrihp7v
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0Q1OqJfVQMLwmLazp3dGZ7g
