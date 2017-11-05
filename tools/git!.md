@@ -491,3 +491,4 @@ More info:
 - https://github.com/git-tips/tips
 - https://github.com/jkulak/git-ninja
 - https://github.com/tj/git-extras
+- [Paolo Perrotta - WRAPPING YOUR HEAD AROUND GIT](https://vimeo.com/146478456)
