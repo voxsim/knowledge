@@ -18,3 +18,5 @@ Read:
 - http://www.coffeecup.com/help/articles/responsive-site-designer-help-manual/
 - https://www.designbetter.co/
 - https://blog.kentcdodds.com/effective-snapshot-testing-e0d1a2c28eca
+- http://www.goodui.org/
+- https://uxdesign.cc/3-ways-to-improve-your-visual-design-skills-fa9dc8e583ff
