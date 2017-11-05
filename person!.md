@@ -28,6 +28,15 @@ This does not work when the task involved cognitive skills:
 - We can ends up understanding ourselves listening to the stories of other people. Usually anyone thinks that something that you say are important and others are boring, this is wrong.
 - In listening, can also shape, tease out, cut out, emphasise - in the name of getting the latent really good story to emerge from our companion's mind. So when listening, stop your companion digressing, bring back together to the last coherent and emotionally 'alive' part of the story. Draw them from numb surface details to deeper emotional realities, like 'What did feel like for you?' . Use signs that suggests an open mind. Don't do anything that close off a vulnerable confession, say 'go on..' you are not to judge, you are a friend. A good listener knows the one of the best ways to understand an issue in one's own life is to hear it discussed through the life of someone else - and futhermore he has the editing skills to make sure they can find themselves in the word of others. That way, listening will no longer a chore.
 
+# Leadership
+- The golden circle (why / how / what): From the lowest level to the highest level of leadership. Everyone knows what they do, some of them knows how to do them, and very few knows why they do them and for why we intends "what's your purpose? What's your cause? What do you beleif? Why your organization do exists". The inspiring people communicate from the inside to out, before they explains why, after how and finally what. Usually a lot of people they just explain what and how and make implicity why. People buy why we do it.
+Our neocortex brain corresponds with 'what level', it is responsible with all rational and analytical thought and language. The middle two sections make up our limbic brains and they are responsible for all of our feelings/decisions and that's why people buy why we do it.
+This people spend a lot for new things and they not did for the thing itself, but they did for himself.
+Leaders holds a position of power or authority, but those who lead inspire us. 
+
+# Epiphany
+- There are two types of law in this world: those that are made by a higher authority and those are made by men. And not until all the laws that are made by men are consistent with the laws made by a higher authority will we live in a just world.
+
 # Buddhism, Zen, Stoicism, ...
 
 I've been studying buddhism since August 2016. Quite by accident in fact, when I
