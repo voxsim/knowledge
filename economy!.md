@@ -1,0 +1,2 @@
+- https://github.com/LisaDziuba/Marketing-for-Engineers
+- https://www.youtube.com/playlist?list=PLD44D802EA3DA98E2
