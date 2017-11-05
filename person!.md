@@ -28,7 +28,95 @@ This does not work when the task involved cognitive skills:
 - We can ends up understanding ourselves listening to the stories of other people. Usually anyone thinks that something that you say are important and others are boring, this is wrong.
 - In listening, can also shape, tease out, cut out, emphasise - in the name of getting the latent really good story to emerge from our companion's mind. So when listening, stop your companion digressing, bring back together to the last coherent and emotionally 'alive' part of the story. Draw them from numb surface details to deeper emotional realities, like 'What did feel like for you?' . Use signs that suggests an open mind. Don't do anything that close off a vulnerable confession, say 'go on..' you are not to judge, you are a friend. A good listener knows the one of the best ways to understand an issue in one's own life is to hear it discussed through the life of someone else - and futhermore he has the editing skills to make sure they can find themselves in the word of others. That way, listening will no longer a chore.
 
+# Buddhism, Zen, Stoicism, ...
+
+I've been studying buddhism since August 2016. Quite by accident in fact, when I
+came across *Fearless* by Brenda Shoshanna, whose heady mixture of modern
+psychology and ancient buddhist wisdom acted as a gateway drug into a whole new
+way of looking at my mind and the world.
+
+In more recent times, I've also been studying ancient and modern stoic writings
+and trying to experiment with putting these ideas into practice in my day to day
+life.
+
+## Books To do list
+
+### Buddhism & Zen
+
+- **+** *Fearless: The 7 Principles of Peace of Mind* by Brenda Shoshanna
+- *Reflections of Zen*
+- *Rebel Budda* by Dzogchen Ponlop
+- **+** *The Issue at Hand* by Gil Fronsdal
+- **+** *Fear: Essential Wisdom for Getting Through the Storm* by Thich Nhat Hanh
+- *Smile at Fear* by Chogyan Trungpa
+- *Expect Nothing* by Clarice Bryan
+- *Stages of Meditation* by Dalai Lama XIV
+- *The Best Buddhist Writing of 2011* by Melvin McLeod (Editor), various
+- *Peace is Every Step* by Thich Nhat Hanh
+- **+** *Radical Acceptance* by Tara Brach
+- **+** *The Authentic Life* by Ezra Bayda
+- *The Zen of You and Me* by Diane Musho Hamilton
+
+**+**: I found particularly insightful; recommended.
+
+### Stoicism
+
+This reading list is still budding.
+
+- http://www.traditionalstoicism.com/2015/12/28/the-path-of-the-prokopton-the-discipline-of-assent/
+
+**+**: I found particularly insightful; recommended.
+
+## Books I'm Looking For
+
+- *The Obstacle Is The Way*
+- *A Guide to the Good Life: The Ancient Art of Stoic Joy*
+- *On the Shortness of Life*
+- *Stoicism* by John Sellars
+- *Stoic Serenity* by Keith Seddon
+- *The Inner Citadel* by Pierre Hadot
+
+## Finding Books
+
+Many spiritual practices have been around for an exceedingly long time. This
+works to your advantage in many ways. One such way is that your public library
+will likely be a great resource for such books.
+
+Your local library will have dozens of books on the subject, providing a near
+endless source of free wisdom for the aspiring adventurer of the mind.
+
+## Being Open
+
+It cannot be overstated the importance of openness.
+
+Expect nothing. This sounds bleak, but it's about the idea that when you don't
+expect anything from other people or things, they will delight you over and over
+again -- all without any disappointments.
+
+Cherish people for their oddities and idiosyncracies. Don't hold them up to your
+own set of values you live by: they aren't you.
+
+See each of the world's disregards of your expectations as an opportunity, not a
+cosmic insult. Learn to explore, not expect.
+
+It took a long time for me to realize that people can tell the difference
+between when you're open or closed. We can't connect with closed people. We
+cannot connect with others when we are closed. Be open with others. Confidence
+is borne from trust.
+
 Other:
+- https://www.brainpickings.org/2015/01/30/d-t-suzuki-essays-in-zen-buddhism/
+- https://www.brainpickings.org/2013/10/23/7-lessons-from-7-years/
+- https://www.brainpickings.org/2016/10/23/10-years-of-brain-pickings/
+- https://www.brainpickings.org/2017/07/17/when-things-fall-apart-pema-chodron/
+- https://www.brainpickings.org/2014/10/15/nietzsche-on-difficulty/
+- https://www.brainpickings.org/2016/07/11/the-lonely-city-olivia-laing/
+- https://www.brainpickings.org/2016/05/23/against-self-criticism-adam-phillips-unforbidden-pleasures/
+- https://www.designluck.com/forget-happiness/
+- https://www.designluck.com/elon-musk-motivation/
+- https://www.designluck.com/albert-einstein-creativity/
+- https://www.designluck.com/permission-to-be-a-leader/
+- [How to Have a Good Conversation](https://www.youtube.com/watch?v=iEg5_MaxFPo)
 - [This is Why You Don't SUCCEED - One of the Best Motivational Speeches Ever](https://www.youtube.com/watch?v=3ev7GXzFTPg)
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0QcndanMjwoQixhH2Pp6efI
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv
