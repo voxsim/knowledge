@@ -47,3 +47,4 @@
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
 - http://wiki.c2.com/?TestDrivenDevelopment
+- [ Writing Good Tests - Matteo Baglini - #iad14 ](https://vimeo.com/115568045)
