@@ -19,3 +19,4 @@ More:
 - https://medium.com/@cliffordoravec/the-epic-guide-to-bootstrapping-a-saas-startup-from-scratch-by-yourself-part-1-4d834e1df8c1
 - https://builtvisible.com/google-analytics-resource-guide/
 - https://blog.ycombinator.com/ycs-essential-startup-advice/
+- https://devlogger.wordpress.com/2008/09/23/do-the-hustle-by-obie-fernandez/
