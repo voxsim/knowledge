@@ -1,5 +1,5 @@
 ## Testability
-What the codes does is irrelevant; how the code is structured is all that matters for testability.
+What the codes does is irrelevant; how the code is structured is all that matters for testability. Testable code means properly managed the dependencies.
 
 ## Hard to test in code
 - Mixing creation/new in logic
@@ -22,6 +22,10 @@ What the codes does is irrelevant; how the code is structured is all that matter
 - Unit tests: test individual classes / methods in isolation
 
 They are ordered from the bigger execution time to fewer, they are also ordered by scope frome huge to small.
+
+## Test
+It must be easier write the test and see test result and after writing the application. We should refactoring without have brittle tests and we should even delete the code and rewrite the application if we write the tests in a good way.
+Every test should told us a story.
 
 - https://martinfowler.com/bliki/ObjectMother.html
 - https://martinfowler.com/bliki/SpecificationByExample.html
