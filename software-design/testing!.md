@@ -23,7 +23,6 @@ What the codes does is irrelevant; how the code is structured is all that matter
 
 They are ordered from the bigger execution time to fewer, they are also ordered by scope frome huge to small.
 
-- https://martinfowler.com/bliki/PageObject.html
 - https://martinfowler.com/bliki/ObjectMother.html
 - https://martinfowler.com/bliki/SpecificationByExample.html
 - https://martinfowler.com/bliki/SelfTestingCode.html
@@ -53,7 +52,6 @@ They are ordered from the bigger execution time to fewer, they are also ordered 
 - https://martinfowler.com/bliki/SpecificationByExample.html
 - https://martinfowler.com/bliki/NashvilleProject.html
 - https://martinfowler.com/bliki/SyntheticMonitoring.html
-- https://martinfowler.com/bliki/PageObject.html
 - https://martinfowler.com/bliki/TestCoverage.html
 - https://martinfowler.com/bliki/SelfTestingCode.html
 - https://martinfowler.com/bliki/TestDrivenDevelopment.html
