@@ -1,1 +1,0 @@
-- https://www.codeproject.com/articles/555855/introduction-to-cqrs

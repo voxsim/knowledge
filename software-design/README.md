@@ -10,12 +10,14 @@
 - [ "Growing a Language ]( https://www.youtube.com/watch?v=_ahvzDzKdB0 )
 - [ "Rich Hickey|Design ]( https://www.infoq.com/presentations/design-composition-performance-keynote )
 - [ Accidentally Concurrent - Evan Czaplicki ]( https://www.youtube.com/watch?v=DfLvDFxcAIA )
+- [ Adrian Cockcroft|The Evolution of Microservices ]( http://www.ustream.tv/recorded/86151804 )
 - [ Arlo Belshee|New code is legacy code ]( http://arlobelshee.com/new-code-is-legacy-code/ )
 - [ Arlo Belshee|WET: When DRY Doesn’t Apply ]( http://arlobelshee.com/wet-when-dry-doesnt-apply/ )
 - [ Ciaran McNulty - Why Your Test Suite Sucks ]( https://www.youtube.com/watch?v=DlgadZLOK-M )
 - [ Clojure/conj 2016 Keynote - Rich Hickey - YouTube ]( https://www.youtube.com/watch?v=oyLBGkS5ICk )
 - [ Dan North - Software that Fits in Your Head ]( https://www.youtube.com/watch?v=4Y0tOi7QWqM )
 - [ Evan Czaplicki|Controlling Time and Space: understanding the many formulations of FRP ]( https://www.youtube.com/watch?v=Agu6jipKfYw )
+- [ GOTO 2017 • Knee Deep in Microservices • Adam Sándor ]( https://www.youtube.com/watch?v=2Rn2VxG2tBU )
 - [ GOTO 2017 • The Many Meanings of Event-Driven Architecture • Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 - [ Gary Bernhardt|Deconstructing the framework ]( https://www.youtube.com/watch?v=iUe6tacW3JE )
 - [ Gary Bernhardt|Test Isolation Is About Avoiding Mocks ]( https://www.destroyallsoftware.com/blog/2014/test-isolation-is-about-avoiding-mocks )
@@ -36,10 +38,13 @@
 - [ Kent Beck|You Always Tell Stories to a Five-Year-Old and Other Lessons from a Storyteller ]( https://www.facebook.com/notes/kent-beck/you-always-tell-stories-to-a-five-year-old-and-other-lessons-from-a-storyteller/1186539594712236/ )
 - [ Mathias Verraes - Decoupling the Model from the Framework at Laracon EU 2014 ]( https://www.youtube.com/watch?v=QaIGN_cTcc8 )
 - [ Mathias Verraes - Unbreakable Domain Models ]( https://www.youtube.com/watch?v=ZJ63ltuwMaE&list=PL_aPVo2HeGF-7o9SPO5arFrAaU8bcIjba&index=8 )
+- [ Measuring Microservices ]( http://www.infoq.com/presentations/measuring-microservices )
 - [ Michael Feathers|Stunting a Framework ]( http://www.artima.com/weblogs/viewpost.jsp?thread=8826 )
 - [ Michael Feathers|The Deep Synergy Between Testability and Good Design ]( https://vimeo.com/15007792 )
 - [ Michael Feathers|The Ethics of Error Prevention ]( https://www.infoq.com/presentations/error-prevention-ethics )
 - [ Michael Feathers|Using Repository Analysis to Find Single Responsibility Violations ]( http://michaelfeathers.silvrback.com/using-repository-analysis-to-find-single-responsibility-violations )
+- [ Microservices Anti-Patterns ]( https://www.youtube.com/watch?v=I56HzTKvZKc )
+- [ Microservices for Mortals ]( https://www.youtube.com/watch?v=5ZSA99aq6UA )
 - [ Nat Pryce|Encapsulation is not Information Hiding ]( http://www.natpryce.com/articles/000498.html )
 - [ Nat Pryce|Message Obsession ]( http://www.natpryce.com/articles/000816.html )
 - [ Nat Pryce|Mock Roles Not Object States ]( http://www.infoq.com/presentations/Mock-Objects-Nat-Pryce-Steve-Freeman )
@@ -71,6 +76,8 @@
 - [ Stuart Sierra - Components Just Enough Structure ]( https://www.youtube.com/watch?v=13cmHf_kt-Q )
 - [ The Clean Code Talks - Don't Look For Things! - YouTube ]( https://www.youtube.com/watch?v=RlfLCWKxHJ0 )
 - [ Tom Stuart - Refactoring Ruby with Monads ]( https://www.youtube.com/watch?v=J1jYlPtkrqQ )
+- [ What Comes after Microservices ]( https://www.youtube.com/watch?v=UDC3kwkBvkA )
+- [ Writing Good Tests - Matteo Baglini - #iad14 ](https://vimeo.com/115568045)
 - [ ootips|The Origins of Object Orientation ]( http://ootips.org/history.html )
 - [ ootips|What Makes A Good Object-Oriented Design? ]( http://ootips.org/ood-principles.html )
 - [How To Design A Good API and Why it Matters](https://www.youtube.com/watch?v=heh4OeB9A-c)
@@ -78,8 +85,16 @@
 - [Mixins Considered Harmful](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html)
 - [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 - http://alistair.cockburn.us/Hexagonal+architecture
+- http://amzn.to/1bFjP6F
+- http://amzn.to/1e9iAMM
+- http://amzn.to/1f0S8pS
+- http://amzn.to/1fM2pG6
+- http://amzn.to/1hHcPaD
+- http://amzn.to/1mwsAUU
+- http://amzn.to/1mwsH2P
 - http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
 - http://blog.jbrains.ca/permalink/the-four-elements-of-simple-design
 - http://blog.thecodewhisperer.com/permalink/a-model-for-improving-names
 - http://blog.thecodewhisperer.com/permalink/a-real-life-contract-test
@@ -89,11 +104,22 @@
 - http://blog.thecodewhisperer.com/permalink/surely-the-mars-rover-needed-integrated-tests-maybe-not
 - http://blog.thecodewhisperer.com/permalink/ten-ways-to-kill-your-design
 - http://blog.thecodewhisperer.com/permalink/what-your-tests-dont-need-to-know-will-hurt-you
+- http://blog.wittchen.biz.pl/basic-code-refactoring-principles/
 - http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+- http://c2.com/cgi/wiki?ThreeStrikes
+- http://c2.com/cgi/wiki?ThreeStrikesAndYouAutomate
+- http://c2.com/cgi/wiki?ThreeStrikesAndYouRefactor
+- http://c2.com/cgi/wiki?UseBeforeReuse
 - http://c2.com/xp/CodeSmell.html
 - http://courses.cs.washington.edu/courses/cse341/16sp/
+- http://en.wikipedia.org/wiki/Code_smell
+- http://en.wikipedia.org/wiki/Gold_plating_%28software_engineering%29
+- http://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
+- http://en.wikipedia.org/wiki/YAGNI
 - http://feltpresence.com/reading_list
 - http://isr.uci.edu/Software/phaseII_reading_list.html
+- http://martinfowler.com/tags/evolutionary%20design.html
+- http://martinfowler.com/tags/refactoring.html
 - http://matt.might.net/articles/what-cs-majors-should-know/
 - http://misko.hevery.com/2008/07/16/top-10-things-i-do-on-every-project/
 - http://misko.hevery.com/2008/07/30/top-10-things-which-make-your-code-hard-to-test/
@@ -110,6 +136,7 @@
 - http://norvig.com/21-days.html
 - http://ootips.org/
 - http://port70.net/~nsz/00_prog.html
+- http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
 - http://verraes.net/#blog
 - http://verraes.net/2015/02/form-command-model-validation/
 - http://wiki.c2.com/?AcyclicDependenciesPrinciple
@@ -117,6 +144,7 @@
 - http://wiki.c2.com/?CommonReusePrinciple
 - http://wiki.c2.com/?CouplingAndCohesion
 - http://wiki.c2.com/?DependencyInversionPrinciple
+- http://wiki.c2.com/?DontRepeatYourself
 - http://wiki.c2.com/?EncapsulationIsNotInformationHiding
 - http://wiki.c2.com/?ExpressionProblem=
 - http://wiki.c2.com/?InterfaceSegregationPrinciple
@@ -125,15 +153,20 @@
 - http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast
 - http://wiki.c2.com/?OpenClosedPrinciple
 - http://wiki.c2.com/?ReuseReleaseEquivalencePrinciple
+- http://wiki.c2.com/?SeparationOfConcerns
 - http://wiki.c2.com/?SingleResponsibilityPrinciple
 - http://wiki.c2.com/?StableAbstractionsPrinciple
 - http://wiki.c2.com/?StableDependenciesPrinciple
+- http://wiki.c2.com/?TechnicalDebt
+- http://wiki.c2.com/?TestDrivenDevelopment
 - http://wiki.c2.com/?UnixWay
 - http://wiki.c2.com/?YouArentGonnaNeedIt=
 - http://williamdurand.fr/2013/06/03/object-calisthenics/
 - http://www.alphaitjournal.com/2008/08/hevery-changing-developer-behaviour.html
 - http://www.alphaitjournal.com/2009/06/hevery-changing-developer-behaviour.html
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
+- http://www.faqs.org/docs/artu/ch01s06.html
+- http://www.infoq.com/presentations/Architecture-Without-an-End-State
 - http://www.jmock.org/oopsla2004.pdf
 - http://www.philosophicalgeek.com/2007/11/21/books/
 - http://www.poppendieck.com/reference.htm
@@ -142,15 +175,20 @@
 - http://xunitpatterns.com/External%20Patterns.html
 - http://xunitpatterns.com/Fixture%20Setup%20Patterns.html
 - http://xunitpatterns.com/Fixture%20Teardown%20Patterns.html 
+- http://xunitpatterns.com/Fragile%20Test.html
 - http://xunitpatterns.com/Humble%20Object.html
+- http://xunitpatterns.com/Obscure%20Test.html
 - http://xunitpatterns.com/Outline.html
 - http://xunitpatterns.com/Problem-Pattern%20Cross-Reference.html
+- http://xunitpatterns.com/Slow%20Tests.html
 - https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
 - https://8thlight.com/blog/uncle-bob/2011/11/22/Clean-Architecture.html
 - https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
 - https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+- https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
 - https://blog.codinghorror.com/recommended-reading-for-developers/
 - https://cstack.github.io/db_tutorial/
+- https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
 - https://en.wikipedia.org/wiki/Presenter_first_(software_approach)
 - https://github.com/braydie/HowToBeAProgrammer
 - https://github.com/flyeralarm/onboarding
@@ -162,12 +200,79 @@
 - https://github.com/thoughtbot/guides/
 - https://github.com/xpeppers/starway-to-orione
 - https://lwn.net/Articles/191059/
+- https://martinfowler.com/articles/continuousIntegration.html
 - https://martinfowler.com/articles/designDead.html
+- https://martinfowler.com/articles/feature-toggles.html
+- https://martinfowler.com/articles/microservice-testing/
+- https://martinfowler.com/articles/microservices.html
+- https://martinfowler.com/articles/mocksArentStubs.html
+- https://martinfowler.com/articles/mocksArentStubs.html
+- https://martinfowler.com/articles/modernMockingTools.html
 - https://martinfowler.com/articles/newMethodology.html
+- https://martinfowler.com/articles/nonDeterminism.html
+- https://martinfowler.com/articles/nonDeterminism.html
+- https://martinfowler.com/articles/qa-in-production.html
+- https://martinfowler.com/articles/qa-in-production.html
+- https://martinfowler.com/articles/rake.html
 - https://martinfowler.com/articles/refactoring-external-service.html
+- https://martinfowler.com/articles/rise-test-impact-analysis.html
 - https://martinfowler.com/bliki/
+- https://martinfowler.com/bliki/AgileHandover.html
+- https://martinfowler.com/bliki/AssertionFreeTesting.html
+- https://martinfowler.com/bliki/BlueGreenDeployment.html
+- https://martinfowler.com/bliki/BranchByAbstraction.html
+- https://martinfowler.com/bliki/Buildix.html
+- https://martinfowler.com/bliki/CanaryRelease.html
+- https://martinfowler.com/bliki/CatastrophicFailover.html
+- https://martinfowler.com/bliki/CircuitBreaker.html
+- https://martinfowler.com/bliki/ClockWrapper.html
+- https://martinfowler.com/bliki/ConfigurationSynchronization.html
+- https://martinfowler.com/bliki/ContinuousDelivery.html
+- https://martinfowler.com/bliki/ContinuousIntegrationCertification.html
+- https://martinfowler.com/bliki/DatabaseAndBuildTime.html
+- https://martinfowler.com/bliki/DatabaseAndBuildTime.html
+- https://martinfowler.com/bliki/DeploymentPipeline.html
+- https://martinfowler.com/bliki/Detestable.html
+- https://martinfowler.com/bliki/DevOpsCulture.html
+- https://martinfowler.com/bliki/DiffDebugging.html
+- https://martinfowler.com/bliki/ErraticTestFailure.html
+- https://martinfowler.com/bliki/FeatureBranch.html
+- https://martinfowler.com/bliki/FrequencyReducesDifficulty.html
+- https://martinfowler.com/bliki/GivenWhenThen.html
+- https://martinfowler.com/bliki/ImmutableServer.html
+- https://martinfowler.com/bliki/InMemoryTestDatabase.html
+- https://martinfowler.com/bliki/IncrementalMigration.html
+- https://martinfowler.com/bliki/InfrastructureAsCode.html
+- https://martinfowler.com/bliki/JunitNewInstance.html
+- https://martinfowler.com/bliki/MakingStubs.html
+- https://martinfowler.com/bliki/NashvilleProject.html
+- https://martinfowler.com/bliki/ObjectMother.html
+- https://martinfowler.com/bliki/PendingHead.html
+- https://martinfowler.com/bliki/PhoenixServer.html
+- https://martinfowler.com/bliki/ReproducibleBuild.html
+- https://martinfowler.com/bliki/SelfInitializingFake.html
+- https://martinfowler.com/bliki/SelfTestingCode.html
+- https://martinfowler.com/bliki/SelfTestingCode.html
+- https://martinfowler.com/bliki/SemanticConflict.html
+- https://martinfowler.com/bliki/SnowflakeServer.html
+- https://martinfowler.com/bliki/SpecificationByExample.html
+- https://martinfowler.com/bliki/StaticSubstitution.html
+- https://martinfowler.com/bliki/SyntheticMonitoring.html
+- https://martinfowler.com/bliki/SyntheticMonitoring.html
+- https://martinfowler.com/bliki/TestCancer.html
+- https://martinfowler.com/bliki/TestCoverage.html
+- https://martinfowler.com/bliki/TestDouble.html
+- https://martinfowler.com/bliki/TestDrivenDevelopment.html
+- https://martinfowler.com/bliki/TestInvariant.html
+- https://martinfowler.com/bliki/TestPyramid.html
+- https://martinfowler.com/bliki/TestingLanguage.html
+- https://martinfowler.com/bliki/TestingResourcePools.html
+- https://martinfowler.com/bliki/UnitTest.html
+- https://martinfowler.com/bliki/VeryLowDefectProject.html
+- https://martinfowler.com/bliki/Xunit.html
 - https://martinfowler.com/eaaCatalog/
 - https://martinfowler.com/eaaDev/
+- https://martinfowler.com/eaaDev/EventSourcing.html
 - https://martinfowler.com/tags/API%20design.html
 - https://martinfowler.com/tags/agile%20adoption.html
 - https://martinfowler.com/tags/agile.html
@@ -212,26 +317,39 @@
 - https://mitpress.mit.edu/sicp/
 - https://murze.be/2017/10/seven-ineffective-coding-habits-many-programmers/
 - https://pragprog.com/articles/tell-dont-ask
+- https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
+- https://robots.thoughtbot.com/tell-dont-ask
 - https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me
 - https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read
+- https://stackoverflow.com/questions/333682/unit-testing-anti-patterns-catalogue
+- https://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test/4904533#4904533
+- https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
 - https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
 - https://www.amazon.com/gp/richpub/listmania/fullview/R2MOS4VO74D8J8
+- https://www.codeproject.com/articles/555855/introduction-to-cqrs
 - https://www.facebook.com/notes/kent-beck/half-done-versus-fake-the-intermediate-resultmock-tradeoff/1005370156162515/
+- https://www.goodreads.com/book/show/8686650-continuous-delivery
 - https://www.infoq.com/articles/recommended_reading_list
+- https://www.infoq.com/interviews/jez-humble-martin-fowler-cd
 - https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 - https://www.joelonsoftware.com/2005/11/22/reading-list-fog-creek-software-management-training-program/
 - https://www.quora.com/What-are-the-must-read-books-for-software-engineers
 - https://www.reddit.com/r/learnprogramming/wiki/books
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
+- https://www.thoughtworks.com/continuous-delivery
 - https://www.youtube.com/watch?v=-FRm3VPhseI
 - https://www.youtube.com/watch?v=4F72VULWFvc
 - https://www.youtube.com/watch?v=DngAZyWMGR0
+- https://www.youtube.com/watch?v=ElnqUIjLWVk
 - https://www.youtube.com/watch?v=GE6lbPLEAzc
+- https://www.youtube.com/watch?v=RlfLCWKxHJ0
 - https://www.youtube.com/watch?v=VjKYO6DP3fo
 - https://www.youtube.com/watch?v=XcT4yYu_TTs
 - https://www.youtube.com/watch?v=Z8aECe4lp44
+- https://www.youtube.com/watch?v=sFCgXH7DwxM
 - https://www.youtube.com/watch?v=vqEg37e4Mkw
 - https://www.youtube.com/watch?v=wEhu57pih5w
 - https://www.youtube.com/watch?v=wgdBVIX9ifA
+- https://yurichev.com/blog/cyclomatic/
