@@ -1,8 +1,12 @@
 Read:
 - http://atomicdesign.bradfrost.com/table-of-contents/
 - http://designingfortheweb.co.uk/
+- http://www.brandhousebook.com/mobile/index.html
+- http://www.coffeecup.com/help/articles/responsive-site-designer-help-manual/
+- http://www.goodui.org/
 - https://blog.balsamiq.com/ux-ui-links-2017-03/
 - https://blog.balsamiq.com/ux-ui-links/
+- https://blog.kentcdodds.com/effective-snapshot-testing-e0d1a2c28eca
 - https://frontendmasters.com/courses/
 - https://github.com/dexteryy/spellbook-of-modern-webdev
 - https://github.com/dypsilon/frontend-dev-bookmarks
@@ -14,9 +18,5 @@ Read:
 - https://medium.freecodecamp.org/from-zero-to-front-end-hero-part-2-adfa4824da9b
 - https://resilientwebdesign.com/
 - https://spin.atomicobject.com/2017/05/18/what-is-design-thinking/
-- http://www.brandhousebook.com/mobile/index.html
-- http://www.coffeecup.com/help/articles/responsive-site-designer-help-manual/
-- https://www.designbetter.co/
-- https://blog.kentcdodds.com/effective-snapshot-testing-e0d1a2c28eca
-- http://www.goodui.org/
 - https://uxdesign.cc/3-ways-to-improve-your-visual-design-skills-fa9dc8e583ff
+- https://www.designbetter.co/
