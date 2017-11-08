@@ -1,3 +1,28 @@
+## Testability
+What the codes does is irrelevant; how the code is structured is all that matters for testability.
+
+## Hard to test in code
+- Mixing creation/new in logic
+- Looking for things
+- Work in constructor
+- Global state
+- Singleton
+- static methods
+- Implicit dependencies
+- Deep inheritance
+- Too many conditionals
+- Mixing service/value
+- Mixing concerns
+- etc..
+
+## Kind of tests
+- Acceptance / Scenario tests: test the whole system pretends to be an user
+- Functional tests: test collection of classes as subsystems
+- Integration tests: test the integration between your system and an external one
+- Unit tests: test individual classes / methods in isolation
+
+They are ordered from the bigger execution time to fewer, they are also ordered by scope frome huge to small.
+
 - https://martinfowler.com/bliki/PageObject.html
 - https://martinfowler.com/bliki/ObjectMother.html
 - https://martinfowler.com/bliki/SpecificationByExample.html
