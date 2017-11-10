@@ -20,3 +20,7 @@ Read:
 - https://spin.atomicobject.com/2017/05/18/what-is-design-thinking/
 - https://uxdesign.cc/3-ways-to-improve-your-visual-design-skills-fa9dc8e583ff
 - https://www.designbetter.co/
+- https://stanko.github.io/webpack-babel-react-revisited/
+- https://github.com/kentcdodds/advanced-react-patterns
+- https://github.com/thedaviddias/Front-End-Checklist
+- https://blog.kentcdodds.com/improving-the-usability-of-your-modules-b45436f34a00
