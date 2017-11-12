@@ -1,1 +1,0 @@
-- https://www.brainpickings.org/2014/02/03/david-desteno-truth-about-trust/

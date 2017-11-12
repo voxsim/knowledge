@@ -1,4 +1,4 @@
-Book: https://www.amazon.com/Love-Mindful-Essentials-Thich-Nhat/dp/1937006883/?tag=braipick-20
+# How to love
 
 That’s what legendary Vietnamese Zen Buddhist monk, teacher, and peace activist Thich Nhat Hanh (b. October 11, 1926) explores in How to Love (public library) — a slim, simply worded collection of his immeasurably wise insights on the most complex and most rewarding human potentiality.
 
@@ -47,3 +47,5 @@ The essential mechanism for establishing such trust and respect is listening.
 Nhat Hanh considers how the notion of the separate, egoic “I” interrupts the dialogic flow of understanding — the “interbeing,” to use his wonderfully poetic and wonderfully precise term, that is love:
 
 > Often, when we say, “I love you” we focus mostly on the idea of the “I” who is doing the loving and less on the quality of the love that’s being offered. This is because we are caught by the idea of self. We think we have a self. But there is no such thing as an individual separate self. A flower is made only of non-flower elements, such as chlorophyll, sunlight, and water. If we were to remove all the non-flower elements from the flower, there would be no flower left. A flower cannot be by herself alone. A flower can only inter-be with all of us… Humans are like this too. We can’t exist by ourselves alone. We can only inter-be. I am made only of non-me elements, such as the Earth, the sun, parents, and ancestors. In a relationship, if you can see the nature of interbeing between you and the other person, you can see that his suffering is your own suffering, and your happiness is his own happiness. With this way of seeing, you speak and act differently. This in itself can relieve so much suffering.
+
+Book: https://www.amazon.com/Love-Mindful-Essentials-Thich-Nhat/dp/1937006883/?tag=braipick-20

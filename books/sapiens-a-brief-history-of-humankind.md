@@ -1,3 +1,5 @@
+# Sapiens: A Brief History of Humankind
+
 * Homo Sapiens (our species), are animals from the genus Homo (man) and the species Sapiens (wise). Members of the Homo genus evolved in East Africa about 2.5 million years ago. This means that when Sapiens first evolved, there were multiple other Homo species on this planet including the more famous Homo Neanderthalensis. The truth is that from about 2 million years ago to until around 10,000 years ago the world was home to several human species. Only our species survived to the present day and we are not sure why this is.
 * From about 300,000 years ago our genus began using fire. This created a revolution as it allowed us to cook food — allowing us to eat foods we normally can’t digest, killing bacteria and massively decreasing the amount of time chewing and digesting our food. It is believed that this revolution allowed us to grow the jumbo brains we are now so used to.
 * Homo Sapiens, humans that look just like us, first appeared on East Africa around 150,000 years ago. At this point we were an inconsequential species fighting for our survival like many others on this planet.

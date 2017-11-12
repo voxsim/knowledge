@@ -1,4 +1,6 @@
-- https://nomadlist.com/
+- https://devcraftweekly.com/archives/devcraft-22-remote-working-special/
 - https://github.com/georgemandis/remote-working-list
+- https://nomadlist.com/
 - https://outsite.co/
+- https://remoters.net/10-european-coworking-spaces-perfect-startups/
 - https://zapier.com/learn/remote-work/

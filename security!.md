@@ -6,17 +6,17 @@ Security is a broad topic.  Unless you have considerable experience, a security 
 * Use the principle of [least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
 
 More details:
-* https://www.owasp.org/index.php/Main_Page
-* https://www.youtube.com/watch?v=zKuFu19LgZA
-* https://github.com/FallibleInc/security-guide-for-developers
-* https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
-* https://ssd.eff.org/en/playlist/want-security-starter-pack
-* https://www.youtube.com/watch?v=eL5o4PFuxTY
-* https://www.raizlabs.com/dev/2017/05/cryptography-in-colors/
-* https://www.youtube.com/watch?v=YTtO_TGV2fU
-* https://www.smashingmagazine.com/2017/06/guide-switching-http-https/?utm_source=webopsweekly&utm_medium=email
 * https://developer.mozilla.org/en-US/docs/Web/Security
-* https://github.com/vasanthk/web-security-basics
-* https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+* https://github.com/FallibleInc/security-guide-for-developers
 * https://github.com/shieldfy/API-Security-Checklist
+* https://github.com/vasanthk/web-security-basics
 * https://httpsecurityreport.com/best_practice.html
+* https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+* https://ssd.eff.org/en/playlist/want-security-starter-pack
+* https://www.owasp.org/index.php/Main_Page
+* https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
+* https://www.raizlabs.com/dev/2017/05/cryptography-in-colors/
+* https://www.smashingmagazine.com/2017/06/guide-switching-http-https/?utm_source=webopsweekly&utm_medium=email
+* https://www.youtube.com/watch?v=YTtO_TGV2fU
+* https://www.youtube.com/watch?v=eL5o4PFuxTY
+* https://www.youtube.com/watch?v=zKuFu19LgZA

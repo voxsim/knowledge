@@ -1,3 +1,5 @@
+## Integration tests
+
 One of the most common cases of using a TestDouble is when you are communicating with an external service. Typically such services are being maintained by a different team, they may be subject to slow, and unreliable networks, and maybe unreliable themselves. That's why a test double is handy, it stops your own tests from being slow and unreliable. 
 
 A good way to deal with this is to run your own tests against the double, but to periodically run a separate set of integration contract tests that checks all the calls against your test doubles return the same results as a call to the external service would. A failure in any of these integration contract tests implies you need to update your test doubles, and probably your code to take into account the service contract change.

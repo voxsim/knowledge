@@ -1,6 +1,0 @@
-- https://github.com/MostlyAdequate/mostly-adequate-guide
-- https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2
-- https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4
-- https://medium.com/@thejameskyle/type-systems-refinements-explained-26f713c6cc2a
-- https://medium.com/@thejameskyle/type-systems-covariance-contravariance-bivariance-and-invariance-explained-35f43d1110f8
-- https://medium.com/@thejameskyle/type-systems-reachability-and-exhaustiveness-analysis-3d9692c399

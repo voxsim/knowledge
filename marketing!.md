@@ -1,5 +1,5 @@
-- https://github.com/LisaDziuba/Marketing-for-Engineers
-- https://www.youtube.com/playlist?list=PLD44D802EA3DA98E2
-- https://everyonehatesmarketers.com/
-- https://www.2uo.de/influence/
 - https://devmarketing.xyz/
+- https://everyonehatesmarketers.com/
+- https://github.com/LisaDziuba/Marketing-for-Engineers
+- https://www.2uo.de/influence/
+- https://www.youtube.com/playlist?list=PLD44D802EA3DA98E2

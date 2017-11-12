@@ -1,3 +1,5 @@
+- SICP
+- The little schemer
 - [ """Code is the Easy Part"" by Evan Czaplicki" ]( https://www.youtube.com/watch?v=DSjbTC-hvqQ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-2-missing-to-nonsense/ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-3-nonsense-to-honest/ )
@@ -80,10 +82,19 @@
 - [ Writing Good Tests - Matteo Baglini - #iad14 ](https://vimeo.com/115568045)
 - [ ootips|The Origins of Object Orientation ]( http://ootips.org/history.html )
 - [ ootips|What Makes A Good Object-Oriented Design? ]( http://ootips.org/ood-principles.html )
+- [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+- [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
+- [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+- [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
 - [How To Design A Good API and Why it Matters](https://www.youtube.com/watch?v=heh4OeB9A-c)
 - [Immutable User Interfaces](https://mitpress.mit.edu/sicp/)
 - [Mixins Considered Harmful](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html)
+- [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+- [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 - [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+- http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 - http://alistair.cockburn.us/Hexagonal+architecture
 - http://amzn.to/1bFjP6F
 - http://amzn.to/1e9iAMM
@@ -117,6 +128,7 @@
 - http://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
 - http://en.wikipedia.org/wiki/YAGNI
 - http://feltpresence.com/reading_list
+- http://haskell.cs.yale.edu/wp-content/uploads/2015/03/HSoM.pdf
 - http://isr.uci.edu/Software/phaseII_reading_list.html
 - http://martinfowler.com/tags/evolutionary%20design.html
 - http://martinfowler.com/tags/refactoring.html
@@ -137,11 +149,14 @@
 - http://ootips.org/
 - http://port70.net/~nsz/00_prog.html
 - http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
+- http://raganwald.com/2017/04/30/transducers.html
 - http://verraes.net/#blog
 - http://verraes.net/2015/02/form-command-model-validation/
 - http://wiki.c2.com/?AcyclicDependenciesPrinciple
 - http://wiki.c2.com/?CommonClosurePrinciple
 - http://wiki.c2.com/?CommonReusePrinciple
+- http://wiki.c2.com/?CouplingAndCohesion
+- http://wiki.c2.com/?CouplingAndCohesion
 - http://wiki.c2.com/?CouplingAndCohesion
 - http://wiki.c2.com/?DependencyInversionPrinciple
 - http://wiki.c2.com/?DontRepeatYourself
@@ -167,6 +182,7 @@
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 - http://www.faqs.org/docs/artu/ch01s06.html
 - http://www.infoq.com/presentations/Architecture-Without-an-End-State
+- http://www.introtorx.com/
 - http://www.jmock.org/oopsla2004.pdf
 - http://www.philosophicalgeek.com/2007/11/21/books/
 - http://www.poppendieck.com/reference.htm
@@ -185,19 +201,45 @@
 - https://8thlight.com/blog/uncle-bob/2011/11/22/Clean-Architecture.html
 - https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
 - https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+- https://alligator.io/rxjs/hot-cold-observables/
 - https://ariya.io/2011/08/hall-of-api-shame-boolean-trap
+- https://auth0.com/blog/glossary-of-modern-javascript-concepts-part-2/
+- https://auth0.com/blog/glossary-of-modern-javascript-concepts/
 - https://blog.codinghorror.com/recommended-reading-for-developers/
+- https://codewithstyle.info/functional-javascript-part-1-introduction/
+- https://codewithstyle.info/functional-javascript-part-2-array-operations/
+- https://codewithstyle.info/functional-javascript-part-3-reduce/
+- https://codewithstyle.info/functional-javascript-part-4-lodash/
+- https://codewithstyle.info/functional-javascript-part-5-immutability-basics/
+- https://codewithstyle.info/functional-javascript-part-6-immutable-js/
+- https://codurance.com/2017/10/19/functional-programming-reactive-architecture-part-1/
 - https://cstack.github.io/db_tutorial/
+- https://davidwalsh.name/functional-programming
 - https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
+- https://en.wikipedia.org/wiki/Common_subexpression_elimination
+- https://en.wikipedia.org/wiki/Coupling_(computer_programming)
+- https://en.wikipedia.org/wiki/Lazy_evaluation
+- https://en.wikipedia.org/wiki/Memoization
 - https://en.wikipedia.org/wiki/Presenter_first_(software_approach)
+- https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+- https://github.com/MostlyAdequate/mostly-adequate-guide
+- https://github.com/MostlyAdequate/mostly-adequate-guide
 - https://github.com/braydie/HowToBeAProgrammer
 - https://github.com/flyeralarm/onboarding
 - https://github.com/joebew42/study-path
+- https://github.com/kriskowal/gtor
+- https://github.com/lucasviola/awesome-functional-programming
 - https://github.com/mr-mig/every-programmer-should-know
 - https://github.com/nushackers/notes-to-cs-freshmen-from-the-future
+- https://github.com/passy/awesome-recursion-schemes
+- https://github.com/perryharlock/refactor-to-functional
 - https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+- https://github.com/stoeffel/awesome-fp-js
+- https://github.com/stuartsierra/reducible-stream
+- https://github.com/swannodette/logic-tutorial
 - https://github.com/testdouble/contributing-tests/wiki
 - https://github.com/thoughtbot/guides/
+- https://github.com/willdurand/willdurand.github.com/blob/master/_posts/2013-06-03-object-calisthenics.markdown
 - https://github.com/xpeppers/starway-to-orione
 - https://lwn.net/Articles/191059/
 - https://martinfowler.com/articles/continuousIntegration.html
@@ -310,25 +352,39 @@
 - https://martinfowler.com/tags/web%20services.html
 - https://martinfowler.com/tags/writing.html
 - https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29
+- https://medium.com/@thejameskyle/type-systems-covariance-contravariance-bivariance-and-invariance-explained-35f43d1110f8
+- https://medium.com/@thejameskyle/type-systems-reachability-and-exhaustiveness-analysis-3d9692c399
+- https://medium.com/@thejameskyle/type-systems-refinements-explained-26f713c6cc2a
+- https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4
 - https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
 - https://medium.com/javascript-scene/functional-mixins-composing-software-ffb66d5e731c
+- https://medium.com/javascript-scene/iteration-a-gentle-introduction-to-functional-programming-c59fcb0ab58d
 - https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a
 - https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
+- https://medium.freecodecamp.org/learning-the-fundamentals-of-functional-programming-425c9fd901c6
 - https://mitpress.mit.edu/sicp/
+- https://mitpress.mit.edu/sicp/full-text/book/book.html
 - https://murze.be/2017/10/seven-ineffective-coding-habits-many-programmers/
 - https://pragprog.com/articles/tell-dont-ask
+- https://purelyfunctional.tv/
 - https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
 - https://robots.thoughtbot.com/tell-dont-ask
+- https://robots.thoughtbot.com/types-of-coupling
 - https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me
 - https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read
+- https://stackoverflow.com/questions/210835/what-is-referential-transparency/9859966#9859966
 - https://stackoverflow.com/questions/333682/unit-testing-anti-patterns-catalogue
 - https://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test/4904533#4904533
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
+- https://tech.instacart.com/rxjava-1-rxjava-2-disposing-subscriptions-48988798eccf
+- https://tech.instacart.com/rxjava-1-rxjava-2-understanding-the-changes-5370c461bea?source=rss----587883b5d2ee---4&gi=149e1244c996
+- https://tomassetti.me/oops-concepts/
 - https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
 - https://www.amazon.com/gp/richpub/listmania/fullview/R2MOS4VO74D8J8
 - https://www.codeproject.com/articles/555855/introduction-to-cqrs
+- https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2
 - https://www.facebook.com/notes/kent-beck/half-done-versus-fake-the-intermediate-resultmock-tradeoff/1005370156162515/
 - https://www.goodreads.com/book/show/8686650-continuous-delivery
 - https://www.infoq.com/articles/recommended_reading_list
@@ -336,19 +392,27 @@
 - https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 - https://www.joelonsoftware.com/2005/11/22/reading-list-fog-creek-software-management-training-program/
 - https://www.quora.com/What-are-the-must-read-books-for-software-engineers
+- https://www.reactivedesignpatterns.com/videos.html
 - https://www.reddit.com/r/learnprogramming/wiki/books
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - https://www.thoughtworks.com/continuous-delivery
 - https://www.youtube.com/watch?v=-FRm3VPhseI
 - https://www.youtube.com/watch?v=4F72VULWFvc
 - https://www.youtube.com/watch?v=DngAZyWMGR0
+- https://www.youtube.com/watch?v=Dsd4pc99FSY&list=PLFrwDVdSrYE6dy14XCmUtRAJuhCxuzJp0
 - https://www.youtube.com/watch?v=ElnqUIjLWVk
 - https://www.youtube.com/watch?v=GE6lbPLEAzc
+- https://www.youtube.com/watch?v=ROL58LJGNfA
 - https://www.youtube.com/watch?v=RlfLCWKxHJ0
+- https://www.youtube.com/watch?v=Tn05cXrhBvg
 - https://www.youtube.com/watch?v=VjKYO6DP3fo
 - https://www.youtube.com/watch?v=XcT4yYu_TTs
 - https://www.youtube.com/watch?v=Z8aECe4lp44
+- https://www.youtube.com/watch?v=_VdIQTtRkb8
+- https://www.youtube.com/watch?v=br6035SKu-0
+- https://www.youtube.com/watch?v=qJgff2spvzM
 - https://www.youtube.com/watch?v=sFCgXH7DwxM
+- https://www.youtube.com/watch?v=sTSQlYX5DU0
 - https://www.youtube.com/watch?v=vqEg37e4Mkw
 - https://www.youtube.com/watch?v=wEhu57pih5w
 - https://www.youtube.com/watch?v=wgdBVIX9ifA

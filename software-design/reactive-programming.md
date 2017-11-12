@@ -18,16 +18,3 @@ Reactive programming is concerned with propagating and responding to incoming ev
 Reactive Programming Takeaways
 
 The reactive programming paradigm involves observing and reacting to events in asynchronous data streams. 
-
-- https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
-- http://www.introtorx.com/
-
-- https://auth0.com/blog/glossary-of-modern-javascript-concepts/
-- https://auth0.com/blog/glossary-of-modern-javascript-concepts-part-2/
-- https://github.com/kriskowal/gtor
-- https://www.youtube.com/watch?v=sTSQlYX5DU0
-- https://www.youtube.com/watch?v=_VdIQTtRkb8
-- https://tech.instacart.com/rxjava-1-rxjava-2-understanding-the-changes-5370c461bea?source=rss----587883b5d2ee---4&gi=149e1244c996
-- https://tech.instacart.com/rxjava-1-rxjava-2-disposing-subscriptions-48988798eccf
-- https://www.reactivedesignpatterns.com/videos.html
-- https://alligator.io/rxjs/hot-cold-observables/

@@ -1127,7 +1127,20 @@ Handy metrics based on numbers above:
 For more info: https://snarfed.org/transactions_across_datacenters_io.html
 
 More info to write up:
+- [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+- [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
+- [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+- [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
+- [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+- [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+- [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+- [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+- [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+- [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+- [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
 - http://blog.arkency.com/2016/12/techniques-for-dealing-with-uncertainity/
+- http://graphql.org/learn/
 - http://highscalability.com/amazon-architecture
 - http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
 - http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html
@@ -1150,6 +1163,7 @@ More info to write up:
 - http://philcalcado.com/2017/08/03/pattern_service_mesh.html
 - http://queue.acm.org/detail.cfm?id=2745385
 - http://queue.acm.org/detail.cfm?id=988407
+- http://restcookbook.com/Basics/hateoas/
 - http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf
 - http://static.googleusercontent.com/media/research.google.com/en/us/archive/chubby-osdi06.pdf
 - http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/gfs-sosp2003.pdf
@@ -1158,45 +1172,60 @@ More info to write up:
 - http://www.beabetterdeveloper.com/2013/11/sessions-pitfall.html
 - http://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf
 - http://www.databaseanswers.org/data_models/index.htm
+- http://www.grpc.io/
+- http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
 - http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
 - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
 - http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
 - http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
 - http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf
 - http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf
+- http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals/
 - http://www.tom-e-white.com/2007/11/consistent-hashing.html
 - https://12factor.net/
 - https://blog.risingstack.com/designing-microservices-architecture-for-failure/
 - https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/
+- https://cloud.google.com/apis/design/
 - https://courses.cs.washington.edu/courses/csep521/07wi/prj/rick.pdf
 - https://cs.uwaterloo.ca/~brecht/courses/854-Emerging-2014/readings/data-store/tao-facebook-distributed-datastore-atc-2013.pdf
 - https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
+- https://geemus.gitbooks.io/http-api-design/content/en/
 - https://gist.github.com/jboner/2841832
+- https://github.com/Microsoft/api-guidelines
 - https://github.com/Microsoft/api-guidelines
 - https://github.com/aphyr/distsys-class
 - https://github.com/checkcheckzz/system-design-interview
 - https://github.com/heathermiller/dist-prog-book
 - https://github.com/henryr/cap-faq
 - https://github.com/zalando/restful-api-guidelines
+- https://github.com/zalando/restful-api-guidelines
+- https://howdns.works/ep1/
 - https://landing.google.com/sre/book/index.html
 - https://lethain.com/introduction-to-architecting-systems-for-scale/
+- https://martinfowler.com/articles/richardsonMaturityModel.html
 - https://martinfowler.com/articles/serverless.html
 - https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c
 - https://nordicapis.com/5-protocols-for-event-driven-api-architectures/
+- https://nordicapis.com/the-art-and-personalization-of-the-api-documentation-experience/
 - https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
+- https://philsturgeon.uk/api/2017/01/24/graphql-vs-rest-overview/
 - https://softwareengineering.stackexchange.com/questions/38324/how-would-you-implement-google-search
 - https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
 - https://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf
 - https://stripe.com/blog/idempotency
+- https://support.dnsimple.com/categories/dns/
 - https://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-the-api/#toc-ack
 - https://www.microsoft.com/en-us/research/publication/paxos-made-simple/
 - https://www.microsoft.com/en-us/research/publication/time-clocks-ordering-events-distributed-system/
 - https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
+- https://www.petekeen.net/dns-the-good-parts
 - https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview
 - https://www.quora.com/What-are-the-best-practices-for-building-something-like-a-news-feed
 - https://www.techinasia.com/talk/5-companines-5-days-5-offers
 - https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf
 - https://www.youtube.com/watch?v=-W9F__D3oY4
+- https://www.youtube.com/watch?v=5o8CwafCxnU&index=3&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7
+- https://www.youtube.com/watch?v=72snZctFFtA
 - https://www.youtube.com/watch?v=JEpsBg0AO6o
 - https://www.youtube.com/watch?v=UrYLYV7WSHM
 - https://www.youtube.com/watch?v=eSaFVX4izsQ

@@ -1,2 +1,0 @@
-- http://www.guidagalatticaperagilisti.com/
-- http://blogs.ugidotnet.org/luka/archive/2016/03/02/notes-from-cynefin-article-focus-on-how-to-act-on.aspx

@@ -1,9 +1,14 @@
+- [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+- [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+- [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+- [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+- [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 - https://courses.csail.mit.edu/6.042/spring17/mcs.pdf
-- https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
-- https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo
-- https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
-- https://github.com/rossant/awesome-math
-- https://www.youtube.com/playlist?list=PL3B08AE665AB9002A
 - https://github.com/fantasyland/fantasy-land
-- https://www.youtube.com/watch?v=tYD4Kynf_tc
+- https://github.com/rossant/awesome-math
 - https://www.codechef.com/wiki/tutorial-number-theory/
+- https://www.youtube.com/playlist?list=PL3B08AE665AB9002A
+- https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG
+- https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo
+- https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B
+- https://www.youtube.com/watch?v=tYD4Kynf_tc
