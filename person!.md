@@ -211,6 +211,5 @@ Other:
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RTODCMJ-UpxmhlkQvQrNRt
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RycBfFxDA9912figrihp7v
 - https://www.youtube.com/watch?v=P1iVE8wxGwA&list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv&index=2
-- https://www.youtube.com/watch?v=gokjgamJgxQ
 - https://www.youtube.com/watch?v=hg6XUYWj-pk
 - https://www.youtube.com/watch?v=vR2P5vW-nVc
