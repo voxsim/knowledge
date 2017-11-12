@@ -352,6 +352,7 @@
 - https://martinfowler.com/tags/web%20services.html
 - https://martinfowler.com/tags/writing.html
 - https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29
+- https://medium.com/@kasperpeulen/10-features-from-various-modern-languages-that-i-would-like-to-see-in-any-programming-language-f2a4a8ee6727
 - https://medium.com/@thejameskyle/type-systems-covariance-contravariance-bivariance-and-invariance-explained-35f43d1110f8
 - https://medium.com/@thejameskyle/type-systems-reachability-and-exhaustiveness-analysis-3d9692c399
 - https://medium.com/@thejameskyle/type-systems-refinements-explained-26f713c6cc2a

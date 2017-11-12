@@ -14,9 +14,13 @@ The majority of population will try something only if someone else is trying it.
 And to convince early adopters and innovators we need to convince why they should do things in the way we explain it.
 
 More:
-- https://www.amazon.it/Crossing-Chasm-Marketing-High-Tech-Mainstream/dp/0060517123
 - [How to Write Documentation for People that Don't Read](https://www.youtube.com/watch?v=sQP_hUNCrcE)
-- https://medium.com/@cliffordoravec/the-epic-guide-to-bootstrapping-a-saas-startup-from-scratch-by-yourself-part-1-4d834e1df8c1
-- https://builtvisible.com/google-analytics-resource-guide/
+- http://www.leanessays.com/2017/11/the-cost-center-trap.html
 - https://blog.ycombinator.com/ycs-essential-startup-advice/
+- https://builtvisible.com/google-analytics-resource-guide/
 - https://devlogger.wordpress.com/2008/09/23/do-the-hustle-by-obie-fernandez/
+- https://medium.com/@cgroom/on-writing-tech-specs-6404c9791159
+- https://medium.com/@cliffordoravec/the-epic-guide-to-bootstrapping-a-saas-startup-from-scratch-by-yourself-part-1-4d834e1df8c1
+- https://medium.com/@sicross/the-product-managers-essential-reading-list-for-2018-72f43b441ced
+- https://www.amazon.it/Crossing-Chasm-Marketing-High-Tech-Mainstream/dp/0060517123
+- https://www.youtube.com/watch?v=JN16qhu3G0g

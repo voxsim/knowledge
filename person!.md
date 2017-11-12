@@ -201,6 +201,7 @@ Other:
 - https://www.brainpickings.org/2016/10/23/10-years-of-brain-pickings/
 - https://www.brainpickings.org/2017/07/17/when-things-fall-apart-pema-chodron/
 - https://www.brainpickings.org/2017/08/28/rachel-carson-house-of-life-writing-loneliness/
+- https://www.darkcoding.net/behaviour/what-made-maddy-run/
 - https://www.designluck.com/albert-einstein-creativity/
 - https://www.designluck.com/elon-musk-motivation/
 - https://www.designluck.com/forget-happiness/
@@ -210,5 +211,6 @@ Other:
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RTODCMJ-UpxmhlkQvQrNRt
 - https://www.youtube.com/playlist?list=PLMo9vqiZPs0RycBfFxDA9912figrihp7v
 - https://www.youtube.com/watch?v=P1iVE8wxGwA&list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv&index=2
+- https://www.youtube.com/watch?v=gokjgamJgxQ
 - https://www.youtube.com/watch?v=hg6XUYWj-pk
 - https://www.youtube.com/watch?v=vR2P5vW-nVc

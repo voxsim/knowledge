@@ -1232,3 +1232,4 @@ More info to write up:
 - https://www.youtube.com/watch?v=jk6oiBJxcaA
 - https://www.youtube.com/watch?v=modXC5IWTJI
 - https://www.youtube.com/watch?v=s8JqcZtvnsM
+- https://www.thoughtworks.com/insights/blog/reliability-under-abnormal-conditions
