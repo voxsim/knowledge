@@ -59,6 +59,10 @@ Empathy is a choice, a vulnerable choice, because in order to connect I have to 
 Simpathy try to address the vulnerability trying to change the discourse or galvanize with the good part.
 A good empathy person say "I don't even know how to say, but I am just glad that you told me"; because the thruth is rarely an answer make something better; what makes something better is connection.
 
+# Depression vs Sadness
+Sadness is just from happenstance and whatever happened or didn't happen for you.
+Depression is your body saying fuck you I don't want to be this character anymore; I don't want to hold up this avatar that you have created in the world, it's too much for me. Depressed is like a deep rest that your body needs.
+
 # Buddhism, Zen, Stoicism, ...
 
 I've been studying buddhism since August 2016. Quite by accident in fact, when I
