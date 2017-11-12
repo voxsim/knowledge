@@ -1,5 +1,7 @@
 # Flight rules for git
 
+For the original repository, please go [here](https://github.com/k88hudson/git-flight-rules)
+
 #### What are "flight rules"?
 
 A [guide for astronauts](http://www.jsc.nasa.gov/news/columbia/fr_generic.pdf) (now, programmers using git) about what to do when things go wrong.
