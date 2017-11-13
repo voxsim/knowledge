@@ -49,6 +49,8 @@ For clarity's sake all examples in this document use a customized bash prompt in
     - [I want to delete local branches that were deleted upstream](#i-want-to-delete-local-branches-that-were-deleted-upstream)
     - [I accidentally deleted my branch](#i-accidentally-deleted-my-branch)
     - [I want to delete a branch](#i-want-to-delete-a-branch)
+    - [I want to rename a branch](#i-want-to-rename-a-branch)
+    - [I want to checkout to a remote branch that someone else is working on](#i-want-to-checkout-to-a-remote-branch-that-someone-else-is-working-on)
   - [Rebasing and Merging](#rebasing-and-merging)
     - [I want to undo rebase/merge](#undo-rebase)
     - [I rebased, but I don't want to force push.](#i-rebased-but-i-dont-want-to-force-push)
@@ -68,6 +70,7 @@ For clarity's sake all examples in this document use a customized bash prompt in
   - [Tracking Files](#tracking-files)
     - [I want to change a file name's capitalization, without changing the contents of the file.](#i-want-to-change-a-file-names-capitalization-without-changing-the-contents-of-the-file)
     - [I want to remove a file from git but keep the file](#i-want-to-remove-a-file-from-git-but-keep-the-file)
+    - [I want to revert a file to a specific revision](#i-want-to-revert-a-file-to-a-specific-revision)
   - [Configuration](#configuration)
     - [I want to add aliases for some git commands](#i-want-to-add-aliases-for-some-git-commands)
     - [I want to cache a username and password for a repository](#i-want-to-cache-a-username-and-password-for-a-repository)
@@ -106,8 +109,7 @@ If you wrote the wrong thing and the commit has not yet been pushed, you can do 
 ```sh
 $ git commit --amend
 ```
-
-You can specify the commit message inline if you want:
+This will open your default text editor, where you can edit the message. On the other hand, you can do this all in one command:
 
 ```sh
 $ git commit --amend -m 'xxxxxxx'
@@ -134,11 +136,11 @@ In order to remove a file from a commit, do the following:
 
 ```sh
 $ git checkout HEAD^ myfile
-$ git add -A
-$ git commit --amend
+$ git add myfile
+$ git commit --amend --no-edit
 ```
 
-This is particularly useful when you have an open patch and you have committed an unnecessary file, and need to force push to update the patch on a remote.
+This is particularly useful when you have an open patch and you have committed an unnecessary file, and need to force push to update the patch on a remote. The `--no-edit` option is used to keep the existing commit message.
 
 <a name="delete-pushed-commit"></a>
 ### I want to delete or remove my last commit
@@ -147,7 +149,7 @@ If you need to delete pushed commits, you can use the following. However, it wil
 
 ```sh
 $ git reset HEAD^ --hard
-$ git push -f [remote] [branch]
+$ git push --force-with-lease [remote] [branch]
 ```
 
 If you haven't pushed, to reset Git to the state it was in before you made your last commit (while keeping your staged changes):
@@ -157,7 +159,7 @@ If you haven't pushed, to reset Git to the state it was in before you made your 
 
 ```
 
-This only works if you haven't pushed. If you have pushed, the only truly safe thing to do is `git revert SHAofBadCommit`. That will create a new commit that undoes all the previous commit's changes. Or, if the branched you pushed to is rebase-safe (ie. other devs aren't expected to pull from it), you can just use `git push -f`. For more, see [the above section](#deleteremove-last-pushed-commit).
+This only works if you haven't pushed. If you have pushed, the only truly safe thing to do is `git revert SHAofBadCommit`. That will create a new commit that undoes all the previous commit's changes. Or, if the branch you pushed to is rebase-safe (ie. other devs aren't expected to pull from it), you can just use `git push --force-with-lease`. For more, see [the above section](#deleteremove-last-pushed-commit).
 
 <a name="delete-any-commit"></a>
 ### Delete/remove arbitrary commit
@@ -166,7 +168,7 @@ The same warning applies as above. Never do this if possible.
 
 ```sh
 $ git rebase --onto SHA1_OF_BAD_COMMIT^ SHA1_OF_BAD_COMMIT
-$ git push -f [remote] [branch]
+$ git push --force-with-lease [remote] [branch]
 ```
 
 Or do an [interactive rebase](#interactive-rebase) and remove the line(s) corresponding to commit(s) you want to see removed.
@@ -184,14 +186,15 @@ hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
-Note that, as with rebasing (see below), amending **replaces the old commit with a new one**, so you must force push (`-f`) your changes if you have already pushed the pre-amended commit to your remote. Be careful when you do this &ndash; *always* make sure you specify a branch!
+Note that, as with rebasing (see below), amending **replaces the old commit with a new one**, so you must force push (`--force-with-lease`) your changes if you have already pushed the pre-amended commit to your remote. Be careful when you do this &ndash; *always* make sure you specify a branch!
 
 ```sh
-(my-branch)$ git push origin mybranch -f
+(my-branch)$ git push origin mybranch --force-with-lease
 ```
 
-In general, **avoid force pushing**. It is best to create and push a new commit rather than force-pushing the amended commit as it has will cause conflicts in the source history for any other developer who has interacted with the branch in question or any child branches.
+In general, **avoid force pushing**. It is best to create and push a new commit rather than force-pushing the amended commit as it has will cause conflicts in the source history for any other developer who has interacted with the branch in question or any child branches. `--force-with-lease` will still fail, if someone else was also working on the same branch as you, and your push would overwrite those changes.
 
+If you are *absolutely* sure that nobody is working on the same branch or you want to update the tip of the branch *unconditionally*, you can use `--force` (`-f`), but this should be avoided in general.
 
 <a href="undo-git-reset-hard"></a>
 ### I accidentally did a hard reset, and I want my changes back
@@ -502,6 +505,8 @@ And finally, let's cherry-pick the commit for bug #14:
 (14)$ git cherry-pick 5ea5173
 ```
 
+
+<a name="delete-stale-local-branches"></a>
 ### I want to delete local branches that were deleted upstream
 Once you merge a pull request on github, it gives you the option to delete the merged branch in your fork. If you aren't planning to keep working on the branch, it's cleaner to delete the local copies of the branch so you don't end up cluttering up your working checkout with a lot of stale branches.
 
@@ -509,6 +514,7 @@ Once you merge a pull request on github, it gives you the option to delete the m
 $ git fetch -p
 ```
 
+<a name='restore-a-deleted-branch'></a>
 ### I accidentally deleted my branch
 
 If you're regularly pushing to remote, you should be safe most of the time. But still sometimes you may end up deleting your branches. Let's say we create a branch and create a new file:
@@ -599,8 +605,45 @@ To delete a local branch:
 (master)$ git branch -D my-branch
 ```
 
+<a name="i-want-to-rename-a-branch"></a>
+### I want to rename a branch
+
+To rename a local current branch:
+
+```sh
+(master)$ git branch -m new-name
+```
+
+To rename a local different branch:
+
+```sh
+(master)$ git branch -m old-name new-name
+```
+
+<a name="i-want-to-checkout-to-a-remote-branch-that-someone-else-is-working-on"></a>
+### I want to checkout to a remote branch that someone else is working on
+
+First, fetch all branches from remote:
+
+```sh
+(master)$ git fetch --all
+```
+
+Say you want to checkout to `daves` from the remote.
+
+```sh
+(master)$ git checkout --track origin/daves
+Branch daves set up to track remote branch daves from origin.
+Switched to a new branch 'daves'
+```
+
+(`--track` is shorthand for `git checkout -b [branch] [remotename]/[branch]`)
+
+This will give you a local copy of the branch `daves`, and any update that has been pushed will also show up remotely.
+
 ## Rebasing and Merging
 
+<a name="undo-rebase"></a>
 ### I want to undo rebase/merge
 
 You may have merged or rebased your current branch with a wrong branch, or you can't figure it out or finish the rebase/merge process. Git saves the original HEAD pointer in a variable called ORIG_HEAD before doing dangerous operations, so it is simple to recover your branch at the state before the rebase/merge.
@@ -864,9 +907,13 @@ Your tag should now have been restored.
 <a name="deleted-patch"></a>
 ### Deleted Patch
 
-If someone has sent you a pull request on GitHub, but then deleted their original fork, you will be unable to clone their commits or to use `git am`. In such cases, it is best to manually look at their commits and copy them into a new branch on your local. Then, commit.
+If someone has sent you a pull request on GitHub, but then deleted their original fork, you will be unable to clone their repository or to use `git am` as the [.diff, .patch](https://github.com/blog/967-github-secrets) urls become unavailable. But you can checkout the PR itself using [GitHub's special refs](https://gist.github.com/piscisaureus/3342247). To fetch the content of PR#1 into a new branch called pr_1:
 
-After committing, change the author of the previous commit. To do this, see how to [change author](#commit-wrong-author). Then, apply whatever changes needed on to, and make a new pull request.
+```sh
+$ git fetch origin refs/pull/1/head:pr_1
+From github.com:foo/bar
+ * [new ref]         refs/pull/1/head -> pr_1
+```
 
 ## Tracking Files
 
@@ -882,6 +929,21 @@ After committing, change the author of the previous commit. To do this, see how 
 
 ```sh
 (master)$ git rm --cached log.txt
+```
+
+<a href="i-want-to-revert-a-file-to-a-specific-revision"></a>
+### I want to revert a file to a specific revision
+
+Assuming the hash of the commit you want is c5f567:
+
+```sh
+(master)$ git checkout c5f567 -- file1/to/restore file2/to/restore
+```
+
+If you want to revert to changes made just 1 commit before c5f567, pass the commit hash as c5f567~1:
+
+```sh
+(master)$ git checkout c5f567~1 -- file1/to/restore file2/to/restore
 ```
 
 ## Configuration
@@ -961,9 +1023,11 @@ Using git reset it is then possible to change master back to the commit it was b
 ## Books
 
 * [Pro Git](https://git-scm.com/book/en/v2) - Scott Chacon's excellent git book
+* [Git Internals](https://github.com/pluralsight/git-internals-pdf) - Scott Chacon's other excellent git book
 
 ## Tutorials
 
+* [Learn Git branching](https://learngitbranching.js.org/) An interactive web based branching/merging/rebasing tutorial
 * [Getting solid at Git rebase vs. merge](https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa)
 * [git-workflow](https://github.com/asmeurer/git-workflow) - [Aaron Meurer](https://github.com/asmeurer)'s howto on using git to contribute to open source repositories
 * [GitHub as a workflow](http://hugogiraudel.com/2015/08/13/github-as-a-workflow/) - An interesting take on using GitHub as a workflow, particularly with empty PRs
@@ -984,6 +1048,6 @@ Using git reset it is then possible to change master back to the commit it was b
 * [gitx-dev](https://rowanj.github.io/gitx/) - another graphical git client for OS X
 * [Source Tree](https://www.sourcetreeapp.com/) - a free graphical git client for Windows and OS X
 * [Tower](http://www.git-tower.com/) - graphical git client for OS X (paid)
-
-To see:
-- https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
+* [tig](https://jonas.github.io/tig/) - terminal text-mode interface for Git
+* [Magit](https://magit.vc/) - Interface to git implemented as an Emacs package.
+* [GitExtensions](https://github.com/gitextensions/gitextensions) - a shell extension, a Visual Studio 2010-2015 plugin and a standalone Git repository tool.
