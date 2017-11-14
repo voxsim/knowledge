@@ -1,5 +1,3 @@
-- http://blog.arkency.com/2016/12/techniques-for-dealing-with-uncertainity/
-- http://graphql.org/learn/
 - http://highscalability.com/amazon-architecture
 - http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
 - http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html
@@ -101,3 +99,4 @@
 - [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
 - [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
 - [Networking video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+- http://blog.arkency.com/2016/12/techniques-for-dealing-with-uncertainity/
