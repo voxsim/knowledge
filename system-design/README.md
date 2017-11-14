@@ -1,15 +1,3 @@
-- [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-- [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-- [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
-- [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-- [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
-- [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-- [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-- [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
-- [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
-- [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-- [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-- [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
 - http://blog.arkency.com/2016/12/techniques-for-dealing-with-uncertainity/
 - http://graphql.org/learn/
 - http://highscalability.com/amazon-architecture
@@ -104,3 +92,12 @@
 - https://www.youtube.com/watch?v=jk6oiBJxcaA
 - https://www.youtube.com/watch?v=modXC5IWTJI
 - https://www.youtube.com/watch?v=s8JqcZtvnsM
+- https://github.com/bagder/http2-explained
+- [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+- [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+- [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+- [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+- [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+- [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+- [Networking video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
