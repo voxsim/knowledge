@@ -1,5 +1,3 @@
-- SICP
-- The little schemer
 - [ """Code is the Easy Part"" by Evan Czaplicki" ]( https://www.youtube.com/watch?v=DSjbTC-hvqQ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-2-missing-to-nonsense/ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-3-nonsense-to-honest/ )
@@ -418,3 +416,4 @@
 - https://www.youtube.com/watch?v=wEhu57pih5w
 - https://www.youtube.com/watch?v=wgdBVIX9ifA
 - https://yurichev.com/blog/cyclomatic/
+- https://www.youtube.com/watch?v=weWSYIUdX6c
