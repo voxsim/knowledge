@@ -416,3 +416,4 @@
 - https://www.youtube.com/watch?v=wgdBVIX9ifA
 - https://yurichev.com/blog/cyclomatic/
 - https://www.youtube.com/watch?v=weWSYIUdX6c
+- https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice
