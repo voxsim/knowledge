@@ -105,3 +105,4 @@
 - https://getstream.io/blog/building-instagram-discovery-engine-step-step-tutorial/
 - https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
 - http://ourmachinery.com/post/virtual-memory-tricks/
+- https://evilmartians.com/chronicles/embracing-metrics-as-new-tests
