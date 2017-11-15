@@ -102,3 +102,6 @@
 - https://www.youtube.com/watch?v=VkTCL6Nqm6Y
 - https://wiesmann.codiferes.net/wordpress/?p=15187
 - https://www.thoughtworks.com/insights/blog/reliability-under-abnormal-conditions-part-two
+- https://getstream.io/blog/building-instagram-discovery-engine-step-step-tutorial/
+- https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
+- http://ourmachinery.com/post/virtual-memory-tricks/
