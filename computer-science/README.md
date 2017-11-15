@@ -20,3 +20,4 @@
 - https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd
 - https://www.youtube.com/view_play_list?p=9D558D49CA734A02
 - https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
+- https://tomassetti.me/guide-natural-language-processing/
