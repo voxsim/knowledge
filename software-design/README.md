@@ -421,3 +421,4 @@
 - https://codeburst.io/understanding-solid-principles-dependency-injection-d570c15560ab
 - https://codeburst.io/understanding-solid-principles-open-closed-principle-e2b588b6491f
 - https://codeburst.io/understanding-solid-principles-interface-segregation-principle-b2d57026cf6c
+- http://www.yegor256.com/2017/11/14/static-factory-methods.html
