@@ -24,3 +24,4 @@ Read:
 - https://stanko.github.io/webpack-babel-react-revisited/
 - https://uxdesign.cc/3-ways-to-improve-your-visual-design-skills-fa9dc8e583ff
 - https://www.designbetter.co/
+- https://css-tricks.com/css-code-smells/
