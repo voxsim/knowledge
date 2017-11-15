@@ -100,3 +100,4 @@
 - [Networking video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
 - http://blog.arkency.com/2016/12/techniques-for-dealing-with-uncertainity/
 - https://www.youtube.com/watch?v=VkTCL6Nqm6Y
+- https://wiesmann.codiferes.net/wordpress/?p=15187
