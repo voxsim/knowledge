@@ -213,3 +213,9 @@ Other:
 - https://www.youtube.com/watch?v=P1iVE8wxGwA&list=PLMo9vqiZPs0TeKHMK79TPrHrPjCNoxDUv&index=2
 - https://www.youtube.com/watch?v=hg6XUYWj-pk
 - https://www.youtube.com/watch?v=vR2P5vW-nVc
+- https://www.youtube.com/watch?v=ZSEO3dpAs5w
+- https://www.youtube.com/watch?v=EJJs0OALuW8
+- https://www.youtube.com/watch?v=Uq1idqpX9-A
+- https://www.youtube.com/watch?v=xNAQ_qN-e0U
+- https://www.youtube.com/watch?v=-eBUcBfkVCo
+- https://www.youtube.com/watch?v=hfznpykprP0
