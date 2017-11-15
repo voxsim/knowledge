@@ -417,3 +417,7 @@
 - https://yurichev.com/blog/cyclomatic/
 - https://www.youtube.com/watch?v=weWSYIUdX6c
 - https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice
+- https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80
+- https://codeburst.io/understanding-solid-principles-dependency-injection-d570c15560ab
+- https://codeburst.io/understanding-solid-principles-open-closed-principle-e2b588b6491f
+- https://codeburst.io/understanding-solid-principles-interface-segregation-principle-b2d57026cf6c
