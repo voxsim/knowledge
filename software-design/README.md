@@ -1,4 +1,3 @@
-- [ """Code is the Easy Part"" by Evan Czaplicki" ]( https://www.youtube.com/watch?v=DSjbTC-hvqQ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-2-missing-to-nonsense/ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-3-nonsense-to-honest/ )
 - [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-4-honest-to-honest-and-complete/ )
