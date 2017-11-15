@@ -1,4 +1,3 @@
-Read:
 - http://atomicdesign.bradfrost.com/table-of-contents/
 - http://designingfortheweb.co.uk/
 - http://www.brandhousebook.com/mobile/index.html
@@ -26,3 +25,6 @@ Read:
 - https://www.designbetter.co/
 - https://css-tricks.com/css-code-smells/
 - https://developers.google.com/web/updates/2017/11/overscroll-behavior
+- http://lucasmreis.github.io/blog/simple-react-patterns/
+- https://blog.kentcdodds.com/rendering-a-function-with-react-ca3eaf0751e2
+- https://www.toptal.com/designers/ux/minimalist-brutalist-web-design
