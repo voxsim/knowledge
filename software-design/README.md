@@ -1,13 +1,13 @@
-- [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-2-missing-to-nonsense/ )
-- [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-3-nonsense-to-honest/ )
-- [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-4-honest-to-honest-and-complete/ )
-- [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-5-honest-and-complete-to-does-the-right-thing/ )
-- [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-6-does-the-right-thing-to-intent/ )
-- [ "Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-7-intent-to-domain-abstraction/ )
-- [ "GOTO 2016 • Software ]( https://www.youtube.com/watch?v=USc-yLHXNUg )
-- [ "Gary Bernhardt|Fast Test ]( https://www.youtube.com/watch?v=RAxiiRPHS9k )
-- [ "Growing a Language ]( https://www.youtube.com/watch?v=_ahvzDzKdB0 )
-- [ "Rich Hickey|Design ]( https://www.infoq.com/presentations/design-composition-performance-keynote )
+- [ Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-2-missing-to-nonsense/ )
+- [ Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-3-nonsense-to-honest/ )
+- [ Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-4-honest-to-honest-and-complete/ )
+- [ Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-5-honest-and-complete-to-does-the-right-thing/ )
+- [ Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-6-does-the-right-thing-to-intent/ )
+- [ Arlo Belshee|Naming is a Process ]( http://arlobelshee.com/naming-is-a-process-part-7-intent-to-domain-abstraction/ )
+- [ GOTO 2016 • Software ]( https://www.youtube.com/watch?v=USc-yLHXNUg )
+- [ Gary Bernhardt|Fast Test ]( https://www.youtube.com/watch?v=RAxiiRPHS9k )
+- [ Growing a Language ]( https://www.youtube.com/watch?v=_ahvzDzKdB0 )
+- [ Rich Hickey|Design ]( https://www.infoq.com/presentations/design-composition-performance-keynote )
 - [ Accidentally Concurrent - Evan Czaplicki ]( https://www.youtube.com/watch?v=DfLvDFxcAIA )
 - [ Adrian Cockcroft|The Evolution of Microservices ]( http://www.ustream.tv/recorded/86151804 )
 - [ Arlo Belshee|New code is legacy code ]( http://arlobelshee.com/new-code-is-legacy-code/ )
@@ -93,13 +93,6 @@
 - [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 - http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 - http://alistair.cockburn.us/Hexagonal+architecture
-- http://amzn.to/1bFjP6F
-- http://amzn.to/1e9iAMM
-- http://amzn.to/1f0S8pS
-- http://amzn.to/1fM2pG6
-- http://amzn.to/1hHcPaD
-- http://amzn.to/1mwsAUU
-- http://amzn.to/1mwsH2P
 - http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - http://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
 - http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
