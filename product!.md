@@ -24,3 +24,4 @@ More:
 - https://medium.com/@sicross/the-product-managers-essential-reading-list-for-2018-72f43b441ced
 - https://www.amazon.it/Crossing-Chasm-Marketing-High-Tech-Mainstream/dp/0060517123
 - https://www.youtube.com/watch?v=JN16qhu3G0g
+- https://martinfowler.com/articles/products-over-projects.html
