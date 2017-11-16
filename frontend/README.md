@@ -28,3 +28,6 @@
 - http://lucasmreis.github.io/blog/simple-react-patterns/
 - https://blog.kentcdodds.com/rendering-a-function-with-react-ca3eaf0751e2
 - https://www.toptal.com/designers/ux/minimalist-brutalist-web-design
+- https://github.com/necolas/react-native-web/blob/master/docs/guides/style.md
+- https://gist.github.com/threepointone/0ef30b196682a69327c407124f33d69a
+- https://speakerdeck.com/vjeux/react-css-in-js
