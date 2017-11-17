@@ -28,3 +28,7 @@ More:
 - https://blog.ycombinator.com/13-startup-ideas/
 - https://corbt.com/posts/2017/10/17/keep-your-burn-rate-low.html
 - http://www.paulgraham.com/mit.html
+- https://ahrefs.com/blog/on-page-seo/
+- https://ahrefs.com/blog/outreach/
+- https://ahrefs.com/blog/seo-tips/
+- https://moz.com/beginners-guide-to-link-building
