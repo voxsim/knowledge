@@ -9,3 +9,4 @@
 - [ Zach Holman|What They Don't Tell You About Public Speaking ]( https://zachholman.com/posts/what-they-dont-tell-you-about-public-speaking/ )
 - http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks
 - [ Dave Morris: The Way of Improvisation ](https://www.youtube.com/watch?v=MUO-pWJ0riQ)
+- https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
