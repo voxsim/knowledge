@@ -3,8 +3,6 @@
 - https://github.com/coryhouse/speaker-starter-kit
 - https://github.com/matteofigus/awesome-speaking
 - http://speaking.io/
-- [ Zach Holman|How GitHub Uses GitHub to Build GitHub ]( https://www.youtube.com/watch?v=qyz3jkOBbQY )
-- [ Zach Holman|Remote-First vs. Remote-Friendly ]( https://zachholman.com/posts/remote-first/?utm_campaign=buffer&utm_content=buffer9b64e&utm_medium=social&utm_source=twitter.com )
 - [ Zach Holman|Tips for Public Speaking – speaking.io ]( http://speaking.io/ )
 - [ Zach Holman|What They Don't Tell You About Public Speaking ]( https://zachholman.com/posts/what-they-dont-tell-you-about-public-speaking/ )
 - http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks
