@@ -25,3 +25,6 @@ More:
 - https://www.amazon.it/Crossing-Chasm-Marketing-High-Tech-Mainstream/dp/0060517123
 - https://www.youtube.com/watch?v=JN16qhu3G0g
 - https://martinfowler.com/articles/products-over-projects.html
+- https://blog.ycombinator.com/13-startup-ideas/
+- https://corbt.com/posts/2017/10/17/keep-your-burn-rate-low.html
+- http://www.paulgraham.com/mit.html
