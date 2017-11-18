@@ -76,7 +76,6 @@
 * [Speaker style bingo: 10 presentation anti-patterns](https://www.troyhunt.com/speaker-style-bingo-10-presentation/) by Troy Hunt
 * [SpeakerLine](http://speakerline.io/speakers), built by Nadia Odunayo to showcase speakers' proposals and timelines to demystify the CFP process and help new speakers get started.
 * [Speaking and Nerves](https://cate.blog/2017/06/15/speaking-and-nerves/) by Cate Huston
-* [Speaking.io](http://speaking.io) - Tips for preparing your talk and get ready to deliver it
 * [Speech Anxiety for Game Developers](http://www.gamesindustry.biz/articles/2017-04-11-speech-anxiety-for-game-developers) by Brie Code
 * [Strategies For Attracting More of the “Underrepresented” Onto the Conference Stage](https://medium.com/@KimCrayton1/strategies-for-attracting-more-of-the-underrepresented-onto-the-conference-stage-f6d34464f635) by Kim Crayton
 * [TED Talks: The Official TED Guide to Public Speaking](http://www.amazon.com/d/0544634497/) - by **Chris Anderson** (Houghton Mifflin Harcourt). Start to finish guide to giving powerful talks.
@@ -85,7 +84,6 @@
 * [The Art of Slide Design](https://missgeeky.com/2017/08/04/the-art-of-slide-design/) by Melinda Seckington
 * [The Secret Structure of Great Talks](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks) by Nancy Duarte
 * [The Shapes of Stories](http://www.openculture.com/2014/02/kurt-vonnegut-masters-thesis-rejected-by-u-chicago.html) by Kurt Vonnegut
-* [The Talk on Talks](http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks) - by **Zach Holman** [36:26]
 * [The Three Things I’ve Learned From Eighteen Years of Public Speaking](https://medium.com/@blprnt/the-three-things-i-learned-from-eighteen-years-of-public-speaking-875f01178902) by Jer Thorpe
 * [The art of the keynote](http://guykawasaki.com/the-art-of-the-keynote/) by Guy Kawasaki
 * [The surprising secret to speaking with confidence](https://www.youtube.com/watch?v=a2MR5XbJtXU) - by **Caroline Goyder** [18:55]
@@ -106,7 +104,6 @@
 * [Your slides do matter](https://daveyshafik.com/archives/70053-your-slides-do-matter.html) by Davey Shafik
 * [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) - a collection of awesome tech talks
 * [slidelint](http://slidelint.net): Checks for common problems in presentation slides!
-* [speaking.io: Thoughts on public speaking](http://speaking.io/) by Zach Holman
 * [🎥 #speakerlife lightning talk](https://www.youtube.com/watch?v=e-m-P4kGvr8) ([slides](https://www.slideshare.net/genehackdotorg/speakerlife)) by John Anderson
 * [🎥 10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) by Matthew McCullough
 * [🎥 How to get started with technical public speaking!](http://www.hanselman.com/blog/VIDEOHowToGetStartedWithTechnicalPublicSpeaking.aspx) by Scott Hanselman, Kendra Havens, Maria Naggaga Nakanwagi, Kasey Uhlenhuth, and Donovan Brown
