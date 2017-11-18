@@ -1,232 +1,137 @@
-- https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
-- https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
-- http://codewithstyle.info/introverts-guide-public-speaking/
-- https://github.com/coryhouse/speaker-starter-kit
-- http://speaking.io/
-- http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks
+* [10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) video by Matthew McCullough
+* [10 Quick Tips for More Effective Conference Submissions and Presentations](https://www.youtube.com/watch?v=fJz4JJIchaY) - by **Matthew McCullough** [30:07]
+* [10 things you should NEVER say during presentations](http://thenextweb.com/lifehacks/2013/09/12/10-things-you-should-never-say-during-presentations-2/) by Boris Veldhuijzen van Zanten
+* [10 ways for a conference to upset their speakers](https://www.troyhunt.com/10-ways-for-a-conference-to-upset-their-speakers/) by Troy Hunt
+* [3 Steps to Better Presentation Visuals](https://hbr.org/video/4642346287001/3-steps-to-better-presentation-visuals) by Harvard Business Review
+* [4 Secrets to Giving a Speech Worthy of a Standing Ovation](http://www.entrepreneur.com/article/253040) by Baron Schwartz
+* [5 Ways to Leave Your Fears Behind and Learn to Love Public Speaking](https://www.themuse.com/advice/5-ways-to-leave-your-fears-behind-and-learn-to-love-public-speaking) by Kathryn Minshew
+* [5 years behind the mic](https://medium.com/@wiredferret/5-years-behind-the-mic-7ed8f2d25222) by Heidi Waterhouse
+* [7 best practices for giving a conference talk](https://opensource.com/article/17/9/7-best-practices-giving-conference-talk) by VM Brasseur
+* [7 tips for learning how to give a technical talk](https://opensource.com/life/16/9/7-tips-learning-how-give-technical-talk) by Ala Hino
+* [A Checklist for More Persuasive Presentations](https://hbr.org/2016/10/a-checklist-for-more-persuasive-presentations) by Dorie Clark
+* [A Public Speaking Experiment: Blank Slides](https://medium.com/upday-devs/a-public-speaking-experiment-blank-slides-c2fc09289825#.z94mgux2f) by Florina Muntenescu
+* [A collection of awesome resources about public speaking](https://github.com/matteofigus/awesome-speaking) by Matteo Figus
+* [A white-label slide deck](http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides) by Alice Bartlett
+* [Advice for new speakers](http://anonymoushash.vmbrasseur.com/2017/09/11/advice-for-new-speakers/) by VM Brasseur
+* [An Open Letter To Speakers](http://scottberkun.com/2011/an-open-letter-to-speakers/) by Scott Berkun
+* [Ask HN: What alternatives to Powerpoint/Prezi are there?](https://news.ycombinator.com/item?id=15575363)
+* [Bringing Your Full Voice to Life](https://www.youtube.com/watch?v=Ze763kgrWGg) -  by **Barbara McAfee** [19:07]
+* [CFP Time](https://cfptime.org)
+* [Central US Community Tech Events](http://www.davidgiard.com/CentralUSEvents.aspx)
+* [Code And Talk](https://codeandtalk.com/conferences) (Conferences and CFPs)
+* [Conference Radar](http://conferenceradar.com)
+* [ConferenceList](https://conferencelist.co) (conferences only)
+* [ConferenceList](https://conferencelist.io/) - by Cezar Floroiu. A list of conferences around the world.
+* [DevOps Conferences](http://devopsconferences.org/)
+* [Doing a TED Talk: The Full Story](http://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html) by Tim Urban
+* [Don't send proposals at the last moment](https://2017.webcampzg.org/news/dont-send-proposals-last-moment/) by Damir Svrtan
+* [Experienced speakers discuss how they prepare their talks](http://neilb.org/2016/10/30/preparing-a-talk.html) by Neil Bowers
+* [Finding Your Killer Talk Idea](http://ladiesintech.com/finding-your-killer-talk-idea/) by Rachel Nabors
+* [Give a Great Tech Talk 2](https://github.com/jberkus/ggtt2) by Josh Berkus
+* [HelpMeAbstract](http://helpmeabstract.com/) - Get feedback from veteran speakers before you submit your talk.
+* [Helpful talk tips!](https://trackchanges.postlight.com/helpful-talk-tips-5347ea7c2745) by Paul Ford
+* [How I Create Talks](https://michele.io/how-i-create-talks/) by Michele Titolo
+* [How To Get Speaking Engagements](https://hackernoon.com/how-to-get-speaking-engagements-c7fdebf8416d) by Sam Jarman
+* [How To Give a Great Ignite Talk](http://scottberkun.com/2009/how-to-give-a-great-ignite-talk/) by Scott Berkun
+* [How To Prepare And Write A Tech Conference Talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/) - by **Lena Reinhard**
+* [How do conference speakers get compensated](https://www.linkedin.com/pulse/20140731092421-4973136-how-do-conference-speakers-get-compensated) by Curtis "Ovid" Poe
+* [How public speaking made me a better leader (and vice-versa)](https://speakerdeck.com/yprabhu/elaconf2017) by Yash Prabhu
+* [How to Become a Public Speaker in 1 Year: Gain the confidence to engage audiences on and offstage](https://www.amazon.com/dp/B01N4HX7ZJ) by Catt Small
+* [How to Stay Calm When You Know You'll Be Stressed](https://www.ted.com/talks/daniel_levitin_how_to_stay_calm_when_you_know_you_ll_be_stressed) - by **Daniel Levitin** [12:20]
+* [How to Talk to Developers](https://www.youtube.com/watch?v=l9JXH7JPjR4) - by **Ben Orenstein** [47:37]
+* [How to Write a Conference Talk Proposal](http://rikkiendsley.com/?p=390) by Rikki Endsley
+* [How to Write a Personal Biography for a Conference](http://work.chron.com/write-personal-biography-conference-3108.html) by Elle Smith
+* [How to Write a Successful Conference Proposal](https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32) by Karolina Szczur
+* [How to Write an Academic Bio for Conferences](https://phdlife.warwick.ac.uk/2017/02/01/how-to-write-an-academic-bio-for-conferences/) by Sophie Shorland (most tips here apply to technical conferences as well as academic)
+* [How to be an Android Expert](https://news.realm.io/news/droidcon-boston-chiu-ki-chan-how-to-be-an-android-expert/) by Chiu-Ki Chan (scroll down to **Call for Proposals** section of this post)
+* [How to craft a successful OpenStack Summit proposal](http://superuser.openstack.org/articles/how-to-craft-a-successful-openstack-summit-proposal) by Nicole Martinelli
+* [How to give a great talk, the lazy way](http://dberkholz.com/2015/04/20/how-to-give-a-great-talk-the-lazy-way/) by Donnie Berkholz
+* [How to make your OpenStack Summit talk a big success](http://superuser.openstack.org/articles/how-to-make-your-openstack-summit-talk-a-big-success/) by Anne Bertucio
+* [How to prepare and write a tech conference talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/) by Lena Reinhard
+* [How to start speaking (in tech conferences)](https://medium.com/@karen_meep/how-to-start-speaking-in-tech-conferences-f64a9f3a84a6#.ev7mefjfq) by Karen Meep
+* [How to write a good submission](http://web.archive.org/web/20170612205311/http://www.codemash.org/call-speakers/) by CodeMash (scroll down to the relevant & very helpful section of the page)
+* [LADY SPEAKER SMALL TALK](http://www.heidiwaterhouse.com/2017/06/09/lady-speaker-small-talk/) by Heidi Waterhouse
+* [Lanyrd](http://lanyrd.com/calls/) (Conferences and CFPs)
+* [Let's stop tormenting speakers about these four normal qualities](http://eloquentwoman.blogspot.com/2016/10/lets-stop-tormenting-speakers-about.html?m=1) by Denise Graveline
+* [Mozilla Tech CFPs](https://tchspk.rs/cfp) (all events welcome, not just Mozilla ones)
+* [My presentation workflow and challenges](http://larahogan.me/blog/my-presentation-workflow-and-challenges/) by Lara Hogan
+* [On Conference Speaking](https://hynek.me/articles/speaking/) by Hynek Schlawack
+* [On collecting no's](http://glasnt.com/blog/2017/04/11/on-collecting-nos.html) by Katie McLaughlin
+* [On conference proposal rejections](https://code.likeagirl.io/on-conference-proposal-rejections-205f7fead68) by Tracy Osborn
+* [Opensource.com Events Calendar](https://opensource.com/resources/conferences-and-events-monthly)
+* [Papercall.io](https://www.papercall.io/cfps), tech with a DevOps focus
+* [Preparing For Your First Talk](https://youtu.be/zzjoPxCU3ts?list=PLB1PViL_KEtc0yNMpoKTOJnnVMv0MLIwB) by Yash Prabhu, presented at [ElaConf 2015](http://elaconf.com/)
+* [Preparing Talks is Scary](https://medium.com/@helenvholmes/preparing-talks-is-scary-fb862deeaf0) by Helen V. Holmes
+* [Preparing a talk: before you start ](https://blog.juliaferraioli.com/2017/09/preparing-talk-before-you-start.html) by Julia Ferraioli
+* [Preparing a talk: presenting](https://blog.juliaferraioli.com/2017/10/preparing-talk-presenting.html) by Julia Ferraioli
+* [Preparing a talk: writing your talk](https://blog.juliaferraioli.com/2017/10/preparing-talk-writing-your-talk.html) by Julia Ferraioli
+* [Presentation Patterns](http://presentationpatterns.com/) - by **Neal Ford**, **Matthew McCullough**, and **Nate Schutta** (Addison-Wesley)
+* [Presentation Zen Design](http://www.amazon.com/gp/product/0321668790) - by Garr Reynolds. How to design your presentation.
+* [Presentation Zen](http://www.presentationzen.com/) by Garr Reynolds
+* [Presenting is Performance](http://eleganthack.com/presenting-is-performance/) - by **Christina Wodtke**
+* [Presenting presenting](https://medium.com/@chethaase/presenting-presenting-17233fa13aa5) by Chet Haase
+* [Propose, Prepare, Present](http://shop.oreilly.com/product/0636920027096.do) - Free Ebook by **Alistair Croll** (O'Reilly)
+* [Propose, Prepare, Present](http://shop.oreilly.com/product/0636920027096.do) by Alistair Croll
+* [Proposing a Compelling Fluent Talk](http://radar.oreilly.com/2013/09/proposing-a-compelling-fluent-talk.html) by Simon St. Laurent
+* [Public Speaking for Nerds](http://www.mechanicalgirl.com/post/public-speaking-nerds/) by Barbara Shaurette
+* [Public Speaking without Barfing on Your Shoes](https://github.com/reverentgeek/public-speaking) by David Neal
+* [Sample Proposals for O'Reilly Conferences](http://www.oreilly.com/conferences/sample_proposals.html) By O'Reilly Media
+* [Some Thoughts On Doing Conference Sessions](http://derickbailey.com/2015/11/11/some-thoughts-on-doing-conference-sessions/) - by **Derick Bailey**
+* [Speaker Style Bingo: 10 Presentation Anti-Patterns](http://www.troyhunt.com/2015/06/speaker-style-bingo-10-presentation.html) - by **Troy Hunt**
+* [Speaker style bingo: 10 presentation anti-patterns](https://www.troyhunt.com/speaker-style-bingo-10-presentation/) by Troy Hunt
+* [SpeakerLine](http://speakerline.io/speakers), built by Nadia Odunayo to showcase speakers' proposals and timelines to demystify the CFP process and help new speakers get started.
+* [Speaking and Nerves](https://cate.blog/2017/06/15/speaking-and-nerves/) by Cate Huston
+* [Speaking.io](http://speaking.io) - Tips for preparing your talk and get ready to deliver it
+* [Speech Anxiety for Game Developers](http://www.gamesindustry.biz/articles/2017-04-11-speech-anxiety-for-game-developers) by Brie Code
+* [Strategies For Attracting More of the “Underrepresented” Onto the Conference Stage](https://medium.com/@KimCrayton1/strategies-for-attracting-more-of-the-underrepresented-onto-the-conference-stage-f6d34464f635) by Kim Crayton
+* [TED Talks: The Official TED Guide to Public Speaking](http://www.amazon.com/d/0544634497/) - by **Chris Anderson** (Houghton Mifflin Harcourt). Start to finish guide to giving powerful talks.
+* [Technical Speaker Starter Kit](https://github.com/coryhouse/speaker-starter-kit) by Cory House
+* [Technically Speaking](https://tinyletter.com/techspeak), emphasizes inclusive conferences with stipends
+* [The Art of Slide Design](https://missgeeky.com/2017/08/04/the-art-of-slide-design/) by Melinda Seckington
+* [The Secret Structure of Great Talks](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks) by Nancy Duarte
+* [The Shapes of Stories](http://www.openculture.com/2014/02/kurt-vonnegut-masters-thesis-rejected-by-u-chicago.html) by Kurt Vonnegut
+* [The Talk on Talks](http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks) - by **Zach Holman** [36:26]
+* [The Three Things I’ve Learned From Eighteen Years of Public Speaking](https://medium.com/@blprnt/the-three-things-i-learned-from-eighteen-years-of-public-speaking-875f01178902) by Jer Thorpe
+* [The art of the keynote](http://guykawasaki.com/the-art-of-the-keynote/) by Guy Kawasaki
+* [The surprising secret to speaking with confidence](https://www.youtube.com/watch?v=a2MR5XbJtXU) - by **Caroline Goyder** [18:55]
+* [Three things you don’t need to become a speaker](https://medium.com/@fox/three-things-you-dont-need-to-become-a-speaker-3c65b73af5cb) by Karolina Szczur
+* [Three tips for getting a talk accepted at Fluent… or any other technology conference, tbh.](https://medium.com/@bentlegen/three-tips-for-getting-a-talk-accepted-at-fluent-9eff841efc54#.uwoh77m3m) by Ben Vinegar
+* [Tradecraft of Public Speaking](https://moundalexis.com/v2/2015/04/06/speaking-tech.html) by Alex Moundalexis
+* [WHY YOU SHOULD AIM FOR 100 REJECTIONS A YEAR](http://lithub.com/why-you-should-aim-for-100-rejections-a-year/) by Kim Liao
+* [We Are All Awesome!](http://weareallaweso.me/) - a collection of interesting posts about speaking, preparing, motivation, etc
+* [What I've learned after giving 100 talks](https://medium.com/@zenorocha/what-ive-learned-after-giving-100-talks-8f175654e945) by Zeno Rocha
+* [What You Need to Know About Speaking at Conferences](https://www.ashedryden.com/blog/what-you-need-to-know-about-speaking-at-conferences) by Ashe Dryden
+* [Who am I to give this talk](http://ballingt.com/wanna-do-a-talk/) by Thomas Ballinger
+* [Why I Speak at Developer Conferences](https://medium.com/@wiredferret/why-i-speak-at-developer-conferences-8017c708ba25) by Heidi Waterhouse
+* [Why Your Excellent Conference Talk Was Rejected](https://www.promptworks.com/blog/why-your-excellent-talk-was-rejected) by Sarah Gray
+* [Why you should give technical talks](http://daphsta.github.io/ruby%20learn%20self-development/2015/01/12/why-you-should-give-technical-talks.html) by Daphne Rouw
+* [WikiCFP](http://wikicfp.com/cfp/), primarily academic and industry * conferences
+* [Women Who Code panel discussion on preparing for and speaking at technical conferences](http://www.youtube.com/watch?v=yE67bo7dmbY) (video)
+* [Writing winning abstracts](https://marcysutton.com/writing-winning-talk-abstracts/) by Marcy Sutton
+* [Your slides do matter](https://daveyshafik.com/archives/70053-your-slides-do-matter.html) by Davey Shafik
+* [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) - a collection of awesome tech talks
+* [slidelint](http://slidelint.net): Checks for common problems in presentation slides!
+* [speaking.io: Thoughts on public speaking](http://speaking.io/) by Zach Holman
+* [🇨🇳 18個PPT演講的技巧，讓你的提案能力提高N倍](https://www.mydesy.com/18-skills-of-speech) 来源：瘋狂簡報
+* [🇨🇳 向柴静学习21个演讲技巧](https://www.digitaling.com/articles/13764.html) 来源：培训经理指南
+* [🇨🇳 如何做一场像TED一样精彩的技术演讲](http://www.offbye.com/2016/06/29/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%9C%BA%E5%83%8FTed%E4%B8%80%E6%A0%B7%E7%B2%BE%E5%BD%A9%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2/) 作者：西涛
+* [🇨🇳 如何雕琢一场“走心”的技术演讲，让听众放下手机](http://www.10tiao.com/html/198/201609/2653120452/1.html) 作者：刘芸 
+* [🇨🇳 學術會議英文社交演講技巧](https://www.cantabenglish.com/blog/conference_paper_presentation_skill) 作者：Dr Fiona Hu
+* [🇨🇳 新手演讲：走上演讲台的第一步](https://ivaneye.com/2016/12/11/talk.html) 作者：Ivan Eye
+* [🎥 #speakerlife lightning talk](https://www.youtube.com/watch?v=e-m-P4kGvr8) ([slides](https://www.slideshare.net/genehackdotorg/speakerlife)) by John Anderson
+* [🎥 10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) by Matthew McCullough
+* [🎥 How to get started with technical public speaking!](http://www.hanselman.com/blog/VIDEOHowToGetStartedWithTechnicalPublicSpeaking.aspx) by Scott Hanselman, Kendra Havens, Maria Naggaga Nakanwagi, Kasey Uhlenhuth, and Donovan Brown
+* [🎥 Speaker Training Workshop](https://archive.org/details/devworld2017-speakertraining) by VM Brasseur
+* [🎥 Top Tips for Terrible Tech Talks](https://www.youtube.com/watch?v=osVpqz10UP8) by Chet Haase
+* [🎧 The Michael Jordan of Tech Talks](http://www.codenewbie.org/podcast/the-michael-jordan-of-tech-talks) by Kim Crayton
+* [📚 Demystifying Public Speaking](https://abookapart.com/products/demystifying-public-speaking) by Lara Hogan
 - [ Dave Morris: The Way of Improvisation ](https://www.youtube.com/watch?v=MUO-pWJ0riQ)
 - [8 Classic Storytelling Techniques for Engaging Presentations](https://www.sparkol.com/en/Blog/8-Classic-storytelling-techniques-for-engaging-presentations) - by **Ffion Lindsay**
 - [Block Your Talk](http://eleganthack.com/block-your-talk/) - by **Christina Wodtke**
 - [How To Get Speaking Engagements](https://www.samjarman.co.nz/blog/speaking-gigs) - by **Sam Jarman**
 - [Nine Secrets to Powerful Public Speaking](http://www.gq-magazine.co.uk/article/public-speaking-tips) - by **Julian Treasure**
-* [Presenting is Performance](http://eleganthack.com/presenting-is-performance/) - by **Christina Wodtke**
-* [Speaker Style Bingo: 10 Presentation Anti-Patterns](http://www.troyhunt.com/2015/06/speaker-style-bingo-10-presentation.html) - by **Troy Hunt**
-* [Some Thoughts On Doing Conference Sessions](http://derickbailey.com/2015/11/11/some-thoughts-on-doing-conference-sessions/) - by **Derick Bailey**
-* [How To Prepare And Write A Tech Conference Talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/) - by **Lena Reinhard**
-* [Propose, Prepare, Present](http://shop.oreilly.com/product/0636920027096.do) - Free Ebook by **Alistair Croll** (O'Reilly)
-* [Presentation Patterns](http://presentationpatterns.com/) - by **Neal Ford**, **Matthew McCullough**, and **Nate Schutta** (Addison-Wesley)
-* [Presentation Zen Design](http://www.amazon.com/gp/product/0321668790) - by Garr Reynolds. How to design your presentation.
-* [TED Talks: The Official TED Guide to Public Speaking](http://www.amazon.com/d/0544634497/) - by **Chris Anderson** (Houghton Mifflin Harcourt). Start to finish guide to giving powerful talks.
-* [Toastmasters](https://www.toastmasters.org/Find-a-Club) - An international non-profit educational organizations that facilitates the creation and growth of clubs around the world. The goal of the clubs is to improve the leadership and public speaking skills of members.
-* [The Talk on Talks](http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks) - by **Zach Holman** [36:26]
-* [10 Quick Tips for More Effective Conference Submissions and Presentations](https://www.youtube.com/watch?v=fJz4JJIchaY) - by **Matthew McCullough** [30:07]
-* [How to Talk to Developers](https://www.youtube.com/watch?v=l9JXH7JPjR4) - by **Ben Orenstein** [47:37]
-* [How to Stay Calm When You Know You'll Be Stressed](https://www.ted.com/talks/daniel_levitin_how_to_stay_calm_when_you_know_you_ll_be_stressed) - by **Daniel Levitin** [12:20]
-* [The surprising secret to speaking with confidence](https://www.youtube.com/watch?v=a2MR5XbJtXU) - by **Caroline Goyder** [18:55]
-* [Bringing Your Full Voice to Life](https://www.youtube.com/watch?v=Ze763kgrWGg) -  by **Barbara McAfee** [19:07]
-* [ConferenceList](https://conferencelist.io/) - by Cezar Floroiu. A list of conferences around the world.
-* [Speaking.io](http://speaking.io) - Tips for preparing your talk and get ready to deliver it
-* [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) - a collection of awesome tech talks
-* [We Are All Awesome!](http://weareallaweso.me/) - a collection of interesting posts about speaking, preparing, motivation, etc
-* [HelpMeAbstract](http://helpmeabstract.com/) - Get feedback from veteran speakers before you submit your talk.
-
-----
-
-# Public Speaking Resources
-
-> Translations available:
-> 
-> * [🇧🇷 pt-br](./translations/pt-br)
-
-This repository contains an ever-growing and -evolving list of resources for public speaking. The primary focus is presenting at technical conferences, but many of the lessons here can be applied to many different public speaking events & audiences.
-
-* [Contributing](#contributing) ([🇧🇷](./translations/pt-br#contribuindo))
-* [Resources](#resources) ([🇧🇷](./translations/pt-br#artigos))
-* [History & Acknowledgments](#history--acknowledgments) ([🇧🇷](./translations/pt-br#historia))
-* [Licensing](#licensing) ([🇧🇷](./translations/pt-br#licença))
-
-## Contributing
-
-Have a public speaking resource you'd like to contribute? Thank you! We love contributors!
-
-Please have a look at [CONTRIBUTING.md](./CONTRIBUTING.md) for all your contributing needs. :-)
-
-All contributors to and participants in this project (including the [IRC channel](https://webchat.freenode.net/?channels=%23public_speaking)) agree to abide by the [Code of Conduct](./CODEOFCONDUCT.md).
-
-Please [contact us](https://github.com/vmbrasseur/Public_Speaking/blob/master/CONTRIBUTING.md#for-more-help) if you have any questions about the project or contributing to it.
-
-## Resources
-
-Browse below or click here to jump directly to a section:
-
-* [General](#general)
-* [Finding a Conference](#finding-a-conference)
-* [Proposing Talks](#proposing-talks)
-* [Rejections](#rejections)
-* [Writing presentations](#writing-presentations)
-* [Presenting talks](#presenting-talks)
-* [Tools](#tools)
-* [Other](#other)
-
-### General
-
-* [🎥 Speaker Training Workshop](https://archive.org/details/devworld2017-speakertraining) by VM Brasseur
-* [Advice for new speakers](http://anonymoushash.vmbrasseur.com/2017/09/11/advice-for-new-speakers/) by VM Brasseur
-* [7 best practices for giving a conference talk](https://opensource.com/article/17/9/7-best-practices-giving-conference-talk) by VM Brasseur
-* [speaking.io: Thoughts on public speaking](http://speaking.io/) by Zach Holman
-* [Why you should give technical talks](http://daphsta.github.io/ruby%20learn%20self-development/2015/01/12/why-you-should-give-technical-talks.html) by Daphne Rouw
-* [The art of the keynote](http://guykawasaki.com/the-art-of-the-keynote/) by Guy Kawasaki
-* [A collection of awesome resources about public speaking](https://github.com/matteofigus/awesome-speaking) by Matteo Figus
-* [5 Ways to Leave Your Fears Behind and Learn to Love Public Speaking](https://www.themuse.com/advice/5-ways-to-leave-your-fears-behind-and-learn-to-love-public-speaking) by Kathryn Minshew
-* [Propose, Prepare, Present](http://shop.oreilly.com/product/0636920027096.do) by Alistair Croll
-* [Helpful talk tips!](https://trackchanges.postlight.com/helpful-talk-tips-5347ea7c2745) by Paul Ford
-* [Doing a TED Talk: The Full Story](http://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html) by Tim Urban
-* [How to start speaking (in tech conferences)](https://medium.com/@karen_meep/how-to-start-speaking-in-tech-conferences-f64a9f3a84a6#.ev7mefjfq) by Karen Meep
-* [An Open Letter To Speakers](http://scottberkun.com/2011/an-open-letter-to-speakers/) by Scott Berkun
-* [How to Become a Public Speaker in 1 Year: Gain the confidence to engage audiences on and offstage](https://www.amazon.com/dp/B01N4HX7ZJ) by Catt Small
-* [🎥 How to get started with technical public speaking!](http://www.hanselman.com/blog/VIDEOHowToGetStartedWithTechnicalPublicSpeaking.aspx) by Scott Hanselman, Kendra Havens, Maria Naggaga Nakanwagi, Kasey Uhlenhuth, and Donovan Brown
-* [The Three Things I’ve Learned From Eighteen Years of Public Speaking](https://medium.com/@blprnt/the-three-things-i-learned-from-eighteen-years-of-public-speaking-875f01178902) by Jer Thorpe
-* [📚 Demystifying Public Speaking](https://abookapart.com/products/demystifying-public-speaking) by Lara Hogan
-* [5 years behind the mic](https://medium.com/@wiredferret/5-years-behind-the-mic-7ed8f2d25222) by Heidi Waterhouse
-* [Preparing Talks is Scary](https://medium.com/@helenvholmes/preparing-talks-is-scary-fb862deeaf0) by Helen V. Holmes
-* [🎧 The Michael Jordan of Tech Talks](http://www.codenewbie.org/podcast/the-michael-jordan-of-tech-talks) by Kim Crayton
-* [On Conference Speaking](https://hynek.me/articles/speaking/) by Hynek Schlawack
-* [What You Need to Know About Speaking at Conferences](https://www.ashedryden.com/blog/what-you-need-to-know-about-speaking-at-conferences) by Ashe Dryden
-* [Don't send proposals at the last moment](https://2017.webcampzg.org/news/dont-send-proposals-last-moment/) by Damir Svrtan
-* [How to be an Android Expert](https://news.realm.io/news/droidcon-boston-chiu-ki-chan-how-to-be-an-android-expert/) by Chiu-Ki Chan (scroll down to **Call for Proposals** section of this post)
-* [Three things you don’t need to become a speaker](https://medium.com/@fox/three-things-you-dont-need-to-become-a-speaker-3c65b73af5cb) by Karolina Szczur
-* [Who am I to give this talk](http://ballingt.com/wanna-do-a-talk/) by Thomas Ballinger
-* [How public speaking made me a better leader (and vice-versa)](https://speakerdeck.com/yprabhu/elaconf2017) by Yash Prabhu
-* [🇨🇳 新手演讲：走上演讲台的第一步](https://ivaneye.com/2016/12/11/talk.html) 作者：Ivan Eye
-* [🇨🇳 學術會議英文社交演講技巧](https://www.cantabenglish.com/blog/conference_paper_presentation_skill) 作者：Dr Fiona Hu
-* [Why I Speak at Developer Conferences](https://medium.com/@wiredferret/why-i-speak-at-developer-conferences-8017c708ba25) by Heidi Waterhouse
-* [What I've learned after giving 100 talks](https://medium.com/@zenorocha/what-ive-learned-after-giving-100-talks-8f175654e945) by Zeno Rocha
-* [Technical Speaker Starter Kit](https://github.com/coryhouse/speaker-starter-kit) by Cory House
-
-### Finding a Conference
-
-Tech conferences are not the only way to do public speaking. You can find
-local users groups on [Meetup](http://www.meetup.com/) and similar sites that
-might be interested in hearing your talks, as well!
-
-* [How To Get Speaking Engagements](https://hackernoon.com/how-to-get-speaking-engagements-c7fdebf8416d) by Sam Jarman
-
-#### Aggregators of CFPs and Conferences
-
-A CFP is a "Call For Papers", "Call For Proposals", or "Call For
-Participation" depending on the conference.
-
-* [Papercall.io](https://www.papercall.io/cfps), tech with a DevOps focus
-* [WikiCFP](http://wikicfp.com/cfp/), primarily academic and industry * conferences
-* [DevOps Conferences](http://devopsconferences.org/)
-* [Opensource.com Events Calendar](https://opensource.com/resources/conferences-and-events-monthly)
-* [Central US Community Tech Events](http://www.davidgiard.com/CentralUSEvents.aspx)
-* [Mozilla Tech CFPs](https://tchspk.rs/cfp) (all events welcome, not just Mozilla ones)
-* [Lanyrd](http://lanyrd.com/calls/) (Conferences and CFPs)
-* [CFP Time](https://cfptime.org)
-* [ConferenceList](https://conferencelist.co) (conferences only)
-* [Conference Radar](http://conferenceradar.com)
-* [Code And Talk](https://codeandtalk.com/conferences) (Conferences and CFPs)
-
-#### Mailing lists with tech CFPs
-
-* [Technically Speaking](https://tinyletter.com/techspeak), emphasizes inclusive conferences with stipends
-
-### Proposing talks
-
-* [Proposing a Compelling Fluent Talk](http://radar.oreilly.com/2013/09/proposing-a-compelling-fluent-talk.html) by Simon St. Laurent
-* [Sample Proposals for O'Reilly Conferences](http://www.oreilly.com/conferences/sample_proposals.html) By O'Reilly Media
-* [🎥 10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) by Matthew McCullough
-* [How to craft a successful OpenStack Summit proposal](http://superuser.openstack.org/articles/how-to-craft-a-successful-openstack-summit-proposal) by Nicole Martinelli
-* [How to Write a Conference Talk Proposal](http://rikkiendsley.com/?p=390) by Rikki Endsley
-* [Three tips for getting a talk accepted at Fluent… or any other technology conference, tbh.](https://medium.com/@bentlegen/three-tips-for-getting-a-talk-accepted-at-fluent-9eff841efc54#.uwoh77m3m) by Ben Vinegar
-* [How to Write a Successful Conference Proposal](https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32) by Karolina Szczur
-* [How to write a good submission](http://web.archive.org/web/20170612205311/http://www.codemash.org/call-speakers/) by CodeMash (scroll down to the relevant & very helpful section of the page)
-* [Writing winning abstracts](https://marcysutton.com/writing-winning-talk-abstracts/) by Marcy Sutton
-* [Finding Your Killer Talk Idea](http://ladiesintech.com/finding-your-killer-talk-idea/) by Rachel Nabors
-* [SpeakerLine](http://speakerline.io/speakers), built by Nadia Odunayo to showcase speakers' proposals and timelines to demystify the CFP process and help new speakers get started.
-* [Preparing a talk: before you start ](https://blog.juliaferraioli.com/2017/09/preparing-talk-before-you-start.html) by Julia Ferraioli
-
-### Writing a bio
-
-* [How to Write a Personal Biography for a Conference](http://work.chron.com/write-personal-biography-conference-3108.html) by Elle Smith
-* [How to Write an Academic Bio for Conferences](https://phdlife.warwick.ac.uk/2017/02/01/how-to-write-an-academic-bio-for-conferences/) by Sophie Shorland (most tips here apply to technical conferences as well as academic)
-
-### Rejections
-
-* [Why Your Excellent Conference Talk Was Rejected](https://www.promptworks.com/blog/why-your-excellent-talk-was-rejected) by Sarah Gray
-* [WHY YOU SHOULD AIM FOR 100 REJECTIONS A YEAR](http://lithub.com/why-you-should-aim-for-100-rejections-a-year/) by Kim Liao
-* [On conference proposal rejections](https://code.likeagirl.io/on-conference-proposal-rejections-205f7fead68) by Tracy Osborn
-* [On collecting no's](http://glasnt.com/blog/2017/04/11/on-collecting-nos.html) by Katie McLaughlin
-* [🎥 #speakerlife lightning talk](https://www.youtube.com/watch?v=e-m-P4kGvr8) ([slides](https://www.slideshare.net/genehackdotorg/speakerlife)) by John Anderson
-
-### Writing presentations
-
-* [slidelint](http://slidelint.net): Checks for common problems in presentation slides!
-* [Speaker style bingo: 10 presentation anti-patterns](https://www.troyhunt.com/speaker-style-bingo-10-presentation/) by Troy Hunt
-* [10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) video by Matthew McCullough
-* [The Secret Structure of Great Talks](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks) by Nancy Duarte
-* [3 Steps to Better Presentation Visuals](https://hbr.org/video/4642346287001/3-steps-to-better-presentation-visuals) by Harvard Business Review
-* [Presentation Zen](http://www.presentationzen.com/) by Garr Reynolds
-* [The Shapes of Stories](http://www.openculture.com/2014/02/kurt-vonnegut-masters-thesis-rejected-by-u-chicago.html) by Kurt Vonnegut
-* [A white-label slide deck](http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides) by Alice Bartlett
-* [Your slides do matter](https://daveyshafik.com/archives/70053-your-slides-do-matter.html) by Davey Shafik
-* [Experienced speakers discuss how they prepare their talks](http://neilb.org/2016/10/30/preparing-a-talk.html) by Neil Bowers
-* [A Checklist for More Persuasive Presentations](https://hbr.org/2016/10/a-checklist-for-more-persuasive-presentations) by Dorie Clark
-* [How to prepare and write a tech conference talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/) by Lena Reinhard
-* [A Public Speaking Experiment: Blank Slides](https://medium.com/upday-devs/a-public-speaking-experiment-blank-slides-c2fc09289825#.z94mgux2f) by Florina Muntenescu
-* [How I Create Talks](https://michele.io/how-i-create-talks/) by Michele Titolo
-* [My presentation workflow and challenges](http://larahogan.me/blog/my-presentation-workflow-and-challenges/) by Lara Hogan
-* [🎥 Top Tips for Terrible Tech Talks](https://www.youtube.com/watch?v=osVpqz10UP8) by Chet Haase
-* [The Art of Slide Design](https://missgeeky.com/2017/08/04/the-art-of-slide-design/) by Melinda Seckington
-* [Preparing a talk: writing your talk](https://blog.juliaferraioli.com/2017/10/preparing-talk-writing-your-talk.html) by Julia Ferraioli
-
-### Presenting talks
-
-* [How to give a great talk, the lazy way](http://dberkholz.com/2015/04/20/how-to-give-a-great-talk-the-lazy-way/) by Donnie Berkholz
-* [Give a Great Tech Talk 2](https://github.com/jberkus/ggtt2) by Josh Berkus
-* [How To Give a Great Ignite Talk](http://scottberkun.com/2009/how-to-give-a-great-ignite-talk/) by Scott Berkun
-* [Women Who Code panel discussion on preparing for and speaking at technical conferences](http://www.youtube.com/watch?v=yE67bo7dmbY) (video)
-* [4 Secrets to Giving a Speech Worthy of a Standing Ovation](http://www.entrepreneur.com/article/253040) by Baron Schwartz
-* [10 things you should NEVER say during presentations](http://thenextweb.com/lifehacks/2013/09/12/10-things-you-should-never-say-during-presentations-2/) by Boris Veldhuijzen van Zanten
-* [Let's stop tormenting speakers about these four normal qualities](http://eloquentwoman.blogspot.com/2016/10/lets-stop-tormenting-speakers-about.html?m=1) by Denise Graveline
-* [7 tips for learning how to give a technical talk](https://opensource.com/life/16/9/7-tips-learning-how-give-technical-talk) by Ala Hino
-* [Speech Anxiety for Game Developers](http://www.gamesindustry.biz/articles/2017-04-11-speech-anxiety-for-game-developers) by Brie Code
-* [Preparing For Your First Talk](https://youtu.be/zzjoPxCU3ts?list=PLB1PViL_KEtc0yNMpoKTOJnnVMv0MLIwB) by Yash Prabhu, presented at [ElaConf 2015](http://elaconf.com/)
-* [Speaking and Nerves](https://cate.blog/2017/06/15/speaking-and-nerves/) by Cate Huston
-* [Tradecraft of Public Speaking](https://moundalexis.com/v2/2015/04/06/speaking-tech.html) by Alex Moundalexis
-* [Public Speaking for Nerds](http://www.mechanicalgirl.com/post/public-speaking-nerds/) by Barbara Shaurette
-* [Public Speaking without Barfing on Your Shoes](https://github.com/reverentgeek/public-speaking) by David Neal
-* [Preparing a talk: presenting](https://blog.juliaferraioli.com/2017/10/preparing-talk-presenting.html) by Julia Ferraioli
-* [How to make your OpenStack Summit talk a big success](http://superuser.openstack.org/articles/how-to-make-your-openstack-summit-talk-a-big-success/) by Anne Bertucio
-* [Presenting presenting](https://medium.com/@chethaase/presenting-presenting-17233fa13aa5) by Chet Haase
-* [🇨🇳 向柴静学习21个演讲技巧](https://www.digitaling.com/articles/13764.html) 来源：培训经理指南
-* [🇨🇳 如何雕琢一场“走心”的技术演讲，让听众放下手机](http://www.10tiao.com/html/198/201609/2653120452/1.html) 作者：刘芸 
-* [🇨🇳 如何做一场像TED一样精彩的技术演讲](http://www.offbye.com/2016/06/29/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%9C%BA%E5%83%8FTed%E4%B8%80%E6%A0%B7%E7%B2%BE%E5%BD%A9%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2/) 作者：西涛
-* [🇨🇳 18個PPT演講的技巧，讓你的提案能力提高N倍](https://www.mydesy.com/18-skills-of-speech) 来源：瘋狂簡報
-
-### Tools
-
-* [Ask HN: What alternatives to Powerpoint/Prezi are there?](https://news.ycombinator.com/item?id=15575363)
-
-### Other
-
-* [How do conference speakers get compensated](https://www.linkedin.com/pulse/20140731092421-4973136-how-do-conference-speakers-get-compensated) by Curtis "Ovid" Poe
-* [10 ways for a conference to upset their speakers](https://www.troyhunt.com/10-ways-for-a-conference-to-upset-their-speakers/) by Troy Hunt
-* [Strategies For Attracting More of the “Underrepresented” Onto the Conference Stage](https://medium.com/@KimCrayton1/strategies-for-attracting-more-of-the-underrepresented-onto-the-conference-stage-f6d34464f635) by Kim Crayton
-* [LADY SPEAKER SMALL TALK](http://www.heidiwaterhouse.com/2017/06/09/lady-speaker-small-talk/) by Heidi Waterhouse
-
-## History & acknowledgments
-
-This collection of resources started as a [bibliography](https://github.com/vmbrasseur/10stepprogram/blob/master/resources.md) for [a public speaking tutorial](https://github.com/vmbrasseur/10stepprogram) written & presented by [VM (Vicky) Brasseur](https://vmbrasseur.com) and [Josh Berkus](https://github.com/jberkus).
-
-Since that tutorial, the collection continued to grow as Vicky located new resources to add to the list. While the collection was public, it was buried. This repository brings it out into the light and makes it easy for everyone to locate, use, and contribute to it.
-
-Immense thanks due to Josh for helping build the initial collection of resources. Thank you, Josh!
-
-## Licensing
-
-While the individual works in this list each have their own copyright and licensing, this work itself is copyright [VM Brasseur](https://vmbrasseur.com). All contributors retain copyright to their contributions to the work.
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-Please see [LICENSE.md](./LICENSE.md) for more information.
+- http://codewithstyle.info/introverts-guide-public-speaking/
+- http://speaking.io/
+- https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
+- https://github.com/coryhouse/speaker-starter-kit
+- https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
