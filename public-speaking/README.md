@@ -1,15 +1,14 @@
 - https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
+- https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
 - http://codewithstyle.info/introverts-guide-public-speaking/
 - https://github.com/coryhouse/speaker-starter-kit
 - http://speaking.io/
-- [ Zach Holman|What They Don't Tell You About Public Speaking ]( https://zachholman.com/posts/what-they-dont-tell-you-about-public-speaking/ )
 - http://devslovebacon.com/conferences/bacon-2014/talks/the-talk-on-talks
 - [ Dave Morris: The Way of Improvisation ](https://www.youtube.com/watch?v=MUO-pWJ0riQ)
-- https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
-* [8 Classic Storytelling Techniques for Engaging Presentations](https://www.sparkol.com/en/Blog/8-Classic-storytelling-techniques-for-engaging-presentations) - by **Ffion Lindsay**
-* [Block Your Talk](http://eleganthack.com/block-your-talk/) - by **Christina Wodtke**
-* [How To Get Speaking Engagements](https://www.samjarman.co.nz/blog/speaking-gigs) - by **Sam Jarman**
-* [Nine Secrets to Powerful Public Speaking](http://www.gq-magazine.co.uk/article/public-speaking-tips) - by **Julian Treasure**
+- [8 Classic Storytelling Techniques for Engaging Presentations](https://www.sparkol.com/en/Blog/8-Classic-storytelling-techniques-for-engaging-presentations) - by **Ffion Lindsay**
+- [Block Your Talk](http://eleganthack.com/block-your-talk/) - by **Christina Wodtke**
+- [How To Get Speaking Engagements](https://www.samjarman.co.nz/blog/speaking-gigs) - by **Sam Jarman**
+- [Nine Secrets to Powerful Public Speaking](http://www.gq-magazine.co.uk/article/public-speaking-tips) - by **Julian Treasure**
 * [Presenting is Performance](http://eleganthack.com/presenting-is-performance/) - by **Christina Wodtke**
 * [Speaker Style Bingo: 10 Presentation Anti-Patterns](http://www.troyhunt.com/2015/06/speaker-style-bingo-10-presentation.html) - by **Troy Hunt**
 * [Some Thoughts On Doing Conference Sessions](http://derickbailey.com/2015/11/11/some-thoughts-on-doing-conference-sessions/) - by **Derick Bailey**
