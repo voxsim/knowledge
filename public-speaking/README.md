@@ -18,10 +18,6 @@
 * [CFP Time](https://cfptime.org)
 * [Central US Community Tech Events](http://www.davidgiard.com/CentralUSEvents.aspx)
 * [Code And Talk](https://codeandtalk.com/conferences) (Conferences and CFPs)
-* [Conference Radar](http://conferenceradar.com)
-* [ConferenceList](https://conferencelist.co) (conferences only)
-* [ConferenceList](https://conferencelist.io/) - by Cezar Floroiu. A list of conferences around the world.
-* [DevOps Conferences](http://devopsconferences.org/)
 * [Doing a TED Talk: The Full Story](http://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html) by Tim Urban
 * [Don't send proposals at the last moment](https://2017.webcampzg.org/news/dont-send-proposals-last-moment/) by Damir Svrtan
 * [Experienced speakers discuss how they prepare their talks](http://neilb.org/2016/10/30/preparing-a-talk.html) by Neil Bowers
@@ -111,12 +107,6 @@
 * [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) - a collection of awesome tech talks
 * [slidelint](http://slidelint.net): Checks for common problems in presentation slides!
 * [speaking.io: Thoughts on public speaking](http://speaking.io/) by Zach Holman
-* [🇨🇳 18個PPT演講的技巧，讓你的提案能力提高N倍](https://www.mydesy.com/18-skills-of-speech) 来源：瘋狂簡報
-* [🇨🇳 向柴静学习21个演讲技巧](https://www.digitaling.com/articles/13764.html) 来源：培训经理指南
-* [🇨🇳 如何做一场像TED一样精彩的技术演讲](http://www.offbye.com/2016/06/29/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E5%9C%BA%E5%83%8FTed%E4%B8%80%E6%A0%B7%E7%B2%BE%E5%BD%A9%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2/) 作者：西涛
-* [🇨🇳 如何雕琢一场“走心”的技术演讲，让听众放下手机](http://www.10tiao.com/html/198/201609/2653120452/1.html) 作者：刘芸 
-* [🇨🇳 學術會議英文社交演講技巧](https://www.cantabenglish.com/blog/conference_paper_presentation_skill) 作者：Dr Fiona Hu
-* [🇨🇳 新手演讲：走上演讲台的第一步](https://ivaneye.com/2016/12/11/talk.html) 作者：Ivan Eye
 * [🎥 #speakerlife lightning talk](https://www.youtube.com/watch?v=e-m-P4kGvr8) ([slides](https://www.slideshare.net/genehackdotorg/speakerlife)) by John Anderson
 * [🎥 10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) by Matthew McCullough
 * [🎥 How to get started with technical public speaking!](http://www.hanselman.com/blog/VIDEOHowToGetStartedWithTechnicalPublicSpeaking.aspx) by Scott Hanselman, Kendra Havens, Maria Naggaga Nakanwagi, Kasey Uhlenhuth, and Donovan Brown
@@ -130,7 +120,5 @@
 - [How To Get Speaking Engagements](https://www.samjarman.co.nz/blog/speaking-gigs) - by **Sam Jarman**
 - [Nine Secrets to Powerful Public Speaking](http://www.gq-magazine.co.uk/article/public-speaking-tips) - by **Julian Treasure**
 - http://codewithstyle.info/introverts-guide-public-speaking/
-- http://speaking.io/
 - https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
-- https://github.com/coryhouse/speaker-starter-kit
 - https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
