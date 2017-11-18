@@ -43,3 +43,30 @@ As you get a better handle for the overall flow, you can start diving into more:
   - No really, I have photos
 
 For me, I tend to keep these outlines very short and high-level. I usually don’t get much further than three tiers: top tier is the slide introduction to the section, the second bullet level is a slide and large point inside that section, and the third level of bullets tend to translate to multiple slides supporting the #2 level of points.
+
+## Keep focus small
+Small subject that you know; avoid things that you don't know
+
+## The Oral Tradition
+The dirty secret about public speaking is that at the end of the day, it’s just entertainment. You hold the audience captive for twenty minutes, forty minutes, an hour, whatever. They’re yours. They’re looking for you to entertain them.
+
+
+This may sound demeaning, but it’s the opposite. Dry, academic knowledge transfer can be more easily done with blog posts, or tweets, or emails. What you have instead is the opportunity to take part in the oral storytelling tradition that humans have been using for thousands of years.
+
+
+It’s potentially far, far more persuasive. An entertaining talk can get people excited for new ideas. It can get people looking out for hidden dangers they didn’t previously know how to avoid. It can rile people up enough to change the status quo. It can impact them emotionally enough to think about the bigger picture.
+
+
+Good talks aren’t supposed to make you feel good… they’re supposed to make you feel.
+
+## Talk Experiences
+Certainly it depends on the talk; some talks lend themselves to being inherently more persuasive than others. But my biggest piece of advice is not to talk about things… talk about experiences.
+
+
+What you’re talking about might not be the most interesting thing in the world, but your experiences behind it can be. How did your team come together to make these changes? How did implementing these new policies actually impact business at your company? Did the new thing you learned make you rethink your philosophy a little?
+
+
+What’s more, relating experiences can quickly lead to talking about pain avoidance, and that’s the interesting stuff people like to hear about. Maybe your 10% efficiency improvement let your team spend extra time on things that mattered. Maybe firing the meanie on the leadership team led to a much happier group of employees. Maybe hiring the person who seemed like an outsider brought a whole new set of clarity to what you’re building.
+
+
+When you talk experiences and stories, you automatically become more passionate and more comfortable. You won’t even have to think much about it- the emotion in your voice as you relate the story will bleed through. Let it bleed through. It’s more interesting, more entertaining. It’s more persuasive.
