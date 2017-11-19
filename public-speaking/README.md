@@ -119,3 +119,8 @@
 - http://codewithstyle.info/introverts-guide-public-speaking/
 - https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
 - https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
+- http://speaking.io/deliver/nervousness/
+- http://speaking.io/react/sharing-your-talk-online/
+- http://speaking.io/react/improving/
+- http://speaking.io/react/handling-questions/
+- http://speaking.io/deliver/fucking-up/
