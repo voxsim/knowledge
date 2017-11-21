@@ -1,5 +1,4 @@
 * [10 Quick Tips for More Effective Conference Submissions and Presentations](https://www.youtube.com/watch?v=fJz4JJIchaY) - by **Matthew McCullough** [30:07]
-* [10 ways for a conference to upset their speakers](https://www.troyhunt.com/10-ways-for-a-conference-to-upset-their-speakers/) by Troy Hunt
 * [3 Steps to Better Presentation Visuals](https://hbr.org/video/4642346287001/3-steps-to-better-presentation-visuals) by Harvard Business Review
 * [4 Secrets to Giving a Speech Worthy of a Standing Ovation](http://www.entrepreneur.com/article/253040) by Baron Schwartz
 * [5 Ways to Leave Your Fears Behind and Learn to Love Public Speaking](https://www.themuse.com/advice/5-ways-to-leave-your-fears-behind-and-learn-to-love-public-speaking) by Kathryn Minshew
