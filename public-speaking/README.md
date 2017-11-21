@@ -5,11 +5,9 @@
 * [A white-label slide deck](http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides) by Alice Bartlett
 * [Advice for new speakers](http://anonymoushash.vmbrasseur.com/2017/09/11/advice-for-new-speakers/) by VM Brasseur
 * [An Open Letter To Speakers](http://scottberkun.com/2011/an-open-letter-to-speakers/) by Scott Berkun
-* [Ask HN: What alternatives to Powerpoint/Prezi are there?](https://news.ycombinator.com/item?id=15575363)
 * [Bringing Your Full Voice to Life](https://www.youtube.com/watch?v=Ze763kgrWGg) -  by **Barbara McAfee** [19:07]
-* [CFP Time](https://cfptime.org)
-* [Central US Community Tech Events](http://www.davidgiard.com/CentralUSEvents.aspx)
-* [Code And Talk](https://codeandtalk.com/conferences) (Conferences and CFPs)
+
+
 * [Doing a TED Talk: The Full Story](http://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html) by Tim Urban
 * [Don't send proposals at the last moment](https://2017.webcampzg.org/news/dont-send-proposals-last-moment/) by Damir Svrtan
 * [Experienced speakers discuss how they prepare their talks](http://neilb.org/2016/10/30/preparing-a-talk.html) by Neil Bowers
