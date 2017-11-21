@@ -11,13 +11,12 @@
 * [Doing a TED Talk: The Full Story](http://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html) by Tim Urban
 * [Don't send proposals at the last moment](https://2017.webcampzg.org/news/dont-send-proposals-last-moment/) by Damir Svrtan
 * [Experienced speakers discuss how they prepare their talks](http://neilb.org/2016/10/30/preparing-a-talk.html) by Neil Bowers
-* [Finding Your Killer Talk Idea](http://ladiesintech.com/finding-your-killer-talk-idea/) by Rachel Nabors
-* [Give a Great Tech Talk 2](https://github.com/jberkus/ggtt2) by Josh Berkus
+
 * [HelpMeAbstract](http://helpmeabstract.com/) - Get feedback from veteran speakers before you submit your talk.
-* [Helpful talk tips!](https://trackchanges.postlight.com/helpful-talk-tips-5347ea7c2745) by Paul Ford
+
 * [How I Create Talks](https://michele.io/how-i-create-talks/) by Michele Titolo
-* [How To Get Speaking Engagements](https://hackernoon.com/how-to-get-speaking-engagements-c7fdebf8416d) by Sam Jarman
-* [How To Give a Great Ignite Talk](http://scottberkun.com/2009/how-to-give-a-great-ignite-talk/) by Scott Berkun
+
+
 * [How To Prepare And Write A Tech Conference Talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/) - by **Lena Reinhard**
 * [How do conference speakers get compensated](https://www.linkedin.com/pulse/20140731092421-4973136-how-do-conference-speakers-get-compensated) by Curtis "Ovid" Poe
 * [How public speaking made me a better leader (and vice-versa)](https://speakerdeck.com/yprabhu/elaconf2017) by Yash Prabhu
