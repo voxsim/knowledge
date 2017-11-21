@@ -128,3 +128,4 @@
 - http://cmichel.io/on-writing-well/
 - https://www.copyblogger.com/evergreen-content/
 - https://www.copyblogger.com/persuasive-content-marketing/
+- https://amplifr.com/blog/en/smm-guide-introduction/
