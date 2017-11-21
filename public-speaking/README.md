@@ -88,16 +88,15 @@
 
 * [Writing winning abstracts](https://marcysutton.com/writing-winning-talk-abstracts/) by Marcy Sutton
 * [Your slides do matter](https://daveyshafik.com/archives/70053-your-slides-do-matter.html) by Davey Shafik
-* [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) - a collection of awesome tech talks
-* [slidelint](http://slidelint.net): Checks for common problems in presentation slides!
-* [🎥 #speakerlife lightning talk](https://www.youtube.com/watch?v=e-m-P4kGvr8) ([slides](https://www.slideshare.net/genehackdotorg/speakerlife)) by John Anderson
-* [🎥 10 Quick Tips for More Effective Conference Submissions and Presentations](http://www.youtube.com/watch?v=fJz4JJIchaY&feature=youtu.be) by Matthew McCullough
-* [🎥 How to get started with technical public speaking!](http://www.hanselman.com/blog/VIDEOHowToGetStartedWithTechnicalPublicSpeaking.aspx) by Scott Hanselman, Kendra Havens, Maria Naggaga Nakanwagi, Kasey Uhlenhuth, and Donovan Brown
-* [🎥 Speaker Training Workshop](https://archive.org/details/devworld2017-speakertraining) by VM Brasseur
-* [🎥 Top Tips for Terrible Tech Talks](https://www.youtube.com/watch?v=osVpqz10UP8) by Chet Haase
-* [🎧 The Michael Jordan of Tech Talks](http://www.codenewbie.org/podcast/the-michael-jordan-of-tech-talks) by Kim Crayton
-* [📚 Demystifying Public Speaking](https://abookapart.com/products/demystifying-public-speaking) by Lara Hogan
-- [ Dave Morris: The Way of Improvisation ](https://www.youtube.com/watch?v=MUO-pWJ0riQ)
+
+* [#speakerlife lightning talk](https://www.youtube.com/watch?v=e-m-P4kGvr8) ([slides](https://www.slideshare.net/genehackdotorg/speakerlife)) by John Anderson
+
+* [How to get started with technical public speaking!](http://www.hanselman.com/blog/VIDEOHowToGetStartedWithTechnicalPublicSpeaking.aspx) by Scott Hanselman, Kendra Havens, Maria Naggaga Nakanwagi, Kasey Uhlenhuth, and Donovan Brown
+* [Speaker Training Workshop](https://archive.org/details/devworld2017-speakertraining) by VM Brasseur
+* [Top Tips for Terrible Tech Talks](https://www.youtube.com/watch?v=osVpqz10UP8) by Chet Haase
+* [The Michael Jordan of Tech Talks](http://www.codenewbie.org/podcast/the-michael-jordan-of-tech-talks) by Kim Crayton
+* [Demystifying Public Speaking](https://abookapart.com/products/demystifying-public-speaking) by Lara Hogan
+- [Dave Morris: The Way of Improvisation ](https://www.youtube.com/watch?v=MUO-pWJ0riQ)
 - [8 Classic Storytelling Techniques for Engaging Presentations](https://www.sparkol.com/en/Blog/8-Classic-storytelling-techniques-for-engaging-presentations) - by **Ffion Lindsay**
 - [Block Your Talk](http://eleganthack.com/block-your-talk/) - by **Christina Wodtke**
 - [How To Get Speaking Engagements](https://www.samjarman.co.nz/blog/speaking-gigs) - by **Sam Jarman**
