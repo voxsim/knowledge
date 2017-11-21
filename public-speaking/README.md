@@ -1,12 +1,7 @@
 * [10 Quick Tips for More Effective Conference Submissions and Presentations](https://www.youtube.com/watch?v=fJz4JJIchaY) - by **Matthew McCullough** [30:07]
-* [3 Steps to Better Presentation Visuals](https://hbr.org/video/4642346287001/3-steps-to-better-presentation-visuals) by Harvard Business Review
-* [4 Secrets to Giving a Speech Worthy of a Standing Ovation](http://www.entrepreneur.com/article/253040) by Baron Schwartz
-* [5 years behind the mic](https://medium.com/@wiredferret/5-years-behind-the-mic-7ed8f2d25222) by Heidi Waterhouse
-* [7 best practices for giving a conference talk](https://opensource.com/article/17/9/7-best-practices-giving-conference-talk) by VM Brasseur
-* [7 tips for learning how to give a technical talk](https://opensource.com/life/16/9/7-tips-learning-how-give-technical-talk) by Ala Hino
 * [A Checklist for More Persuasive Presentations](https://hbr.org/2016/10/a-checklist-for-more-persuasive-presentations) by Dorie Clark
 * [A Public Speaking Experiment: Blank Slides](https://medium.com/upday-devs/a-public-speaking-experiment-blank-slides-c2fc09289825#.z94mgux2f) by Florina Muntenescu
-* [A collection of awesome resources about public speaking](https://github.com/matteofigus/awesome-speaking) by Matteo Figus
+
 * [A white-label slide deck](http://alicebartlett.co.uk/blog/how-to-do-ok-at-slides) by Alice Bartlett
 * [Advice for new speakers](http://anonymoushash.vmbrasseur.com/2017/09/11/advice-for-new-speakers/) by VM Brasseur
 * [An Open Letter To Speakers](http://scottberkun.com/2011/an-open-letter-to-speakers/) by Scott Berkun
