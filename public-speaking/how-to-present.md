@@ -70,3 +70,8 @@ What’s more, relating experiences can quickly lead to talking about pain avoid
 
 
 When you talk experiences and stories, you automatically become more passionate and more comfortable. You won’t even have to think much about it- the emotion in your voice as you relate the story will bleed through. Let it bleed through. It’s more interesting, more entertaining. It’s more persuasive.
+
+# Focus on audience
+You should focus on audience, not on you: Help others do better.
+
+# 
