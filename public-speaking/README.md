@@ -63,7 +63,7 @@
 * [Sample Proposals for O'Reilly Conferences](http://www.oreilly.com/conferences/sample_proposals.html) By O'Reilly Media
 * [Some Thoughts On Doing Conference Sessions](http://derickbailey.com/2015/11/11/some-thoughts-on-doing-conference-sessions/) - by **Derick Bailey**
 * [Speaker Style Bingo: 10 Presentation Anti-Patterns](http://www.troyhunt.com/2015/06/speaker-style-bingo-10-presentation.html) - by **Troy Hunt**
-* [Speaker style bingo: 10 presentation anti-patterns](https://www.troyhunt.com/speaker-style-bingo-10-presentation/) by Troy Hunt
+
 * [SpeakerLine](http://speakerline.io/speakers), built by Nadia Odunayo to showcase speakers' proposals and timelines to demystify the CFP process and help new speakers get started.
 * [Speaking and Nerves](https://cate.blog/2017/06/15/speaking-and-nerves/) by Cate Huston
 * [Speech Anxiety for Game Developers](http://www.gamesindustry.biz/articles/2017-04-11-speech-anxiety-for-game-developers) by Brie Code
@@ -88,8 +88,7 @@
 * [Why I Speak at Developer Conferences](https://medium.com/@wiredferret/why-i-speak-at-developer-conferences-8017c708ba25) by Heidi Waterhouse
 * [Why Your Excellent Conference Talk Was Rejected](https://www.promptworks.com/blog/why-your-excellent-talk-was-rejected) by Sarah Gray
 * [Why you should give technical talks](http://daphsta.github.io/ruby%20learn%20self-development/2015/01/12/why-you-should-give-technical-talks.html) by Daphne Rouw
-* [WikiCFP](http://wikicfp.com/cfp/), primarily academic and industry * conferences
-* [Women Who Code panel discussion on preparing for and speaking at technical conferences](http://www.youtube.com/watch?v=yE67bo7dmbY) (video)
+
 * [Writing winning abstracts](https://marcysutton.com/writing-winning-talk-abstracts/) by Marcy Sutton
 * [Your slides do matter](https://daveyshafik.com/archives/70053-your-slides-do-matter.html) by Davey Shafik
 * [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) - a collection of awesome tech talks
