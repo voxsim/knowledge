@@ -1,5 +1,4 @@
 * [10 Quick Tips for More Effective Conference Submissions and Presentations](https://www.youtube.com/watch?v=fJz4JJIchaY) - by **Matthew McCullough** [30:07]
-* [10 things you should NEVER say during presentations](http://thenextweb.com/lifehacks/2013/09/12/10-things-you-should-never-say-during-presentations-2/) by Boris Veldhuijzen van Zanten
 * [10 ways for a conference to upset their speakers](https://www.troyhunt.com/10-ways-for-a-conference-to-upset-their-speakers/) by Troy Hunt
 * [3 Steps to Better Presentation Visuals](https://hbr.org/video/4642346287001/3-steps-to-better-presentation-visuals) by Harvard Business Review
 * [4 Secrets to Giving a Speech Worthy of a Standing Ovation](http://www.entrepreneur.com/article/253040) by Baron Schwartz
