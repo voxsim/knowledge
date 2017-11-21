@@ -124,3 +124,7 @@
 - http://speaking.io/react/improving/
 - http://speaking.io/react/handling-questions/
 - http://speaking.io/deliver/fucking-up/
+- https://biblio.wiki/wiki/Politics_and_the_English_Language
+- http://cmichel.io/on-writing-well/
+- https://www.copyblogger.com/evergreen-content/
+- https://www.copyblogger.com/persuasive-content-marketing/
