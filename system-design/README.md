@@ -1,3 +1,4 @@
+- https://blog.ably.io/what-is-a-distributed-systems-engineer-f6c1d921acf8
 - http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
 - http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html
 - http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html
@@ -106,3 +107,7 @@
 - https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
 - http://ourmachinery.com/post/virtual-memory-tricks/
 - https://evilmartians.com/chronicles/embracing-metrics-as-new-tests
+- https://blog.keras.io/user-experience-design-for-apis.html
+- https://labs.spotify.com/2017/11/20/autoscaling-pub-sub-consumers/
+- https://www.youtube.com/watch?v=Skm-vc6gOvs
+- https://blog.arkency.com/soa-microservices-ruby-eventide-scott-bellware-interview/

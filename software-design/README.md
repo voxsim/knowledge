@@ -417,3 +417,8 @@
 - http://www.yegor256.com/2017/11/14/static-factory-methods.html
 - http://blog.thecodewhisperer.com/permalink/the-myth-of-advanced-tdd
 - https://zapier.com/engineering/estimating/
+- https://www.youtube.com/watch?v=i_qE1iAmjFg
+- https://www.youtube.com/watch?v=seLT7M3OAgk
+- https://robots.thoughtbot.com/two-ways-of-looking-at-map-functions
+- https://blog.kentcdodds.com/becoming-an-open-source-project-maintainer-68fb6e3cedfd
+- https://blog.kentcdodds.com/classes-complexity-and-functional-programming-a8dd86903747
