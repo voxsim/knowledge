@@ -31,3 +31,4 @@
 - https://github.com/necolas/react-native-web/blob/master/docs/guides/style.md
 - https://gist.github.com/threepointone/0ef30b196682a69327c407124f33d69a
 - https://speakerdeck.com/vjeux/react-css-in-js
+- https://reacttraining.com/patterns/
