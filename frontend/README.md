@@ -32,3 +32,6 @@
 - https://gist.github.com/threepointone/0ef30b196682a69327c407124f33d69a
 - https://speakerdeck.com/vjeux/react-css-in-js
 - https://reacttraining.com/patterns/
+- https://vasanthk.gitbooks.io/react-bits/
+- https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2
+- https://www.schneems.com/2017/11/14/wtf-is-a-source-map/
