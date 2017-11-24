@@ -36,3 +36,4 @@ More:
 - https://medium.com/@haftrm/successful-solo-founders-5c7f60ef6a0e
 - https://zachholman.com/posts/staying-productive-solo-founder
 - https://martinfowler.com/articles/products-over-projects.html
+- https://davidwalsh.name/excellent-resources-web-professionals
