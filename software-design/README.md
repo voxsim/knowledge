@@ -380,26 +380,23 @@
 - https://www.reddit.com/r/learnprogramming/wiki/books
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - https://www.thoughtworks.com/continuous-delivery
-- https://www.youtube.com/watch?v=-FRm3VPhseI
-- https://www.youtube.com/watch?v=4F72VULWFvc
-- https://www.youtube.com/watch?v=DngAZyWMGR0
-- https://www.youtube.com/watch?v=Dsd4pc99FSY&list=PLFrwDVdSrYE6dy14XCmUtRAJuhCxuzJp0
-- https://www.youtube.com/watch?v=ElnqUIjLWVk
-- https://www.youtube.com/watch?v=GE6lbPLEAzc
-- https://www.youtube.com/watch?v=ROL58LJGNfA
-- https://www.youtube.com/watch?v=RlfLCWKxHJ0
-- https://www.youtube.com/watch?v=Tn05cXrhBvg
-- https://www.youtube.com/watch?v=VjKYO6DP3fo
-- https://www.youtube.com/watch?v=XcT4yYu_TTs
-- https://www.youtube.com/watch?v=Z8aECe4lp44
-- https://www.youtube.com/watch?v=_VdIQTtRkb8
-- https://www.youtube.com/watch?v=br6035SKu-0
-- https://www.youtube.com/watch?v=qJgff2spvzM
-- https://www.youtube.com/watch?v=sFCgXH7DwxM
-- https://www.youtube.com/watch?v=sTSQlYX5DU0
-- https://www.youtube.com/watch?v=vqEg37e4Mkw
-- https://www.youtube.com/watch?v=wEhu57pih5w
-- https://www.youtube.com/watch?v=wgdBVIX9ifA
+- [The Clean Code Talks - "Global State and Singletons"](https://www.youtube.com/watch?v=-FRm3VPhseI)
+- [The Clean Code Talks - "Inheritance, Polymorphism, & Testing"](https://www.youtube.com/watch?v=4F72VULWFvc)
+- [Martin Fowler Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
+- [PHPNW13 Track 1 Talk 2: Rob Allen - Introducing Dependency Injection](https://www.youtube.com/watch?v=ElnqUIjLWVk)
+- [Explaining Agile - Martin Fowler and Neal Ford at USI](https://www.youtube.com/watch?v=GE6lbPLEAzc)
+- [The Clean Code Talks - Don't Look For Things!](https://www.youtube.com/watch?v=RlfLCWKxHJ0)
+- ["Agile Architecture" - Molly Dishman & Martin Fowler Keynote](https://www.youtube.com/watch?v=VjKYO6DP3fo)
+- [How to Write Clean, Testable Code](https://www.youtube.com/watch?v=XcT4yYu_TTs)
+- [Martin Fowler @ OOP2014 "Not Just Code Monkeys"](https://www.youtube.com/watch?v=Z8aECe4lp44)
+- [An Event-driven and Reactive Future - Jonathan Worthington](https://www.youtube.com/watch?v=_VdIQTtRkb8)
+- [Martin Odersky - What to Leave Implicit](https://www.youtube.com/watch?v=br6035SKu-0)
+- [Composition - Nik Graf aka @nikgraf at @ReactEurope 2017](https://www.youtube.com/watch?v=qJgff2spvzM)
+- [DDD and Microservices: At Last, Some Boundaries!](https://www.youtube.com/watch?v=sFCgXH7DwxM)
+- [React 2014 : Erik Meijer - What does it mean to be Reactive?](https://www.youtube.com/watch?v=sTSQlYX5DU0)
+- [Martin Fowler @ OOP2014 "Workflows of Refactoring"](https://www.youtube.com/watch?v=vqEg37e4Mkw)
+- [The Clean Code Talks -- Unit Testing](https://www.youtube.com/watch?v=wEhu57pih5w)
+- [GOTO 2014 • Microservices • Martin Fowler](https://www.youtube.com/watch?v=wgdBVIX9ifA)
 - https://yurichev.com/blog/cyclomatic/
 - https://www.youtube.com/watch?v=weWSYIUdX6c
 - https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice
@@ -410,8 +407,7 @@
 - http://www.yegor256.com/2017/11/14/static-factory-methods.html
 - http://blog.thecodewhisperer.com/permalink/the-myth-of-advanced-tdd
 - https://zapier.com/engineering/estimating/
-- https://www.youtube.com/watch?v=i_qE1iAmjFg
-- https://www.youtube.com/watch?v=seLT7M3OAgk
 - https://robots.thoughtbot.com/two-ways-of-looking-at-map-functions
 - https://blog.kentcdodds.com/becoming-an-open-source-project-maintainer-68fb6e3cedfd
 - https://blog.kentcdodds.com/classes-complexity-and-functional-programming-a8dd86903747
+- [GOTO 2015 • One Hacker Way • Erik Meijer](https://www.youtube.com/watch?v=FvMuPtuvP5w)
