@@ -1,3 +1,4 @@
+- https://www.akkadia.org/drepper/cpumemory.pdf
 - [ Accidentally Concurrent - Evan Czaplicki ]( https://www.youtube.com/watch?v=DfLvDFxcAIA )
 - [ Adrian Cockcroft|The Evolution of Microservices ]( http://www.ustream.tv/recorded/86151804 )
 - [ Arlo Belshee|New code is legacy code ]( http://arlobelshee.com/new-code-is-legacy-code/ )
@@ -16,6 +17,11 @@
 - [ Guy Steele|How to Think about Parallel Programming: Not! ]( https://www.infoq.com/presentations/Thinking-Parallel-Programming )
 - [ How we program multicores - Joe Armstrong ]( https://www.youtube.com/watch?v=bo5WL5IQAd0 )
 - [ Invited Talk - Guy Steele - YouTube ]( https://www.youtube.com/watch?v=dCuZkaaou0Q )
+- [ Jez Humble|Adopting Continuous Delivery ]( https://www.youtube.com/watch?v=ZLBhVEo1OG4 )
+- [ Jez Humble|Architecting for Continuous Delivery ]( https://www.youtube.com/watch?v=_wnd-eyPoMo )
+- [ Jez Humble|Stop Hiring DevOps Experts and Start Growing Them ]( https://www.youtube.com/watch?v=6m9nCtyn6kE )
+- [ Jez Humble|What is Value? ]( https://www.youtube.com/watch?v=ESOaDiv3lXA )
+- [ Jez Humble|You Can Have It All: Software Development at Ludicrous Speed ]( http://www.ustream.tv/recorded/86180704 )
 - [ Katrina Owen|Here be Dragons ]( https://www.youtube.com/watch?v=FvrZrwR5Flc )
 - [ Katrina Owen|Overkill ]( https://www.youtube.com/watch?v=GWEEPt8VvmU )
 - [ Katrina Owen|Succession ]( https://www.youtube.com/watch?v=59YClXmkCVM )
@@ -70,10 +76,58 @@
 - [ Tom Stuart - Refactoring Ruby with Monads ]( https://www.youtube.com/watch?v=J1jYlPtkrqQ )
 - [ What Comes after Microservices ]( https://www.youtube.com/watch?v=UDC3kwkBvkA )
 - [ Writing Good Tests - Matteo Baglini - #iad14 ](https://vimeo.com/115568045)
+- [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
+- [ ] 2013: Spanner: Google’s Globally-Distributed Database:
+- [ ] CPU cache:
+- [ ] Computer Science 162 - Operating Systems (25 videos):
+- [ ] LRU cache:
+- [ ] Simonson:
+- [ ] Skiena:
+- [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+- [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+- [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+- [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+- [ ] [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
+- [ ] [2007: Dynamo: Amazon’s Highly Available Key-value Store](https://www.akkadia.org/drepper/cpumemory.pdf)
+- [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+- [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
+- [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
+- [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
+- [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+- [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+- [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+- [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+- [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+- [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+- [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+- [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+- [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+- [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+- [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+- [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+- [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+- [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+- [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+- [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+- [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+- [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+- [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+- [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+- [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+- [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+- [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+- [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+- [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+- [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+- [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+- [ ] concurrency in Python (videos):
 - [ ootips|The Origins of Object Orientation ]( http://ootips.org/history.html )
 - [ ootips|What Makes A Good Object-Oriented Design? ]( http://ootips.org/ood-principles.html )
 - ["Agile Architecture" - Molly Dishman & Martin Fowler Keynote](https://www.youtube.com/watch?v=VjKYO6DP3fo)
 - [An Event-driven and Reactive Future - Jonathan Worthington](https://www.youtube.com/watch?v=_VdIQTtRkb8)
+- [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 - [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
 - [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 - [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
@@ -88,20 +142,39 @@
 - [How To Design A Good API and Why it Matters](https://www.youtube.com/watch?v=heh4OeB9A-c)
 - [How to Write Clean, Testable Code](https://www.youtube.com/watch?v=XcT4yYu_TTs)
 - [Immutable User Interfaces](https://mitpress.mit.edu/sicp/)
+- [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+- [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+- [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [Martin Fowler @ OOP2014 "Not Just Code Monkeys"](https://www.youtube.com/watch?v=Z8aECe4lp44)
 - [Martin Fowler @ OOP2014 "Workflows of Refactoring"](https://www.youtube.com/watch?v=vqEg37e4Mkw)
 - [Martin Fowler Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
 - [Martin Odersky - What to Leave Implicit](https://www.youtube.com/watch?v=br6035SKu-0)
 - [Mixins Considered Harmful](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html)
+- [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
 - [PHPNW13 Track 1 Talk 2: Rob Allen - Introducing Dependency Injection](https://www.youtube.com/watch?v=ElnqUIjLWVk)
+- [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
 - [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
 - [React 2014 : Erik Meijer - What does it mean to be Reactive?](https://www.youtube.com/watch?v=sTSQlYX5DU0)
+- [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
+- [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
 - [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 - [The Clean Code Talks - "Global State and Singletons"](https://www.youtube.com/watch?v=-FRm3VPhseI)
 - [The Clean Code Talks - "Inheritance, Polymorphism, & Testing"](https://www.youtube.com/watch?v=4F72VULWFvc)
 - [The Clean Code Talks - Don't Look For Things!](https://www.youtube.com/watch?v=RlfLCWKxHJ0)
 - [The Clean Code Talks -- Unit Testing](https://www.youtube.com/watch?v=wEhu57pih5w)
+- [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
 - [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+- [implemented in Go](https://godoc.org/github.com/thomas11/csp)
+- [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+- [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+- [reference](http://www.dabeaz.com/GIL)
+- [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+- [video](https://www.usenix.org/node/170855)
+- deadlock
+- difference between processes and threads
+- for processes and threads see videos 1-11
+- fzf alternatives?
+- how they work
 - http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 - http://alistair.cockburn.us/Hexagonal+architecture
 - http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
@@ -124,7 +197,12 @@
 - http://c2.com/cgi/wiki?ThreeStrikesAndYouRefactor
 - http://c2.com/cgi/wiki?UseBeforeReuse
 - http://c2.com/xp/CodeSmell.html
+- http://c9x.me/compile/bib/
+- http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/
 - http://courses.cs.washington.edu/courses/cse341/16sp/
+- http://cs.lmu.edu/~ray/classes/dsa/
+- http://duartes.org/gustavo/blog/post/cpu-rings-privilege-and-protection/
+- http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do/
 - http://en.wikipedia.org/wiki/Code_smell
 - http://en.wikipedia.org/wiki/Gold_plating_%28software_engineering%29
 - http://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
@@ -132,6 +210,7 @@
 - http://feltpresence.com/reading_list
 - http://haskell.cs.yale.edu/wp-content/uploads/2015/03/HSoM.pdf
 - http://isr.uci.edu/Software/phaseII_reading_list.html
+- http://mally.stanford.edu/~sr/computing/basic-unix.html
 - http://martinfowler.com/tags/evolutionary%20design.html
 - http://martinfowler.com/tags/refactoring.html
 - http://matt.might.net/articles/what-cs-majors-should-know/
@@ -148,6 +227,7 @@
 - http://misko.hevery.com/code-reviewers-guide/flaw-digging-into-collaborators/
 - http://noop.nl/2008/06/top-100-best-software-engineering-books-ever.html
 - http://norvig.com/21-days.html
+- http://oopweb.com/Algorithms/Documents/PLDS210/VolumeFrames.html
 - http://ootips.org/
 - http://port70.net/~nsz/00_prog.html
 - http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
@@ -182,6 +262,10 @@
 - http://www.alphaitjournal.com/2008/08/hevery-changing-developer-behaviour.html
 - http://www.alphaitjournal.com/2009/06/hevery-changing-developer-behaviour.html
 - http://www.artima.com/weblogs/viewpost.jsp?thread=331531
+- http://www.craftinginterpreters.com/contents.html
+- http://www.cs.cornell.edu/courses/cs2112/2015fa/lectures/index.html
+- http://www.cs.dartmouth.edu/~mckeeman/cs48/mxcom/gem/html/GrowingCompiler.html
+- http://www.ee.surrey.ac.uk/Teaching/Unix/
 - http://www.faqs.org/docs/artu/ch01s06.html
 - http://www.infoq.com/presentations/Architecture-Without-an-End-State
 - http://www.introtorx.com/
@@ -200,6 +284,7 @@
 - http://xunitpatterns.com/Outline.html
 - http://xunitpatterns.com/Problem-Pattern%20Cross-Reference.html
 - http://xunitpatterns.com/Slow%20Tests.html
+- https://0xax.gitbooks.io/linux-insides/content/Booting/linux-bootstrap-1.html
 - https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
 - https://8thlight.com/blog/uncle-bob/2011/11/22/Clean-Architecture.html
 - https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
@@ -225,32 +310,82 @@
 - https://cstack.github.io/db_tutorial/
 - https://davidwalsh.name/functional-programming
 - https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
+- https://dev.to/fcpauldiaz/writing-my-first-compiler
+- https://en.wikipedia.org/wiki/A*_search_algorithm
+- https://en.wikipedia.org/wiki/B-tree
 - https://en.wikipedia.org/wiki/Common_subexpression_elimination
 - https://en.wikipedia.org/wiki/Coupling_(computer_programming)
+- https://en.wikipedia.org/wiki/K-ary_tree
 - https://en.wikipedia.org/wiki/Lazy_evaluation
 - https://en.wikipedia.org/wiki/Memoization
 - https://en.wikipedia.org/wiki/Presenter_first_(software_approach)
+- https://en.wikipedia.org/wiki/Protection_ring
+- https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
+- https://en.wikipedia.org/wiki/Skip_list
+- https://en.wikipedia.org/wiki/Treap
 - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+- https://github.com/MarcWeber/vim-addon-local-vimrc
+- https://github.com/MichielDerhaeg/build-linux
 - https://github.com/MostlyAdequate/mostly-adequate-guide
 - https://github.com/MostlyAdequate/mostly-adequate-guide
+- https://github.com/agarrharr/awesome-cli-apps
+- https://github.com/anaibol/awesome-serverless
 - https://github.com/braydie/HowToBeAProgrammer
+- https://github.com/clvv/fasd
+- https://github.com/denysdovhan/bash-handbook
+- https://github.com/dotphiles/dotphiles
+- https://github.com/elm-lang/elm-compiler
 - https://github.com/flyeralarm/onboarding
+- https://github.com/itchyny/lightline.vim
+- https://github.com/janko-m/vim-test
+- https://github.com/jlevy/the-art-of-command-line
 - https://github.com/joebew42/study-path
+- https://github.com/junegunn/vim-plug
+- https://github.com/k4m4/terminals-are-sexy
 - https://github.com/kriskowal/gtor
+- https://github.com/learnbyexample/Command-line-text-processing
+- https://github.com/localstack/localstack
+- https://github.com/lsegal/my_toy_compiler
 - https://github.com/lucasviola/awesome-functional-programming
+- https://github.com/mattn/vim-fz
+- https://github.com/metakirby5/codi.vim
+- https://github.com/mhinz/vim-galore
 - https://github.com/mr-mig/every-programmer-should-know
+- https://github.com/neovim/neovim/blob/master/runtime/doc/help.txt
+- https://github.com/ntpeters/vim-better-whitespace
 - https://github.com/nushackers/notes-to-cs-freshmen-from-the-future
+- https://github.com/open-guides/og-aws
+- https://github.com/open-source-society/computer-science
+- https://github.com/papers-we-love/papers-we-love
 - https://github.com/passy/awesome-recursion-schemes
 - https://github.com/perryharlock/refactor-to-functional
+- https://github.com/ryanoasis/vim-devicons
+- https://github.com/sbdchd/neoformat
+- https://github.com/sbdchd/neoformat
 - https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+- https://github.com/serverless/guide
+- https://github.com/sheerun/vim-polyglot
+- https://github.com/sindresorhus/pure
+- https://github.com/skwp/dotfiles
+- https://github.com/square/maximum-awesome
 - https://github.com/stoeffel/awesome-fp-js
 - https://github.com/stuartsierra/reducible-stream
 - https://github.com/swannodette/logic-tutorial
 - https://github.com/testdouble/contributing-tests/wiki
+- https://github.com/thejameskyle/the-super-tiny-compiler
 - https://github.com/thoughtbot/guides/
+- https://github.com/unixorn/awesome-zsh-plugins
+- https://github.com/vim-airline/vim-airline#integrating-with-powerline-fonts
+- https://github.com/w0rp/ale
 - https://github.com/willdurand/willdurand.github.com/blob/master/_posts/2013-06-03-object-calisthenics.markdown
+- https://github.com/wting/autojump
 - https://github.com/xpeppers/starway-to-orione
+- https://learncodethehardway.org/unix/
+- https://llimllib.github.io/bloomfilter-tutorial/
 - https://lwn.net/Articles/191059/
+- https://lwn.net/Articles/250967/
+- https://lwn.net/Articles/250967/
 - https://martinfowler.com/articles/continuousIntegration.html
 - https://martinfowler.com/articles/designDead.html
 - https://martinfowler.com/articles/feature-toggles.html
@@ -284,6 +419,7 @@
 - https://martinfowler.com/bliki/DatabaseAndBuildTime.html
 - https://martinfowler.com/bliki/DeploymentPipeline.html
 - https://martinfowler.com/bliki/Detestable.html
+- https://martinfowler.com/bliki/DevOpsCulture.html
 - https://martinfowler.com/bliki/DevOpsCulture.html
 - https://martinfowler.com/bliki/DiffDebugging.html
 - https://martinfowler.com/bliki/ErraticTestFailure.html
@@ -360,6 +496,7 @@
 - https://martinfowler.com/tags/web%20development.html
 - https://martinfowler.com/tags/web%20services.html
 - https://martinfowler.com/tags/writing.html
+- https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957
 - https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29
 - https://medium.com/@kasperpeulen/10-features-from-various-modern-languages-that-i-would-like-to-see-in-any-programming-language-f2a4a8ee6727
 - https://medium.com/@thejameskyle/type-systems-covariance-contravariance-bivariance-and-invariance-explained-35f43d1110f8
@@ -375,6 +512,7 @@
 - https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice
 - https://mitpress.mit.edu/sicp/
 - https://mitpress.mit.edu/sicp/full-text/book/book.html
+- https://monkey.org/~marius/unix-tools-hints.html
 - https://murze.be/2017/10/seven-ineffective-coding-habits-many-programmers/
 - https://pragprog.com/articles/tell-dont-ask
 - https://purelyfunctional.tv/
@@ -382,6 +520,9 @@
 - https://robots.thoughtbot.com/tell-dont-ask
 - https://robots.thoughtbot.com/two-ways-of-looking-at-map-functions
 - https://robots.thoughtbot.com/types-of-coupling
+- https://ruslanspivak.com/lsbasi-part1/
+- https://ruslanspivak.com/lsbasi-part14/
+- https://sarabander.github.io/sicp/html/index.xhtml
 - https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me
 - https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read
 - https://stackoverflow.com/questions/210835/what-is-referential-transparency/9859966#9859966
@@ -390,24 +531,51 @@
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://stanislaw.github.io/2016/01/25/notes-on-test-driven-development-by-example-by-kent-beck.html
 - https://stevewedig.com/2014/02/03/software-developers-reading-list/#outline
+- https://teachyourselfcs.com/
 - https://tech.instacart.com/rxjava-1-rxjava-2-disposing-subscriptions-48988798eccf
 - https://tech.instacart.com/rxjava-1-rxjava-2-understanding-the-changes-5370c461bea?source=rss----587883b5d2ee---4&gi=149e1244c996
+- https://tomassetti.me/difference-between-compiler-interpreter/
+- https://tomassetti.me/guide-natural-language-processing/
+- https://tomassetti.me/guide-parsing-algorithms-terminology/
 - https://tomassetti.me/oops-concepts/
+- https://tomassetti.me/parse-tree-abstract-syntax-tree/
+- https://vimeo.com/45140516
 - https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
+- https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002
 - https://www.amazon.com/gp/richpub/listmania/fullview/R2MOS4VO74D8J8
+- https://www.cevo.com.au/culture/2017/03/12/four-values-of-devops.html
 - https://www.codeproject.com/articles/555855/introduction-to-cqrs
+- https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/
 - https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2
+- https://www.destroyallsoftware.com/screencasts/catalog/a-compiler-from-scratch
 - https://www.facebook.com/notes/kent-beck/half-done-versus-fake-the-intermediate-resultmock-tradeoff/1005370156162515/
 - https://www.goodreads.com/book/show/8686650-continuous-delivery
 - https://www.infoq.com/articles/recommended_reading_list
 - https://www.infoq.com/interviews/jez-humble-martin-fowler-cd
+- https://www.infoq.com/presentations/Vim-From-Essentials-to-Mastery
 - https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 - https://www.joelonsoftware.com/2005/11/22/reading-list-fog-creek-software-management-training-program/
 - https://www.quora.com/What-are-the-must-read-books-for-software-engineers
+- https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
 - https://www.reactivedesignpatterns.com/videos.html
 - https://www.reddit.com/r/learnprogramming/wiki/books
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - https://www.thoughtworks.com/continuous-delivery
+- https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
+- https://www.toptal.com/algorithms/computability-theory-complexity
+- https://www.toptal.com/algorithms/maximum-flow-linear-assignment-problem
+- https://www.udacity.com/course/programming-languages--cs262
+- https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
+- https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq
+- https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c
+- https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
+- https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd
+- https://www.youtube.com/view_play_list?p=9D558D49CA734A02
+- https://www.youtube.com/watch?v=0V5D1ZnfqXE
+- https://www.youtube.com/watch?v=42KTvGYQYnA
+- https://www.youtube.com/watch?v=FnGCDLhaxKU
+- https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1
+- https://www.youtube.com/watch?v=p9lmJVmsSH0&list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff&index=1
 - https://www.youtube.com/watch?v=weWSYIUdX6c
 - https://yurichev.com/blog/cyclomatic/
 - https://zapier.com/engineering/estimating/
