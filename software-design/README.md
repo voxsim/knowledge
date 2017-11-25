@@ -1,6 +1,3 @@
-- [ Gary Bernhardt|Fast Test ]( https://www.youtube.com/watch?v=RAxiiRPHS9k )
-- [ Growing a Language ]( https://www.youtube.com/watch?v=_ahvzDzKdB0 )
-- [ Rich Hickey|Design ]( https://www.infoq.com/presentations/design-composition-performance-keynote )
 - [ Accidentally Concurrent - Evan Czaplicki ]( https://www.youtube.com/watch?v=DfLvDFxcAIA )
 - [ Adrian Cockcroft|The Evolution of Microservices ]( http://www.ustream.tv/recorded/86151804 )
 - [ Arlo Belshee|New code is legacy code ]( http://arlobelshee.com/new-code-is-legacy-code/ )
@@ -12,8 +9,10 @@
 - [ GOTO 2017 • Knee Deep in Microservices • Adam Sándor ]( https://www.youtube.com/watch?v=2Rn2VxG2tBU )
 - [ GOTO 2017 • The Many Meanings of Event-Driven Architecture • Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 - [ Gary Bernhardt|Deconstructing the framework ]( https://www.youtube.com/watch?v=iUe6tacW3JE )
+- [ Gary Bernhardt|Fast Test ]( https://www.youtube.com/watch?v=RAxiiRPHS9k )
 - [ Gary Bernhardt|Test Isolation Is About Avoiding Mocks ]( https://www.destroyallsoftware.com/blog/2014/test-isolation-is-about-avoiding-mocks )
 - [ Gary Bernhardt|Useing You're Type's Good ]( https://www.destroyallsoftware.com/talks/useing-youre-types-good )
+- [ Growing a Language ]( https://www.youtube.com/watch?v=_ahvzDzKdB0 )
 - [ Guy Steele|How to Think about Parallel Programming: Not! ]( https://www.infoq.com/presentations/Thinking-Parallel-Programming )
 - [ How we program multicores - Joe Armstrong ]( https://www.youtube.com/watch?v=bo5WL5IQAd0 )
 - [ Invited Talk - Guy Steele - YouTube ]( https://www.youtube.com/watch?v=dCuZkaaou0Q )
@@ -48,6 +47,7 @@
 - [ PHPNW13 Sunday Track 2 Talk 2: Anthony Ferrara - Don't be STUPID, Grasp SOLID ](https://www.youtube.com/watch?v=KHBrDWIKW8Q)
 - [ Practical Event Sourcing - Mathias Verraes - phpDay 2014 ]( https://vimeo.com/104095245 )
 - [ Rich Hickey|Clojure Made Simple ]( https://www.youtube.com/watch?v=VSdnJDO-xdg )
+- [ Rich Hickey|Design ]( https://www.infoq.com/presentations/design-composition-performance-keynote )
 - [ Rich Hickey|Inside Transducers ]( https://www.youtube.com/watch?v=4KqUvG8HPYo )
 - [ Rich Hickey|Persistent Data Structures and Managed References ]( https://www.infoq.com/presentations/Value-Identity-State-Rich-Hickey )
 - [ Rich Hickey|The Database as a Value ]( https://www.infoq.com/presentations/Datomic-Database-Value )
@@ -72,17 +72,35 @@
 - [ Writing Good Tests - Matteo Baglini - #iad14 ](https://vimeo.com/115568045)
 - [ ootips|The Origins of Object Orientation ]( http://ootips.org/history.html )
 - [ ootips|What Makes A Good Object-Oriented Design? ]( http://ootips.org/ood-principles.html )
+- ["Agile Architecture" - Molly Dishman & Martin Fowler Keynote](https://www.youtube.com/watch?v=VjKYO6DP3fo)
+- [An Event-driven and Reactive Future - Jonathan Worthington](https://www.youtube.com/watch?v=_VdIQTtRkb8)
 - [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
 - [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 - [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [Composition - Nik Graf aka @nikgraf at @ReactEurope 2017](https://www.youtube.com/watch?v=qJgff2spvzM)
+- [DDD and Microservices: At Last, Some Boundaries!](https://www.youtube.com/watch?v=sFCgXH7DwxM)
 - [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans#structural-design-patterns)
+- [Explaining Agile - Martin Fowler and Neal Ford at USI](https://www.youtube.com/watch?v=GE6lbPLEAzc)
+- [GOTO 2014 • Microservices • Martin Fowler](https://www.youtube.com/watch?v=wgdBVIX9ifA)
+- [GOTO 2015 • One Hacker Way • Erik Meijer](https://www.youtube.com/watch?v=FvMuPtuvP5w)
 - [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 - [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
 - [How To Design A Good API and Why it Matters](https://www.youtube.com/watch?v=heh4OeB9A-c)
+- [How to Write Clean, Testable Code](https://www.youtube.com/watch?v=XcT4yYu_TTs)
 - [Immutable User Interfaces](https://mitpress.mit.edu/sicp/)
+- [Martin Fowler @ OOP2014 "Not Just Code Monkeys"](https://www.youtube.com/watch?v=Z8aECe4lp44)
+- [Martin Fowler @ OOP2014 "Workflows of Refactoring"](https://www.youtube.com/watch?v=vqEg37e4Mkw)
+- [Martin Fowler Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
+- [Martin Odersky - What to Leave Implicit](https://www.youtube.com/watch?v=br6035SKu-0)
 - [Mixins Considered Harmful](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html)
+- [PHPNW13 Track 1 Talk 2: Rob Allen - Introducing Dependency Injection](https://www.youtube.com/watch?v=ElnqUIjLWVk)
 - [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+- [React 2014 : Erik Meijer - What does it mean to be Reactive?](https://www.youtube.com/watch?v=sTSQlYX5DU0)
 - [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+- [The Clean Code Talks - "Global State and Singletons"](https://www.youtube.com/watch?v=-FRm3VPhseI)
+- [The Clean Code Talks - "Inheritance, Polymorphism, & Testing"](https://www.youtube.com/watch?v=4F72VULWFvc)
+- [The Clean Code Talks - Don't Look For Things!](https://www.youtube.com/watch?v=RlfLCWKxHJ0)
+- [The Clean Code Talks -- Unit Testing](https://www.youtube.com/watch?v=wEhu57pih5w)
 - [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 - http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 - http://alistair.cockburn.us/Hexagonal+architecture
@@ -97,6 +115,7 @@
 - http://blog.thecodewhisperer.com/permalink/injecting-dependencies-doesnt-have-to-hurt
 - http://blog.thecodewhisperer.com/permalink/surely-the-mars-rover-needed-integrated-tests-maybe-not
 - http://blog.thecodewhisperer.com/permalink/ten-ways-to-kill-your-design
+- http://blog.thecodewhisperer.com/permalink/the-myth-of-advanced-tdd
 - http://blog.thecodewhisperer.com/permalink/what-your-tests-dont-need-to-know-will-hurt-you
 - http://blog.wittchen.biz.pl/basic-code-refactoring-principles/
 - http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
@@ -169,6 +188,7 @@
 - http://www.jmock.org/oopsla2004.pdf
 - http://www.philosophicalgeek.com/2007/11/21/books/
 - http://www.poppendieck.com/reference.htm
+- http://www.yegor256.com/2017/11/14/static-factory-methods.html
 - http://xunitpatterns.com/Database%20Patterns.html
 - http://xunitpatterns.com/DfT%20Patterns.html
 - http://xunitpatterns.com/External%20Patterns.html
@@ -189,6 +209,12 @@
 - https://auth0.com/blog/glossary-of-modern-javascript-concepts-part-2/
 - https://auth0.com/blog/glossary-of-modern-javascript-concepts/
 - https://blog.codinghorror.com/recommended-reading-for-developers/
+- https://blog.kentcdodds.com/becoming-an-open-source-project-maintainer-68fb6e3cedfd
+- https://blog.kentcdodds.com/classes-complexity-and-functional-programming-a8dd86903747
+- https://codeburst.io/understanding-solid-principles-dependency-injection-d570c15560ab
+- https://codeburst.io/understanding-solid-principles-interface-segregation-principle-b2d57026cf6c
+- https://codeburst.io/understanding-solid-principles-open-closed-principle-e2b588b6491f
+- https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80
 - https://codewithstyle.info/functional-javascript-part-1-introduction/
 - https://codewithstyle.info/functional-javascript-part-2-array-operations/
 - https://codewithstyle.info/functional-javascript-part-3-reduce/
@@ -346,6 +372,7 @@
 - https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a
 - https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
 - https://medium.freecodecamp.org/learning-the-fundamentals-of-functional-programming-425c9fd901c6
+- https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice
 - https://mitpress.mit.edu/sicp/
 - https://mitpress.mit.edu/sicp/full-text/book/book.html
 - https://murze.be/2017/10/seven-ineffective-coding-habits-many-programmers/
@@ -353,6 +380,7 @@
 - https://purelyfunctional.tv/
 - https://robots.thoughtbot.com/avoid-the-threestate-boolean-problem
 - https://robots.thoughtbot.com/tell-dont-ask
+- https://robots.thoughtbot.com/two-ways-of-looking-at-map-functions
 - https://robots.thoughtbot.com/types-of-coupling
 - https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me
 - https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read
@@ -380,34 +408,6 @@
 - https://www.reddit.com/r/learnprogramming/wiki/books
 - https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth
 - https://www.thoughtworks.com/continuous-delivery
-- [The Clean Code Talks - "Global State and Singletons"](https://www.youtube.com/watch?v=-FRm3VPhseI)
-- [The Clean Code Talks - "Inheritance, Polymorphism, & Testing"](https://www.youtube.com/watch?v=4F72VULWFvc)
-- [Martin Fowler Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
-- [PHPNW13 Track 1 Talk 2: Rob Allen - Introducing Dependency Injection](https://www.youtube.com/watch?v=ElnqUIjLWVk)
-- [Explaining Agile - Martin Fowler and Neal Ford at USI](https://www.youtube.com/watch?v=GE6lbPLEAzc)
-- [The Clean Code Talks - Don't Look For Things!](https://www.youtube.com/watch?v=RlfLCWKxHJ0)
-- ["Agile Architecture" - Molly Dishman & Martin Fowler Keynote](https://www.youtube.com/watch?v=VjKYO6DP3fo)
-- [How to Write Clean, Testable Code](https://www.youtube.com/watch?v=XcT4yYu_TTs)
-- [Martin Fowler @ OOP2014 "Not Just Code Monkeys"](https://www.youtube.com/watch?v=Z8aECe4lp44)
-- [An Event-driven and Reactive Future - Jonathan Worthington](https://www.youtube.com/watch?v=_VdIQTtRkb8)
-- [Martin Odersky - What to Leave Implicit](https://www.youtube.com/watch?v=br6035SKu-0)
-- [Composition - Nik Graf aka @nikgraf at @ReactEurope 2017](https://www.youtube.com/watch?v=qJgff2spvzM)
-- [DDD and Microservices: At Last, Some Boundaries!](https://www.youtube.com/watch?v=sFCgXH7DwxM)
-- [React 2014 : Erik Meijer - What does it mean to be Reactive?](https://www.youtube.com/watch?v=sTSQlYX5DU0)
-- [Martin Fowler @ OOP2014 "Workflows of Refactoring"](https://www.youtube.com/watch?v=vqEg37e4Mkw)
-- [The Clean Code Talks -- Unit Testing](https://www.youtube.com/watch?v=wEhu57pih5w)
-- [GOTO 2014 • Microservices • Martin Fowler](https://www.youtube.com/watch?v=wgdBVIX9ifA)
-- https://yurichev.com/blog/cyclomatic/
 - https://www.youtube.com/watch?v=weWSYIUdX6c
-- https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice
-- https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80
-- https://codeburst.io/understanding-solid-principles-dependency-injection-d570c15560ab
-- https://codeburst.io/understanding-solid-principles-open-closed-principle-e2b588b6491f
-- https://codeburst.io/understanding-solid-principles-interface-segregation-principle-b2d57026cf6c
-- http://www.yegor256.com/2017/11/14/static-factory-methods.html
-- http://blog.thecodewhisperer.com/permalink/the-myth-of-advanced-tdd
+- https://yurichev.com/blog/cyclomatic/
 - https://zapier.com/engineering/estimating/
-- https://robots.thoughtbot.com/two-ways-of-looking-at-map-functions
-- https://blog.kentcdodds.com/becoming-an-open-source-project-maintainer-68fb6e3cedfd
-- https://blog.kentcdodds.com/classes-complexity-and-functional-programming-a8dd86903747
-- [GOTO 2015 • One Hacker Way • Erik Meijer](https://www.youtube.com/watch?v=FvMuPtuvP5w)
