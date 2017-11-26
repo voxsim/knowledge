@@ -1,5 +1,4 @@
 - https://www.akkadia.org/drepper/cpumemory.pdf
-- [ Accidentally Concurrent - Evan Czaplicki ]( https://www.youtube.com/watch?v=DfLvDFxcAIA )
 - [ Adrian Cockcroft|The Evolution of Microservices ]( http://www.ustream.tv/recorded/86151804 )
 - [ Arlo Belshee|New code is legacy code ]( http://arlobelshee.com/new-code-is-legacy-code/ )
 - [ Arlo Belshee|WET: When DRY Doesn’t Apply ]( http://arlobelshee.com/wet-when-dry-doesnt-apply/ )
