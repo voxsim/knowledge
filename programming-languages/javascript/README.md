@@ -655,3 +655,23 @@ More info:
 - [Arindam Paul - JavaScript VM internals, EventLoop, Async and ScopeChains](https://www.youtube.com/watch?v=QyUFheng6J0)
 - [Douglas Crockford: Monads and Gonads (YUIConf Evening Keynote)](https://www.youtube.com/watch?v=dkZFtimgAcM)
 - [Tomasz Ducin - 5 architectures of asynchronous JavaScript](https://www.youtube.com/watch?v=YXo4YOLDK1k)
+- learnnode.com
+- maxogden/art-of-node#the-art-of-node
+- azat-co/you-dont-know-node
+- http://thenodeway.io
+- substack/stream-handbook
+- nodeschool.io
+- nodesource.com/blog/understanding-object-streams
+- nodesource.com/blog/why-asynchronous
+- nodesource.com/blog/semver-tilde-and-caret
+- nodesource.com/blog/semver-a-primer
+- ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps
+- duffn/nodeinteractive-2015
+- http://dry.ly/full-streams-ahead
+- joyent.com/node-js/production/design/errors
+- x-team.com/blog/best-node-js-guides-curated-by-x-team
+- nodejs/code-and-learn
+- maxogden/art-of-node
+- blog.heroku.com/node-habits-2017
+- youtube.com/watch?v=jo_B4LTHi3I
+- blog.risingstack.com/mastering-async-await-in-nodejs
