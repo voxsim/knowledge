@@ -93,13 +93,11 @@
 - https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32
 - https://www.copyblogger.com/evergreen-content/
 - https://www.copyblogger.com/persuasive-content-marketing/
-Must read
-On Writing Well by William Zinsser
-The Elements of Style by William Strunk Jr
-Also recommended
-On Writing by Stephen King (fiction writing)
-Everybody Writes by Anne Handley
-The Gary Halbert Letters by Gary Halbert (newsletter archive)
+- On Writing Well by William Zinsser
+- The Elements of Style by William Strunk Jr
+- On Writing by Stephen King (fiction writing)
+- Everybody Writes by Anne Handley
+- The Gary Halbert Letters by Gary Halbert (newsletter archive)
 Apps to use
-http://www.hemingwayapp.com - helps to simplify your copy
-http://grammarly.com - grammar checker
+- http://www.hemingwayapp.com - helps to simplify your copy
+- http://grammarly.com - grammar checker
