@@ -1,11 +1,5 @@
 # Event Sourcing
 
-Capture all changes to an application state as a sequence of events.
-
-This is part of the [Further Enterprise Application Architecture development][1] writing that I was doing in the mid 2000's. Sadly too many other things have claimed my attention since, so I haven't had time to work on them further, nor do I see much time in the foreseeable future. As such this material is very much in draft form and I won't be doing any corrections or updates until I'm able to find time to work on it again.
-
-We can query an application's state to find out the current state of the world, and this answers many questions. However there are times when we don't just want to see where we are, we also want to know how we got there.
-
 Event Sourcing ensures that all changes to application state are stored as a sequence of events. Not just can we query these events, we can also use the event log to reconstruct past states, and as a foundation to automatically adjust the state to cope with retroactive changes.
 
 ## How it Works
@@ -34,13 +28,13 @@ Looking at just the processing, this is just an unnecessary level of indirection
 
 With the basic service, we see just the final state captured by the ship objects. I'll refer to this as the application state.
 
-![][4]
+![](https://martinfowler.com/eventSourcing/simpleServiceHis.gif)
 
 Figure 3: State after a few movements tracked by simple tracker.
 
 With Event Sourcing we also capture each event. If we are using a persistent store the events will be persisted just the same as the ship objects are. I find it useful to say that we are persisting two different things an application state and an event log.
 
-![][5]
+![](https://martinfowler.com/eventSourcing/simpleEventHis.gif)
 
 Figure 4: State after a few movements tracked by event sourced tracker.
 
@@ -558,8 +552,6 @@ The query log is generic, so we can issue a query to get a few items by using th
 
 The log of requests will need to be persisted in the same way as the log of [Domain Events][14] is persisted as it's needed to rebuild the application state.
 
-[4]: https://martinfowler.com/eventSourcing/simpleServiceHis.gif
-[5]: https://martinfowler.com/eventSourcing/simpleEventHis.gif
 [6]: https://martinfowler.com/eaaCatalog/transactionScript.html
 [7]: https://martinfowler.com/eaaCatalog/domainModel.html
 [8]: https://martinfowler.com/eaaCatalog/dataTransferObject.html
@@ -576,5 +568,3 @@ The log of requests will need to be persisted in the same way as the log of [Dom
 [19]: https://martinfowler.com/eventSourcing/shipDomainCd.gif
 [20]: https://martinfowler.com/eaaCatalog/specialCase.html
 [21]: https://martinfowler.com/eventSourcing/externalQueryOD.gif
-
-  
