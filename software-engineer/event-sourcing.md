@@ -14,7 +14,7 @@ The fundamental idea of Event Sourcing is that of ensuring every change to the s
 
 Let's consider a simple example to do with shipping notifications. In this example we have many ships on the high seas, and we need to know where they are. A simple way to do this is to have a tracking application with methods to allow us to tell when a ship arrives or leaves at a port.
 
-![](https://martinfowler.com/eventSourcing/simpleService.gif)
+![](https://martinfowler.com/eaaDev/eventSourcing/simpleService.gif)
 
 Figure 1: A simple interface for tracking shipping movements.
 
@@ -22,7 +22,7 @@ In this case when the service is called, it finds the relevant ship and updates 
 
 Introducing Event Sourcing adds a step to this process. Now the service creates an event object to record the change and processes it to update the ship.
 
-![](https://martinfowler.com/eventSourcing/simpleEventCd.gif)
+![](https://martinfowler.com/eaaDev/eventSourcing/simpleEventCd.gif)
 
 Figure 2: Using an event to capture the change.
 
