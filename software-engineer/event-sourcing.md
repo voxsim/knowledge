@@ -14,7 +14,7 @@ The fundamental idea of Event Sourcing is that of ensuring every change to the s
 
 Let's consider a simple example to do with shipping notifications. In this example we have many ships on the high seas, and we need to know where they are. A simple way to do this is to have a tracking application with methods to allow us to tell when a ship arrives or leaves at a port.
 
-![][2]
+![](https://martinfowler.com/eventSourcing/simpleService.gif)
 
 Figure 1: A simple interface for tracking shipping movements.
 
@@ -22,7 +22,7 @@ In this case when the service is called, it finds the relevant ship and updates 
 
 Introducing Event Sourcing adds a step to this process. Now the service creates an event object to record the change and processes it to update the ship.
 
-![][3]
+![](https://martinfowler.com/eventSourcing/simpleEventCd.gif)
 
 Figure 2: Using an event to capture the change.
 
@@ -558,9 +558,6 @@ The query log is generic, so we can issue a query to get a few items by using th
 
 The log of requests will need to be persisted in the same way as the log of [Domain Events][14] is persisted as it's needed to rebuild the application state.
 
-[1]: https://martinfowler.com/eaaDev
-[2]: https://martinfowler.com/eventSourcing/simpleService.gif
-[3]: https://martinfowler.com/eventSourcing/simpleEventCd.gif
 [4]: https://martinfowler.com/eventSourcing/simpleServiceHis.gif
 [5]: https://martinfowler.com/eventSourcing/simpleEventHis.gif
 [6]: https://martinfowler.com/eaaCatalog/transactionScript.html
