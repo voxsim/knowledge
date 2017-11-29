@@ -28,13 +28,13 @@ Looking at just the processing, this is just an unnecessary level of indirection
 
 With the basic service, we see just the final state captured by the ship objects. I'll refer to this as the application state.
 
-![](https://martinfowler.com/eventSourcing/simpleServiceHis.gif)
+![](https://martinfowler.com/eaaDev/eventSourcing/simpleServiceHis.gif)
 
 Figure 3: State after a few movements tracked by simple tracker.
 
 With Event Sourcing we also capture each event. If we are using a persistent store the events will be persisted just the same as the ship objects are. I find it useful to say that we are persisting two different things an application state and an event log.
 
-![](https://martinfowler.com/eventSourcing/simpleEventHis.gif)
+![](https://martinfowler.com/eaaDev/eventSourcing/simpleEventHis.gif)
 
 Figure 4: State after a few movements tracked by event sourced tracker.
 
