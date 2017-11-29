@@ -642,4 +642,3 @@ The exit() expression is used with a non-zero number to let the shell know that 
 - https://github.com/pehapkari/awesome-symfony-education
 - https://github.com/sitepoint-editors/awesome-symfony
 - https://github.com/ziadoz/awesome-php
-- 

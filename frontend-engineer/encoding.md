@@ -1,3 +1,5 @@
+# Encoding
+
 ## ASCII
 128 characters -> 7 bit
 

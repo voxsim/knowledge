@@ -1,3 +1,5 @@
+# Probability
+
 Probability of A and B if A and B are not indipendent
 P(A and B) = P(B given A) * P(A)
 

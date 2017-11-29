@@ -1,3 +1,5 @@
+# Service worker
+
 ## What it is this?
 A service worker is a background worker that acts as a programmable proxy, allowing us to control what happens on a request-by-request basis. We can use it to make (parts of, or even entire) web apps work offline. It works only with HTTPS.
 

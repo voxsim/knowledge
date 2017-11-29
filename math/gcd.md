@@ -1,3 +1,5 @@
+# GCD (Greatest commond divisor)
+
 The greatest common divisor (GCD) of two numbers a and b is the greatest number that divides evenly into both a and b. Naively we could start from the smallest of the two numbers and work our way downwards until we find a number that divides into both of them:
 
 ```
