@@ -2,7 +2,9 @@
 
 ## Simplicity
 We must create ides both simple and profound. The Golden Rule is the ultimate model of simplicity: a one-sentence statement so profound that an individual could spend a life-time learning to follow it.
-It's hard to make ideas to stick in a noisy, unpredictable, chaotic environment. The idea is share your vision/your core idea and leave autonomy to everyone to achieve that.
+It's hard to make ideas to stick in a noisy, unpredictable, chaotic environment.
+The idea is share your vision/your core idea and leave *autonomy* to everyone to achieve that.
+The process to find the core and writing the lead involve *forced prioritization*. 
 
 ## Unexpectedness
 We need to violate people's expectations. We need to be counterintuitive. We must generate interest and curiosity. We can engage people's curiosity over a long period of time by systematically "opening gaps" in their knowledge and then filling those gaps.
