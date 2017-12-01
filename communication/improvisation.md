@@ -1,3 +1,5 @@
+# Improvisation
+
 Improvisation means:
 - the act of art of improvising
 - Being spontaneus
@@ -5,7 +7,7 @@ Improvisation means:
 
 How to do improvisation:
 - Play, engaging in something only beacuse you like it
-- Let yourself fail. 
+- Let yourself fail.
   - The hard part of each failing, it is ok with that and accept that failure as a natural way of things.
   - Failing does not make you a failure.
 - Listening:

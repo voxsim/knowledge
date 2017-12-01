@@ -1,3 +1,5 @@
+# How to present
+
 ## Inside outlining
 I do something I’d like to call inside outlining, because it’s kind of a fun play on words and by inventing new terminology you can eventually ask for royalties.
 
@@ -44,10 +46,10 @@ As you get a better handle for the overall flow, you can start diving into more:
 
 For me, I tend to keep these outlines very short and high-level. I usually don’t get much further than three tiers: top tier is the slide introduction to the section, the second bullet level is a slide and large point inside that section, and the third level of bullets tend to translate to multiple slides supporting the #2 level of points.
 
-## Keep focus small
-Small subject that you know; avoid things that you don't know
+## Keep focus small and focus on audience
+Small subject that you know; avoid things that you don't know and you should focus on audience, not on you: Help others do better.
 
-## The Oral Tradition
+## Entertainment
 The dirty secret about public speaking is that at the end of the day, it’s just entertainment. You hold the audience captive for twenty minutes, forty minutes, an hour, whatever. They’re yours. They’re looking for you to entertain them.
 
 
@@ -71,7 +73,10 @@ What’s more, relating experiences can quickly lead to talking about pain avoid
 
 When you talk experiences and stories, you automatically become more passionate and more comfortable. You won’t even have to think much about it- the emotion in your voice as you relate the story will bleed through. Let it bleed through. It’s more interesting, more entertaining. It’s more persuasive.
 
-# Focus on audience
-You should focus on audience, not on you: Help others do better.
+## Repetition
 
-# 
+Repetition is a great way to tell your story, and all talks, one way or another, are stories. If you go back and watch a Steve Jobs keynote, virtually every single keynote finished with a recap. There was no new information provided, but it served as a bookend to what he was trying to convey. He also typically did the same thing at the top of every section: he’d give you a quick few bullet points of what he was about to talk about in greater detail. By giving people the same information in a slightly different way, you’re giving them additional context with which they can grab hold of the idea you’re explaining. This is especially important when you’re trying to explain a complicated subject.
+
+Think about using this to your advantage in your talk. Add recap sections before you move on to the next topic. Add a final one- or two-minute closing section that recaps everything you said. Underline and repeat important concepts one or two times, so people know it’s important.
+
+Repeat yourself. Reiterate what you just said. Rephrase what you just said. It’ll help persuade people to remember what you’re saying.
