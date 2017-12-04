@@ -220,3 +220,7 @@ Differences between HTML and XHTML:
  *   Attribute values must be enclosed in quotes.
  *   Empty attributes are forbidden (checked must instead be checked="checked" or checked="true").
  *   Special characters must be escaped using character entities.
+
+
+For further details, see:
+- https://internetingishard.com/html-and-css/
