@@ -2462,3 +2462,63 @@ This particular limitation is both simple and complex.
 Comparing how many pieces are moving with a basic callback-based async task chain versus a Promise chain, it's clear Promises have a fair bit more going on, which means they are naturally at least a tiny bit slower. Think back to just the simple list of trust guarantees that Promises offer, as compared to the ad hoc solution code you'd have to layer on top of callbacks to achieve the same protections.
 
 More work to do, more guards to protect, means that Promises *are* slower as compared to naked, untrustable callbacks. That much is obvious, and probably simple to wrap your brain around.
+
+---
+title: Promises
+category: JavaScript
+---
+
+Based on the [Promise API reference][promise] (mozilla.org).
+{:.brief-intro.center}
+
+[promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+### Creating promises
+
+```js
+new Promise(function (ok, err) {
+  doStuff(function () {
+    if (success) { ok(); }
+    else { err(); }
+  });
+})
+```
+
+### Consuming promises
+
+```js
+promise
+  .then(okFn, errFn)
+  .catch(errFn)
+```
+
+### Multiple promises
+
+```js
+var promises = [
+  promise1(), promise2(), ...
+]
+
+// succeeds when all succeed
+Promise.all(promises)
+  .then(function (results) {
+  });
+
+// succeeds when one finishes first
+Promise.race(promises)
+  .then(function (result) {
+  });
+```
+
+### Converting other promises
+
+```js
+return Promise.resolve("result");
+return Promise.resolve(promise);
+return Promise.resolve(thenable);
+
+return Promise.reject("reason");
+
+Promise.resolve($.get('http://google.com'))
+.then(...)
+```
