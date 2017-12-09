@@ -8,6 +8,7 @@ Don't try to major in the minors. Get the basics down first:
 * Genuinely working hard at an exercise routine
 * Getting enough sleep
 * Doing all of the above with consistency
+
 These things alone are so important and trump everything else so completely that it's less of an 80/20 Rule and more of a 95/5 rule.
 
 ## Be Willing to Have Patience
@@ -82,7 +83,6 @@ See: [531 and Bodybuilding](http://www.jimwendler.com/2012/09/531-and-bodybuildi
 
 ## Food
 Don’t count calories closely, try to eyeball the caloric breakdown and stay fairly close to the proportions laid out by Lance Armstrong’s former coach, Chris Carmichael, in his book Food for Fitness.  Carmichael’s recommendations, though varying based on training period, are roughly:
-
-65% carbohydrate
-13% protein
-22% fat
+* 65% carbohydrate
+* 13% protein
+* 22% fat
