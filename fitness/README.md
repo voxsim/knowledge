@@ -1,5 +1,22 @@
 # Fitness
 
+## Don't Overthink Things
+A pitfall that even people in the intermediate and advanced levels of fitness disciplines fall into is trying to "min/max" themselves, their exercise, their nutrition, etc. Do not allow yourself to fall into the trap of premature optimization. You do not need to have a personalized or "fine tuned" diet and routine to achieve your goals unless you are preparing to compete on a world class/Olympic level, and trying to operate at that level of micromanagement right out of the gate is a great way to stress yourself out and fall off the wagon.
+
+Don't try to major in the minors. Get the basics down first:
+* Eating an appropriate amount of calories and protein
+* Genuinely working hard at an exercise routine
+* Getting enough sleep
+* Doing all of the above with consistency
+These things alone are so important and trump everything else so completely that it's less of an 80/20 Rule and more of a 95/5 rule.
+
+## Be Willing to Have Patience
+Contrary to what unethical fitness companies trying to sell you a product would have you believe, change takes time. That time is not measured in days or weeks, it is measured in months and years. If you want to achieve extraordinary results, you have to be willing to invest an extraordinary amount of time. If you're not seeing immediate results in a couple of weeks, that is not necessarily a reason to question or change what you're doing. That is almost always too short a time scale and it is not reasonable to expect a significant change. This goes especially for adding muscle mass, which is a much slower process than most expect it to be.
+
+Consider this: If you're "out of shape", you've probably spent years getting to where you are now. Conversely, most of the people you can hold up as your goal, even if they are genetically gifted or used PEDs, spent years getting to where they are now. You cannot get there overnight. Don't allow yourself to get discouraged too quickly. Stay consistent and stay patient.
+
+The other side of this coin is that you should never put a time limit on your success. While it may seem useful to set specific goals of attaining a certain weight, look, or performance level in a certain period of time, it is often simply mental masturbation that does not help you. The complexity of the human body makes it largely unreasonable to try to predict how long changes will take. Often, a much better mindset to approach the process with is to work hard, stay consistent, and find out how long it takes you.
+
 ## Target heart rate
 
     max heart rate = (220 - age)
@@ -62,3 +79,10 @@ See: [Link](https://www.facebook.com/permalink.php?story_fbid=273265046115238&id
  recovery."
 
 See: [531 and Bodybuilding](http://www.jimwendler.com/2012/09/531-and-bodybuilding/) _(jimwendler.com)_
+
+## Food
+Don’t count calories closely, try to eyeball the caloric breakdown and stay fairly close to the proportions laid out by Lance Armstrong’s former coach, Chris Carmichael, in his book Food for Fitness.  Carmichael’s recommendations, though varying based on training period, are roughly:
+
+65% carbohydrate
+13% protein
+22% fat
