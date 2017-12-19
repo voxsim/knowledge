@@ -1,0 +1,2 @@
+# Encapsulation
+Encapsulation means collecting a bunch of stuff together and putting it in one box, or capsule. The box may or may not have opaque walls, so this may or may not involve information hiding. In practice a "class" will both encapsulate (i.e. bundle code and data together) and hide information (namely, implementation detail), and some people get so used to doing both at once they no longer bother to distinguish.
