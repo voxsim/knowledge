@@ -49,4 +49,10 @@ Fino a “The Ben Franklin Effect" pagina 73
 
 ## Love
 
+“Too often, being successful when you are young is about survival. Some people are good at hiding their troubles. They are good at “falling up.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+
+
 ## The brain and the body
