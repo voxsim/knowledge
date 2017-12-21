@@ -24,6 +24,21 @@ Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to 
 
 Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
 
+“ not all relationships—or ties—are created equal. Some are weak and some are strong, and the strength of a tie increases with time and experience. The more we have been around someone, the stronger the tie because, likely, we have shared experiences and confidences. In childhood, strong ties are family and best friends. In the twentysomething years, strong ties grow to include the urban tribe, roommates, partners, and other close friends.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Here we get to what another sociologist, Rose Coser, called the “weakness of strong ties,” or how our close friends hold us back. Our strong ties feel comfortable and familiar but, other than support, they may have little to offer. They are usually too similar—even too similarly stuck—to provide more than sympathy. They often don’t know any more about jobs or relationships than we do.
+Weak ties feel too different or, in some cases, literally too far away to be close friends. But that’s the point. Because they’re not just figures in an already ingrown cluster, weak ties give us access to something fresh. They know things and people that we don’t know. Information and opportunity spread farther and faster through weak ties than through close friends because weak ties have fewer overlapping contacts. Weak ties are like bridges you cannot see all the way across, so there is no telling where they might lead.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“When I encourage twentysomethings to draw on the strength of weak ties, there is often a fair amount of resistance: “I hate networking” or “I want to get a job on my own” or “That’s not my style” are common reactions. I get it, but that doesn’t change the fact that, as we look for jobs or relationships or opportunities of any kind, it is the people we know the least well who will be the most transformative. New things almost always come from outside your inner circle. And twentysomethings who won’t use their weak ties fall behind twentysomethings like these, who have this to say:
+ 
+Networking, using contacts, whatever, is not a bad thing. I never really was overly worried about it, but I have some friends who always were so stressed about working somewhere where a family member helped them get the job. I work in one of the top three companies in my industry, and literally I know only one person who actually got a job there without knowing someone. Everyone got it because they know somebody.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
+
 ## Love
 
 ## The brain and the body
