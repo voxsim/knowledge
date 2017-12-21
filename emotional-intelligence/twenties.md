@@ -53,6 +53,22 @@ Fino a “The Ben Franklin Effect" pagina 73
 
 Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
 
-pagina 135
+“But couples who “live together first” are actually less satisfied with their marriages and more likely to divorce than couples who do not. This is what sociologists call the cohabitation effect.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+Criteria for cohabitation: “I think my criteria were good sex, fun weekends, cool crowd, cheaper rent.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Living with someone may have benefits, but approximating marriage is not necessarily one of them”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
+
+“It is the couples who live together before an engagement who are more likely to experience poorer communication, lower levels of commitment to the relationship, and greater marital instability down the road.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+pagina 140
 
 ## The brain and the body
