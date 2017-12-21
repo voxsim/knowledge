@@ -39,6 +39,12 @@ Networking, using contacts, whatever, is not a bad thing. I never really was ove
 
 Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
 
+“Most twentysomethings yearn for a feeling of community, and they cling to their strong ties to feel more connected. Ironically, being enmeshed with a group can actually enhance feelings of alienation, because we—and our tribe—become insular and detached. Over time, our initial feeling of being part of a group becomes a sense of disconnection with the larger world.
+True interconnectedness rests not on texting best friends at one a.m., but on reaching out to weak ties that make a difference in our lives even though they don’t have to. When weak ties help, the communities around us—even the adult community that twentysomethings are warily in the process of entering—seem less impersonal and impenetrable. Suddenly, the world seems smaller and easier to navigate. The more we know about the way things work, the more we feel a part of things.
+Favors are how things begin. Take Benjamin Franklin, for instance.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
 ## Love
 
 ## The brain and the body
