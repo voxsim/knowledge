@@ -146,3 +146,30 @@ Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to 
 Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
 
 ## The Brain and the Body
+
+“We now know that the brain develops from bottom to top and from back to front. This order reflects the evolutionary age of the areas of the brain. The oldest parts of the brain—the ones also present in our ancient ancestors and animal cousins—develop first, at the base of the brain near the spine. They control breathing, senses, emotions, sex, pleasure, sleep, hunger and thirst, or the “animal propensities” left intact after Phineas Gage’s injury. Roughly speaking, these areas are what we consider to be the emotional brain.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“The most forward part of the brain—literally and figuratively—is the frontal lobe, located just behind the forehead. The most recent part of the brain to have evolved in humans, it is also the final area of the brain to mature in each individual. Nicknamed the “executive functioning center” and the “seat of civilization,” the frontal lobe is where reason and judgment reside. It is where rational thoughts balance, and regulate, the feelings and impulses of the emotional brain.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“The area of the brain that processes probability and time, the frontal lobe is also where we tackle uncertainty. This allows us to think not only about the present but also about the future. It is where we quiet our emotions long enough to anticipate the likely consequences of our behavior and plan accordingly for tomorrow, even though no outcome is certain and the future is unknown. This front part of the brain is where we do our forward thinking.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“But being a forward-thinking adult is about how you think and act even (and especially) in uncertain situations. The frontal lobe doesn’t just allow us to coolly solve the problem of what exactly we should do with our lives. Adult dilemmas—which job to take, where to live, whom to partner with, or when to start a family—don’t have right answers. The frontal lobe is where we move beyond the futile search for black-and-white solutions as we learn to tolerate—and act on—better shades of gray.
+The late-maturing frontal lobe might seem like a good reason to postpone action, to wait until thirty after all to get started on a life.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Forward thinking doesn’t just come with age. It comes with practice and experience. That’s why some twenty-two-year-olds are incredibly self-possessed, future-oriented people who already know how to face the unknown, while some thirty-four-year-olds still have brains that run the other way.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Twentysomethings who use their brains by engaging with good jobs and real relationships are learning the language of adulthood just when their brains are primed to learn it. In the chapters ahead, we will see how they learn to calm themselves down at work and in love, and this brings mastery and success. They learn to get along and get ahead, and this makes them happier and more confident. They learn to be forward thinking before life’s defining moments are in the rearview mirror. Twentysomethings who don’t use their brains become thirtysomethings who feel behind as professionals and as partners—and as people, and they miss out on making the most of life still to come.
+It is easy to feel overwhelmed by uncertainty, to want to lie low with the urban tribe, or our parents, until our brains just mature on their own and somehow suddenly know the sure answers to our lives. But that’s not how the brain works. And that’s not how life works. Besides, even if our brains could wait, love and work can’t. The twenties are, indeed, the time to get busy. It’s forward thinking for an uncertain age.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
