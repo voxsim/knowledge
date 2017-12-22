@@ -173,3 +173,28 @@ It is easy to feel overwhelmed by uncertainty, to want to lie low with the urban
 
 Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
 
+“Evolutionary theorists believe the brain is designed to pay special attention to what catches us off-guard, so we can be better prepared to meet the world next time. The brain even has a built-in novelty detector, a part that sends chemical signals to stimulate memory when new and different things happen. ”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“We know from research studies that when people view slides of ordinary objects (such as a house) and bizarre objects (such as a zebra head attached to a car), the viewers are more likely to remember the bizarre. Likewise, when research subjects are startled, such as by the image and sound of a snake, they have better recall for the slides that immediately follow the snake than they do for other slides. Similarly, people are more likely to remember highly emotional events, such as times when they were happy or sad or embarrassed.
+When something surprising happens, especially if it arouses emotions, we tend to remember it—vividly—for a long time. These remembrances are called flashbulb memories because they feel illuminated and frozen in time, like our brain has taken a photograph of the moment. That is why most of us remember exactly where we were on the morning of 9/11, just as our parents and grandparents remember what they were doing when they heard President Kennedy had been shot.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Twentysomethings take these difficult moments particularly hard. Compared to older adults, they find negative information—the bad news—more memorable than positive information—or the good news. MRI studies show that twentysomething brains simply react more strongly to negative information than do the brains of older adults. There is more activity in the amygdala—the seat of the emotional brain.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Knowing what to overlook is one way that older adults are typically wiser than young adults. With age comes what is known as a positivity effect. We become more interested in positive information, and our brains react less strongly to what negative information we do encounter. We disengage with interpersonal conflict, choosing to let it be, especially when those in our network are involved.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“Confidence doesn’t come from the inside out. It moves from the outside in. People feel less anxious—and more confident—on the inside when they can point to things they have done well on the outside. Fake confidence comes from stuffing our self-doubt. Empty confidence comes from parental platitudes on our lunch hour. Real confidence comes from mastery experiences, which are actual, lived moments of success, especially when things seem difficult. Whether we are talking about love or work, the confidence that overrides insecurity comes from experience. There is no other way.”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
+“The investments we make in work and love trigger personality maturation. Being a cooperative colleague or a successful partner is what drives personality change. Settling down simply helps us feel more settled”
+
+Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+
