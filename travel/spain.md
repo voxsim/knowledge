@@ -1,3 +1,0 @@
-- Sagrada familia
-- https://www.visitarebarcellona.com/il-montserrat-escursione-fuori-barcellona/
-- http://turistipercaso.it/girona/65457/girona-in-un-giorno.html 

@@ -1,1 +1,0 @@
-- https://www.tripadvisor.it/Restaurant_Review-g194746-d7356181-Reviews-Piz_Boe_Alpine_Lounge-Corvara_in_Badia_Province_of_South_Tyrol_Trentino_Alto_Adig.html (Piz Boe' Alpine Lounge, Corvara in Badia - Ristorante Recensioni, Numero di Telefono & Foto - TripAdvisor)
