@@ -1,4 +1,3 @@
-- http://www.deconstructingexcellence.com/emotional-intelligence-2-0-summary/
 - http://www.deconstructingexcellence.com/how-to-win-friends-and-influence-people-summary/
 - http://www.deconstructingexcellence.com/the-4-hour-workweek-summary/
 - http://www.deconstructingexcellence.com/the-7-habits-of-highly-effective-people-summary/
