@@ -249,9 +249,7 @@ As mentioned in my summary of Stephen Covey’s first habit in The 7 Habits of H
 
 17. Catch the mood of the room. Moving from perception of individuals to being able to read the room is a big leap in abilities. You’ll probably have a gut feeling, but you can also observe groups of people to see how they are talking, how they are moving, how they are grouped, etc. It can be helpful to do this with someone who is experienced in reading a room.
 
- 
-
-Chapter 8: Relationship Management Strategies
+## Chapter 8: Relationship Management Strategies
 1. Be open and be curious. Sharing things about yourself will leave less room for people to misinterpret you, and the more you know about someone else, the more clearly you can interpret their emotional signals.
 
  
