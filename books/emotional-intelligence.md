@@ -316,12 +316,12 @@ As mentioned in my summary of Stephen Covey’s first habit in The 7 Habits of H
 
 17. Tackle a tough conversation. Tough conversations will come up no matter how high your EQ is. The authors offer a six-part approach to managing them better:
 
-Start the discussion with common ground.
-Ask the other person to help you understand how he or she feels.
-Don’t defend your point of view until you’ve heard the other person’s perspective.
-Then help the other person understand your side – your reasoning, your feelings, etc. Apologize, if appropriate, for the difficulty of the situation.
-Move the conversation forward once what can be said has been said. Obtain agreement on next steps.
-Follow up concerning what you’ve discussed at a later time as a means of genuinely addressing the issues.
+* Start the discussion with common ground.
+* Ask the other person to help you understand how he or she feels.
+* Don’t defend your point of view until you’ve heard the other person’s perspective.
+* Then help the other person understand your side – your reasoning, your feelings, etc. Apologize, if appropriate, for the difficulty of the situation.
+* Move the conversation forward once what can be said has been said. Obtain agreement on next steps.
+* Follow up concerning what you’ve discussed at a later time as a means of genuinely addressing the issues.
  
 
 ## Conclusion
