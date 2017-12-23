@@ -2,7 +2,7 @@
 - http://www.deconstructingexcellence.com/the-4-hour-workweek-summary/
 - http://www.deconstructingexcellence.com/the-7-habits-of-highly-effective-people-summary/
 - http://www.deconstructingexcellence.com/think-and-grow-rich-summary/
-- http://www.johnwittenauer.net/tag/book-review/
+- http://www.johnwittenauer.net/zero-to-one/
 - http://www.meaningfulhq.com/the-one-thing.html
 - https://blog.hubspot.com/sales/habits-of-highly-effective-people-summary
 - https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
