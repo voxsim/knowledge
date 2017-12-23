@@ -11,6 +11,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
 ## WIP:
 - https://github.com/voxsim/knowledge/blob/master/books/reluctant-buddhist.md
 - https://github.com/voxsim/knowledge/blob/master/emotional-intelligence/twenties.md
+- https://github.com/voxsim/knowledge/blob/master/books/emotional-intelligence.md
 - https://github.com/voxsim/knowledge/tree/master/system-design
 - https://github.com/voxsim/knowledge/blob/master/communication/stickyness.md
 - https://github.com/voxsim/knowledge/blob/master/books/how-to-love.md
