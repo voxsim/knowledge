@@ -27,16 +27,16 @@
 3. Deal breakers are your own personal sine qua non in relationships. They are qualities—almost always similarities—you feel are nonnegotiable. The absence of these similarities allows you to weed out people with whom you have fundamental differences. Maybe it is a deal breaker if someone is not Christian because you want to share spirituality and community. Perhaps you cannot imagine being with someone who is not intellectually curious because you value enriching conversation in your relationships. Sometimes people can even agree to disagree about very apparent, circumscribed differences, like Republican-Democrat couples who joke about their “mixed marriages.” Either way, people decide for themselves early on what their own deal breakers are, and, typically, we select partners accordingly. But these conspicuous similarities are not match makers. They may bring us together, but they don’t necessarily make us happy.
 
 4. The Big Five refers to five factors that describe how people interact with the world: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. Just by reading about the Big Five and considering your own behavior, it is pretty easy to tell whether you fall on the high end or the low end, or somewhere in the middle, of the five dimensions:
-* Openness LOW: practical, conventional, prefers routine, skeptical, rational, shies away from new things
-* Openness HIGH: open to new experiences, intellectually curious, creative, imaginative, adventurous, insightful
-* Conscientiousness LOW: relaxed about standards, easygoing, can be careless, spontaneous, prone to addiction
-* Conscientiousness HIGH: disciplined, efficient, organized, responsible, dutiful, self-directed, thorough, can be controlling
-* Extraversion LOW: likes solitary time, shy, reserved, energized by being alone, quiet, independent, cautious, aloof
-* Extraversion HIGH: outgoing, enthusiastic, active, novelty-seeking, gets energy from interactions with others, talkative
-* Agreeableness LOW: uncooperative, antagonistic, suspicious, has trouble understanding others
-* Agreeableness HIGH: cooperative, kind, affectionate, friendly, compassionate, trusting, compliant, understanding
-* Neuroticism LOW: not easily bothered, secure, takes things at face value, emotionally resilient
-* Neuroticism HIGH: tense, moody, anxious, sensitive, prone to sadness, worries a lot, quickly sees the negative
+  * Openness LOW: practical, conventional, prefers routine, skeptical, rational, shies away from new things
+  * Openness HIGH: open to new experiences, intellectually curious, creative, imaginative, adventurous, insightful
+  * Conscientiousness LOW: relaxed about standards, easygoing, can be careless, spontaneous, prone to addiction
+  * Conscientiousness HIGH: disciplined, efficient, organized, responsible, dutiful, self-directed, thorough, can be controlling
+  * Extraversion LOW: likes solitary time, shy, reserved, energized by being alone, quiet, independent, cautious, aloof
+  * Extraversion HIGH: outgoing, enthusiastic, active, novelty-seeking, gets energy from interactions with others, talkative
+  * Agreeableness LOW: uncooperative, antagonistic, suspicious, has trouble understanding others
+  * Agreeableness HIGH: cooperative, kind, affectionate, friendly, compassionate, trusting, compliant, understanding
+  * Neuroticism LOW: not easily bothered, secure, takes things at face value, emotionally resilient
+  * Neuroticism HIGH: tense, moody, anxious, sensitive, prone to sadness, worries a lot, quickly sees the negative
 
 5. Neuroticism, or the tendency to be anxious, stressed, critical, and moody, is far more predictive of relationship unhappiness and dissolution than is personality dissimilarity. While personality similarity can help the years run smoothly, any two people will be different in some way or another. How a person responds to these differences can be more important than the differences themselves. To a person who runs high in Neuroticism, differences are seen in a negative light. Anxiety and judgments about these differences then lead to criticism and contempt, two leading relationship killers.
 
