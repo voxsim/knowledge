@@ -109,7 +109,7 @@ The authors then arm us with the following 66 tips for improving the various dim
 
 15. Get to know yourself under stress. Learn to recognize your personal physiological and emotional first signs of stress, and take the time to rest or recharge before that stress piles up.
 
-Chapter 6: Self-management Strategies
+## Chapter 6: Self-management Strategies
 1. Breathe right. Oxygen goes first to your body’s vital functions, then to complex functions that help you stay calm. Learning correct breathing technique and consciously focusing on it when you’re stressed is simple and often-repeated advice, but it is crucial.
 
  
@@ -182,7 +182,7 @@ As mentioned in my summary of Stephen Covey’s first habit in The 7 Habits of H
 
  
 
-Chapter 7: Social Awareness Strategies
+## Chapter 7: Social Awareness Strategies
 1. Greet people by name. Using and remembering someone’s name is a basic way to engage them. Picture the individual’s name spelled out, and use it at least twice in your first conversation with them. See Dale Carnegie’s How to Win Friends and Influence People for more on why this is so important.
 
  
@@ -326,7 +326,7 @@ Move the conversation forward once what can be said has been said. Obtain agreem
 Follow up concerning what you’ve discussed at a later time as a means of genuinely addressing the issues.
  
 
-Conclusion
+## Conclusion
 I found this book’s method of breaking things down into four components, then specific actions within each component to be a very helpful tool for navigating the ambiguous realm of emotional intelligence. I’m not sure exactly how helpful the assessment test was; I found it neither incredibly helpful nor absolutely useless. Most likely, how much you get out of it is primarily a function of how much time you put into carefully considering and accurately answering each question.
 
  
