@@ -20,70 +20,29 @@
 
 ## Love
 
-“Too often, being successful when you are young is about survival. Some people are good at hiding their troubles. They are good at “falling up.”
+1. Couples who “live together first” are actually less satisfied with their marriages and more likely to divorce than couples who do not. This is what sociologists call the *cohabitation effect*. There are things you can do to lessen the cohabitation effect. One is, obviously, don’t cohabitate before an engagement. Since this is not an entirely realistic suggestion, researchers also recommend getting clear on each person’s commitment level before you move in, and anticipating and regularly evaluating those constraints that may keep you from leaving even if you want to. There are also other ways to test a relationship besides moving in, including doing a wider variety of activities together than dating and sex. There are other ways to figure out whether you and your partner are in love, or even in like.
 
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+2. We sometimes hear that opposites attract, and maybe they do for a hookup. More often, similarity is the essence of compatibility. Studies have repeatedly found that couples who are similar in areas such as socioeconomic status, education, age, ethnicity, religion, attractiveness, attitudes, values, and intelligence are more likely to be satisfied with their relationships and are less likely to seek divorce.
 
-“But couples who “live together first” are actually less satisfied with their marriages and more likely to divorce than couples who do not. This is what sociologists call the cohabitation effect.”
+3. Deal breakers are your own personal sine qua non in relationships. They are qualities—almost always similarities—you feel are nonnegotiable. The absence of these similarities allows you to weed out people with whom you have fundamental differences. Maybe it is a deal breaker if someone is not Christian because you want to share spirituality and community. Perhaps you cannot imagine being with someone who is not intellectually curious because you value enriching conversation in your relationships. Sometimes people can even agree to disagree about very apparent, circumscribed differences, like Republican-Democrat couples who joke about their “mixed marriages.” Either way, people decide for themselves early on what their own deal breakers are, and, typically, we select partners accordingly. But these conspicuous similarities are not match makers. They may bring us together, but they don’t necessarily make us happy.
 
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+4. The Big Five refers to five factors that describe how people interact with the world: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. Just by reading about the Big Five and considering your own behavior, it is pretty easy to tell whether you fall on the high end or the low end, or somewhere in the middle, of the five dimensions:
+* Openness LOW: practical, conventional, prefers routine, skeptical, rational, shies away from new things
+* Openness HIGH: open to new experiences, intellectually curious, creative, imaginative, adventurous, insightful
+* Conscientiousness LOW: relaxed about standards, easygoing, can be careless, spontaneous, prone to addiction
+* Conscientiousness HIGH: disciplined, efficient, organized, responsible, dutiful, self-directed, thorough, can be controlling
+* Extraversion LOW: likes solitary time, shy, reserved, energized by being alone, quiet, independent, cautious, aloof
+* Extraversion HIGH: outgoing, enthusiastic, active, novelty-seeking, gets energy from interactions with others, talkative
+* Agreeableness LOW: uncooperative, antagonistic, suspicious, has trouble understanding others
+* Agreeableness HIGH: cooperative, kind, affectionate, friendly, compassionate, trusting, compliant, understanding
+* Neuroticism LOW: not easily bothered, secure, takes things at face value, emotionally resilient
+* Neuroticism HIGH: tense, moody, anxious, sensitive, prone to sadness, worries a lot, quickly sees the negative
 
-Criteria for cohabitation: “I think my criteria were good sex, fun weekends, cool crowd, cheaper rent.”
+5. Neuroticism, or the tendency to be anxious, stressed, critical, and moody, is far more predictive of relationship unhappiness and dissolution than is personality dissimilarity. While personality similarity can help the years run smoothly, any two people will be different in some way or another. How a person responds to these differences can be more important than the differences themselves. To a person who runs high in Neuroticism, differences are seen in a negative light. Anxiety and judgments about these differences then lead to criticism and contempt, two leading relationship killers.
 
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
+6. Research on long-term marriages suggests what we need in marriage changes over time. It is a young couple’s job to create a shared vision and a shared life. When this is the task, similarities can feel validating and comforting, and differences can feel threatening. By our forties and beyond, as work, children, home, activities, extended family, and community come to the fore, marriage is typically less couple-centered. When couples are juggling more than dinners and shared weekends, a diversification of skills and interests can be helpful. Differences can keep life fresh.
 
-“Living with someone may have benefits, but approximating marriage is not necessarily one of them”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
-
-“It is the couples who live together before an engagement who are more likely to experience poorer communication, lower levels of commitment to the relationship, and greater marital instability down the road.”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“There are things you can do to lessen the cohabitation effect. One is, obviously, don’t cohabitate before an engagement. Since this is not an entirely realistic suggestion, researchers also recommend getting clear on each person’s commitment level before you move in, and anticipating and regularly evaluating those constraints that may keep you from leaving even if you want to. There are also other ways to test a relationship besides moving in, including doing a wider variety of activities together than dating and sex. There are other ways to figure out whether you and your partner are in love, or even in like.”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“People love those who are like themselves.
-—Aristotle, philosopher
- 
-What counts in making a happy marriage is not so much how compatible you are, but how you deal with incompatibility.
-—Leo Tolstoy, writer”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“We sometimes hear that opposites attract, and maybe they do for a hookup. More often, similarity is the essence of compatibility. Studies have repeatedly found that couples who are similar in areas such as socioeconomic status, education, age, ethnicity, religion, attractiveness, attitudes, values, and intelligence are more likely to be satisfied with their relationships and are less likely to seek divorce.”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“Deal breakers are your own personal sine qua non in relationships. They are qualities—almost always similarities—you feel are nonnegotiable. The absence of these similarities allows you to weed out people with whom you have fundamental differences. Maybe it is a deal breaker if someone is not Christian because you want to share spirituality and community. Perhaps you cannot imagine being with someone who is not intellectually curious because you value enriching conversation in your relationships. Sometimes people can even agree to disagree about very apparent, circumscribed differences, like Republican-Democrat couples who joke about their “mixed marriages.” Either way, people decide for themselves early on what their own deal breakers are, and, typically, we select partners accordingly. But these conspicuous similarities are not match makers. They may bring us together, but they don’t necessarily make us happy.
-One match maker to consider is personality. Some research tells us that, especially in young couples, the more similar two people’s personalities are, the more likely they are to be satisfied with their relationship. Yet personality is how dating, and even married, couples tend to be least alike. The likely reason for this is, unlike deal breakers, personality is less[…]”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“ The Big Five refers to five factors that describe how people interact with the world: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. Just by reading about the Big Five and considering your own behavior, it is pretty easy to tell whether you fall on the high end or the low end, or somewhere in the middle, of the five dimensions.”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“The Big Five is not about what you like—it is about who you are, it is about how you live. The Big Five tells us how you wake up in the morning and how you go about doing most anything. ”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“ 	LOW	HIGH	OPENNESS	practical, conventional, prefers routine, skeptical, rational, shies away from new things	open to new experiences, intellectually curious, creative, imaginative, adventurous, insightful	CONSCIENTIOUSNESS	relaxed about standards, easygoing, can be careless, spontaneous, prone to addiction	disciplined, efficient, organized, responsible, dutiful, self-directed, thorough, can be controlling	EXTRAVERSION	likes solitary time, shy, reserved, energized by being alone, quiet, independent, cautious, aloof	outgoing, enthusiastic, active, novelty-seeking, gets energy from interactions with others, talkative	AGREEABLENESS	uncooperative, antagonistic, suspicious, has trouble understanding others	cooperative, kind, affectionate, friendly, compassionate, trusting, compliant, understanding	NEUROTICISM	not easily bothered, secure, takes things at face value, emotionally resilient	tense, moody, anxious, sensitive, prone to sadness, worries a lot, quickly sees the negative”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“Neuroticism, or the tendency to be anxious, stressed, critical, and moody, is far more predictive of relationship unhappiness and dissolution than is personality dissimilarity. While personality similarity can help the years run smoothly, any two people will be different in some way or another. How a person responds to these differences can be more important than the differences themselves. To a person who runs high in Neuroticism, differences are seen in a negative light. Anxiety and judgments about these differences then lead to criticism and contempt, two leading relationship killers.”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
-
-“Research on long-term marriages suggests what we need in marriage changes over time. It is a young couple’s job to create a shared vision and a shared life. When this is the task, similarities can feel validating and comforting, and differences can feel threatening. By our forties and beyond, as work, children, home, activities, extended family, and community come to the fore, marriage is typically less couple-centered. When couples are juggling more than dinners and shared weekends, a diversification of skills and interests can be helpful. Differences can keep life fresh.”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks. 
-
-“There will always be differences of some kind but, statistically speaking, that’s not what will kill a relationship. It’s what you do with the differences. Do you know what the differences are going in? Have you thought about how they will affect your life? Are you prepared to bridge or even accept them?”
-
-Passi di: Meg Jay. “The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now”. iBooks.
+7. There will always be differences of some kind but, statistically speaking, that’s not what will kill a relationship. It’s what you do with the differences.
 
 ## The Brain and the Body
 
