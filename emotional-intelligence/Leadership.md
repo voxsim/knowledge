@@ -3,6 +3,6 @@ The golden circle (why / how / what): From the lowest level to the highest level
 
 Our neocortex brain corresponds with 'what level', it is responsible with all rational and analytical thought and language. The middle two sections make up our limbic brains and they are responsible for all of our feelings/decisions and that's why people buy why we do it.
 
-This people spend a lot for new things and they not did for the thing itself, but they did for himself.
+These people spend a lot for new things and they not did for the thing itself, but they did for himself.
 
 Leaders don't hold a position of power or authority, but those who lead inspire us.
