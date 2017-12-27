@@ -1,4 +1,4 @@
-# Twenties
+# The defining decade
 
 ## Work
 
