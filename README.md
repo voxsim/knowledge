@@ -13,7 +13,7 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
 - https://github.com/voxsim/knowledge/blob/master/books/reluctant-buddhist.md
 - https://github.com/voxsim/knowledge/blob/master/books/the-defining-decade.md
 - https://github.com/voxsim/knowledge/blob/master/books/emotional-intelligence.md
-- https://github.com/voxsim/knowledge/blob/master/book/stickyness.md
+- https://github.com/voxsim/knowledge/blob/master/books/stickyness.md
 - https://github.com/voxsim/knowledge/blob/master/books/how-to-love.md
 - https://github.com/voxsim/knowledge/blob/master/books/habit.md
 - https://github.com/voxsim/knowledge/blob/master/books/sapiens-a-brief-history-of-humankind.md
