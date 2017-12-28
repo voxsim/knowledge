@@ -11,21 +11,13 @@
 
 * [Performance vs scalability](#performance-vs-scalability)
 * [Latency vs throughput](#latency-vs-throughput)
-* [Availability vs consistency](#availability-vs-consistency)
-    * [CAP theorem](#cap-theorem)
-        * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
-        * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
-* [Consistency patterns](#consistency-patterns)
-    * [Weak consistency](#weak-consistency)
-    * [Eventual consistency](#eventual-consistency)
-    * [Strong consistency](#strong-consistency)
+* [CAP theorem](https://github.com/voxsim/knowledge/blob/master/system-design/cap.md)
+* [Consistency patterns](https://github.com/voxsim/knowledge/blob/master/system-design/consistency-patterns.md)
 * [Availability patterns](#availability-patterns)
     * [Fail-over](#fail-over)
     * [Replication](#replication)
-* [Domain name system](#domain-name-system)
-* [Content delivery network](#content-delivery-network)
-    * [Push CDNs](#push-cdns)
-    * [Pull CDNs](#pull-cdns)
+* [Domain name system](https://github.com/voxsim/knowledge/blob/master/system-design/dns.md)
+* [Content delivery network](https://github.com/voxsim/knowledge/blob/master/system-design/cdn.md)
 * [Load balancer](#load-balancer)
     * [Active-passive](#active-passive)
     * [Active-active](#active-active)
@@ -107,56 +99,6 @@ Another way to look at performance vs scalability:
 
 Generally, you should aim for **maximal throughput** with **acceptable latency**.
 
-## Availability vs consistency
-
-### CAP theorem
-
-<p align="center">
-  <img src="http://i.imgur.com/bgLMI2u.png">
-  <br/>
-  <i><a href=http://robertgreiner.com/2014/08/cap-theorem-revisited>Source: CAP theorem revisited</a></i>
-</p>
-
-In a distributed computer system, you can only support two of the following guarantees:
-
-* **Consistency** - Every read receives the most recent write or an error
-* **Availability** - Every request receives a response, without guarantee that it contains the most recent version of the information
-* **Partition Tolerance** - The system continues to operate despite arbitrary partitioning due to network failures
-
-*Networks aren't reliable, so you'll need to support partition tolerance.  You'll need to make a software tradeoff between consistency and availability.*
-
-#### CP - consistency and partition tolerance
-
-Waiting for a response from the partitioned node might result in a timeout error.  CP is a good choice if your business needs require atomic reads and writes.
-
-#### AP - availability and partition tolerance
-
-Responses return the most recent version of the data available on the a node, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.
-
-AP is a good choice if the business needs allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
-
-## Consistency patterns
-
-With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the [CAP theorem](#cap-theorem) - Every read receives the most recent write or an error.
-
-### Weak consistency
-
-After a write, reads may or may not see it.  A best effort approach is taken.
-
-This approach is seen in systems such as memcached.  Weak consistency works well in real time use cases such as VoIP, video chat, and realtime multiplayer games.  For example, if you are on a phone call and lose reception for a few seconds, when you regain connection you do not hear what was spoken during connection loss.
-
-### Eventual consistency
-
-After a write, reads will eventually see it (typically within milliseconds).  Data is replicated asynchronously.
-
-This approach is seen in systems such as DNS and email.  Eventual consistency works well in highly available systems.
-
-### Strong consistency
-
-After a write, reads will see it.  Data is replicated synchronously.
-
-This approach is seen in file systems and RDBMSes.  Strong consistency works well in systems that need transactions.
-
 ## Availability patterns
 
 There are two main patterns to support high availability: **fail-over** and **replication**.
@@ -193,72 +135,7 @@ This topic is further discussed in the [Database](#database) section:
 * [Master-slave replication](#master-slave-replication)
 * [Master-master replication](#master-master-replication)
 
-## Domain name system
 
-<p align="center">
-  <img src="http://i.imgur.com/IOyLj4i.jpg">
-  <br/>
-  <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>Source: DNS security presentation</a></i>
-</p>
-
-A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.
-
-DNS is hierarchical, with a few authoritative servers at the top level.  Your router or ISP provides information about which DNS server(s) to contact when doing a lookup.  Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays.  DNS results can also be cached by your browser or OS for a certain period of time, determined by the [time to live (TTL)](https://en.wikipedia.org/wiki/Time_to_live).
-
-* **NS record (name server)** - Specifies the DNS servers for your domain/subdomain.
-* **MX record (mail exchange)** - Specifies the mail servers for accepting messages.
-* **A record (address)** - Points a name to an IP address.
-* **CNAME (canonical)** - Points a name to another name or `CNAME` (example.com to www.example.com) or to an `A` record.
-
-Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](https://aws.amazon.com/route53/) provide managed DNS services.  Some DNS services can route traffic through various methods:
-
-* [Weighted round robin](http://g33kinfo.com/info/archives/2657)
-    * Prevent traffic from going to servers under maintenance
-    * Balance between varying cluster sizes
-    * A/B testing
-* Latency-based
-* Geolocation-based
-
-### Disadvantage(s): DNS
-
-* Accessing a DNS server introduces a slight delay, although mitigated by caching described above.
-* DNS server management could be complex, although they are generally managed by [governments, ISPs, and large companies](http://superuser.com/questions/472695/who-controls-the-dns-servers/472729).
-* DNS services have recently come under [DDoS attack](http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/), preventing users from accessing websites such as Twitter without knowing Twitter's IP address(es).
-
-## Content delivery network
-
-<p align="center">
-  <img src="http://i.imgur.com/h9TAuGI.jpg">
-  <br/>
-  <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source: Why use a CDN</a></i>
-</p>
-
-A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content.  The site's DNS resolution will tell clients which server to contact.
-
-Serving content from CDNs can significantly improve performance in two ways:
-
-* Users receive content at data centers close to them
-* Your servers do not have to serve requests that the CDN fulfills
-
-### Push CDNs
-
-Push CDNs receive new content whenever changes occur on your server.  You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN.  You can configure when content expires and when it is updated.  Content is uploaded only when it is new or changed, minimizing traffic, but maximizing storage.
-
-Sites with a small amount of traffic or sites with content that isn't often updated work well with push CDNs.  Content is placed on the CDNs once, instead of being re-pulled at regular intervals.
-
-### Pull CDNs
-
-Pull CDNs grab new content from your server when the first user requests the content.  You leave the content on your server and rewrite URLs to point to the CDN.  This results in a slower request until the content is cached on the CDN.
-
-A [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) determines how long content is cached.  Pull CDNs minimize storage space on the CDN, but can create redundant traffic if files expire and are pulled before they have actually changed.
-
-Sites with heavy traffic work well with pull CDNs, as traffic is spread out more evenly with only recently-requested content remaining on the CDN.
-
-### Disadvantage(s): CDN
-
-* CDN costs could be significant depending on traffic, although this should be weighed with additional costs you would incur not using a CDN.
-* Content might be stale if it is updated before the TTL expires it.
-* CDNs require changing URLs for static content to point to the CDN.
 
 ## Load balancer
 
