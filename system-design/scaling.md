@@ -1,3 +1,5 @@
+# Scaling
+
 When you have an infrastucture, you can scale:
 - Out: Replicate your infrastructure
 - Up: Use less hardware per machine
