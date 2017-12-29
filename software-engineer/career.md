@@ -1,3 +1,5 @@
+# The career of Software Engineer
+
 My idea of what a career in software engineering can be.
 
 Every problem and solution are different, you can say that have "different shape". When you start as software engineer you shold look for different shape and learn from them, otherwise someone could tell you: "Do you have ten years of experience or one year of experience repetaed ten times?". 
