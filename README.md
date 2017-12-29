@@ -9,7 +9,8 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
 [MIT](https://tldrlegal.com/license/mit-license)
 
 ## WIP:
-- https://github.com/voxsim/knowledge/tree/master/system-design
+- https://github.com/voxsim/knowledge/edit/master/system-design/README.md
+- https://github.com/voxsim/knowledge/blob/master/system-design/networking.md
 - https://github.com/voxsim/knowledge/blob/master/books/reluctant-buddhist.md
 - https://github.com/voxsim/knowledge/blob/master/books/the-defining-decade.md
 - https://github.com/voxsim/knowledge/blob/master/books/emotional-intelligence.md
