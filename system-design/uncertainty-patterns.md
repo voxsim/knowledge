@@ -70,6 +70,14 @@ Unless there is a reconciliation process. It means that the payment gateway syst
 ## Conflict-free replicated data types
 This is a way of keeping and synchronizing data in your system in a special way. Multiple independent nodes can even disconnect completely and when they reconnect later and merge their data together you can be sure that all will reach the same state. I think that if we, as humanity, ever go into stars we will need more of such structures to effectively exchange data after disconnecting and reconnecting between multiple space ships :)
 
-## Time to live
+## Time to live (TTL)
+Time to live (TTL) or hop limit is a mechanism that limits the lifespan or lifetime of data in a computer or network. TTL may be implemented as a counter or timestamp attached to or embedded in the data. Once the prescribed event count or timespan has elapsed, data is discarded. In computer networking, TTL prevents a data packet from circulating indefinitely. In computing applications, TTL is used to improve performance of caching or to improve privacy.
 
 ## Load shedding
+Writing to storage is normally the operation that is the bottleneck, especially on remote storage. You can imagine the queue backing up.
+
+Under heavy load you may end up with a queue that gets quite large. The problem with this is that write operations time out to callers, if you had a queue that had 8 seconds of operations in it and a five second timeout the storage writer would constantly be doing work that the result had already been sent for.
+
+Instead each write request is given a time to live (slightly before the timeout). If the TTL is in the future the storage writer will process the write, else it will drop it on the floor and move forward in the queue until it finds one in the future. This prevents it from working on work items that have already been timed out.
+
+This is a form of at-most-once messaging. The difference is it is based on time and not on a buffer being full on insert. Both are forms of load shedding.
