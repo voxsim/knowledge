@@ -168,6 +168,4 @@ knows about in the LAN. This is usually implemented in physical LANs as a way to
 to the necessary backend servers.
 
 ## Virtual Private Network (VPN)
-It is a means of connecting separate LANs through the internet, while 
-maintaining privacy. This is used as a means of connecting remote systems as if they were on a local network, often 
-for security reasons.
+It is a means of connecting separate LANs through the internet, while maintaining privacy. This is used as a means of connecting remote systems as if they were on a local network, often for security reasons.
