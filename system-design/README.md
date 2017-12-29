@@ -16,6 +16,7 @@
 * [CAP theorem](https://github.com/voxsim/knowledge/blob/master/system-design/cap.md)
 * [Consistency patterns](https://github.com/voxsim/knowledge/blob/master/system-design/consistency-patterns.md)
 * [Availability patterns](https://github.com/voxsim/knowledge/blob/master/system-design/availability-patterns.md)
+* [Uncertainty patterns](https://github.com/voxsim/knowledge/blob/master/system-design/uncertainty-patterns.md)
 * [Domain name system](https://github.com/voxsim/knowledge/blob/master/system-design/dns.md)
 * [Content delivery network](https://github.com/voxsim/knowledge/blob/master/system-design/cdn.md)
 * [Load balancer](https://github.com/voxsim/knowledge/blob/master/system-design/load-balancer.md)
