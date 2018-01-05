@@ -1,3 +1,0 @@
-# Reluctant Buddhist
-
-TODO
