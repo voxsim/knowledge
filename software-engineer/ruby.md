@@ -25,6 +25,8 @@ end
 * Parentheses are optional
 * Folding up lines like `puts doc.title; puts doc.author`
 * Folding up code blocks like `10.times { |n| puts "The number is #{n}" }`
+* The bang (!) in the end of a parameter usually means that you are doing an operation in place (e.g. a.reverse! it reverse a itself)
+* Ruby arrays and hashes are ordered by default
 
 ## Identifiers
 The first characters of a name indicate how the name is used.
@@ -40,7 +42,6 @@ There are eight primitive types and 3 more data types derived from the Numeric s
 Everything has a class.
 
 ### Constants
-
 Two things to remember about constants:  
 1\. Constants start with capital letters. `Constant` is a constant. `constant` is not a constant.  
 2\. You can change the values of constants, but Ruby will give you a warning.
@@ -56,12 +57,24 @@ Hashes are like dictionaries. You have a key, a reference, and you look it up to
 hash = { :leia => "Princess from Alderaan", :han => "Rebel without a cause"}
 ```
 
+and you can write this as:
+
+```ruby
+hash = { leia: "Princess from Alderaan", han: "Rebel without a cause"}
+```
+
 ### Array
 `Array`s are a lot like `Hash`es, except that the keys are always consecutive numbers, and always starts at 0.
 In addition, all the methods that you just learned with `Hash`es can also be applied to `Array`s.
 
 ```ruby
 array1 = ["hello", "this", "is", "an", "array!"]
+```
+
+and you can write this as:
+
+```ruby
+array1 = %w{hello this is an array!}
 ```
 
 ### Strings
@@ -238,6 +251,12 @@ Here's a little more complicated example:
     end
     variable = make_positive(-5) # variable's value is 5
     variable = make_positive(five) # variable's value is 5
+    
+To have any number of arguments you can do that:
+
+def add_authors( *names )
+    @author += " #{names.join(' ')}"
+end
 
 ## Libraries
 
