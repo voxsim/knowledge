@@ -1,5 +1,31 @@
 # Ruby
 
+## Standard
+* Camel case for classes, snake case for everything else.
+* Everything is a class like this:
+
+```ruby
+class Document
+  attr_accessor :title, :author, :content
+  def initialize(title, author, content)
+    @title = title
+    @author = author
+    @content = content
+  end
+  
+  def words
+    @content.split
+  end
+  
+  def word_count
+    words.size
+  end
+end
+```
+* Parentheses are optional
+* Folding up lines like `puts doc.title; puts doc.author`
+* Folding up code blocks like `10.times { |n| puts "The number is #{n}" }`
+
 ## Identifiers
 The first characters of a name indicate how the name is used.
 - Local variables, method parameters, and method names should all start with a lowercase letter or with an underscore
@@ -64,13 +90,71 @@ TODO
 ### Nil
 TODO
 
-## Execution context
+## Control Structures
 
-## Scoping
+### If, Unless, While, and Until
 
-## Deconstructuring
+```ruby
+if number == 5
+  puts "Success" # "Success" is a string. Strings can be surrounded with single or double quotes.
+elsif number == 6
+  puts "Acceptable"
+else
+  puts "FAILURE"
+end
+```
 
-## Looping
+```ruby
+if not @read_only
+  @title = new_title
+end
+```
+
+```ruby
+unless @read_only
+  @title = new_title
+end
+```
+
+```ruby
+while ! document.is_printed?
+  document.print_next_page
+end
+```
+
+```ruby
+until document.is_printed?
+  document.print_next_page
+end
+```
+
+And we can inline them.
+
+### Looping
+
+```ruby
+fonts = [ 'courier', 'times roman', 'helvetica' ]
+for font in fonts
+  puts font
+end
+```
+
+```ruby
+fonts = [ 'courier', 'times roman', 'helvetica' ]
+fonts.each do |font|
+  puts font
+end
+```
+
+### Switch
+
+```ruby
+author = case title
+         when 'War And Peace' then 'Tolstoy'
+         when 'Romeo And Juliet' then  'Shakespeare'
+         else "Don't know"
+         end
+```
 
 ## Operators
 
@@ -80,15 +164,9 @@ TODO
 
 In Ruby, any text on a single line that follows a # is a comment, and is ignored by the Ruby interpreter at run time.
 
-    # comment
-
-## Function Calls
-
-Parentheses can sometimes be omitted. If you're not sure whether they're required, put them in. To be safe, put them in whenever the call is at all complicated. Even one as simple as this.
-
-    puts "hello"
-    puts("hello")
-    assert_equal(5, number)
+```ruby
+# comment
+```
 
 ## Variables
 
@@ -128,18 +206,6 @@ This method is _true_ if its argument _book_ is a substring of _bookkeeper_.
 You can also concatenate strings using the + operator.
 
     "dog" + "house" # returns "doghouse"
-
-## Conditionals (if)
-
-    if number == 5
-      puts "Success" # "Success" is a string. Strings can be surrounded with single or double quotes.
-    elsif number == 6
-      puts "Acceptable"
-    else
-      puts "FAILURE"
-    end
-
-Put the _if_, _elsif, else_, and _end_ on separate lines as shown. You don't have to indent, but you should.
 
 ## Function Definitions
 
