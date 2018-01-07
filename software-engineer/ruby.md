@@ -129,6 +129,7 @@ end
 ```
 
 And we can inline them.
+Remember to use `@first_name ||= ''` instead of `@first_name = '' unless @first_name`
 
 ### Looping
 
@@ -155,10 +156,6 @@ author = case title
          else "Don't know"
          end
 ```
-
-## Operators
-
-## Error Handling
 
 ## Comments
 
@@ -440,3 +437,8 @@ And this:
     puts "The sum of four times four is: #{4*4}"
 
     => The sum of four times four is: 16
+
+
+## Operators
+
+## Error Handling
