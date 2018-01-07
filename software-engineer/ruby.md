@@ -1,5 +1,7 @@
 # Ruby
 
+Eloquent ruby - chapter 5 - page 53
+
 ## Standard
 * Camel case for classes, snake case for everything else.
 * Everything is a class like this:
