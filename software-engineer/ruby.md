@@ -128,7 +128,11 @@ float = 5.to_f
 TODO
 
 ### Regular expressions
-TODO
+In Ruby, the regular expression, or Regexp for short,5 is one of the built-in data types, with its own special literal syntax. To make a Ruby regular expression you encase your pattern between forward slashes. For example:
+
+```ruby
+/\d\d:\d\d (AM|PM)/
+```
 
 ### Nil
 TODO
@@ -416,34 +420,6 @@ When blocks are longer than one line, they are usually written using _do_ and _e
     gems.detect do |gem|
       /^r/ =~ gem
     end
-
-## Dictionaries
-
-A _dictionary_ lets you say "Give me the _value_ corresponding to _key_." Dictionaries are also called _hashes_ or _associative arrays_.
-
-Here's how you create a dictionary:
-
-    dict = {}
-
-Here's how you associate a value with a key:
-
-    dict['bret'] = 'texas' # looks a lot like an array, except that the key doesn't have to be a number.
-
-Here's how you retrieve a value, given a key:
-
-    dict['bret'] # value is 'texas'.
-
-Here's how you ask how many key/value pairs are in the dictionary:
-
-    dict.length # value is 1
-
-What values does a dictionary have?
-
-    dict.values # value is the Array ['texas'].
-
-What keys does it have?
-
-    dict.keys # value is the Array ['bret'].
 
 ## Operators
 
