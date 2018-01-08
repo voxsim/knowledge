@@ -39,6 +39,80 @@ The first characters of a name indicate how the name is used.
 - Class names, module names, and constants should start with an uppercase letter
 - Symbols start with `:`
 
+## Blocks
+
+A block is like a function without a name. It contains a set of parameters and one or more lines of code. Blocks are used a lot in Ruby. Iterators like _each_ use blocks.
+
+Here's how to search an array for an element:
+
+```ruby
+gems = ['emerald', 'pearl', 'ruby']
+gems.detect { |gem| /^r/ =~ gem } # returns "ruby"
+```
+
+The _detect_ method takes a block as an argument. This block returns _true_ if the first argument starts with an _r_. (Actually it returns _0_, which counts as _true_.) The _detect_ method itself returns the first element for which its block is true.
+
+When blocks are longer than one line, they are usually written using _do_ and _end_. This is another way of writing the same code:
+
+```ruby
+gems.detect do |gem|
+  /^r/ =~ gem
+end
+```
+
+## Function Definitions
+```ruby
+def assert_equal(expected, actual)
+  if expected != actual
+    puts "FAILURE!"
+  end
+end
+```
+
+Functions can return values, and those values can be assigned to variables. The return value is the last statement in the definition. Here's a simple example:
+
+```ruby
+def five # note that no parentheses are required
+  5
+end
+box = five # box's value is 5
+```
+
+Note that we didn't need to say _five()_, as is required in some languages. You can put in the parentheses if you prefer.
+
+The value of the last statement is always the value returned by the function. Some people like to include a _return_ statement to make this clear, but it doesn't change how the function works. This does the same thing:
+
+```ruby
+def five
+  return 5
+end
+```
+
+Here's a little more complicated example:
+
+```ruby
+def make_positive(number)
+  if number < 0
+    -number
+  else
+    number
+  end
+end
+variable = make_positive(-5) # variable's value is 5
+variable = make_positive(five) # variable's value is 5
+```
+
+To have any number of arguments you can do that:
+
+```ruby
+def add_authors( *names )
+    @author += " #{names.join(' ')}"
+end
+```
+
+## Classes
+TODO
+
 ## Data types
 There are eight primitive types and 3 more data types derived from the Numeric superclass.
 Everything has a class.
@@ -178,152 +252,7 @@ end
 And we can inline them.
 Remember to use `@first_name ||= ''` instead of `@first_name = '' unless @first_name`
 
-### Looping
-
-```ruby
-fonts = [ 'courier', 'times roman', 'helvetica' ]
-for font in fonts
-  puts font
-end
-```
-
-```ruby
-fonts = [ 'courier', 'times roman', 'helvetica' ]
-fonts.each do |font|
-  puts font
-end
-```
-
-### Switch
-
-```ruby
-author = case title
-         when 'War And Peace' then 'Tolstoy'
-         when 'Romeo And Juliet' then  'Shakespeare'
-         else "Don't know"
-         end
-```
-
-## Comments
-
-In Ruby, any text on a single line that follows a # is a comment, and is ignored by the Ruby interpreter at run time.
-
-```ruby
-# comment
-```
-
-## Variables
-
-Ordinary (local) variables are created through assignment:
-
-    number = 5
-
-Now the variable _number_ has the value _5_. Ordinary variables begin with lowercase letters. After the first character, they can contain any alphabetical or numeric character. Underscores are helpful for making them readable:
-
-    this_is_my_variable = 5
-
-A variable's value is gotten simply by using the name of the variable. The following has the value 10:
-
-    number + this_is_my_variable # returns 10
-
-## Function Definitions
-
-    def assert_equal(expected, actual)
-      if expected != actual
-        puts "FAILURE!"
-      end
-    end
-
-Functions can return values, and those values can be assigned to variables. The return value is the last statement in the definition. Here's a simple example:
-
-    def five # note that no parentheses are required
-      5
-    end
-    box = five # box's value is 5
-
-Note that we didn't need to say _five()_, as is required in some languages. You can put in the parentheses if you prefer.
-
-The value of the last statement is always the value returned by the function. Some people like to include a _return_ statement to make this clear, but it doesn't change how the function works. This does the same thing:
-
-    def five
-      return 5
-    end
-
-Here's a little more complicated example:
-
-    def make_positive(number)
-      if number < 0
-        -number
-      else
-        number
-      end
-    end
-    variable = make_positive(-5) # variable's value is 5
-    variable = make_positive(five) # variable's value is 5
-    
-To have any number of arguments you can do that:
-
-def add_authors( *names )
-    @author += " #{names.join(' ')}"
-end
-
-## Libraries
-
-Libraries contain functions or methods that can be used in many Ruby programs. Suppose we store the _make_positive_ function defined above in a file called _mathplus.rb_.
-
-To use it in another script, we must _require_ it:
-
-    require 'mathplus'
-
-This will cause Ruby to search its _loadpath_ for a file named _mathplus.rb_. (It will automatically add the _.rb_.) It will search the directories that normally contain Ruby libraries, as well as the current directory (typically the same directory as your script).
-
-If your library is in a location that Ruby doesn't know about, you will need to change the loadpath:
-
-    $LOAD_PATH << 'c:/my_lib/'
-
-Make sure you include this line _before_ you require libraries in it.
-
-## Arrays
-
-This is an array with nothing in it:
-
-    []
-
-This is an array with two numbers in it:
-
-    [1, 2]
-
-This is an array with two numbers and a string in it. You can put anything into an array.
-
-    [1, 'hello!', 220]
-
-Here's how you get something out of an array:
-
-    array = [1, 'hello', 220]
-    array[0] # value is 1
-
-Here's how you get the last element out:
-
-    array[2] # value is 220
-
-Here's another way to get the last element:
-
-    array.last # value is 220
-
-Here's how you change an element:
-
-    array[0]= 'boo!' # value printed is 'boo!'
-    # array is now ['boo', 'hello', 220]
-
-How long is an array?
-
-    array.length # value is 3
-
-Here's how you tack something onto the end of an array:
-
-    array.push('fred') # array is now ['boo', 'hello', 220, 'fred']
-
-## Iteration
+### Iteration
 
 When you do something multiple times, it is called _iteration_. There are many ways to do this. The following will print _hello_ five times:
 
@@ -357,70 +286,36 @@ What if you want to transform each element of an array? The following capitalize
 
     ["hi", "there"].collect { |word| word.capitalize } # The result is ["Hi", "There"].
 
-## Regular Expressions
+### Switch
 
-Regular expressions are a useful feature common to many languages. They allow you to match patterns in strings.
+```ruby
+author = case title
+         when 'War And Peace' then 'Tolstoy'
+         when 'Romeo And Juliet' then  'Shakespeare'
+         else "Don't know"
+         end
+```
 
-Regular expressions are characters surrounded by _//_ or _%r{}_. A regular expression is compared to a string like this:
+## Comments
 
-    regexp =~ string
+In Ruby, any text on a single line that follows a # is a comment, and is ignored by the Ruby interpreter at run time.
 
-Most characters in a regular expression match the same character in a string. So, these all match:
+```ruby
+# comment
+```
 
-    /a/ =~ 'a string'
-    /a/ =~ 'string me along'
+## Libraries
 
-This also matches:
+Libraries contain functions or methods that can be used in many Ruby programs. Suppose we store the _make_positive_ function defined above in a file called _mathplus.rb_.
 
-    /as/ =~ 'a string with astounding length'
+To use it in another script, we must _require_ it:
 
-Notice that the regular expression can match anywhere in the string. If you want it to match only the beginning of the string, start it with a caret:
+    require 'mathplus'
 
-    /^as/ =~ 'alas, no match'
+This will cause Ruby to search its _loadpath_ for a file named _mathplus.rb_. (It will automatically add the _.rb_.) It will search the directories that normally contain Ruby libraries, as well as the current directory (typically the same directory as your script).
 
-If you want it to match at the end, end with a dollar sign:
+If your library is in a location that Ruby doesn't know about, you will need to change the loadpath:
 
-    /no$/ =~ 'no match, alas'
+    $LOAD_PATH << 'c:/my_lib/'
 
-If you want the regular expression to match any character in a string, use a period:
-
-    /^.s/ =~ "As if I didn't know better!"
-
-There are a number of other special characters that let you amazing and wonderful things with strings. Ruby uses the standard syntax for regular expressions used in many scripting languages. See _Programming Ruby_ for more information about regular expressions.
-
-## Truth and Falsehood
-
-If you try the examples above, you'll see that the ones that match print a number. That's the position of the first character in the match. The first expression (_/a/ =~ 'a string'_) returns _0_. (Ruby, like most programming languages, starts counting with 0.) The second returns _10_.
-
-What happens if there's no match? Type this:
-
-    /^as/ =~ 'alas, no match'
-
-and the result will be _nil_, signifying no match. You can use these results in an _if_, like this:
-
-    if /^as/ =~ some_string
-      puts 'the string begins with "as".'
-    end
-
-In Ruby, anything but the two special values _false_ and _nil_ are considered true for purposes of an _if_ statement. So match results like _0_ and _10_ count as _true_.
-
-## Blocks
-
-A block is like a function without a name. It contains a set of parameters and one or more lines of code. Blocks are used a lot in Ruby. Iterators like _each_ use blocks.
-
-Here's how to search an array for an element:
-
-    gems = ['emerald', 'pearl', 'ruby']
-    gems.detect { |gem| /^r/ =~ gem } # returns "ruby"
-
-The _detect_ method takes a block as an argument. This block returns _true_ if the first argument starts with an _r_. (Actually it returns _0_, which counts as _true_.) The _detect_ method itself returns the first element for which its block is true.
-
-When blocks are longer than one line, they are usually written using _do_ and _end_. This is another way of writing the same code:
-
-    gems.detect do |gem|
-      /^r/ =~ gem
-    end
-
-## Operators
-
-## Error Handling
+Make sure you include this line _before_ you require libraries in it.
