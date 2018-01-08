@@ -82,8 +82,36 @@ array1 = %w{hello this is an array!}
 ### Strings
 
 ```ruby
-"Danger, Will Robinson!"
+str = "Danger, Will Robinson!"
 ```
+
+Ruby strings are mutable. If you assign the string to another string and change one of them, it will change the other.
+
+Arbitrarily quoted strings always start with a percent sign (%) followed by the letter q. The character after the q is the actual string delimiter, usually we use `{`. The same example of before:
+
+```ruby
+str = %q{Danger, Will Robinson!}
+```
+
+#### Expression Substitution
+
+Expression substitution evaluates an expression within a string:
+
+You can do this
+
+```ruby
+    name = "Aidy"
+    puts "My name is: #{name}"
+```
+
+=> My name is: Aidy
+
+And this:
+
+```ruby
+puts "The sum of four times four is: #{4*4}"
+```
+=> The sum of four times four is: 16
 
 ### Numbers (Integers and Floats)
 
@@ -193,31 +221,6 @@ Now the variable _number_ has the value _5_. Ordinary variables begin with lower
 A variable's value is gotten simply by using the name of the variable. The following has the value 10:
 
     number + this_is_my_variable # returns 10
-
-## Strings, Objects and Methods
-
-Strings are sequences of text in quotation marks. You can use single or double quotes.
-
-    name = 'simon'
-    name = "simon"
-
-Strings are objects in Ruby. This means that they have methods. (In fact everything in Ruby is an object.)
-
-A method call looks like this:
-
-    "simon".upcase # returns "SIMON"
-
-A method is a function for a particular type of object. In this case, the thing before the period is the object, in this case a string _simon_. The method is _upcase_. It capitalizes its object.
-
-Like functions, methods can have arguments.
-
-    "bookkeeper".include?('book') # returns true
-
-This method is _true_ if its argument _book_ is a substring of _bookkeeper_.
-
-You can also concatenate strings using the + operator.
-
-    "dog" + "house" # returns "doghouse"
 
 ## Function Definitions
 
@@ -441,24 +444,6 @@ What values does a dictionary have?
 What keys does it have?
 
     dict.keys # value is the Array ['bret'].
-
-## Expression Substitution
-
-Expression substitution evaluates an expression within a string:
-
-You can do this
-
-    name = "Aidy"
-    puts "My name is: #{name}"
-
-    => My name is: Aidy
-
-And this:
-
-    puts "The sum of four times four is: #{4*4}"
-
-    => The sum of four times four is: 16
-
 
 ## Operators
 
