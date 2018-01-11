@@ -1,4 +1,4 @@
-# The Power of Habit
+# Habit
 
 1) Identify the routine. Though it’s not always obvious, the easiest part is usually identifying the behavior you want to change.
 
@@ -6,12 +6,12 @@
 
 3) Isolate the cue. Once you’ve determined the reward that satisfies the cue, there is still work to be done to understand exactly what the cue is. Most habitual cues will fall into five categories:
 
-* Location
-* Time
-* Emotional state
-* Other people
-* An immediately preceding action
+  * Location
+  * Time
+  * Emotional state
+  * Other people
+  * An immediately preceding action
 
-If you have a habit you’re serious about changing, keep a log of your location, the time, your emotional state, the people around you, and the action you take immediately prior to your habit. After a few repetitions, you’ll probably be able to see the pattern.
+If you have a habit you’re serious about changing, keep a log of your location, the time, your emotional state, the people    around you, and the action you take immediately prior to your habit. After a few repetitions, you’ll probably be able to see the pattern.
 
 4) Have a plan. Once you’ve recognized the precise routine, reward, and cue, it should be easy to design a different routine that provides the same reward after the same cue. Stay alert for the cue (or set an automatic alert if it’s time-based), and act out your pre-planned routine. If it works, you’ve confirmed that you found the right cue and reward, and your habit will then be easily moldable.
