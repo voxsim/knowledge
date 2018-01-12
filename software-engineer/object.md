@@ -1,5 +1,7 @@
 # Object
 
+Objects are instances of [Classes](https://github.com/voxsim/knowledge/blob/master/software-engineer/class.md)
+
 Objects use mutable state to model their behavior over time. Two objects of the same type have separate identities even if they have exactly the same state now, because their states can diverge if they receive different messages in the future.
 
 ## Common communication pattern
