@@ -1,2 +1,8 @@
 # Encapsulation
-Encapsulation means collecting a bunch of stuff together and putting it in one box, or capsule. The box may or may not have opaque walls, so this may or may not involve information hiding. In practice a "class" will both encapsulate (i.e. bundle code and data together) and hide information (namely, implementation detail), and some people get so used to doing both at once they no longer bother to distinguish.
+Encapsulation means ensures that the behavior of an object can only be affected through its API. It lets us control how much a change to one object will impact other parts of the system by ensuring that there are no unexpected dependencies between unrelated components.
+
+And It's different from [Information Hiding](https://github.com/voxsim/knowledge/blob/master/software-engineer/information-hiding.md)
+
+Many object-oriented languages support encapsulation by providing control over the visibility of an object’s features to other objects, but that’s not enough. Objects can break encapsulation by sharing references to mutable objects, an effect known as aliasing. Aliasing is essential for conventional object- oriented systems (other- wise no two objects would be able to communicate), but accidental aliasing can couple unrelated parts of a system so it behaves mysteriously and is inflexible to change.
+
+We follow standard practices to maintain encapsulation when coding: define immutable value types, avoid global variables and singletons, copy collections and mutable values when passing them between objects, and so on. 
