@@ -5,6 +5,6 @@
 - http://www.johnwittenauer.net/zero-to-one/
 - http://www.meaningfulhq.com/the-one-thing.html
 - https://blog.hubspot.com/sales/habits-of-highly-effective-people-summary
-- https://dev.to/barryosull/notes-from-growing-object-orientated-software-guided-by-tests
 - https://jamesclear.com/book-summaries/what-got-you-here-wont-get-you-there
 - https://www.hubspot.com/sales/how-to-win-friends-and-influence-people-summary
+- Devops Handbook
