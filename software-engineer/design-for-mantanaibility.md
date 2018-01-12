@@ -1,4 +1,4 @@
-# Designing
+# Design for mantanaibility
 
 When we grow our systems a slice of functionality at a time.
 As the code scales up, the only way we can continue to understand and maintain it is by structuring the functionality into objects, objects into packages, 2 packages into programs, and programs into systems.
