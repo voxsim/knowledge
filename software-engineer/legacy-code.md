@@ -15,7 +15,10 @@ A seam is a place where you can alter behavior in your program without editing i
 
 A seam can be a dependency of your software, a link to a package or a preprocessor if you use a compiler.
 
+You can deal with a 
+
 ## Sprout method
+When you need to add a feature to a system and it can be formulated completely as new code, write the code in a new method. Call it from the places where the new functionality needs to be.
 Here are the steps that you actually take: 
 1. Identify where you need to make your code change.
 2. If the change can be formulated as a single sequence of statements in one place in a method, write down a call for a new method that will do the work involved and then comment it out. (I like to do this before I even write the method so that I can get a sense of what the method call will look like in context.)
@@ -23,3 +26,22 @@ Here are the steps that you actually take:
 4. Determine whether the sprouted method will need to return values to source method. If so, change the call so that its return value is assigned to a variable.
 5. Develop the sprout method using test-driven development.
 6. Remove the comment in the source method to enable the call.
+
+## Wrap Method
+Wrap Method is a great way to introduce seams while adding new features. There are only a couple of downsides. The first is that the new feature that you add can’t be intertwined with the logic of the old feature. It has to be something that you do either before or after the old feature.
+
+Here are the steps for the first version of the Wrap Method:
+1. Identify a method you need to change.
+2. If the change can be formulated as a single sequence of statements in one place, rename the method and then create a new method with the same name and signature as the old method. Remember to Preserve Signatures as you do this.
+3. Place a call to the old method in the new method
+4. Develop a method for the new feature, test first, and call it from the new method
+
+In the second version, when we don’t care to use the same name as the old method, the steps look like this:
+1. Identify a method you need to change.
+2. If the change can be formulated as a single sequence of statements in one place, develop a new method for it using test-driven development.
+3. Create another method that calls the new method and the old method.
+
+For both sprout and wrap, you can do the same with classes and packages.
+
+## Golden Master
+TODO
