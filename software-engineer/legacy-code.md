@@ -43,5 +43,8 @@ In the second version, when we don’t care to use the same name as the old meth
 
 For both sprout and wrap, you can do the same with classes and packages.
 
+## The Method Use Rule
+Before you use a method in a legacy system, check to see if there are tests for it. If there aren’t, write them. When you do this consistently, you use tests as a medium of communication. People can look at them and get a sense of what they can and cannot expect from the method. The act of making a class testable in itself tends to increase code quality. People can find out what works and how; they can change it, correct bugs, and move forward.
+
 ## Golden Master
 TODO
