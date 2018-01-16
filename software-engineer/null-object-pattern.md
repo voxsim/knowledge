@@ -8,4 +8,4 @@ The important thing to remember is this: Don’t pass null in production code un
 
 If you are tempted to use null in production code, find the places where you are returning nulls and passing nulls, and consider a different protocol. Consider using the Null Object Pattern instead.
 
-A Null Object Pattern is a class that answers to every method of the original class without doing nothing.
+A Null Object Pattern is a class that answers to every method of the original class without doing nothing; it enables a much cleaner design because we don't have to check every time if the variable is nullable or not.
