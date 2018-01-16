@@ -14,3 +14,12 @@ One of the biggest challenges in getting legacy code under test is breaking depe
 A seam is a place where you can alter behavior in your program without editing in that place.
 
 A seam can be a dependency of your software, a link to a package or a preprocessor if you use a compiler.
+
+## Sprout method
+Here are the steps that you actually take: 
+1. Identify where you need to make your code change.
+2. If the change can be formulated as a single sequence of statements in one place in a method, write down a call for a new method that will do the work involved and then comment it out. (I like to do this before I even write the method so that I can get a sense of what the method call will look like in context.)
+3. Determine what local variables you need from the source method, and make them arguments to the call.
+4. Determine whether the sprouted method will need to return values to source method. If so, change the call so that its return value is assigned to a variable.
+5. Develop the sprout method using test-driven development.
+6. Remove the comment in the source method to enable the call.
