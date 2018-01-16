@@ -10,3 +10,9 @@ We use two principal heuristics to guide this structuring:
 Applied consistently we can achieve an [Hexagonal architecture](https://github.com/voxsim/knowledge/blob/master/software-engineer/hexagonal-architecture.md).
 
 We design systems for maintainability, readability, testability, and comprehensibility.
+
+Look at four primary reasons to change software:
+1. Adding a feature
+2. Fixing a bug
+3. Improving the design
+4. Optimizing resource usage
