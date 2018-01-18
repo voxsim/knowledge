@@ -1,38 +1,3 @@
-Functional programming produces programs by composing mathematical functions and avoids shared state & mutable data. Lisp (specified in 1958) was among the first languages to support functional programming, and was heavily inspired by lambda calculus. Lisp and many Lisp family languages are still in common use today.
-In functional programming, a program is an expression that is composed by other function.
-
-Pros:
-- Using the functional paradigm, programmers avoid any shared state or side-effects, which eliminates bugs caused by multiple functions competing for the same resources. With features such as the availability of point-free style (aka tacit programming), functions tend to be radically simplified and easily recomposed for more generally reusable code compared to OOP.
-- FP also tends to favor declarative and denotational styles, which do not spell out step-by-step instructions for operations, but instead concentrate on what to do, letting the underlying functions take care of the how. This leaves tremendous latitude for refactoring and performance optimization, even allowing you to replace entire algorithms with more efficient ones with very little code change. (e.g., memoize, or use lazy evaluation in place of eager evaluation.)
-Computation that makes use of pure functions is also easy to scale across multiple processors, or across distributed computing clusters without fear of threading resource conflicts, race conditions, etc…
-
-Cons:
-- Over exploitation of FP features such as point-free style and large compositions can potentially reduce readability because the resulting code is often more abstractly specified, more terse, and less concrete.
-- More people are familiar with OO and imperative programming than functional programming, so even common idioms in functional programming can be confusing to new team members.
-- FP has a much steeper learning curve than OOP because the broad popularity of OOP has allowed the language and learning materials of OOP to become more conversational, whereas the language of FP tends to be much more academic and formal. FP concepts are frequently written about using idioms and notations from lambda calculus, algebras, and category theory, all of which requires a prior knowledge foundation in those domains to be understood.
-
-## Immutable
-If an object is immutable, its value cannot be modified after creation.
-
-## Mutable
-If an object is mutable, its value can be modified after creation.
-
-## Composition
-Functions can be combined to produce new functions with more advanced features.
-
-## Structural sharing
-In functional languages, every data is immutable by design. This can seems very slow for complex data, but this is can be healed using structural sharing: every time we do an action on a data, it recycle everything it can from the old data. This opens a new class of data strctures called persistent immutable data stractures.
-
-## Memoization
-Memoization is memorize a deterministic result of a pure function -> Pure.
-Caching, is impure by design: we can cache something that change during the time. Deciding when change the cache is an indecidible problem.
-
-## Referential trasparency ?
-
-## Tail call elimination ?
-Tail call is the last thing that a function does. Teoretically the compiler could figure out a tail call, so a function instead of returning itself can return the tail call. The elimination of that stack frame is tail call elimination.
-It's really important in functional programming because we want to compose many function, but if we do not tail call elimination, this can cause the computer to crash do too many stackframes.
-
 Benefit 1: Pure functions are predictable
 
 When a function isn’t pure, it has the potential to act unpredictably. For example, in our calculateArea function in Example 2 from yesterday's lesson:
