@@ -505,7 +505,7 @@ try {
 Trait is a way to achieve multiple inheritance.
 
 ```php
-rait TestTrait
+trait TestTrait
 {
     public function test()
     {
