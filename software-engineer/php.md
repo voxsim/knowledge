@@ -43,6 +43,7 @@ var_dump($first . $second);
 - string join( string $glue , array $pieces )
 - string strstr ( string $haystack , mixed $needle [, bool $before_needle = false ] ): returns part of haystack string starting from and including the first occurrence of needle to the end of haystack
 - string substr ( string $string , int $start [, int $length ] ): returns the portion of string specified by the start and length parameters
+- mixed mb_strlen ( string $str [, string $encoding = mb_internal_encoding() ] ): Get string length, instead strlen counts the number of bytes, for some langagues the length can be wrong (e.g. Arabic)
 
 ## Array
 
