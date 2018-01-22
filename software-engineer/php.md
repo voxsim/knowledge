@@ -38,6 +38,12 @@ var_dump($first . $second);
 
 `.` try to cast both in string and concatenating them, `+` instead try to cast both in integer, if the data is to complex, then is equal to int(0).
 
+### String methods
+- int strcasecmp ( string $str1 , string $str2 ): Binary safe case-insensitive string comparison, returns < 0 if str1 is less than str2; > 0 if str1 is greater than str2, and 0 if they are equal.
+- string join( string $glue , array $pieces )
+- string strstr ( string $haystack , mixed $needle [, bool $before_needle = false ] ): returns part of haystack string starting from and including the first occurrence of needle to the end of haystack
+- string substr ( string $string , int $start [, int $length ] ): returns the portion of string specified by the start and length parameters
+
 ## Array
 
 ### Indexed
@@ -74,6 +80,20 @@ $numbers = [
     'triangular'    => [1, 3, 6, 10, 15]
 ];
 ```
+
+### Functions
+- array array_diff ( array $array1 , array $array2 [, array $... ] ): Compares array1 against one or more other arrays and returns the values in array1 that are not present in any of the other arrays.
+- array array_fill ( int $start_index , int $num , mixed $value ): Fills an array with num entries of the value of the value parameter, keys starting at the start_index parameter.
+- array array_intersect ( array $array1 , array $array2 [, array $... ] ): returns an array containing all the values of array1 that are present in all the arguments. Note that keys are preserved.
+- array array_keys ( array $array [, mixed $search_value = null [, bool $strict = false ]] ): returns the keys, numeric and string, from the array. If the optional search_value is specified, then only the keys for that value are returned. Otherwise, all the keys from the array are returned.
+- mixed array_pop ( array &$array )
+- int array_push ( array &$array , mixed $value1 [, mixed $... ] ) and it's equal to $array[] = $var;
+- mixed array_reduce ( array $array , callable $callback [, mixed $initial = NULL ] ): applies iteratively the callback function to the elements of the array, so as to reduce the array to a single value
+- int count ( mixed $array_or_countable [, int $mode = COUNT_NORMAL ] ): count all elements of array
+- bool usort ( array &$array , callable $value_compare_func ): This function will sort an array by its values using a user-supplied comparison function. If the array you wish to sort needs to be sorted by some non-trivial criteria, you should use this function.
+- bool uasort ( array &$array , callable $value_compare_func ): 
+This function sorts an array such that array indices maintain their correlation with the array elements they are associated with, using a user-defined comparison function.
+- bool uksort ( array &$array , callable $key_compare_func ): Sort an array by keys using a user-defined comparison function
 
 ## Casting
 
