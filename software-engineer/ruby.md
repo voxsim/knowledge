@@ -1,7 +1,5 @@
 # Ruby
 
-Eloquent ruby - chapter 5 - page 53
-
 ## Standard
 * Camel case for classes, snake case for everything else.
 * Everything is a class like this:
@@ -110,8 +108,68 @@ def add_authors( *names )
 end
 ```
 
+### Lambda
+
+```ruby
+add = lambda { |x,y| x + y }
+sub = lambda { |x,y| x - y }
+```
+
+And can be written in short-and:
+
+```ruby
+add = -> (x,y) { x + y }
+sub = -> (x,y) { x - y }
+```
+
+Lambdas are actually procs with more rules. A Proc is a block — a series of commands that can be executed. A lambda, on the other hand, is a block plus a method definition. A lambda throws method-type errors but a proc only throws block errors.
+
 ## Classes
-TODO
+```ruby
+class Song
+  def initialize(name, artist, duration)
+    @name     = name
+    @artist   = artist
+    @duration = duration
+  end
+end
+```
+
+```ruby
+class KaraokeSong < Song
+  def initialize(name, artist, duration, lyrics)
+    super(name, artist, duration)
+    @lyrics = lyrics
+  end
+end
+```
+
+```ruby
+class MyClass
+
+      def method1    # default is 'public'
+        #...
+      end
+
+  protected          # subsequent methods will be 'protected'
+
+      def method2    # will be 'protected'
+        #...
+      end
+
+  private            # subsequent methods will be 'private'
+
+      def method3    # will be 'private'
+        #...
+      end
+
+  public             # subsequent methods will be 'public'
+
+      def method4    # and this will be 'public'
+        #...
+      end
+end
+```
 
 ## Data types
 There are eight primitive types and 3 more data types derived from the Numeric superclass.
@@ -174,8 +232,8 @@ Expression substitution evaluates an expression within a string:
 You can do this
 
 ```ruby
-    name = "Aidy"
-    puts "My name is: #{name}"
+name = "Aidy"
+puts "My name is: #{name}"
 ```
 
 => My name is: Aidy
@@ -199,17 +257,20 @@ float = 5.to_f
 `to_s` converts floats and integers to strings. `to_i` converts floats to integers. `to_f` converts integers to floats. There you have it. All the data types of Ruby in a nutshell. Now here's that quick reference table for string methods I promised you.
 
 ### Ranges
-TODO
+```ruby
+1..10
+'a'..'z'
+0...anArray.length
+```
 
 ### Regular expressions
 In Ruby, the regular expression, or Regexp for short,5 is one of the built-in data types, with its own special literal syntax. To make a Ruby regular expression you encase your pattern between forward slashes. For example:
 
 ```ruby
-/\d\d:\d\d (AM|PM)/
+a = Regexp.new('^\s*[a-z]')	»	/^\s*[a-z]/
+b = /^\s*[a-z]/	»	/^\s*[a-z]/
+c = %r{^\s*[a-z]}	»	/^\s*[a-z]/
 ```
-
-### Nil
-TODO
 
 ## Control Structures
 
@@ -256,35 +317,47 @@ Remember to use `@first_name ||= ''` instead of `@first_name = '' unless @first_
 
 When you do something multiple times, it is called _iteration_. There are many ways to do this. The following will print _hello_ five times:
 
-    5.times do
-      puts 'hello'
-    end
+```ruby
+5.times do
+  puts 'hello'
+end
+```
 
 Here's one way to print the numbers from one to 10:
 
-    for x in 1..10 do
-      puts x
-    end
+```ruby
+for x in 1..10 do
+  puts x
+end
+```
 
 And here's another:
 
-    (1..10).each do |x|
-      puts x
-    end
+```ruby
+(1..10).each do |x|
+  puts x
+end
+```
 
 The part between the _do_ and the _end_ is called a _block_. You can replace the _do_ and _end_ with braces:
 
-    (1..10).each { |x| puts x }
+```ruby
+(1..10).each { |x| puts x }
+```
 
 The _1..10_ is a range, which works like an array of the numbers from 1 to 10. The _each_ is a method that iterates through each element of the range. It is called an _iterator_.
 
 This prints each value of an array:
 
-    ["a", "b", "c"].each { |x| puts x }
+```ruby
+["a", "b", "c"].each { |x| puts x }
+```
 
 What if you want to transform each element of an array? The following capitalizes each element of an array.
 
-    ["hi", "there"].collect { |word| word.capitalize } # The result is ["Hi", "There"].
+```ruby
+["hi", "there"].collect { |word| word.capitalize } # The result is ["Hi", "There"].
+```
 
 ### Switch
 
