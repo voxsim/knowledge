@@ -79,10 +79,6 @@ further subscribers can be introduced, a task can abort its work.
 
 Tasks are **unicast** and therefore cancelable.
 
-See the accompanying sketch of a [task][] implementation.
-
-[task]: http://kriskowal.github.io/gtor/docs/task
-
 There is also an esoteric difference between a promise and a future.
 Promise resolvers accept either a value or a promise and will recursively unwrap
 transitive promises for promises.
@@ -128,7 +124,7 @@ flows both ways.
 Data flows forward, acknowledgements flow backward, and either the consumer or
 producer can terminate the flow.
 
-Although a stream is unicast, it is certainly possible to branch a stream into
+Although a **stream** is **unicast**, it is certainly possible to branch a stream into
 multiple streams in a variety of ways.
 A fork in a stream is an operator that ensures that every value gets sent to
 each of an array of consumers.
@@ -139,24 +135,6 @@ The simpler strategy of providing a stream to multiple consumers produces a
 possibly random, portion of the stream.
 The pressure of a shared stream can only be lower than that of a single
 consumer.
-
-In the following example, the `map` operator creates two new streams from a
-single input stream.
-The slow map will see half as many values as the fast map.
-The slow map will consume and produce five values per second, and the fast map
-will consume and produce ten, sustaining a maximum throughput of fifteen values
-per second if the original stream can produce values that quickly.
-If the original stream can only produce ten or less values per second, the
-values will be distributed fairly between both consumers.
-
-```js
-var slow = stream.map(function (n) {
-    return Promise.return(n).delay(200);
-});
-var fast = stream.map(function (n) {
-    return Promise.return(n).delay(100);
-});
-```
 
 In contrast, **publishers** and **subscribers** are **broadcast**.
 Information flows only one direction, from the publishers to the subscribers.
@@ -1586,115 +1564,6 @@ of completion.
 ```js
 var progress = (now - start) / (estimate - start);
 ```
-
-
-## Summary
-
-Reactive primitives can be categorized in multiple dimensions.
-The interfaces of analogous non-reactive constructs including getters, setters,
-and generators are insightful in the design of their asynchronous counterparts.
-Identifying whether a primitive is singular or plural also greatly informs the
-design.
-
-We can use pressure to deal with resource contention while guaranteeing
-consistency.
-We can alternately use push or poll strategies to skip irrelevant states for
-either continuous or discrete time series data with behaviors or signals.
-
-There is a tension between cancelability and robustness, but we have primitives
-that are useful for both cases.
-Streams and tasks are inherently cooperative, cancelable, and allow
-bidirectional information flow.
-Promises guarantee that consumers and producers cannot interfere.
-
-All of these concepts are related and their implementations benefit from mutual
-availability.
-Promises and tasks are great for single result data, but can provide a
-convenient channel for plural signals and behaviors.
-
-Bringing all of these reactive concepts into a single framework gives us an
-opportunity to tell a coherent story about reactive programming, promotes a
-better understanding about what tool is right for the job, and obviates the
-debate over whether any single primitive is a silver bullet.
-
-
-## Further Work
-
-There are many more topics that warrant discussion and I will expand upon these
-here.
-
-Reservoir sampling can be modeled as a behavior that watches a stream or signal
-and produces a representative sample on demand.
-
-A clock user interface is a good study in the interplay between behaviors,
-signals, time, and animation scheduling.
-
-Drawing from my experience at FastSoft, we exposed variables from the kernel's
-networking stack so we could monitor the bandwidth running through our TCP
-acceleration appliance.
-Some of those variables modeled the number of packets transmitted and the number
-of bytes transmitted.
-These counters would frequently overflow.
-There are several interesting ways to architect a solution that would provide
-historical data in multiple resolutions, accounting for the variable overflow,
-involving a combination of streams, behaviors, and signals.
-I should draw your attention to design aspects of RRDTool.
-
-An advantage of having a unified framework for reactive primitives is to create
-simple stories for passing one kind of primitive to another.
-Promises can be coerced to tasks, tasks to promises.
-A signal can be used as a behavior, and a behavior can be captured by a signal.
-Signals can be channeled into streams, and streams can be channeled into
-signals.
-
-It is worth exploring in detail how operators can be lifted in each of these
-value spaces.
-
-Implementing distributed sort using streams is also a worthy exercise.
-
-Asynchronous behaviors would benefit from an operator that solves the thundering
-herd problem, the inverse of throttling.
-
-How to implement type ahead suggestion is a great case to explore cancelable
-streams and tasks.
-
-I also need to discuss how these reactive concepts can propagate operational
-transforms through queries, using both push and pull styles, and how this
-relates to bindings, both synchronous and asynchronous.
-
-I also need to compare and contrast publishers and subscribers to the related
-concepts of signals and streams.
-In short, publishers and subscribers are broadcast, unlike unicast streams,
-but a single subscription could be modeled as a stream.
-However, a subscriber can typically not push back on a publisher, so how
-resource contention is alleviated is an open question.
-
-Related to publishing and subscribing, streams can certainly be forked, in which
-case both branches would put pressure back on the source.
-
-Streams also have methods that return tasks.
-All of these could propagate estimated time to completion.
-Each of the cases for `all`, `any`, `race`, and `read` are worth exploring.
-
-High performance buffers for bytewise data with the promise buffer interface
-require further exploration.
-
-Implementing a retry loop with promises and tasks is illustrative.
-
-Reactive Extensions (Rx) beg a distinction between [hot and cold][] observables,
-which is worth exploring.
-The clock reference implementation shows one way to implement a signal that can
-be active or inactive based on whether anyone is looking.
-
-[hot and cold]: https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/creating.md#cold-vs-hot-observables
-
-The research into continuous behaviors and the original idea of Functional
-Reactive Programming by [Conal Elliott][] deserves attention.
-
-The interplay between promises and tasks with their underlying progress behavior
-and estimated time to completion and status signals require further explanation.
-These ideas need to be incorporated into the sketches of promise and task
-implementations.
 
 ## Observables
 Observables are similar to arrays, except instead of being stored in memory, items arrive asynchronously over time (also called streams).
