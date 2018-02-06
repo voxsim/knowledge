@@ -11,7 +11,6 @@ See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other li
 ## WIP:
 - https://github.com/voxsim/knowledge/blob/master/books/the-defining-decade.md
 - https://github.com/voxsim/knowledge/blob/master/books/emotional-intelligence.md
-- https://github.com/voxsim/knowledge/blob/master/books/how-to-love.md
 - https://github.com/voxsim/knowledge/blob/master/books/sapiens-a-brief-history-of-humankind.md
 - https://github.com/voxsim/knowledge/blob/master/books/the-art-of-learning.md
 - https://github.com/voxsim/knowledge/blob/master/books/the-lean-startup.md
