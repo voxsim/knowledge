@@ -1,3 +1,5 @@
 # Build pockets of stillness into your life
 
 Meditate. Go for walks. Ride your bike going nowhere in particular. There is a creative purpose to daydreaming, even to boredom. The best ideas come to us when we stop actively trying to coax the muse into manifesting and let the fragments of experience float around our unconscious mind in order to click into new combinations. Without this essential stage of unconscious processing, the entire flow of the creative process is broken.
+
+Most important, sleep. Besides being the greatest creative aphrodisiac, sleep also affects our every waking moment, dictates our social rhythm, and even mediates our negative moods. Be as religious and disciplined about your sleep as you are about your work. We tend to wear our ability to get by on little sleep as some sort of badge of honor that validates our work ethic. But what it really is is a profound failure of self-respect and of priorities. What could possibly be more important than your health and your sanity, from which all else springs?
