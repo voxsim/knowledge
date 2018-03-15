@@ -58,42 +58,19 @@ We also say "in the past" and "in the future".
 > I'd like to live in London in the future.
 
 # Can, could, may
-Vocabulary
-can
-
-Can I book a table for four, please?
-can
-Can I book a table for four, please?
-could
-
-Could I have some water please?
-could
-Could I have some water please?
-may
-
-May we order?
-may
-May we order?
-Here's A Tip
-In this unit we will look at the words "can", "could" and "may". We use these words when we ask for something.
-
-Can you help me?
-May I have the bill, please?
-Could we have a jug of water, please?
-"Could", "can" and "may" remain the same with all personal pronouns.
-
-May / Can / Could I...?
-May / Can / Could he/she...?
-May / Can / Could we...?
 When we are making requests, “may” relates to permission, while “could” and "can" relate to possibility. However, in most spoken contexts, you can use all three.
 
-"Can" = polite/informal
-"Could" = more polite/more formal
-"May" = most polite/most formal
+* "Can" = polite/informal
+* "Could" = more polite/more formal
+* "May" = most polite/most formal
+
 When we make requests, we always put “can”, “could”, or “may” at the beginning.
 
-Can we order some food, please?
-Could they have a table by the window?
+> May I have the bill, please?
+>
+> Can we order some food, please?
+>
+> Could they have a table by the window?
 
 # Quantifier
 Quantifiers allow us to talk about large and small quantities of nouns. To talk about large quantities of nouns, we can use "lots of" or "a lot of". Both are use for countable and uncountable nouns, and so are interchangeable.
