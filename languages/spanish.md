@@ -1,4 +1,4 @@
-Level: A1 - 2
+Level: A1 - 5
 
 # Personal Pronouns
 
@@ -10,3 +10,11 @@ Level: A1 - 2
 * "vosotros / vosotras" (you, informal)
 * "ellos / ellas" (they)
 * "ustedes" (you, formal)
+
+# The verb "estar" / To be
+* (yo) estoy
+* (tú) estás
+* (él / ella / usted) está
+* (nosotros / nosotras) estamos
+* (vosotros / vosotras) estáis
+* (ellos / ellas) están
