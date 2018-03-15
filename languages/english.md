@@ -20,6 +20,13 @@ We use "at" with a specific or exact location.
 >
 > They are at the restaurant.
 
+We use the preposition "on" with transport. Except with cars, when we use "in".
+
+> I am on the bus.
+> 
+> She's on the train.
+> 
+> We're in the car.
 
 ## Of time
 
@@ -72,126 +79,13 @@ When we make requests, we always put “can”, “could”, or “may” at the
 >
 > Could they have a table by the window?
 
-# Quantifier
-Quantifiers allow us to talk about large and small quantities of nouns. To talk about large quantities of nouns, we can use "lots of" or "a lot of". Both are use for countable and uncountable nouns, and so are interchangeable.
-
-There are lots of good bars in town.
-There's a lot of fruit in the kitchen.
-There's lots of chocolate.
-To talk about small quantities of countable nouns, we use "not many". To talk about small quantities of uncountable nouns, we use "not much". These are not interchangeable.
-
-There aren't many shops in town.
-There isn't much pasta.
-We can also use quantifiers when asking questions about quantity. To do this, we use "how many" with countable nouns and "how much" with uncountable nouns.
-
-How much cheese is there?
-How many bars are there in town?
-How much juice do we have?
-How many vegetables do you want?
-Countable	Uncountable
-lots of / a lot of	lots of / a lot of
-not many	not much
-How many... ?	How much... ?
-
-# This, that, these, those
-We use "this", "that", "these" and "those" to talk about specific objects / people. First let's focus on "this" and "that". "This" refers to something that is nearby, and "that" usually refers to something that is further away.
-
-We use "these" and "those" to refer to groups of objects or people. . "These" refers to things that are nearby, and "those" refers to things that are further away.
-
 # Adjectives and adverbs
 
-Vocabulary
-nice
+Normally the structure is `adverb + adjective + object / subject`
 
-I live in a nice house.
-nice
-I live in a nice house.
-cosy
-
-My flat is very cosy.
-cosy
-My flat is very cosy.
-quite
-
-This room is quite small.
-quite
-This room is quite small.
-very
-
-They live in a very big flat.
-very
-They live in a very big flat.
-really
-
-Your living room is really modern.
-really
-Your living room is really modern.
-so
-
-It is so quiet in here.
-so
-It is so quiet in here.
-new
-
-Your new kitchen is very modern.
-new
-Your new kitchen is very modern.
-beautiful
-
-Her garden is so beautiful.
-beautiful
-Her garden is so beautiful.
-Here's A Tip
-We've just learnt how to talk about the place you live in using words such as "old" and "modern". We call these words "adjectives". They help us to describe people and objects in more detail. Have a look at some other examples below.
-
-I live in a nice house.
-My flat is very cosy.
-We can use adverbs along with adjectives if we want to give more information about something. Adverbs modify an adjective's meaning and can also give emphasis. Have a look at some of them highlighted below.
-
-They live in a very big apartment.
-This house is really modern.
-Your kitchen is so cosy.
-You can also use the adverb "pretty". It has a a similar meaning to "quite", but is more informal.
-
-Michael's apartment is very big.
-Wow! Your flat is quite big, Michael.
-"Really" and "very" are similar in meaning. Have a look at the example below.
-
-Your living room is really modern.
-Our house is very old.
-Have you noticed that adverbs normally go before the adjectives? Look at the structure and examples below.
-
-adverb + adjective + object / subject
-We work in a really + modern + office.
-They live in a very + big + flat.
-Let's learn a couple of other adjectives that will help you to describe your objects even better.
-
-Your new kitchen is very modern.
-Elisa's garden is so beautiful.
-Did you notice that the adverb "quite" and the adjective "quiet" are spelt similarly? Be careful and try to remember how to spell both words correctly!
-
-My bedroom is quite small.
-It is so quiet in here.
-Dialogue
-Margaret: Mike! How is your new flat?
-
-Margaret: Mike! How is your new flat?
-
-Michael: It's really nice, thanks.
-
-Michael: It's really nice, thanks.
-
-Margaret: What is it like?
-
-Margaret: What is it like?
-
-Michael: Well it's very modern, but the living room is quite cosy.
-
-Michael: Well it's very modern, but the living room is quite cosy.
-
-Margaret: Oh good. That part of town is so beautiful, too.
-
-Margaret: Oh good. That part of town is so beautiful, too.
+> We work in a really + modern + office.
+>
+> They live in a very + big + flat.
 
 # Present continuous
 
