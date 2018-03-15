@@ -1,57 +1,22 @@
 Level: A2 - 8
 
 # Prepositions of place
-Vocabulary
-in
 
-I live in London.
-in
-I live in London.
-near
-
-He lives near the airport.
-near
-He lives near the airport.
-far from
-
-Is your hotel far from the centre?
-far from
-Is your hotel far from the centre?
-next to
-
-My office is next to St Pancras station.
-next to
-My office is next to St Pancras station.
-at
-
-We are at the bus stop.
-at
-We are at the bus stop.
-Here's A Tip
-When we want to talk about where something / someone is located, we can use prepositions of place.
-
-We’re going to learn a few basic ones in this unit. Have a look at some examples below.
-
-We are at the station.
-They live near the city centre.
-My hometown is not far from London.
 We normally use "in" with towns, cities and countries.
 
-He lives in Liverpool.
-Now they live in Brazil.
-She is in Australia this week.
+> He lives in Liverpool.
+>
+> Now they live in Brazil.
+>
+> She is in Australia this week.
+
 We use "at" with a specific or exact location.
 
-I am at the entrance.
-He is at his desk.
-They are at the restaurant.
-Let's have another look at all the prepositions of place we've learnt:
-
-in Moscow
-near the airport
-next to the station
-far from the hotel
-at the station
+> I am at the entrance.
+>
+> He is at his desk.
+>
+> They are at the restaurant.
 
 # Can, could, may
 Vocabulary
