@@ -1,6 +1,8 @@
 Level: A2 - 8
 
-# Prepositions of place
+# Prepositions 
+
+## Of place
 
 We normally use "in" with towns, cities and countries.
 
@@ -17,6 +19,43 @@ We use "at" with a specific or exact location.
 > He is at his desk.
 >
 > They are at the restaurant.
+
+
+## Of time
+
+We use the preposition "at" to discuss clock times, holidays and other specific time frames.
+
+> at 5 o'clock
+>
+> at Christmas, at Easter
+>
+> at the moment
+>
+> at night, at the weekend
+>
+> We also say "at breakfast", "at lunch" and "at dinner".
+>
+> I'm busy at breakfast but I'm free at lunch.
+
+We use the preposition "on" with days of the week or any specific dates.
+
+> My birthday is on the 5th of October.
+>
+> My interview is on Monday at 11 a.m.
+
+We use the preposition "in" with months, seasons, years and longer periods of time.
+
+> in the morning / in the afternoon / in the evening
+> 
+> in December / in June
+> 
+> in spring / in summer / in autumn / in winter
+> 
+> in 2006
+
+We also say "in the past" and "in the future".
+
+> I'd like to live in London in the future.
 
 # Can, could, may
 Vocabulary
@@ -81,75 +120,6 @@ How many... ?	How much... ?
 We use "this", "that", "these" and "those" to talk about specific objects / people. First let's focus on "this" and "that". "This" refers to something that is nearby, and "that" usually refers to something that is further away.
 
 We use "these" and "those" to refer to groups of objects or people. . "These" refers to things that are nearby, and "those" refers to things that are further away.
-
-# Prepositions of time
-Vocabulary
-at
-
-My meeting is at 10 a.m. today.
-at
-My meeting is at 10 a.m. today.
-at Christmas
-
-I stay with my family at Christmas.
-at Christmas
-I stay with my family at Christmas.
-at the moment
-
-The shop is closed at the moment.
-at the moment
-The shop is closed at the moment.
-on
-
-I don't work on Tuesdays.
-on
-I don't work on Tuesdays.
-on my birthday
-
-On my birthday we always go to a restaurant.
-on my birthday
-On my birthday we always go to a restaurant.
-in
-
-My birthday is in June.
-in
-My birthday is in June.
-Here's A Tip
-We're now going to learn about prepositions of time.
-
-They help us give the time at which something happens.
-
-I get up at 6 a.m. every morning.
-On my birthday we usually go to a restaurant.
-It rains a lot in autumn.
-We use the preposition "at" to discuss clock times, holidays and other specific time frames.
-
-at 5 o'clock
-at Christmas, at Easter
-at the moment
-at night, at the weekend
-We also say "at breakfast", "at lunch" and "at dinner".
-
-I'm busy at breakfast but I'm free at lunch.
-We use the preposition "on" with days of the week or any specific dates.
-
-My birthday is on the 5th of October.
-My interview is on Monday at 11 a.m.
-We use the preposition "in" with months, seasons, years and longer periods of time.
-
-in the morning / in the afternoon / in the evening
-in December / in June
-in spring / in summer / in autumn / in winter
-in 2006
-We also say "in the past" and "in the future".
-
-I'd like to live in London in the future.
-Here are some other ways to talk about when something happens. Notice that we don't use prepositions with these words.
-
-next week
-last night
-this morning
-every day
 
 # Adjectives and adverbs
 
@@ -505,6 +475,3 @@ With past simple + while + past continuous, we can also rearrange the sentence, 
 
 Her phone rang while she was having a meeting with her team. > While she was having a meeting with her team, her phone rang.
 I did lots of work while I was working from home. > While I was working from home, I did lots of work
-
-
-- http://www.grammarbook.com/english_rules.asp
