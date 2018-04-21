@@ -1,4 +1,4 @@
-# Empathy
+# Empathy vs Simpathy
 Empathy fuels connection, instead Simpathy drives disconnection. Empathy has four qualities:
 - Perspective taking, the ability to take the perspective of another person or recognise their perspective as their truth
 - Staying out of judgement, not easy when enjoy it as much us do
