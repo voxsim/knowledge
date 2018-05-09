@@ -1,5 +1,5 @@
 ## Testability
-What the codes does is irrelevant; how the code is structured is all that matters for testability. Testable code means properly managed the dependencies.
+What the codes does is irrelevant; how the code is structured is all that matters for testability. Testable code means properly managed the dependencies. 
 
 ## Hard to test in code
 - Mixing creation/new in logic
@@ -22,6 +22,9 @@ What the codes does is irrelevant; how the code is structured is all that matter
 - Unit tests: test individual classes / methods in isolation
 
 They are ordered from the bigger execution time to fewer, they are also ordered by scope frome huge to small.
+
+### Unit tests
+In unit tests level we replaced all dependencies with simulators. It's really important manage properrly your dependencies and in someway test everything in isolation.
 
 ### Integration tests
 
