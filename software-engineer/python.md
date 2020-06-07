@@ -14,8 +14,8 @@
 - By convention if the identifier starts and ends with __ this means that the identifier is a language-defined special name
 
 ### Keyword
-- `True` and `False` are literal values for boolean
-- `None` are literal value for null
+- `True` and `False` are keyword for boolean
+- `None` is keyword for null
 - `and`, `or` and `not` are the logical operators
 - `as` is used to create an alias while importing a module
 - `assert` is used for debugging
@@ -35,7 +35,13 @@
 - `pass` is a null statement. Nothing happens when it is executed
 - `with` statement is used to wrap the execution of a block of code within methods defined by the context manager
 - `yield` is used inside a function like a return statement. But yield returns a generator
+- `async`, `await` for asynchronous tasks
 
+### Literals
+
+## Statement
+- Simple statement
+- Compound statement
 
 
 
